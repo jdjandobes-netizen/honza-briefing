@@ -311,8 +311,9 @@ const setupNotifications = async () => {
     const response = await fetch(`data/push-config.json?t=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) return;
     pushConfig = await response.json();
-    const endpoint = safeUrl(pushConfig?.subscribeEndpoint);
-    if (!pushConfig?.enabled || !endpoint || !pushConfig?.publicKey) return;
+    const endpoint = pushConfig?.subscribeEndpoint ? safeUrl(pushConfig.subscribeEndpoint) : null;
+    if (!pushConfig?.enabled || !endpoint || new URL(endpoint).protocol !== "https:" || !pushConfig?.publicKey) return;
+    pushConfig.subscribeEndpoint = endpoint;
 
     const registration = await navigator.serviceWorker.ready;
     const existingSubscription = await registration.pushManager.getSubscription();
@@ -384,3 +385,4 @@ if ("serviceWorker" in navigator) {
 }
 
 loadBriefing();
+
