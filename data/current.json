@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "waiting",
+    "title": "Briefing se připravuje",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "29. srpna 2026",
+    "generatedAt": "Čeká na první automatické vydání",
+    "readingMinutes": 1,
+    "freshnessLabel": "Připraveno k publikaci",
+    "nextEdition": "nejbližší plánovaný běh",
+    "intro": "Technické zázemí je připravené. Po prvním ranním nebo odpoledním běhu se na této adrese objeví plný zpravodajský přehled."
+  },
+  "sourceStatus": [],
+  "topStories": [],
+  "sections": [
+    { "id": "cesko", "title": "Česko", "note": "ČT24 · Seznam Zprávy · Deník N · iROZHLAS", "items": [], "minor": [], "emptyMessage": "První vydání zatím nebylo sestaveno." },
+    { "id": "evropa", "title": "Evropa", "note": "Reuters · Euronews · Al Jazeera", "items": [], "minor": [], "emptyMessage": "První vydání zatím nebylo sestaveno." },
+    { "id": "svet", "title": "Svět", "note": "NYT newslettery · Reuters · NPR · CNN", "items": [], "minor": [], "emptyMessage": "První vydání zatím nebylo sestaveno." },
+    { "id": "tech", "title": "IT a technika", "note": "Zásadní změny bez vaty", "items": [], "minor": [], "emptyMessage": "První vydání zatím nebylo sestaveno." },
+    { "id": "investice", "title": "Investice", "note": "Makro · centrální banky · systémové události", "items": [], "minor": [], "emptyMessage": "První vydání zatím nebylo sestaveno." }
+  ],
+  "vwce": {
+    "price": "—",
+    "currency": "EUR",
+    "marketStatus": "XETRA · čeká na data",
+    "asOf": "—",
+    "metrics": [
+      { "label": "Den", "value": "—", "tone": "muted" },
+      { "label": "Týden", "value": "—", "tone": "muted" },
+      { "label": "YTD", "value": "—", "tone": "muted" },
+      { "label": "1 rok", "value": "—", "tone": "muted" },
+      { "label": "52t. max", "value": "—", "tone": "muted" },
+      { "label": "ISIN", "value": "IE00BK5BQT80", "tone": "muted" }
+    ],
+    "note": "Kurz se doplní při prvním vydání.",
+    "sources": []
+  },
+  "podcasts": { "shows": [], "recommendations": [] },
+  "footer": {
+    "sources": [],
+    "disclaimer": "Kurzy a investiční informace nejsou investičním doporučením."
+  }
+}

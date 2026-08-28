@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Honzův briefing">
+  <rect width="512" height="512" rx="108" fill="#101720"/>
+  <rect x="66" y="66" width="380" height="380" rx="76" fill="#f1f4f7"/>
+  <path d="M129 144h47v89h160v-89h47v224h-47v-92H176v92h-47z" fill="#101720"/>
+  <circle cx="383" cy="368" r="24" fill="#b03a2b"/>
+</svg>
