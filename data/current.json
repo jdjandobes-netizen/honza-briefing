@@ -5,9 +5,9 @@
     "title": "Briefing se připravuje",
     "kicker": "Denní briefing pro Honzu",
     "date": "29. srpna 2026",
-    "generatedAt": "Čeká na první automatické vydání",
+    "generatedAt": "Publikační cesta přes GitHub ověřena",
     "readingMinutes": 1,
-    "freshnessLabel": "Připraveno k publikaci",
+    "freshnessLabel": "Připraveno k automatickému publikování",
     "nextEdition": "nejbližší plánovaný běh",
     "intro": "Technické zázemí je připravené. Po prvním ranním nebo odpoledním běhu se na této adrese objeví plný zpravodajský přehled."
   },
@@ -42,3 +42,4 @@
     "disclaimer": "Kurzy a investiční informace nejsou investičním doporučením."
   }
 }
+
