@@ -77,11 +77,15 @@ const renderMinor = (items) => {
   return block;
 };
 
-const renderTopStories = (items) => {
+const renderTopStories = (items, edition) => {
   if (!Array.isArray(items) || items.length === 0) return null;
   const section = el("section", "top-section");
   section.id = "top";
-  section.append(renderHeading("TOP 3", "Nejdůležitější napříč vydáním"));
+  const isAfternoon = edition === "afternoon";
+  section.append(renderHeading(
+    isAfternoon ? "NOVÉ OD 7:00" : "TOP 3",
+    isAfternoon ? "Nové události a podstatné posuny od rána" : "Nejdůležitější napříč vydáním"
+  ));
   const grid = el("div", "top-grid");
   items.slice(0, 3).forEach((item, index) => {
     const card = el("article", "top-card");
@@ -228,7 +232,7 @@ const render = (data) => {
     app.append(status);
   }
 
-  const top = renderTopStories(data.topStories);
+  const top = renderTopStories(data.topStories, publication.edition);
   if (top) app.append(top);
   for (const section of data.sections || []) app.append(renderSection(section));
   const vwce = renderVwce(data.vwce);

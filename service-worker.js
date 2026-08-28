@@ -1,4 +1,4 @@
-const CACHE_NAME = "honza-briefing-v1";
+const CACHE_NAME = "honza-briefing-v2";
 const SHELL = [
   "./",
   "./index.html",
