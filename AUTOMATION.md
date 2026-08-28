@@ -13,6 +13,10 @@ Větev: `main`
 5. Po zápisu znovu načti soubor a ověř `publication.edition`, `publication.generatedAt`, počet TOP zpráv a počet položek v sekcích.
 6. Pokud zápis selže, nepředstírej publikaci. Vrať přesný stav a zachovej poslední funkční vydání.
 
+## Volitelný krok po zapnutí Web Push
+
+Push neposílej, dokud `data/push-config.json` nemá `enabled: true` a není samostatně ověřen odesílací backend. Po úspěšném ověření nového `data/current.json` zavolej backend právě jednou s typem vydání, názvem, krátkým textem „Briefing je ready“ a veřejnou URL aplikace. Selhání push nesmí vrátit ani přepsat již publikované vydání; pouze se uvede jako samostatná chyba doručení.
+
 ## Datový kontrakt
 
 - `publication.edition`: `morning` nebo `afternoon`

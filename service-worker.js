@@ -1,13 +1,13 @@
-const CACHE_NAME = "honza-briefing-v2";
+const CACHE_NAME = "honza-briefing-v4";
 const SHELL = [
   "./",
   "./index.html",
-  "./styles.css",
-  "./app.js",
-  "./manifest.webmanifest",
-  "./icons/icon.svg",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png"
+  "./styles.css?v=4",
+  "./app.js?v=4",
+  "./manifest.webmanifest?v=4",
+  "./icons/icon.svg?v=4",
+  "./icons/icon-192.png?v=4",
+  "./icons/icon-512.png?v=4"
 ];
 
 self.addEventListener("install", (event) => {
@@ -45,4 +45,40 @@ self.addEventListener("fetch", (event) => {
       caches.match(event.request).then((cached) => cached || fetch(event.request))
     );
   }
+});
+
+self.addEventListener("push", (event) => {
+  let payload = {};
+  if (event.data) {
+    try {
+      payload = event.data.json();
+    } catch {
+      payload = { body: event.data.text() };
+    }
+  }
+
+  const title = payload.title || "Briefing je ready";
+  const options = {
+    body: payload.body || "Nové vydání je připravené ke čtení.",
+    icon: "./icons/icon-192.png",
+    badge: "./icons/icon-192.png",
+    tag: payload.tag || "honza-briefing-ready",
+    renotify: true,
+    data: { url: payload.url || "./" }
+  };
+
+  event.waitUntil(self.registration.showNotification(title, options));
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const targetUrl = new URL(event.notification.data?.url || "./", self.location.href).href;
+
+  event.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((clients) => {
+      const existing = clients.find((client) => client.url.startsWith(self.location.origin));
+      if (existing) return existing.navigate(targetUrl).then(() => existing.focus());
+      return self.clients.openWindow(targetUrl);
+    })
+  );
 });

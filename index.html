@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1f4f7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0e1319" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f4ede2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#100c16" media="(prefers-color-scheme: dark)">
   <meta name="color-scheme" content="light dark">
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="Osobní ranní a odpolední zpravodajský briefing pro Honzu.">
@@ -15,23 +15,31 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.webmanifest?v=4">
+  <link rel="icon" href="icons/icon.svg?v=4" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png?v=4">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
+  <div class="organic-canvas" aria-hidden="true">
+    <span class="organic-orb orb-coral"></span>
+    <span class="organic-orb orb-gold"></span>
+    <span class="organic-orbit"></span>
+  </div>
   <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
 
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="./" aria-label="Honzův briefing – začátek">
-        <span class="brand-mark" aria-hidden="true">H.</span>
-        <span>Honzův briefing</span>
+        <span class="brand-mark" aria-hidden="true"><i></i><b>H</b></span>
+        <span class="brand-copy"><strong>Honzův briefing</strong><small>Ráno / odpoledne</small></span>
       </a>
       <div class="header-actions">
+        <button class="quiet-button notification-button" id="notification-button" type="button" hidden>Zapnout push</button>
         <button class="quiet-button" id="install-button" type="button" hidden>Nainstalovat</button>
-        <button class="quiet-button" id="refresh-button" type="button">Obnovit</button>
+        <button class="icon-button" id="refresh-button" type="button" aria-label="Obnovit briefing" title="Obnovit briefing">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M4 18v-5h5M18.2 9A7 7 0 0 0 6.1 6.6L4 11m16 2-2.1 4.4A7 7 0 0 1 5.8 15"/></svg>
+        </button>
       </div>
     </div>
   </header>
@@ -52,11 +60,11 @@
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <span>Honzův briefing</span>
+      <span class="footer-brand"><i aria-hidden="true"></i> Honzův briefing</span>
       <span>Aktualizace v 7:00 a 16:30</span>
     </div>
   </footer>
 
-  <script src="app.js" defer></script>
+  <script src="app.js?v=4" defer></script>
 </body>
 </html>

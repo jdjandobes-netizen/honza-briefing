@@ -2,9 +2,11 @@ const app = document.querySelector("#app");
 const nav = document.querySelector("#section-nav");
 const refreshButton = document.querySelector("#refresh-button");
 const installButton = document.querySelector("#install-button");
+const notificationButton = document.querySelector("#notification-button");
 const progressBar = document.querySelector("#reading-progress-bar");
 
 let deferredInstallPrompt = null;
+let pushConfig = null;
 
 const el = (tag, className, text) => {
   const node = document.createElement(tag);
@@ -32,8 +34,9 @@ const sourceLink = (source) => {
   return link;
 };
 
-const renderHeading = (title, note) => {
+const renderHeading = (title, note, indexLabel = "Přehled") => {
   const heading = el("div", "section-heading");
+  heading.append(el("span", "section-index", indexLabel));
   heading.append(el("h2", null, title));
   if (note) heading.append(el("span", "section-note", note));
   return heading;
@@ -84,11 +87,12 @@ const renderTopStories = (items, edition) => {
   const isAfternoon = edition === "afternoon";
   section.append(renderHeading(
     isAfternoon ? "NOVÉ OD 7:00" : "TOP 3",
-    isAfternoon ? "Nové události a podstatné posuny od rána" : "Nejdůležitější napříč vydáním"
+    isAfternoon ? "Nové události a podstatné posuny od rána" : "Nejdůležitější napříč vydáním",
+    isAfternoon ? "Update / 01" : "Priority / 01"
   ));
   const grid = el("div", "top-grid");
   items.slice(0, 3).forEach((item, index) => {
-    const card = el("article", "top-card");
+    const card = el("article", `top-card${index === 0 ? " top-card-primary" : ""}`);
     card.append(el("span", "top-index", `0${index + 1}`));
     card.append(el("h3", null, item.title || "Bez názvu"));
     card.append(el("p", null, item.summary || ""));
@@ -99,10 +103,10 @@ const renderTopStories = (items, edition) => {
   return section;
 };
 
-const renderSection = (sectionData) => {
+const renderSection = (sectionData, index) => {
   const section = el("section", "briefing-section");
   section.id = sectionData.id;
-  section.append(renderHeading(sectionData.title, sectionData.note));
+  section.append(renderHeading(sectionData.title, sectionData.note, `Rubrika / ${String(index + 2).padStart(2, "0")}`));
 
   if (Array.isArray(sectionData.items) && sectionData.items.length) {
     const list = el("div", "story-list");
@@ -121,7 +125,7 @@ const renderVwce = (vwce) => {
   if (!vwce) return null;
   const section = el("section", "briefing-section");
   section.id = "vwce";
-  section.append(renderHeading("VWCE", vwce.marketStatus || "XETRA"));
+  section.append(renderHeading("VWCE", vwce.marketStatus || "XETRA", "Trhy / ETF"));
   const panel = el("div", "vwce-panel");
   const price = el("div", "vwce-price");
   price.append(el("strong", null, vwce.price || "—"));
@@ -155,7 +159,7 @@ const renderPodcasts = (podcasts) => {
   if (!podcasts) return null;
   const section = el("section", "briefing-section");
   section.id = "podcasty";
-  section.append(renderHeading("Podcasty", "Nové díly a ověřené tipy"));
+  section.append(renderHeading("Podcasty", "Nové díly a ověřené tipy", "Audio / Výběr"));
   const list = el("div", "podcast-list");
   for (const podcast of podcasts.shows || []) {
     const row = el("article", "podcast-row");
@@ -190,7 +194,7 @@ const renderPodcasts = (podcasts) => {
 const buildNavigation = (data) => {
   nav.replaceChildren();
   const links = [];
-  if (data.topStories?.length) links.push(["top", "TOP 3"]);
+  if (data.topStories?.length) links.push(["top", data.publication?.edition === "afternoon" ? "Nové od 7:00" : "TOP 3"]);
   for (const section of data.sections || []) links.push([section.id, section.title]);
   if (data.vwce) links.push(["vwce", "VWCE"]);
   if (data.podcasts) links.push(["podcasty", "Podcasty"]);
@@ -208,16 +212,31 @@ const render = (data) => {
   app.replaceChildren();
 
   const header = el("header", "publication-header");
-  header.append(el("p", "eyebrow", publication.kicker || "Denní briefing pro Honzu"));
-  header.append(el("h1", null, publication.title || "Honzův briefing"));
+  const copy = el("div", "publication-copy");
+  copy.append(el("p", "eyebrow", publication.kicker || "Denní briefing pro Honzu"));
+  const title = publication.title || "Honzův briefing";
+  const [firstWord, ...rest] = title.split(" ");
+  const titleNode = el("h1");
+  titleNode.append(el("span", "edition-accent", firstWord));
+  if (rest.length) titleNode.append(document.createTextNode(` ${rest.join(" ")}`));
+  copy.append(titleNode);
   const meta = el("div", "meta-line");
-  [publication.date, publication.generatedAt, publication.readingMinutes ? `${publication.readingMinutes} min čtení` : null]
+  [publication.date, publication.generatedAt, publication.readingMinutes ? `${publication.readingMinutes} min čtení` : null, publication.freshnessLabel]
     .filter(Boolean)
     .forEach((item) => meta.append(el("span", null, item)));
-  header.append(meta);
+  copy.append(meta);
+  header.append(copy);
+
+  const orbit = el("div", "publication-orbit");
+  const core = el("div", "orbit-core");
+  const editionMark = publication.edition === "morning" ? "07" : publication.edition === "afternoon" ? "16" : "H";
+  core.append(el("strong", null, editionMark));
+  orbit.append(core, el("span", "orbit-dot"), el("span", "orbit-caption", publication.edition === "afternoon" ? "PM edition" : "AM edition"));
+  header.append(orbit);
   app.append(header);
 
   const lead = el("section", "lead");
+  lead.append(el("span", "lead-label", publication.edition === "afternoon" ? "Co se změnilo" : "Dnes v kostce"));
   lead.append(el("p", null, publication.intro || "Aktuální vydání se připravuje."));
   app.append(lead);
 
@@ -234,7 +253,7 @@ const render = (data) => {
 
   const top = renderTopStories(data.topStories, publication.edition);
   if (top) app.append(top);
-  for (const section of data.sections || []) app.append(renderSection(section));
+  (data.sections || []).forEach((section, index) => app.append(renderSection(section, index)));
   const vwce = renderVwce(data.vwce);
   if (vwce) app.append(vwce);
   const podcasts = renderPodcasts(data.podcasts);
@@ -278,6 +297,63 @@ const loadBriefing = async () => {
   }
 };
 
+const urlBase64ToUint8Array = (value) => {
+  const padding = "=".repeat((4 - value.length % 4) % 4);
+  const base64 = (value + padding).replace(/-/g, "+").replace(/_/g, "/");
+  const raw = window.atob(base64);
+  return Uint8Array.from([...raw].map((character) => character.charCodeAt(0)));
+};
+
+const setupNotifications = async () => {
+  if (!("Notification" in window) || !("serviceWorker" in navigator) || !("PushManager" in window)) return;
+
+  try {
+    const response = await fetch(`data/push-config.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) return;
+    pushConfig = await response.json();
+    const endpoint = safeUrl(pushConfig?.subscribeEndpoint);
+    if (!pushConfig?.enabled || !endpoint || !pushConfig?.publicKey) return;
+
+    const registration = await navigator.serviceWorker.ready;
+    const existingSubscription = await registration.pushManager.getSubscription();
+    notificationButton.hidden = false;
+    notificationButton.textContent = existingSubscription ? "Push zapnutý" : "Zapnout push";
+    notificationButton.disabled = Boolean(existingSubscription);
+  } catch {
+    notificationButton.hidden = true;
+  }
+};
+
+notificationButton.addEventListener("click", async () => {
+  if (!pushConfig?.enabled) return;
+  notificationButton.disabled = true;
+  notificationButton.textContent = "Zapínám…";
+
+  try {
+    const permission = await Notification.requestPermission();
+    if (permission !== "granted") throw new Error("Upozornění nebyla povolena");
+
+    const registration = await navigator.serviceWorker.ready;
+    const subscription = await registration.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: urlBase64ToUint8Array(pushConfig.publicKey)
+    });
+
+    const response = await fetch(pushConfig.subscribeEndpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ subscription, app: "honza-briefing" })
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    notificationButton.textContent = "Push zapnutý";
+  } catch (error) {
+    notificationButton.textContent = "Zkusit znovu";
+    notificationButton.title = error?.message || "Push se nepodařilo zapnout";
+    notificationButton.disabled = false;
+  }
+});
+
 refreshButton.addEventListener("click", loadBriefing);
 
 window.addEventListener("scroll", () => {
@@ -301,7 +377,10 @@ installButton.addEventListener("click", async () => {
 });
 
 if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => navigator.serviceWorker.register("service-worker.js"));
+  window.addEventListener("load", async () => {
+    await navigator.serviceWorker.register("service-worker.js");
+    await setupNotifications();
+  });
 }
 
 loadBriefing();
