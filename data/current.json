@@ -1,208 +1,180 @@
 {
   "schemaVersion": 1,
   "publication": {
-    "edition": "morning",
-    "title": "Ranní přehled",
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
     "kicker": "Denní briefing pro Honzu",
     "date": "29. srpna 2026",
-    "generatedAt": "11:24 CEST",
-    "readingMinutes": 8,
-    "freshnessLabel": "Cvičný ranní běh · aktualizováno v 11:24",
-    "nextEdition": "dnes v 16:30",
-    "intro": "Dnešní cvičný ranní běh stojí hlavně na jestřábím signálu amerického Fedu, ničivých himálajských povodních a přechodu Norska do nové královské éry. V Česku rezonuje plán snížit podporu v nezaměstnanosti, nové číslo HDP a otázka, zda z plánovaných přehrad může těžit Agrofert."
+    "generatedAt": "16:37 CEST",
+    "readingMinutes": 7,
+    "freshnessLabel": "Nové a podstatně změněné od ranního vydání",
+    "nextEdition": "zítra v 7:00",
+    "intro": "Od rána přibyly tři výrazné zahraniční posuny: ruský útok na muniční sklad u Kyjeva má už nejméně 37 obětí, v Nigeru se z ranních nejasných výbuchů vyklubal pokus o vojenskou vzpouru a šest měsíců války dál prudce drtí íránskou ekonomiku. V Česku přibyly hlavně zprávy o extrémním suchu na Vltavské kaskádě a změnách, se kterými v úterý začne nový školní rok."
   },
   "sourceStatus": [
-    {"name": "Gmail / NYT newslettery", "status": "ok"},
+    {"name": "Gmail / NYT newslettery", "status": "warning"},
     {"name": "ČT24", "status": "ok"},
-    {"name": "iROZHLAS", "status": "ok"},
     {"name": "Deník N", "status": "ok"},
+    {"name": "iROZHLAS", "status": "ok"},
     {"name": "Reuters", "status": "ok"},
     {"name": "Euronews", "status": "ok"},
-    {"name": "Seznam Zprávy", "status": "ok"},
-    {"name": "Seznam Podcasty", "status": "warning"},
-    {"name": "StockInvest.us", "status": "ok"},
+    {"name": "Al Jazeera", "status": "ok"},
+    {"name": "Seznam Zprávy", "status": "warning"},
+    {"name": "Novinky", "status": "warning"},
+    {"name": "CNN", "status": "warning"},
+    {"name": "NPR", "status": "warning"},
+    {"name": "StockInvest.us", "status": "warning"},
     {"name": "justETF", "status": "ok"}
   ],
   "topStories": [
     {
-      "title": "Fed znovu přitvrdil a trh zvýšil sázky na růst sazeb",
-      "summary": "Šéf Fedu Kevin Warsh v Jackson Hole zopakoval, že centrální banka musí dál tlačit inflaci ke 2 %. Trh po projevu zvýšil pravděpodobnost zářijového zvýšení sazeb zhruba k 60 %, americké akcie v pátek mírně oslabily a dolar i krátké výnosy rostly.",
-      "source": {"name": "Reuters", "url": "https://www.reuters.com/business/view-rate-hike-expectations-rise-warsh-speech-jackson-hole-2026-08-28/"}
+      "title": "Ruský útok na muniční sklad u Kyjeva má nejméně 37 obětí",
+      "summary": "Dron zasáhl sklad munice v obci Myla západně od Kyjeva a následná detonace poškodila i okolní domy a zařízení sociální péče. Volodymyr Zelenskyj kritizoval skladování výbušnin u civilní zástavby a nařídil audit podobných areálů.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/russian-strike-kyiv-area-warehouse-causes-detonation-killing-27-2026-08-29/"}
     },
     {
-      "title": "Himálajské povodně mají přes 600 obětí a Nepál počítá miliardové škody",
-      "summary": "Povodeň spuštěná kolapsem ledovce zabila v Nepálu a Tibetu přes 600 lidí a tisíce dalších zůstávají pohřešované. Nepál odhaduje náklady obnovy na 4 až 5 miliard dolarů, tedy téměř desetinu své ekonomiky.",
-      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/china/nepal-needs-least-4-billion-rebuilding-finance-minister-says-2026-08-29/"}
+      "title": "V Nigeru se z ranních výbuchů vyklubal pokus o vojenskou vzpouru",
+      "summary": "Vzbouření vojáci zaútočili na letiště a prezidentský palác v Niamey a na čas přerušili státní vysílání. Loajalisté znovu zajistili palác, ale situace u letiště zůstávala během dne nejasná.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/gunfire-blasts-heard-several-areas-niger-capital-niamey-witness-says-2026-08-29/"}
     },
     {
-      "title": "Norsko se loučí s Haraldem V., králem se stal Haakon VIII.",
-      "summary": "Po páteční smrti krále Haralda V. ve věku 89 let se v Oslu scházejí tisíce lidí. Jeho syn nastoupil na trůn jako Haakon VIII. a v úterý má složit přísahu před parlamentem.",
-      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/norway-mourns-king-harald-crowds-gather-royal-palace-2026-08-29/"}
+      "title": "Íránská ekonomika po šesti měsících války čelí 66% inflaci",
+      "summary": "Reuters popisuje prudké zhoršení ekonomické situace pod tlakem války, amerických sankcí a námořní blokády. Zahraniční obchod se meziročně propadl téměř o 35 %, zatímco Teherán tvrdí, že neustoupí z kontroly nad Hormuzským průlivem.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/"}
     }
   ],
   "sections": [
     {
       "id": "cesko",
       "title": "Česko",
-      "note": "ČT24 · iROZHLAS · Deník N",
+      "note": "Deník N · iROZHLAS",
       "items": [
         {
-          "title": "Ministerstvo chce od ledna znovu snížit podporu v nezaměstnanosti",
-          "summary": "Ministerstvo práce plánuje snížit podporu v prvních měsících z 80 na 65 % předchozího výdělku a maximální podporu z 80 na 60 % průměrné mzdy. Resort očekává úsporu přibližně 4,5 miliardy korun ročně; proti návrhu se staví odbory, zaměstnavatelé i část expertů.",
-          "source": {"name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ministerstvo-planuje-snizeni-podpory-v-nezamestnanosti-377055"},
-          "time": "28. srpna"
+          "title": "Extrémní sucho stáhlo Orlík na historické minimum",
+          "summary": "Vltavská kaskáda zatím udržuje minimální průtok 40 kubíků za sekundu, bez přehrad by podle Povodí Vltavy klesl v Praze jen na 10 až 15. Pokud sucho potrvá, začne se podle manipulačního řádu čerpat i zásobní voda ze Slap.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/2167749/obrazem-extremni-sucho-odhalilo-orlik-jak-ho-neznate/"},
+          "time": "10:55",
+          "tag": "NEW"
         },
         {
-          "title": "Deník N: Z plánovaných přehrad by mohl těžit i Agrofert",
-          "summary": "Vláda plánuje desítky přehrad kvůli suchu. Deník N upozorňuje, že na Rakovnicku a Žatecku investoval Agrofert do chmelnic právě v oblastech, kde stát chystá nádrže; kritici zároveň upozorňují na možné dopady odběrů vody z Ohře.",
-          "source": {"name": "Deník N", "url": "https://denikn.cz/2167177/z-babisovych-prehrad-muze-tezit-agrofert-skupuje-chmelnice-tam-kde-maji-nadrze-vzniknout/"},
-          "time": "28. srpna 22:33"
-        },
-        {
-          "title": "Česká ekonomika ve druhém čtvrtletí meziročně vzrostla o 1,9 %",
-          "summary": "ČSÚ mírně snížil původní odhad dvouprocentního růstu. Mezičtvrtletně HDP vzrostl o 0,4 % a spotřeba domácností byla meziročně vyšší o 2,7 %.",
-          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/csu-hdp-mezirocni-rust-ekonomika-ceska-ekonomika_2608281042_elev"},
-          "time": "28. srpna 10:42"
-        },
-        {
-          "title": "Experti mají v září exhumovat ostatky Jana Masaryka",
-          "summary": "Odborníci chtějí po téměř 80 letech znovu zkoumat ostatky někdejšího ministra zahraničí Jana Masaryka. Nové zkoumání má pomoci objasnit okolnosti jeho dosud nevyjasněné smrti v roce 1948.",
-          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/jak-zemrel-jan-masaryk-experti-exhumuji-po-temer-80-letech-jeho-ostatky-z_2608281405_ako"},
-          "time": "28. srpna 14:05"
+          "title": "Nový školní rok přinese omezení opakování první třídy i nové asistenty",
+          "summary": "Do prvních tříd má nastoupit zhruba 115 tisíc dětí. Nově nebude možné opakovat první ročník kvůli prospěchu či nezvládnutí učiva a první třídy s alespoň 15 dětmi získají asistenta pedagoga; stará pravidla školních jídelen mohou zůstat do září 2027.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168656/"},
+          "time": "11:48",
+          "tag": "NEW"
         }
       ],
       "minor": [
         {
-          "text": "Čeští diplomaté v New Yorku se po zhruba desetiměsíčním zpoždění stěhují do zrekonstruované budovy na Madison Avenue; ministerstvo očekává proti dosavadnímu pronájmu úsporu desítek milionů korun ročně.",
-          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/mesice-prutahu-skoncily-cesti-diplomate-v-new-yorku-miri-do-nove-budovy-usetri_2608290500_hrk"}
+          "text": "Politolog Lubomír Kopeček soudí, že Babišova vláda oslabuje liberálně-demokratické normy, ale maďarský či slovenský scénář zatím v Česku nepovažuje za pravděpodobný; zároveň nečeká, že by Motoristé nebo SPD koalici rozbili.",
+          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/kopecek-babis-neumi-cilevedome-prosazovat-politickou-vizi-motoriste-ani-spd-ale_2608291017_ntu"}
+        },
+        {
+          "text": "Žďár nad Sázavou chce na podzim legalizovat a nově vyznačit 139 parkovacích míst a rozšířit modré zóny, aby zlepšil průjezd záchranářů a bezpečnost na sídlištích.",
+          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/zdar-nad-sazavou-zlegalizuje-a-nove-vyznaci-pres-stovku-parkovacich-mist_2608291408_tkp"}
         }
       ]
     },
     {
       "id": "evropa",
       "title": "Evropa",
-      "note": "Reuters · Euronews",
+      "note": "Reuters · Deník N · Al Jazeera",
       "items": [
         {
-          "title": "Norsko zahájilo období smutku po smrti krále Haralda V.",
-          "summary": "Harald V. zemřel v pátek ve věku 89 let po více než třech desetiletích na trůnu. Králem se automaticky stal jeho syn Haakon, který bude vystupovat jako Haakon VIII.; země čeká na oznámení termínu pohřbu.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/norway-mourns-king-harald-crowds-gather-royal-palace-2026-08-29/"},
-          "time": "29. srpna"
+          "title": "Výbuch muničního skladu po ruském útoku u Kyjeva zabil nejméně 37 lidí",
+          "summary": "Ruský dron zasáhl sklad v obci Myla a následovala rozsáhlá exploze; desítky lidí utrpěly zranění. Ukrajinské úřady prověřují nejen útok, ale i možné porušení pravidel pro skladování munice v blízkosti obytné zástavby.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/russian-strike-kyiv-area-warehouse-causes-detonation-killing-27-2026-08-29/"},
+          "time": "29. srpna",
+          "tag": "NEW"
         },
         {
-          "title": "Island dnes hlasuje o obnovení přístupových rozhovorů s EU",
-          "summary": "Referendum nerozhoduje přímo o členství, ale o tom, zda Reykjavík znovu otevře jednání s Bruselem. Poslední průzkum ukázal velmi těsný souboj s mírným náskokem odpůrců; případné členství by vyžadovalo ještě druhé referendum.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/iceland-votes-whether-start-eu-membership-talks-2026-08-29/"},
-          "time": "29. srpna"
-        },
-        {
-          "title": "Ukrajina očekává brzké technické rozhovory, rychlý konec války ale ne",
-          "summary": "Prezidentský poradce Kyrylo Budanov očekává v blízké době technická jednání o válce s Ruskem, upozornil však, že rychlou dohodu nečeká a konec bojů před zimou považuje za nereálný.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/senior-ukrainian-official-expects-technical-talks-russias-war-soon-2026-08-28/"},
-          "time": "28. srpna"
+          "title": "Slovensko si připomnělo SNP dvěma výrazně odlišnými projevy",
+          "summary": "Prezident Peter Pellegrini varoval před extremismem a apeloval na toleranci včetně ochrany žen a sexuálních menšin. Premiér Robert Fico naopak velkou část projevu věnoval kritice opozice a médií a uvedl, že Rusko nemá být démonizováno a vytlačováno z Evropy.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168732/"},
+          "time": "14:31",
+          "tag": "NEW"
         }
       ],
-      "minor": []
+      "minor": [
+        {
+          "text": "Situace na požářištích v Srbsku se zlepšila natolik, že jeden ze dvou českých vrtulníků ukončil nasazení a tři čeští letečtí záchranáři se vracejí domů.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168595/"}
+        },
+        {
+          "text": "Euronews v poledním přehledu zařadil mezi hlavní evropská témata pokračující islandské referendum o obnovení přístupových jednání s EU; výsledek se čeká až v neděli ráno.",
+          "source": {"name": "Euronews", "url": "https://www.euronews.com/just-in"}
+        }
+      ]
     },
     {
       "id": "svet",
       "title": "Svět",
-      "note": "Reuters · Al Jazeera",
+      "note": "Reuters · Al Jazeera · Deník N",
       "items": [
         {
-          "title": "Nepál žádá po ničivých povodních technickou pomoc a odhaduje obnovu na 4 až 5 miliard dolarů",
-          "summary": "Kolaps ledovce spustil ničivou povodeň, která zabila přes 600 lidí v Nepálu a Tibetu a poškodila silnice, mosty i vodní elektrárny. Kvůli špatnému počasí musely být části pátrání dočasně přerušeny a tisíce lidí zůstávají nezvěstné.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/china/nepal-needs-help-technical-areas-not-search-rescue-foreign-minister-says-2026-08-29/"},
-          "time": "29. srpna"
-        },
-        {
-          "title": "Čína odstranila dva nejvýše postavené generály z ústřední vojenské komise",
-          "summary": "Zhang Youxia a Liu Zhenli přišli o funkce ve státní Ústřední vojenské komisi v rámci vyšetřování vážných disciplinárních a právních pochybení. Z původně sedmičlenného orgánu tak zůstali jen dva aktivní členové včetně Si Ťin-pchinga.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/china-removes-top-generals-state-central-military-commission-2026-08-28/"},
-          "time": "28. srpna"
-        },
-        {
-          "title": "V nigerském Niamey se ozvala střelba a exploze",
-          "summary": "Svědek Reuters v sobotu brzy ráno hlásil dlouhotrvající střelbu a exploze v několika částech hlavního města Nigeru. V době sestavení briefingu nebyla příčina událostí ani jejich rozsah potvrzeny.",
+          "title": "Pokus o vzpouru v Nigeru zasáhl letiště i prezidentský palác",
+          "summary": "Ranní zprávy o střelbě a explozích se během dne zpřesnily: podle úřadů šlo o vzpouru vojáků z jednotek zasažených těžkými ztrátami v bojích s džihádisty. Vládní síly znovu zajistily prezidentský palác, ale situace u letiště zůstávala nejistá.",
           "source": {"name": "Reuters", "url": "https://www.reuters.com/world/gunfire-blasts-heard-several-areas-niger-capital-niamey-witness-says-2026-08-29/"},
-          "time": "29. srpna"
+          "time": "29. srpna",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Bilance himálajských povodní dál roste, pohřešují se téměř tři tisíce lidí",
+          "summary": "Reuters odpoledne uvádí nejméně 669 mrtvých v Nepálu a dalších sedm v Tibetu; mezi téměř třemi tisíci pohřešovanými je přes 540 cizinců. Pátrání se po přerušení obnovilo a Nepál žádá hlavně specializovanou technickou pomoc.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/china/nepal-needs-help-technical-areas-not-search-rescue-foreign-minister-says-2026-08-29/"},
+          "time": "29. srpna",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Írán po šesti měsících války hlásí 66% inflaci a prudký propad obchodu",
+          "summary": "Americké sankce a blokáda dál prohlubují ekonomické škody: zahraniční obchod se podle Reuters propadl téměř o 35 %. Íránské vedení přesto veřejně odmítá ústup a tvrdí, že chce kombinovat diplomacii s pokračující obranou svých pozic.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/"},
+          "time": "29. srpna",
+          "tag": "NEW"
         }
       ],
-      "minor": []
+      "minor": [
+        {
+          "text": "Šest měsíců války s Íránem doléhá i na rodiny amerických vojáků: v regionu je přes 50 tisíc amerických příslušníků, 18 jich bylo zabito a více než 750 zraněno; organizace vojenských rodin hlásí prudký růst stresu a finančních potíží.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/middle-east/us-military-families-ride-roller-coaster-emotions-over-six-months-iran-war-2026-08-29/"}
+        },
+        {
+          "text": "V Zimbabwe zemřelo nejméně 27 lidí při srážce minibusu s nákladním vozem; minibus převážel členy populární křesťanské denominace.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168741/"}
+        }
+      ]
     },
     {
       "id": "tech",
       "title": "IT a technika",
-      "note": "Reuters · zásadní AI a regulace",
-      "items": [
-        {
-          "title": "OpenAI chce ukončit poskytování modelů Cursoru po jeho převzetí SpaceX",
-          "summary": "OpenAI oznámila záměr ukončit poskytování svých modelů codingovému nástroji Cursor poté, co jeho mateřskou společnost Anysphere převzala SpaceX. Ukončení má podle Reuters vstoupit v účinnost 12. listopadu a dál vyostřuje spor mezi Samem Altmanem a Elonem Muskem.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/"},
-          "time": "29. srpna"
-        },
-        {
-          "title": "Soud označil blacklist Anthropic od Pentagonu za nezákonný",
-          "summary": "Federální soud zablokoval označení výrobce Claude za bezpečnostní riziko dodavatelského řetězce. Podle soudu šlo o nezákonnou odvetu a Anthropic nedostal odpovídající procesní ochranu.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/"},
-          "time": "28. srpna"
-        },
-        {
-          "title": "Google mění v Evropě spamovou politiku kvůli pravidlům DMA",
-          "summary": "Google od 30. srpna přestane v Evropském hospodářském prostoru uplatňovat manuální postihy podle části pravidel proti site reputation abuse. Evropská komise změnu uvítala a bude sledovat její praktické provedení.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/"},
-          "time": "28. srpna"
-        }
-      ],
-      "minor": []
+      "note": "Zásadní změny bez vaty",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny. Ranní témata OpenAI/Cursor, soudního sporu Anthropic s Pentagonem a evropské spamové politiky Googlu se během dne podstatně neposunula."
     },
     {
       "id": "investice",
       "title": "Investice",
-      "note": "Reuters · Fed · komodity · systémové trhy",
-      "items": [
-        {
-          "title": "Warshův projev zvedl očekávání zářijového zvýšení sazeb Fedu",
-          "summary": "Kevin Warsh zdůraznil závazek k dvouprocentní inflaci a naznačil, že bez dostatečného pokroku bude mít Fed další práci. Pravděpodobnost zářijového zvýšení sazeb se po projevu posunula zhruba z 35 % k 60 % a dvouletý americký výnos vystoupal na měsíční maximum.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/business/view-rate-hike-expectations-rise-warsh-speech-jackson-hole-2026-08-28/"},
-          "time": "28. srpna"
-        },
-        {
-          "title": "Zlato po jestřábím Fedu propadlo o více než 3 %",
-          "summary": "Spotové zlato v pátek kleslo přibližně na 4 567 dolarů za unci, když posílil dolar a investoři přecenili pravděpodobnost růstu amerických sazeb. Pod tlakem bylo i stříbro.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/india/gold-slips-fed-chief-warshs-jackson-hole-speech-looms-2026-08-28/"},
-          "time": "28. srpna"
-        },
-        {
-          "title": "Ropa uzavřela slabší týden, trh sleduje Hormuz i venezuelskou nabídku",
-          "summary": "Brent i WTI v pátek mírně klesly a za týden ztratily více než 5 %, respektive 4 %. Na cenu tlačil výhled vyšších sazeb, zatímco trh současně sleduje možné uvolnění situace v Hormuzském průlivu a potenciálně vyšší dostupnost venezuelské ropy.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/business/energy/oil-track-weekly-loss-even-iran-tensions-simmer-2026-08-28/"},
-          "time": "28. srpna"
-        },
-        {
-          "title": "USA oznámily dohodu o přístupu k části venezuelských ropných rezerv",
-          "summary": "Donald Trump oznámil většinovou americkou kontrolu nad více než 65 miliardami barelů prokázaných venezuelských rezerv prostřednictvím partnerství se soukromým sektorem. Reuters upozorňuje, že právní struktura dohody a její schopnost rychle zvýšit těžbu zatím zůstávají nejasné.",
-          "source": {"name": "Reuters", "url": "https://www.reuters.com/business/energy/us-enters-into-oil-agreement-with-venezuela-trump-says-2026-08-28/"},
-          "time": "28. srpna"
-        }
-      ],
-      "minor": []
+      "note": "Makro · centrální banky · systémové trhy",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní tržní změny. Je sobota a hlavní akciové trhy jsou zavřené; nové íránské ekonomické údaje jsou zařazeny ve Světě."
     }
   ],
   "vwce": {
-    "price": "168,56",
+    "price": "—",
     "currency": "EUR",
-    "marketStatus": "XETRA je v sobotu zavřená; jde o poslední dostupnou páteční uzávěrku před dalším otevřením trhu",
-    "asOf": "28. srpna 2026",
+    "marketStatus": "XETRA je v sobotu zavřená; od ranního vydání neproběhlo nové obchodování",
+    "asOf": "29. srpna 2026",
     "metrics": [
-      {"label": "Den", "value": "+0,88 %", "tone": "good"},
-      {"label": "Týden", "value": "+1,36 %", "tone": "good"},
-      {"label": "YTD", "value": "+15,85 %", "tone": "good"},
-      {"label": "1 rok", "value": "+22,25 %", "tone": "good"},
-      {"label": "52t. max", "value": "169,60 € · −0,61 %", "tone": "muted"},
+      {"label": "Den", "value": "—", "tone": "muted"},
+      {"label": "Týden", "value": "—", "tone": "muted"},
+      {"label": "YTD", "value": "+16,57 %", "tone": "good"},
+      {"label": "1 rok", "value": "+25,84 %", "tone": "good"},
+      {"label": "52t. max", "value": "—", "tone": "muted"},
       {"label": "ISIN", "value": "IE00BK5BQT80", "tone": "muted"}
     ],
-    "note": "Poslední dostupná uzávěrka VWCE na XETŘE je 168,56 €. Pátek skončil růstem o 0,88 %; cena je přibližně 0,61 % pod 52týdenním maximem.",
+    "note": "Preferovaný StockInvest.us při kontrole vracel zastaralou kotaci z 7. srpna, proto není neověřená cena ani denní či týdenní změna přebírána. justETF potvrzuje pro srpen YTD +16,57 % a roční výkonnost +25,84 %; jeho kotace mohou být realtime, 15 minut zpožděné nebo denní NAV podle zdroje.",
     "sources": [
       {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/VWCE.DE"},
       {"name": "justETF", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"}
@@ -222,7 +194,7 @@
         "title": "Výrok o darování ledviny bych už neřekla, říká senátorka",
         "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-ptam-se-ja-vyrok-o-darovani-ledviny-bych-uz-nerekla-rika-jedina-piratska-senatorka-314035",
         "date": "28. srpna 2026",
-        "status": "NOVÉ"
+        "status": "BEZE ZMĚNY"
       },
       {
         "show": "Amerika, bejby",
@@ -234,13 +206,13 @@
       {
         "show": "Vrtěti psem",
         "title": "Jak porazit Babiše? Opozice hledá cestu k příští výhře",
-        "url": "https://denikn.cz/2165257/vrteti-psem-jak-porazit-babise-opozice-hleda-cestu-k-pristi-vyhre/",
+        "url": "https://denikn.cz/podcast-vrtetipsem/",
         "date": "27. srpna 2026",
         "status": "BEZE ZMĚNY"
       },
       {
         "show": "Padni komu padni",
-        "title": "Padni komu padni 91: Babiš chce být králem, Zeman zase prezidentem. A co chce Petr Pavel?",
+        "title": "Babiš chce být Karlem IV. Porazil by Miloš Zeman v prezidentské volbě Petra Pavla?",
         "url": "https://www.reflex.cz/clanek/padni-komu-padni/137736/babis-chce-byt-karlem-iv-porazil-by-milos-zeman-v-prezidentske-volbe-petra-pavla.html",
         "date": "24. srpna 2026",
         "status": "BEZE ZMĚNY"
@@ -250,7 +222,7 @@
       {
         "show": "Studio N",
         "title": "Šílenství kolem Adély, průšvih Hip Hop Kempu a kluby v krizi. Co se děje s hudební scénou?",
-        "url": "https://denikn.cz/",
+        "url": "https://denikn.cz/2166044/studio-n-silenstvi-kolem-adely-prusvih-hip-hop-kempu-a-kluby-v-krizi-co-se-deje-s-hudebni-scenou/",
         "date": "28. srpna 2026"
       },
       {
@@ -268,7 +240,7 @@
     ]
   },
   "footer": {
-    "sources": ["ČT24", "iROZHLAS", "Deník N", "Reuters", "Euronews", "Seznam Zprávy", "Reflex", "StockInvest.us", "justETF", "Youradio Talk"],
-    "disclaimer": "Kurzy a investiční informace nejsou investičním doporučením."
+    "sources": ["Gmail / NYT newslettery", "Deník N", "iROZHLAS", "Reuters", "Euronews", "Al Jazeera", "Reflex", "Seznam Zprávy", "StockInvest.us", "justETF", "Youradio Talk"],
+    "disclaimer": "Kurzy a investiční informace nejsou investičním doporučením. NYT newslettery byly přečteny, ale automatické odstranění štítku UNREAD se v tomto běhu nepodařilo kvůli požadavku konektoru na interaktivní potvrzení."
   }
 }
