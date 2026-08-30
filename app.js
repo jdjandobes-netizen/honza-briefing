@@ -10,6 +10,7 @@ let pushConfig = null;
 let archiveIndex = null;
 let currentPointer = null;
 let selectedEditionId = null;
+let archiveOpen = false;
 
 const EDITION_LABELS = {
   morning: "Ráno",
@@ -263,12 +264,12 @@ const renderPodcasts = (podcasts) => {
   return section;
 };
 
-const updateLocation = (entry) => {
-  if (!entry || !window.history?.replaceState) return;
+const clearArchiveLocation = () => {
+  if (!window.history?.replaceState) return;
   const url = new URL(window.location.href);
-  url.searchParams.set("date", entry.date);
-  url.searchParams.set("edition", entry.edition);
-  window.history.replaceState({ editionId: entry.id }, "", url);
+  url.searchParams.delete("date");
+  url.searchParams.delete("edition");
+  window.history.replaceState({}, "", url);
 };
 
 const renderArchiveSwitcher = (index, activeEntry) => {
@@ -281,16 +282,18 @@ const renderArchiveSwitcher = (index, activeEntry) => {
     byDate.get(entry.date)[entry.edition] = entry;
   }
 
-  const switcher = el("section", "archive-switcher");
+  const switcher = el("details", "archive-switcher");
+  switcher.open = archiveOpen;
   switcher.setAttribute("aria-label", "Archiv vydání");
 
-  const copy = el("div", "archive-copy");
-  copy.append(el("span", "archive-kicker", "Archiv · posledních 7 dní"));
-  copy.append(el("strong", null, "Vyber den a vydání"));
-  copy.append(el("small", null, "Starší vydání zůstávají bezpečně uložená."));
-  switcher.append(copy);
+  const summary = el("summary", "archive-summary");
+  const summaryCopy = el("span", "archive-summary-copy");
+  summaryCopy.append(el("span", "archive-kicker", "Archiv"));
+  summaryCopy.append(el("strong", null, `${formatArchiveDate(activeEntry.date)} · ${EDITION_LABELS[activeEntry.edition]}`));
+  summary.append(summaryCopy, el("span", "archive-summary-action", "Vybrat"));
+  switcher.append(summary);
 
-  const controls = el("div", "archive-controls");
+  const controls = el("div", "archive-controls archive-panel");
   const dateControl = el("label", "archive-control");
   dateControl.append(el("span", null, "Den"));
   const dateSelect = el("select", "archive-select");
@@ -317,7 +320,10 @@ const renderArchiveSwitcher = (index, activeEntry) => {
       button.disabled = !entry;
       button.setAttribute("aria-pressed", String(Boolean(entry && entry.id === selectedEditionId)));
       if (entry) {
-        button.addEventListener("click", () => loadEdition(entry.id, { updateUrl: true, scrollToTop: true }));
+        button.addEventListener("click", () => {
+          archiveOpen = false;
+          loadEdition(entry.id, { scrollToTop: true });
+        });
       }
       editionButtons.append(button);
     }
@@ -330,7 +336,12 @@ const renderArchiveSwitcher = (index, activeEntry) => {
   dateSelect.addEventListener("change", () => {
     const day = byDate.get(dateSelect.value) || {};
     const preferred = day[activeEntry.edition] || day.afternoon || day.morning;
-    if (preferred) loadEdition(preferred.id, { updateUrl: true, scrollToTop: true });
+    archiveOpen = true;
+    if (preferred) loadEdition(preferred.id, { scrollToTop: true });
+  });
+
+  switcher.addEventListener("toggle", () => {
+    archiveOpen = switcher.open;
   });
 
   return switcher;
@@ -375,12 +386,6 @@ const render = (data, activeEntry = null) => {
   copy.append(meta);
   header.append(copy);
 
-  const orbit = el("div", "publication-orbit");
-  const core = el("div", "orbit-core");
-  const editionMark = publication.edition === "morning" ? "07" : publication.edition === "afternoon" ? "16" : "H";
-  core.append(el("strong", null, editionMark));
-  orbit.append(core, el("span", "orbit-dot"), el("span", "orbit-caption", publication.edition === "afternoon" ? "PM edition" : "AM edition"));
-  header.append(orbit);
   app.append(header);
 
   const lead = el("section", "lead");
@@ -429,7 +434,7 @@ const showError = (error) => {
   app.setAttribute("aria-busy", "false");
 };
 
-const loadEdition = async (editionId, { updateUrl = false, scrollToTop = false } = {}) => {
+const loadEdition = async (editionId, { scrollToTop = false } = {}) => {
   const entry = archiveIndex?.editions?.find((item) => item.id === editionId);
   const path = safeArchivePath(entry?.path);
   if (!entry || !path) throw new Error("Vybrané vydání v archivu neexistuje");
@@ -443,7 +448,6 @@ const loadEdition = async (editionId, { updateUrl = false, scrollToTop = false }
     }
     selectedEditionId = entry.id;
     render(data, entry);
-    if (updateUrl) updateLocation(entry);
     if (scrollToTop) window.scrollTo({ top: 0, behavior: "smooth" });
   } catch (error) {
     showError(error);
@@ -452,7 +456,7 @@ const loadEdition = async (editionId, { updateUrl = false, scrollToTop = false }
   }
 };
 
-const loadBriefing = async ({ preserveSelection = false } = {}) => {
+const loadBriefing = async () => {
   app.setAttribute("aria-busy", "true");
   refreshButton.disabled = true;
   try {
@@ -489,19 +493,15 @@ const loadBriefing = async ({ preserveSelection = false } = {}) => {
       return;
     }
 
-    const params = new URLSearchParams(window.location.search);
-    const requestedId = params.get("date") && params.get("edition")
-      ? `${params.get("date")}-${params.get("edition")}`
-      : null;
     const candidateIds = [
-      preserveSelection ? selectedEditionId : null,
-      requestedId,
       currentPointer.current.id,
       archiveIndex.latest?.id
     ].filter(Boolean);
     const target = candidateIds.find((id) => archiveIndex.editions.some((entry) => entry.id === id));
     if (!target) throw new Error("V archivu není dostupné žádné vydání");
-    await loadEdition(target, { updateUrl: false });
+    archiveOpen = false;
+    clearArchiveLocation();
+    await loadEdition(target);
   } catch (error) {
     showError(error);
   } finally {
@@ -567,7 +567,7 @@ notificationButton.addEventListener("click", async () => {
   }
 });
 
-refreshButton.addEventListener("click", () => loadBriefing({ preserveSelection: true }));
+refreshButton.addEventListener("click", loadBriefing);
 
 window.addEventListener("scroll", () => {
   const height = document.documentElement.scrollHeight - window.innerHeight;

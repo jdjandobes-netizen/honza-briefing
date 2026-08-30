@@ -1,13 +1,15 @@
-const CACHE_NAME = "honza-briefing-v6";
+const CACHE_NAME = "honza-briefing-v7";
 const SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=6",
-  "./app.js?v=6",
-  "./manifest.webmanifest?v=6",
-  "./icons/icon.svg?v=6",
-  "./icons/icon-192.png?v=6",
-  "./icons/icon-512.png?v=6",
+  "./styles.css?v=7",
+  "./app.js?v=7",
+  "./manifest.webmanifest?v=7",
+  "./icons/favicon-32.png?v=7",
+  "./icons/news-mark.png?v=7",
+  "./icons/icon-192.png?v=7",
+  "./icons/icon-512.png?v=7",
+  "./icons/icon-maskable-512.png?v=7",
   "./data/current.json",
   "./data/archive/index.json"
 ];
