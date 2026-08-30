@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "30. srpna 2026",
+    "generatedAt": "07:08 CEST",
+    "readingMinutes": 12,
+    "freshnessLabel": "Aktualizováno 30. srpna 2026 ráno",
+    "nextEdition": "dnes v 16:30",
+    "intro": "Ráno přináší další prudké zhoršení bilance himálajské katastrofy, mimořádně těsné sčítání islandského referenda o návratu k jednáním s EU a podrobnosti 25leté energetické dohody mezi Venezuelou a Spojenými státy. V Česku se mění způsob plánování energetiky, sílí debata o dezinformační kampani proti Česku a Polsku a komunální volby se rozbíhají s více než 190 tisíci kandidáty."
+  },
+  "sourceStatus": [
+    {"name": "Gmail / NYT newslettery", "status": "warning"},
+    {"name": "ČT24", "status": "ok"},
+    {"name": "Deník N", "status": "ok"},
+    {"name": "iROZHLAS", "status": "ok"},
+    {"name": "Seznam Zprávy", "status": "ok"},
+    {"name": "Novinky", "status": "ok"},
+    {"name": "Reuters", "status": "ok"},
+    {"name": "Euronews", "status": "ok"},
+    {"name": "Al Jazeera", "status": "ok"},
+    {"name": "CNN", "status": "warning"},
+    {"name": "NPR", "status": "warning"},
+    {"name": "Reflex", "status": "warning"},
+    {"name": "StockInvest.us", "status": "ok"},
+    {"name": "justETF", "status": "ok"}
+  ],
+  "topStories": [
+    {
+      "title": "Himálajská katastrofa: v Nepálu už 675 mrtvých, stovky cizinců jsou pohřešované",
+      "summary": "Čína zveřejnila národnosti 261 cizinců pohřešovaných v Tibetu po kolapsu ledovce a následných sesuvech. V Nepálu je podle nejnovější bilance 675 mrtvých a téměř 2 500 pohřešovaných; přes 90 tisíc lidí bylo katastrofou zasaženo.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/china/china-identifies-countries-261-foreigners-missing-himalayan-mudslide-2026-08-30/"}
+    },
+    {
+      "title": "Islandské referendum o návratu k EU je mimořádně těsné",
+      "summary": "Po uzavření volebních místností se průběžné výsledky pohybují kolem hranice 50 na 50. Reuters při 152 tisících sečtených hlasů uváděl náskok odpůrců 50,1 ku 49,9 procenta; konečný výsledek se čeká během neděle.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/iceland-votes-whether-start-eu-membership-talks-2026-08-29/"}
+    },
+    {
+      "title": "Venezuela říká, že energetická dohoda s USA potrvá 25 let",
+      "summary": "Dohoda má zahrnout 17 strategických ropných polí a osm nových bloků a zvýšit těžbu zhruba z 1,25 na 1,5 milionu barelů denně. Caracas tvrdí, že si zachovává suverenitu nad surovinami, zatímco Washington má podle Trumpa získat většinovou kontrolu nad více než 65 miliardami barelů rezerv.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/"}
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "note": "ČT24 · Deník N · iROZHLAS · Seznam Zprávy · Novinky",
+      "items": [
+        {
+          "title": "Ministerstvo chce nahradit velkou energetickou koncepci každoročním stručnějším plánem",
+          "summary": "Ministerstvo průmyslu pod Karlem Havlíčkem nechce připravovat dosavadní rozsáhlou státní energetickou koncepci jednou za mnoho let. Místo ní má každý rok vznikat menší aktualizovaný dokument; současná koncepce je stará jedenáct let a zákon ji přitom označuje za závazný podklad státu.",
+          "source": {"name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ministerstvo-upusti-od-energeticke-koncepce-chce-mensi-a-castejsi-377081"},
+          "time": "30. srpna"
+        },
+        {
+          "title": "Babiš kritizoval zpravodajské služby kvůli dezinformaci o polských územních nárocích",
+          "summary": "Premiér tvrdí, že se o podvržené kampani dozvěděl nejprve z médií a tajné služby informovaly vládu až později. Kampaň využívala falešný profil českého velvyslance i zfalšovaný web Českého rozhlasu; prezident Petr Pavel ji označil za cílenou provokaci.",
+          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/meli-jsme-pozde-babis-vycetl-zpravodajcum-ze-se-o-dezinformacich-o-polsku_2608291632_med"},
+          "time": "29. srpna 16:32"
+        },
+        {
+          "title": "V komunálních volbách chce uspět přes 190 tisíc kandidátů",
+          "summary": "O mandáty v říjnových volbách se ucházejí vedle lokálních kandidátů také ministři a další známé politické tváře. Mezi nimi jsou Petr Macinka a Boris Šťastný v Praze či Aleš Juchelka v Ostravě; přibližně v tisícovce obcí kandiduje jen tolik lidí, kolik se rozděluje mandátů.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/2168599/vsichni-kandidati-na-jedne-mape-podivejte-se-kdo-chce-ridit-vasi-obec/"},
+          "time": "29. srpna 19:16"
+        },
+        {
+          "title": "Orlík je na historickém minimu a Vltavská kaskáda drží průtok v Praze",
+          "summary": "Extrémní sucho snížilo hladinu Orlíku natolik, že se odhalují dávno zatopené stavby. Podle Povodí Vltavy by bez přehrad protékalo Prahou jen přibližně 10 až 15 kubíků za sekundu místo udržovaného minima 40; při pokračujícím suchu může přijít na řadu zásobní voda ze Slap.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/2167749/obrazem-extremni-sucho-odhalilo-orlik-jak-ho-neznate/"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "Nový školní rok přinese omezení opakování první třídy a nové asistenty",
+          "summary": "Do prvních tříd má nastoupit zhruba 115 tisíc dětí. Nově nebude možné opakovat první ročník jen kvůli prospěchu či nezvládnutí učiva a první třídy s nejméně 15 dětmi mají získat asistenta pedagoga; stará pravidla školních jídelen mohou zůstat do září 2027.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168656/"},
+          "time": "29. srpna 11:48"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Na Tankovém dni v Lešanech se mimo oficiální program převrátilo předváděné vojenské vozidlo; jeden zaměstnanec se zranil a okolnosti prověřuje policie.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/cesko"}
+        },
+        {
+          "text": "ČD Bus má pro náhradní dopravu při výlukách získat až 122 autobusů od českého výrobce SOR Libchavy, který vyhrál tendr.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/cesko"}
+        },
+        {
+          "text": "Dnes jsou mimořádně zdarma téměř všechny státní hrady a zámky ve správě NPÚ; velká část kapacity byla už před víkendem rezervovaná, ale volná místa zůstávala například na Troskách, Lipnici či Krakovci.",
+          "source": {"name": "Novinky", "url": "https://www.novinky.cz/clanek/kultura-prehledne-na-jake-pamatky-se-jeste-dostanete-40594955"}
+        },
+        {
+          "text": "Ekonom Michal Skořepa doporučuje domácnostem držet menší hotovostní rezervu pro případ blackoutu nebo jiné krize, kdy nemusí fungovat elektronické platby.",
+          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/finance-ekonomika-investice-kryptomeny_2608292135_elev"}
+        },
+        {
+          "text": "Události ČT24 mezi domácími tématy zdůraznily také nedostatek vody v rybnících, rozvoj trolejbusové dopravy, kontroly komínů před zimou a změny pro řidiče v důchodovém věku.",
+          "source": {"name": "ČT24", "url": "https://ct24.ceskatelevize.cz/video/porad/udalosti-1097181328"}
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "note": "Reuters · Euronews",
+      "items": [
+        {
+          "title": "Po ruském zásahu muničního skladu u Kyjeva je nejméně 37 mrtvých",
+          "summary": "Ruský dron zasáhl sklad v obci Myla západně od Kyjeva a následné exploze poškodily okolní domy i zařízení sociální péče. Ukrajinské vedení současně vyšetřuje, zda munice nebyla skladována nebezpečně blízko civilní zástavby, a nařídilo audit podobných areálů.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/russian-strike-kyiv-area-warehouse-causes-detonation-killing-27-2026-08-29/"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "Islandské sčítání referenda o návratu k jednáním s EU je na hraně",
+          "summary": "Referendum rozhoduje pouze o obnovení přístupových rozhovorů, nikoli o samotném členství. Při 152 tisících sečtených hlasů vedlo podle Reuters 'ne' poměrem 50,1 ku 49,9 procenta; vysoká účast a mimořádně těsný výsledek znamenají, že konečný verdikt se čeká až během neděle.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/iceland-votes-whether-start-eu-membership-talks-2026-08-29/"},
+          "time": "30. srpna"
+        },
+        {
+          "title": "Finský prezident Stubb považuje přímý ruský útok na NATO za nepravděpodobný",
+          "summary": "Alexander Stubb v rozhovoru pro Bild uvedl, že nevidí konkrétní důkazy, že by Moskva chtěla riskovat přímý konflikt s aliancí. Zdůraznil převahu NATO a ruské ztráty na Ukrajině, zároveň ale vyzval k pokračující podpoře Kyjeva a ostražitosti vůči informačním operacím.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/finlands-stubb-tells-german-newspaper-russia-unlikely-risk-attack-nato-2026-08-29/"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "Nový norský král Haakon VIII. v prvním projevu vzdal hold svému otci",
+          "summary": "Haakon po smrti Haralda V. poprvé promluvil k zemi jako panovník a slíbil pokračovat v demokratických a inkluzivních hodnotách norské monarchie. Desítky tisíc lidí přicházejí k paláci uctít památku Haralda; korunovace se v Norsku nekoná, Haakon ale složí ústavní přísahu v parlamentu.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/norway-mourns-king-harald-crowds-gather-royal-palace-2026-08-29/"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "Ceuta varuje před kolapsem a Španělsko žádá podporu Frontexu a Europolu",
+          "summary": "Měsíc po masovém přechodu hranice z Maroka zůstávají ve španělské enklávě tisíce migrantů a městské služby jsou přetížené. Místní zastupitelstvo jednomyslně vyzvalo Madrid k okamžitým opatřením a požaduje zákonné návraty lidí, kteří v Ceutě zůstali.",
+          "source": {"name": "Euronews", "url": "https://www.euronews.com/my-europe/2026/08/28/ceuta-warns-it-is-on-the-brink-of-collapse-as-spain-seeks-frontex-and-europol-help"},
+          "time": "29. srpna"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Euronews sleduje velmi vysokou účast v islandském referendu; hlasování se týká obnovení jednání s EU a případné členství by ještě vyžadovalo druhé referendum.",
+          "source": {"name": "Euronews", "url": "https://www.euronews.com/my-europe/2026/08/30/icelands-eu-referendum-polling-stations-close-as-europe-awaits-results"}
+        },
+        {
+          "text": "Francouzská politická sezona začíná ve znamení příprav rozpočtu na rok 2027 a sílícího boje o prezidentské volby; vláda se chce vyhnout dalšímu rozpočtovému patu.",
+          "source": {"name": "Euronews", "url": "https://www.euronews.com/my-europe/2026/08/29/bardella-faure-lecornu-hollande-philippe-political-season-begins-in-france"}
+        },
+        {
+          "text": "Tadej Pogačar odstoupil z Vuelty po těžkém pádu zhruba 33 kilometrů před cílem etapy.",
+          "source": {"name": "Euronews", "url": "https://www.euronews.com/just-in"}
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "note": "Reuters · Al Jazeera · Euronews · NYT newslettery",
+      "items": [
+        {
+          "title": "Čína identifikovala 261 zahraničních turistů pohřešovaných po himálajské katastrofě",
+          "summary": "Pohřešovaní v Tibetu pocházejí z 23 zemí, nejvíce z Nepálu, Indie a Lotyšska. Čínská část katastrofy má nejméně 16 mrtvých a 546 pohřešovaných; v Nepálu je bilance výrazně horší, se 675 mrtvými a téměř 2 500 nezvěstnými.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/china/china-identifies-countries-261-foreigners-missing-himalayan-mudslide-2026-08-30/"},
+          "time": "30. srpna"
+        },
+        {
+          "title": "V Nigeru pokračuje nejistota po pokusu části armády o vzpouru",
+          "summary": "Střelba a exploze v Niamey se v sobotu ukázaly jako pokus vzbouřených vojáků zasáhnout letiště, prezidentský palác a státní vysílání. Vládní síly znovu zajistily palác, bezpečnostní situace ale zůstává křehká v zemi dlouhodobě zatížené džihádistickým násilím.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/gunfire-blasts-heard-several-areas-niger-capital-niamey-witness-says-2026-08-29/"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "Írán tvrdí, že má plnou kontrolu nad Hormuzským průlivem a s otevřením nespěchá",
+          "summary": "Íránské námořnictvo opakuje, že omezení v klíčové ropné tepně zachová, dokud neskončí americké vojenské operace. Spor dál představuje výrazné geopolitické i energetické riziko šest měsíců po začátku války.",
+          "source": {"name": "Al Jazeera", "url": "https://www.aljazeera.com/middle-east/"},
+          "time": "30. srpna"
+        },
+        {
+          "title": "Kazachstánská vláda odstoupila po první schůzi nového jednokomorového parlamentu",
+          "summary": "Nový Kurultaj zahájil činnost podle ústavy platné od července a dosavadní kabinet podle pravidel složil pravomoci. Prezident Kasym-Žomart Tokajev mu nařídil pokračovat v práci do jmenování nové vlády; dominantní strana Adilet drží 110 ze 145 křesel.",
+          "source": {"name": "Euronews", "url": "https://www.euronews.com/2026/08/29/kazakhstans-government-steps-down-as-newly-elected-kurultai-holds-first-session"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "Turecké a somálské síly osvobodily nákladní loď unesenou piráty",
+          "summary": "Desetidenní operace skončila osvobozením kamerunské lodi MV Latuf u pobřeží Puntlandu. Somálské ministerstvo obrany uvádí, že při zásahu zemřelo 14 pirátů a čtyři jejich čluny byly zničeny; podrobnosti o stavu posádky nezveřejnilo.",
+          "source": {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/30/turkiye-somalia-forces-frees-cargo-vessel-hijacked-by-pirates"},
+          "time": "30. srpna"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Spojené státy deportovaly do Británie pravicového provokatéra Mila Yiannopoulose poté, co podle DHS přetáhl vízum a nedostavil se k imigračnímu řízení; zprávu v noci rozeslal také NYT Breaking News.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/uk/far-right-commentator-milo-yiannopoulos-deported-uk-2026-08-29/"}
+        },
+        {
+          "text": "Americké úřady řeší nové zjištění, že v manhattanské výškové budově mělo nedostatečné vyztužení více ocelových sloupů, než se dříve vědělo; téma bylo mezi nočními NYT Breaking News.",
+          "source": {"name": "The New York Times newsletter", "url": "https://mail.google.com/mail/#all/1a04a94b9b688a38"}
+        },
+        {
+          "text": "Americké ministerstvo financí a centrální banka SAE prověřují možné sankční vazby egyptské Banque Misr na Írán; Washington varoval před kroky vůči pobočkám banky v Emirátech.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/middle-east/egypts-banque-misr-reviews-us-iran-sanctions-notice-uae-central-bank-launches-2026-08-29/"}
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "IT a technika",
+      "note": "Reuters · Euronews",
+      "items": [
+        {
+          "title": "OpenAI chce po převzetí Cursoru SpaceX ukončit dodávku svých modelů",
+          "summary": "OpenAI plánuje ukončit přístup codingového nástroje Cursor ke svým modelům 12. listopadu. Krok přichází po převzetí mateřské společnosti Anysphere firmou SpaceX a dál zostřuje konkurenční vztah mezi ekosystémy Sama Altmana a Elona Muska.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "VR terapie podle Euronews pomohla pacientovi se schizofrenií výrazně utlumit dlouholeté hlasy",
+          "summary": "Nový evropský report popisuje terapeutické využití virtuální reality, při němž pacient pracuje s digitální reprezentací hlasů, které slyší. Nejde o plošně zavedenou léčbu, ale o další příklad rychlého posunu digitálních nástrojů v psychiatrii.",
+          "source": {"name": "Euronews", "url": "https://www.euronews.com/bulletin"},
+          "time": "30. srpna"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "note": "Reuters · makro · měny · energie",
+      "items": [
+        {
+          "title": "Venezuelsko-americká energetická dohoda má běžet 25 let a zvýšit těžbu",
+          "summary": "Caracas zveřejnil, že plán zahrnuje 17 existujících strategických polí a osm nových bloků s cílem zvýšit produkci přibližně na 1,5 milionu barelů denně. Venezuela odhaduje možné příjmy státu na stovky miliard dolarů, právní a vlastnická konstrukce americké účasti ale zůstává částečně nejasná.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/"},
+          "time": "30. srpna"
+        },
+        {
+          "title": "Bessent varuje, že neuspořádaný propad jenu může destabilizovat globální trhy",
+          "summary": "Americký ministr financí hájí červencovou koordinovanou intervenci USA a Japonska poté, co jen spadl na čtyřicetileté minimum kolem 164 za dolar. Měna se znovu přibližuje k hranici 160 a prudké pohyby podle Bessenta hrozí nuceným uzavíráním pozic a vyššími náklady financování.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/business/finance/bessent-says-disorderly-yen-moves-can-destabilize-global-markets-2026-08-29/"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "Rusko prodloužilo zákaz vývozu nafty kvůli domácímu nedostatku",
+          "summary": "Moskva prodloužila omezení vývozu dieselu do konce září. Domácí nabídku zatěžují výpadky rafinerií po ukrajinských dronových útocích a vláda zároveň drží omezení pro export benzinu a dalších paliv.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/business/energy/russia-extends-ban-diesel-exports-until-september-30-2026-08-29/"},
+          "time": "29. srpna"
+        },
+        {
+          "title": "Jestřábí tón Fedu dál drží na stole možnost zářijového zvýšení sazeb",
+          "summary": "Po projevu šéfa Fedu Kevina Warshe v Jackson Hole trhy výrazně zvýšily sázky na další utažení měnové politiky, pokud inflace nebude dostatečně rychle mířit ke dvěma procentům. Vyšší očekávané sazby podpořily dolar a zatížily riziková aktiva i drahé kovy.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/podcasts/nepal-warsh-signals-fed-may-need-hike-glp-1-men-2026-08-29/"},
+          "time": "29. srpna"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "price": "168,54",
+    "currency": "EUR",
+    "marketStatus": "XETRA je v neděli zavřená; jde o poslední dostupnou páteční uzávěrku před otevřením trhu v pondělí",
+    "asOf": "28. srpna 2026",
+    "metrics": [
+      {"label": "Den", "value": "+0,84 %", "tone": "good"},
+      {"label": "Týden", "value": "+1,35 %", "tone": "good"},
+      {"label": "YTD", "value": "+16,73 %", "tone": "good"},
+      {"label": "1 rok", "value": "+23,49 %", "tone": "good"},
+      {"label": "52t. max", "value": "170,12 € · −0,93 %", "tone": "muted"}
+    ],
+    "note": "VWCE.DE uzavřelo v pátek na 168,54 €. Jde o poslední dostupnou uzávěrku před dalším otevřením XETRY; cena je přibližně 0,93 % pod 52týdenním maximem. ISIN IE00BK5BQT80.",
+    "sources": [
+      {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/VWCE.DE"},
+      {"name": "justETF", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"}
+    ]
+  },
+  "podcasts": {
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Extrémní proměny Česka. Stát hubne, ale tam, kde nemá",
+        "url": "https://ladime.podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "28. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Výrok o darování ledviny bych už neřekla, říká senátorka",
+        "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-ptam-se-ja-vyrok-o-darovani-ledviny-bych-uz-nerekla-rika-jedina-piratska-senatorka-314035",
+        "date": "28. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Ve studiu s Petrem Koubským: Americkou tvář boje s covidem Anthonyho Fauciho chtějí zavřít do vězení. Proč?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "13. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Jak porazit Babiše? Opozice hledá cestu k příští výhře",
+        "url": "https://denikn.cz/podcast-vrtetipsem/",
+        "date": "27. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni 91: Babiš chce být králem, Zeman zase prezidentem. A co chce Petr Pavel?",
+        "url": "https://omny.fm/shows/padni-komu-padni/playlists/podcast",
+        "date": "24. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Studio N",
+        "title": "Šílenství kolem Adély, průšvih Hip Hop Kempu a kluby v krizi. Co se děje s hudební scénou?",
+        "url": "https://denikn.cz/podcasty/",
+        "date": "28. srpna 2026"
+      },
+      {
+        "show": "Vinohradská 12",
+        "title": "Jedna z největších bitev. Přehlasování Pavla bylo pro koalici absolutní priorita",
+        "url": "https://www.irozhlas.cz/zpravy-domov/jedna-z-nejvetsich-bitev-prehlasovani-pavla-bylo-pro-koalici-absolutni-priorita_2608270600_cen",
+        "date": "27. srpna 2026"
+      },
+      {
+        "show": "Kecy a politika",
+        "title": "SPECIÁL Radek Bartoníček: Babiš byl agresivní vždycky",
+        "url": "https://talk.youradio.cz/porady/pecinka-x-petros-kecy-politika/special-radek-bartonicek-babis-byl-agresivni-vzdycky-1",
+        "date": "28. srpna 2026"
+      }
+    ]
+  },
+  "footer": {
+    "sources": ["Gmail / NYT newslettery", "ČT24", "Deník N", "iROZHLAS", "Seznam Zprávy", "Novinky", "Reuters", "Euronews", "Al Jazeera", "StockInvest.us", "justETF", "Omny", "Youradio Talk"],
+    "disclaimer": "Kurzy a investiční informace nejsou investičním doporučením.",
+    "note": "Konec ranního briefingu · další vydání dnes v 16:30"
+  }
+}

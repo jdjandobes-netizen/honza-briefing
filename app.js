@@ -7,6 +7,14 @@ const progressBar = document.querySelector("#reading-progress-bar");
 
 let deferredInstallPrompt = null;
 let pushConfig = null;
+let archiveIndex = null;
+let currentPointer = null;
+let selectedEditionId = null;
+
+const EDITION_LABELS = {
+  morning: "Ráno",
+  afternoon: "Odpoledne"
+};
 
 const el = (tag, className, text) => {
   const node = document.createElement(tag);
@@ -22,6 +30,70 @@ const safeUrl = (value) => {
   } catch {
     return null;
   }
+};
+
+const safeArchivePath = (value) => {
+  if (typeof value !== "string") return null;
+  return /^data\/archive\/\d{4}-\d{2}-\d{2}-(morning|afternoon)\.json$/.test(value) ? value : null;
+};
+
+const fetchJson = async (path) => {
+  const separator = path.includes("?") ? "&" : "?";
+  const response = await fetch(`${path}${separator}t=${Date.now()}`, { cache: "no-store" });
+  if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+  return response.json();
+};
+
+const parseArchiveDate = (value) => {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value || "");
+  if (!match) return null;
+  return new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])));
+};
+
+const formatArchiveDate = (value) => {
+  const date = parseArchiveDate(value);
+  if (!date) return value;
+  return new Intl.DateTimeFormat("cs-CZ", {
+    weekday: "short",
+    day: "numeric",
+    month: "numeric",
+    timeZone: "UTC"
+  }).format(date);
+};
+
+const validateArchiveIndex = (data) => {
+  if (data?.schemaVersion !== 1 || data?.kind !== "briefing-archive-index" || !Array.isArray(data.editions)) {
+    throw new Error("Archiv má nepodporovaný formát");
+  }
+
+  const seen = new Set();
+  for (const entry of data.editions) {
+    if (!entry?.id || seen.has(entry.id) || !parseArchiveDate(entry.date) || !EDITION_LABELS[entry.edition] || !safeArchivePath(entry.path)) {
+      throw new Error("Archiv obsahuje neplatnou položku vydání");
+    }
+    seen.add(entry.id);
+  }
+  return data;
+};
+
+const visibleArchiveEntries = (index) => {
+  const entries = [...(index?.editions || [])];
+  const latestDate = parseArchiveDate(index?.latest?.date) || entries
+    .map((entry) => parseArchiveDate(entry.date))
+    .filter(Boolean)
+    .sort((a, b) => b - a)[0];
+  if (!latestDate) return [];
+
+  const visibleDays = Math.max(7, Number(index?.retention?.visibleCalendarDays) || 7);
+  const oldestVisible = new Date(latestDate);
+  oldestVisible.setUTCDate(oldestVisible.getUTCDate() - (visibleDays - 1));
+
+  return entries
+    .filter((entry) => {
+      const date = parseArchiveDate(entry.date);
+      return date && date >= oldestVisible && date <= latestDate;
+    })
+    .sort((a, b) => b.date.localeCompare(a.date) || (a.edition === "afternoon" ? -1 : 1));
 };
 
 const sourceLink = (source) => {
@@ -191,6 +263,79 @@ const renderPodcasts = (podcasts) => {
   return section;
 };
 
+const updateLocation = (entry) => {
+  if (!entry || !window.history?.replaceState) return;
+  const url = new URL(window.location.href);
+  url.searchParams.set("date", entry.date);
+  url.searchParams.set("edition", entry.edition);
+  window.history.replaceState({ editionId: entry.id }, "", url);
+};
+
+const renderArchiveSwitcher = (index, activeEntry) => {
+  const entries = visibleArchiveEntries(index);
+  if (!entries.length || !activeEntry) return null;
+
+  const byDate = new Map();
+  for (const entry of entries) {
+    if (!byDate.has(entry.date)) byDate.set(entry.date, {});
+    byDate.get(entry.date)[entry.edition] = entry;
+  }
+
+  const switcher = el("section", "archive-switcher");
+  switcher.setAttribute("aria-label", "Archiv vydání");
+
+  const copy = el("div", "archive-copy");
+  copy.append(el("span", "archive-kicker", "Archiv · posledních 7 dní"));
+  copy.append(el("strong", null, "Vyber den a vydání"));
+  copy.append(el("small", null, "Starší vydání zůstávají bezpečně uložená."));
+  switcher.append(copy);
+
+  const controls = el("div", "archive-controls");
+  const dateControl = el("label", "archive-control");
+  dateControl.append(el("span", null, "Den"));
+  const dateSelect = el("select", "archive-select");
+  dateSelect.setAttribute("aria-label", "Vyber den briefingu");
+  for (const date of byDate.keys()) {
+    const option = el("option", null, formatArchiveDate(date));
+    option.value = date;
+    option.selected = date === activeEntry.date;
+    dateSelect.append(option);
+  }
+  dateControl.append(dateSelect);
+  controls.append(dateControl);
+
+  const editionControl = el("fieldset", "edition-toggle");
+  editionControl.append(el("legend", null, "Vydání"));
+  const editionButtons = el("div", "edition-buttons");
+  const refreshEditionButtons = (date) => {
+    editionButtons.replaceChildren();
+    const day = byDate.get(date) || {};
+    for (const edition of ["morning", "afternoon"]) {
+      const entry = day[edition];
+      const button = el("button", "edition-button", EDITION_LABELS[edition]);
+      button.type = "button";
+      button.disabled = !entry;
+      button.setAttribute("aria-pressed", String(Boolean(entry && entry.id === selectedEditionId)));
+      if (entry) {
+        button.addEventListener("click", () => loadEdition(entry.id, { updateUrl: true, scrollToTop: true }));
+      }
+      editionButtons.append(button);
+    }
+  };
+  refreshEditionButtons(activeEntry.date);
+  editionControl.append(editionButtons);
+  controls.append(editionControl);
+  switcher.append(controls);
+
+  dateSelect.addEventListener("change", () => {
+    const day = byDate.get(dateSelect.value) || {};
+    const preferred = day[activeEntry.edition] || day.afternoon || day.morning;
+    if (preferred) loadEdition(preferred.id, { updateUrl: true, scrollToTop: true });
+  });
+
+  return switcher;
+};
+
 const buildNavigation = (data) => {
   nav.replaceChildren();
   const links = [];
@@ -206,10 +351,13 @@ const buildNavigation = (data) => {
   nav.hidden = links.length === 0;
 };
 
-const render = (data) => {
+const render = (data, activeEntry = null) => {
   const publication = data.publication || {};
   document.title = publication.title ? `${publication.title} · Honzův briefing` : "Honzův briefing";
   app.replaceChildren();
+
+  const archiveSwitcher = renderArchiveSwitcher(archiveIndex, activeEntry);
+  if (archiveSwitcher) app.append(archiveSwitcher);
 
   const header = el("header", "publication-header");
   const copy = el("div", "publication-copy");
@@ -281,15 +429,79 @@ const showError = (error) => {
   app.setAttribute("aria-busy", "false");
 };
 
-const loadBriefing = async () => {
+const loadEdition = async (editionId, { updateUrl = false, scrollToTop = false } = {}) => {
+  const entry = archiveIndex?.editions?.find((item) => item.id === editionId);
+  const path = safeArchivePath(entry?.path);
+  if (!entry || !path) throw new Error("Vybrané vydání v archivu neexistuje");
+
   app.setAttribute("aria-busy", "true");
   refreshButton.disabled = true;
   try {
-    const response = await fetch(`data/current.json?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
-    if (data.schemaVersion !== 1) throw new Error("Nepodporovaná verze dat");
-    render(data);
+    const data = await fetchJson(path);
+    if (data?.schemaVersion !== 1 || !data?.publication || data.publication.edition !== entry.edition) {
+      throw new Error("Archivní vydání má nepodporovaný formát");
+    }
+    selectedEditionId = entry.id;
+    render(data, entry);
+    if (updateUrl) updateLocation(entry);
+    if (scrollToTop) window.scrollTo({ top: 0, behavior: "smooth" });
+  } catch (error) {
+    showError(error);
+  } finally {
+    refreshButton.disabled = false;
+  }
+};
+
+const loadBriefing = async ({ preserveSelection = false } = {}) => {
+  app.setAttribute("aria-busy", "true");
+  refreshButton.disabled = true;
+  try {
+    const [pointerResult, indexResult] = await Promise.allSettled([
+      fetchJson("data/current.json"),
+      fetchJson("data/archive/index.json")
+    ]);
+
+    if (pointerResult.status !== "fulfilled") throw pointerResult.reason;
+    currentPointer = pointerResult.value;
+
+    if (indexResult.status === "fulfilled") {
+      archiveIndex = validateArchiveIndex(indexResult.value);
+    } else {
+      archiveIndex = null;
+    }
+
+    // Kompatibilita při případném čtení staré cache během nasazení.
+    if (currentPointer?.publication && !currentPointer?.current) {
+      selectedEditionId = null;
+      render(currentPointer);
+      return;
+    }
+
+    const pointerPath = safeArchivePath(currentPointer?.current?.path);
+    if (currentPointer?.schemaVersion !== 1 || currentPointer?.kind !== "briefing-pointer" || !pointerPath) {
+      throw new Error("Ukazatel na aktuální vydání má nepodporovaný formát");
+    }
+
+    if (!archiveIndex) {
+      const data = await fetchJson(pointerPath);
+      selectedEditionId = currentPointer.current.id;
+      render(data);
+      return;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const requestedId = params.get("date") && params.get("edition")
+      ? `${params.get("date")}-${params.get("edition")}`
+      : null;
+    const candidateIds = [
+      preserveSelection ? selectedEditionId : null,
+      requestedId,
+      currentPointer.current.id,
+      archiveIndex.latest?.id
+    ].filter(Boolean);
+    const target = candidateIds.find((id) => archiveIndex.editions.some((entry) => entry.id === id));
+    if (!target) throw new Error("V archivu není dostupné žádné vydání");
+    await loadEdition(target, { updateUrl: false });
   } catch (error) {
     showError(error);
   } finally {
@@ -355,7 +567,7 @@ notificationButton.addEventListener("click", async () => {
   }
 });
 
-refreshButton.addEventListener("click", loadBriefing);
+refreshButton.addEventListener("click", () => loadBriefing({ preserveSelection: true }));
 
 window.addEventListener("scroll", () => {
   const height = document.documentElement.scrollHeight - window.innerHeight;
@@ -385,4 +597,3 @@ if ("serviceWorker" in navigator) {
 }
 
 loadBriefing();
-

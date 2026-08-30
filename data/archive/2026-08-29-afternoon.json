@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "29. srpna 2026",
+    "generatedAt": "16:37 CEST",
+    "readingMinutes": 7,
+    "freshnessLabel": "Nové a podstatně změněné od ranního vydání",
+    "nextEdition": "zítra v 7:00",
+    "intro": "Od rána přibyly tři výrazné zahraniční posuny: ruský útok na muniční sklad u Kyjeva má už nejméně 37 obětí, v Nigeru se z ranních nejasných výbuchů vyklubal pokus o vojenskou vzpouru a šest měsíců války dál prudce drtí íránskou ekonomiku. V Česku přibyly hlavně zprávy o extrémním suchu na Vltavské kaskádě a změnách, se kterými v úterý začne nový školní rok."
+  },
+  "sourceStatus": [
+    {"name": "Gmail / NYT newslettery", "status": "warning"},
+    {"name": "ČT24", "status": "ok"},
+    {"name": "Deník N", "status": "ok"},
+    {"name": "iROZHLAS", "status": "ok"},
+    {"name": "Reuters", "status": "ok"},
+    {"name": "Euronews", "status": "ok"},
+    {"name": "Al Jazeera", "status": "ok"},
+    {"name": "Seznam Zprávy", "status": "warning"},
+    {"name": "Novinky", "status": "warning"},
+    {"name": "CNN", "status": "warning"},
+    {"name": "NPR", "status": "warning"},
+    {"name": "StockInvest.us", "status": "warning"},
+    {"name": "justETF", "status": "ok"}
+  ],
+  "topStories": [
+    {
+      "title": "Ruský útok na muniční sklad u Kyjeva má nejméně 37 obětí",
+      "summary": "Dron zasáhl sklad munice v obci Myla západně od Kyjeva a následná detonace poškodila i okolní domy a zařízení sociální péče. Volodymyr Zelenskyj kritizoval skladování výbušnin u civilní zástavby a nařídil audit podobných areálů.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/russian-strike-kyiv-area-warehouse-causes-detonation-killing-27-2026-08-29/"}
+    },
+    {
+      "title": "V Nigeru se z ranních výbuchů vyklubal pokus o vojenskou vzpouru",
+      "summary": "Vzbouření vojáci zaútočili na letiště a prezidentský palác v Niamey a na čas přerušili státní vysílání. Loajalisté znovu zajistili palác, ale situace u letiště zůstávala během dne nejasná.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/gunfire-blasts-heard-several-areas-niger-capital-niamey-witness-says-2026-08-29/"}
+    },
+    {
+      "title": "Íránská ekonomika po šesti měsících války čelí 66% inflaci",
+      "summary": "Reuters popisuje prudké zhoršení ekonomické situace pod tlakem války, amerických sankcí a námořní blokády. Zahraniční obchod se meziročně propadl téměř o 35 %, zatímco Teherán tvrdí, že neustoupí z kontroly nad Hormuzským průlivem.",
+      "source": {"name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/"}
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "note": "Deník N · iROZHLAS",
+      "items": [
+        {
+          "title": "Extrémní sucho stáhlo Orlík na historické minimum",
+          "summary": "Vltavská kaskáda zatím udržuje minimální průtok 40 kubíků za sekundu, bez přehrad by podle Povodí Vltavy klesl v Praze jen na 10 až 15. Pokud sucho potrvá, začne se podle manipulačního řádu čerpat i zásobní voda ze Slap.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/2167749/obrazem-extremni-sucho-odhalilo-orlik-jak-ho-neznate/"},
+          "time": "10:55",
+          "tag": "NEW"
+        },
+        {
+          "title": "Nový školní rok přinese omezení opakování první třídy i nové asistenty",
+          "summary": "Do prvních tříd má nastoupit zhruba 115 tisíc dětí. Nově nebude možné opakovat první ročník kvůli prospěchu či nezvládnutí učiva a první třídy s alespoň 15 dětmi získají asistenta pedagoga; stará pravidla školních jídelen mohou zůstat do září 2027.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168656/"},
+          "time": "11:48",
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Politolog Lubomír Kopeček soudí, že Babišova vláda oslabuje liberálně-demokratické normy, ale maďarský či slovenský scénář zatím v Česku nepovažuje za pravděpodobný; zároveň nečeká, že by Motoristé nebo SPD koalici rozbili.",
+          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/kopecek-babis-neumi-cilevedome-prosazovat-politickou-vizi-motoriste-ani-spd-ale_2608291017_ntu"}
+        },
+        {
+          "text": "Žďár nad Sázavou chce na podzim legalizovat a nově vyznačit 139 parkovacích míst a rozšířit modré zóny, aby zlepšil průjezd záchranářů a bezpečnost na sídlištích.",
+          "source": {"name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/zdar-nad-sazavou-zlegalizuje-a-nove-vyznaci-pres-stovku-parkovacich-mist_2608291408_tkp"}
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "note": "Reuters · Deník N · Al Jazeera",
+      "items": [
+        {
+          "title": "Výbuch muničního skladu po ruském útoku u Kyjeva zabil nejméně 37 lidí",
+          "summary": "Ruský dron zasáhl sklad v obci Myla a následovala rozsáhlá exploze; desítky lidí utrpěly zranění. Ukrajinské úřady prověřují nejen útok, ale i možné porušení pravidel pro skladování munice v blízkosti obytné zástavby.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/europe/russian-strike-kyiv-area-warehouse-causes-detonation-killing-27-2026-08-29/"},
+          "time": "29. srpna",
+          "tag": "NEW"
+        },
+        {
+          "title": "Slovensko si připomnělo SNP dvěma výrazně odlišnými projevy",
+          "summary": "Prezident Peter Pellegrini varoval před extremismem a apeloval na toleranci včetně ochrany žen a sexuálních menšin. Premiér Robert Fico naopak velkou část projevu věnoval kritice opozice a médií a uvedl, že Rusko nemá být démonizováno a vytlačováno z Evropy.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168732/"},
+          "time": "14:31",
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Situace na požářištích v Srbsku se zlepšila natolik, že jeden ze dvou českých vrtulníků ukončil nasazení a tři čeští letečtí záchranáři se vracejí domů.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168595/"}
+        },
+        {
+          "text": "Euronews v poledním přehledu zařadil mezi hlavní evropská témata pokračující islandské referendum o obnovení přístupových jednání s EU; výsledek se čeká až v neděli ráno.",
+          "source": {"name": "Euronews", "url": "https://www.euronews.com/just-in"}
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "note": "Reuters · Al Jazeera · Deník N",
+      "items": [
+        {
+          "title": "Pokus o vzpouru v Nigeru zasáhl letiště i prezidentský palác",
+          "summary": "Ranní zprávy o střelbě a explozích se během dne zpřesnily: podle úřadů šlo o vzpouru vojáků z jednotek zasažených těžkými ztrátami v bojích s džihádisty. Vládní síly znovu zajistily prezidentský palác, ale situace u letiště zůstávala nejistá.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/gunfire-blasts-heard-several-areas-niger-capital-niamey-witness-says-2026-08-29/"},
+          "time": "29. srpna",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Bilance himálajských povodní dál roste, pohřešují se téměř tři tisíce lidí",
+          "summary": "Reuters odpoledne uvádí nejméně 669 mrtvých v Nepálu a dalších sedm v Tibetu; mezi téměř třemi tisíci pohřešovanými je přes 540 cizinců. Pátrání se po přerušení obnovilo a Nepál žádá hlavně specializovanou technickou pomoc.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/china/nepal-needs-help-technical-areas-not-search-rescue-foreign-minister-says-2026-08-29/"},
+          "time": "29. srpna",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Írán po šesti měsících války hlásí 66% inflaci a prudký propad obchodu",
+          "summary": "Americké sankce a blokáda dál prohlubují ekonomické škody: zahraniční obchod se podle Reuters propadl téměř o 35 %. Íránské vedení přesto veřejně odmítá ústup a tvrdí, že chce kombinovat diplomacii s pokračující obranou svých pozic.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/"},
+          "time": "29. srpna",
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Šest měsíců války s Íránem doléhá i na rodiny amerických vojáků: v regionu je přes 50 tisíc amerických příslušníků, 18 jich bylo zabito a více než 750 zraněno; organizace vojenských rodin hlásí prudký růst stresu a finančních potíží.",
+          "source": {"name": "Reuters", "url": "https://www.reuters.com/world/middle-east/us-military-families-ride-roller-coaster-emotions-over-six-months-iran-war-2026-08-29/"}
+        },
+        {
+          "text": "V Zimbabwe zemřelo nejméně 27 lidí při srážce minibusu s nákladním vozem; minibus převážel členy populární křesťanské denominace.",
+          "source": {"name": "Deník N", "url": "https://denikn.cz/minuta/2168741/"}
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "IT a technika",
+      "note": "Zásadní změny bez vaty",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny. Ranní témata OpenAI/Cursor, soudního sporu Anthropic s Pentagonem a evropské spamové politiky Googlu se během dne podstatně neposunula."
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "note": "Makro · centrální banky · systémové trhy",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní tržní změny. Je sobota a hlavní akciové trhy jsou zavřené; nové íránské ekonomické údaje jsou zařazeny ve Světě."
+    }
+  ],
+  "vwce": {
+    "price": "—",
+    "currency": "EUR",
+    "marketStatus": "XETRA je v sobotu zavřená; od ranního vydání neproběhlo nové obchodování",
+    "asOf": "29. srpna 2026",
+    "metrics": [
+      {"label": "Den", "value": "—", "tone": "muted"},
+      {"label": "Týden", "value": "—", "tone": "muted"},
+      {"label": "YTD", "value": "+16,57 %", "tone": "good"},
+      {"label": "1 rok", "value": "+25,84 %", "tone": "good"},
+      {"label": "52t. max", "value": "—", "tone": "muted"},
+      {"label": "ISIN", "value": "IE00BK5BQT80", "tone": "muted"}
+    ],
+    "note": "Preferovaný StockInvest.us při kontrole vracel zastaralou kotaci z 7. srpna, proto není neověřená cena ani denní či týdenní změna přebírána. justETF potvrzuje pro srpen YTD +16,57 % a roční výkonnost +25,84 %; jeho kotace mohou být realtime, 15 minut zpožděné nebo denní NAV podle zdroje.",
+    "sources": [
+      {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/VWCE.DE"},
+      {"name": "justETF", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"}
+    ]
+  },
+  "podcasts": {
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Politický zázrak. Babiš je šéf vlády a nejznámější opoziční poslanec zároveň",
+        "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-vlevo-dole-politicky-zazrak-babis-je-sef-vlady-a-nejznamejsi-opozicni-poslanec-zaroven-313327",
+        "date": "26. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Výrok o darování ledviny bych už neřekla, říká senátorka",
+        "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-ptam-se-ja-vyrok-o-darovani-ledviny-bych-uz-nerekla-rika-jedina-piratska-senatorka-314035",
+        "date": "28. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Ve studiu s Petrem Koubským: Americkou tvář boje s covidem Anthonyho Fauciho chtějí zavřít do vězení. Proč?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "13. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Jak porazit Babiše? Opozice hledá cestu k příští výhře",
+        "url": "https://denikn.cz/podcast-vrtetipsem/",
+        "date": "27. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Babiš chce být Karlem IV. Porazil by Miloš Zeman v prezidentské volbě Petra Pavla?",
+        "url": "https://www.reflex.cz/clanek/padni-komu-padni/137736/babis-chce-byt-karlem-iv-porazil-by-milos-zeman-v-prezidentske-volbe-petra-pavla.html",
+        "date": "24. srpna 2026",
+        "status": "BEZE ZMĚNY"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Studio N",
+        "title": "Šílenství kolem Adély, průšvih Hip Hop Kempu a kluby v krizi. Co se děje s hudební scénou?",
+        "url": "https://denikn.cz/2166044/studio-n-silenstvi-kolem-adely-prusvih-hip-hop-kempu-a-kluby-v-krizi-co-se-deje-s-hudebni-scenou/",
+        "date": "28. srpna 2026"
+      },
+      {
+        "show": "Vinohradská 12",
+        "title": "Halucinace a příkazy? Bolestivý případ Lindsay Clancyové rozvířil debatu o pomoci matkám po porodu",
+        "url": "https://www.irozhlas.cz/zpravy-svet/halucinace-a-prikazy-bolestivy-pripad-lindsay-clancyove-rozviril-debatu-o-pomoci_2608280600_cen",
+        "date": "28. srpna 2026"
+      },
+      {
+        "show": "Kecy a politika",
+        "title": "SPECIÁL Radek Bartoníček: Babiš byl agresivní vždycky",
+        "url": "https://talk.youradio.cz/porady/pecinka-x-petros-kecy-politika/special-radek-bartonicek-babis-byl-agresivni-vzdycky-1",
+        "date": "28. srpna 2026"
+      }
+    ]
+  },
+  "footer": {
+    "sources": ["Gmail / NYT newslettery", "Deník N", "iROZHLAS", "Reuters", "Euronews", "Al Jazeera", "Reflex", "Seznam Zprávy", "StockInvest.us", "justETF", "Youradio Talk"],
+    "disclaimer": "Kurzy a investiční informace nejsou investičním doporučením. NYT newslettery byly přečteny, ale automatické odstranění štítku UNREAD se v tomto běhu nepodařilo kvůli požadavku konektoru na interaktivní potvrzení."
+  }
+}

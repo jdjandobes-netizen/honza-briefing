@@ -1,13 +1,15 @@
-const CACHE_NAME = "honza-briefing-v5";
+const CACHE_NAME = "honza-briefing-v6";
 const SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=5",
-  "./app.js?v=5",
-  "./manifest.webmanifest?v=5",
-  "./icons/icon.svg?v=5",
-  "./icons/icon-192.png?v=5",
-  "./icons/icon-512.png?v=5"
+  "./styles.css?v=6",
+  "./app.js?v=6",
+  "./manifest.webmanifest?v=6",
+  "./icons/icon.svg?v=6",
+  "./icons/icon-192.png?v=6",
+  "./icons/icon-512.png?v=6",
+  "./data/current.json",
+  "./data/archive/index.json"
 ];
 
 self.addEventListener("install", (event) => {
@@ -27,15 +29,18 @@ self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
 
-  if (url.pathname.endsWith("/data/current.json")) {
+  if (url.origin === self.location.origin && url.pathname.includes("/data/") && url.pathname.endsWith(".json")) {
+    const canonicalUrl = new URL(url);
+    canonicalUrl.search = "";
+    const canonicalRequest = new Request(canonicalUrl.href);
     event.respondWith(
       fetch(event.request)
         .then((response) => {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put("./data/current.json", copy));
+          caches.open(CACHE_NAME).then((cache) => cache.put(canonicalRequest, copy));
           return response;
         })
-        .catch(() => caches.match("./data/current.json"))
+        .catch(() => caches.match(canonicalRequest))
     );
     return;
   }
