@@ -39,8 +39,11 @@ const safeArchivePath = (value) => {
 };
 
 const fetchJson = async (path) => {
+  // GitHub remains the single publication source for both sites and both automations.
+  const base = location.hostname === "briefing.nacestach.online"
+    ? "https://raw.githubusercontent.com/jdjandobes-netizen/honza-briefing/main/" : "";
   const separator = path.includes("?") ? "&" : "?";
-  const response = await fetch(`${path}${separator}t=${Date.now()}`, { cache: "no-store" });
+  const response = await fetch(`${base}${path}${separator}t=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
   return response.json();
 };
@@ -369,6 +372,8 @@ const render = (data, activeEntry = null) => {
 
   const archiveSwitcher = renderArchiveSwitcher(archiveIndex, activeEntry);
   if (archiveSwitcher) app.append(archiveSwitcher);
+  const podcast = window.BriefingPodcast?.mount(data, activeEntry || currentPointer?.current);
+  if (podcast) app.append(podcast);
 
   const header = el("header", "publication-header");
   const copy = el("div", "publication-copy");

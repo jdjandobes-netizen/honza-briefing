@@ -113,6 +113,20 @@ Pokud kterýkoli krok selže, nepředstírej publikaci. Protože se ref posouvá
 - Každá zpráva patří právě do jedné sekce a každý odkaz musí být ověřený.
 - Ranní a odpolední soubor jsou samostatné historické artefakty. `current.json` je jen pointer a neslouží jako historie ani jako odpolední porovnávací základ.
 
-## Web Push
+## Příprava pro podcast (ranní i odpolední běh)
+
+Ke každé nové položce `topStories`, `sections[].items` a `sections[].minor` přidej
+volitelné pole `"narration": { "audioTag": "serious" }`. Vol podle obsahu jeden z
+`serious`, `calm`, `curious`, `warm`, `excited`. Tragédie, válka, oběti a citlivé
+zprávy vždy `serious`; žádný smích, jásot nebo dramatizace. Pozitivní úspěch může
+mít střídmé `excited`, technologie `curious`. Značky nevkládej do titulku či shrnutí:
+samostatný scénář služby je vykreslí jako `[serious]` před čteným textem.
+
+Nepřepisuj kvůli značkám žádný již existující archiv. U starších vydání služba sama
+doplní bezpečný přednes. Ranní a odpolední běh **nevolají placené TTS**. To začne
+výhradně po tlačítku uživatele. Nezapisuj API klíče ani audio do tohoto repozitáře.
+Služba na `briefing.nacestach.online` si načítá stejný GitHub archiv; publikace se nemění.
+
+## Web Push – upozornění na nové psané vydání
 
 Push neposílej, dokud `data/push-config.json` nemá `enabled: true` a není samostatně ověřený odesílací backend. Selhání push nesmí vrátit ani přepsat již publikovaný commit; uvede se pouze jako samostatná chyba doručení.

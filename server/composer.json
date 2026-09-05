@@ -1,0 +1,6 @@
+{
+  "name": "honza/briefing-podcast",
+  "description": "Private Gemini podcast queue and Web Push sender",
+  "require": {"php": ">=8.2", "ext-curl": "*", "ext-mbstring": "*", "ext-openssl": "*", "ext-pdo_sqlite": "*", "minishlink/web-push": "^10.0"},
+  "config": {"allow-plugins": false, "sort-packages": true}
+}
