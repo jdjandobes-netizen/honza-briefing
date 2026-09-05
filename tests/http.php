@@ -38,6 +38,30 @@ try {
  $r=req('settings',['voice'=>'Charon','apiKey'=>'synthetic-test-key-never-sent']);
  check($r[0]===200 && json_decode($r[1],true)['hasKey'] && !str_contains($r[1],'synthetic-test'),'key never returned');
  check(!str_contains(req('settings')[1],'synthetic-test'),'saved key never returned');
+ // Format acceptance is tested locally only: these are synthetic strings, never
+ // provider credentials. No Google request or production settings mutation occurs.
+ $legacy='AIza'.str_repeat('synthetic_',4);
+ $auth='AQ.'.str_repeat('synthetic_auth-',32).'.part+with/padding=~';
+ foreach ([$legacy,$auth,str_repeat('x',4096)] as $key) {
+   $r=req('settings',['voice'=>'Kore','apiKey'=>$key]);
+   check($r[0]===200 && json_decode($r[1],true)['hasKey'],'legacy/auth/maximum-length key accepted');
+   check($s->settings()['apiKey']===$key,'whole key stored without truncation');
+   check(!str_contains($r[1],$key) && !str_contains($s->query('SELECT value FROM settings')->fetchColumn(),$key),'key write-only and encrypted');
+ }
+ $r=req('settings',['voice'=>'Kore','apiKey'=>" \t\r\n\u{00A0}\u{FEFF}".$auth."\u{2003}\r\n "]);
+ check($r[0]===200 && $s->settings()['apiKey']===$auth,'surrounding Unicode copy whitespace removed only');
+ foreach ([''," \t\n\u{00A0}"] as $blank) {
+   $r=req('settings',['voice'=>'Charon','apiKey'=>$blank]);
+   check($r[0]===200 && $s->settings()['apiKey']===$auth,'blank key preserves saved key');
+ }
+ foreach ([$auth."\r\nInjected: yes",'AQ.inner space',"AQ.inner\tspace",'"'.$auth.'"','AQ.'."\0".'bad',"\0".$auth,str_repeat('x',4097),['not-a-string'],123,false,'AQ.žluťoučký','AQ.'."\u{200B}".'hidden'] as $invalid) {
+   $r=req('settings',['voice'=>'Kore','apiKey'=>$invalid]);
+   check($r[0]===400,'unsafe or oversized key rejected');
+   check($s->settings()['apiKey']===$auth && $s->settings()['voice']==='Charon','failed save preserves prior settings');
+   check(!str_contains($r[1],'synthetic_auth'),'error never echoes token');
+ }
+ $r=req('settings',['voice'=>'Charon','removeKey'=>true]);
+ check($r[0]===200 && !json_decode($r[1],true)['hasKey'] && $s->settings()['apiKey']==='','explicit removal still works');
  check(req('prepare&id=2026-09-04-morning',[])[0]===503,'inactive worker prevents charge');
  $r=req('audio&id='.$id,null,['Range: bytes=12-37']);check($r[0]===206 && $r[1]===substr($bytes,12,26),'range seeking');
  check(str_contains(strtolower($r[2]),'no-store'),'audio not cached');

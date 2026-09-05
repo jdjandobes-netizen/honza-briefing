@@ -72,9 +72,18 @@ try {
                 $settings=$s->settings();
                 if (!in_array($input['voice']??'',Briefing\VOICES,true)) throw new RuntimeException('Neplatný hlas.');
                 $settings['voice']=$input['voice'];
-                if (!empty($input['apiKey'])) {
-                    if (!preg_match('/^[A-Za-z0-9_-]{25,200}$/D',$input['apiKey'])) throw new RuntimeException('Neplatný formát API klíče.');
-                    $settings['apiKey']=$input['apiKey'];
+                $key=$input['apiKey']??'';
+                if (!is_string($key)) throw new RuntimeException('API klíč musí být text.');
+                // Auth keys are opaque tokens, not only legacy AIza strings. Trim only
+                // surrounding copy/paste whitespace; never truncate or alter the token.
+                $key=preg_replace('/\A[\s\p{Z}\x{FEFF}]+|[\s\p{Z}\x{FEFF}]+\z/u','',$key);
+                if ($key===null) throw new RuntimeException('API klíč obsahuje nepodporované znaky.');
+                if (strlen($key)>4096) throw new RuntimeException('API klíč je příliš dlouhý (maximum 4096 znaků). Vlož pouze samotný klíč.');
+                if ($key!=='') {
+                    // Permit dotted auth/base64 tokens, but reject whitespace and control
+                    // characters, especially CR/LF, before using the key in an HTTP header.
+                    if (!preg_match('/\A[A-Za-z0-9._~+\/=-]+\z/D',$key)) throw new RuntimeException('Vlož pouze API klíč, bez uvozovek, vnitřních mezer nebo zalomení řádku.');
+                    $settings['apiKey']=$key;
                 }
                 if (!empty($input['removeKey'])) $settings['apiKey']='';
                 $s->saveSettings($settings);
