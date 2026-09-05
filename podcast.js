@@ -130,7 +130,10 @@
       settings=await api("settings",undefined,null);
       const form=node("form");
       form.append(node("p",null,settings.hasKey ? "API klíč je uložený šifrovaně na serveru. Pole nech prázdné, pokud ho nechceš změnit." : "Vlož vlastní Gemini API klíč. Uloží se šifrovaně na serveru a prohlížeč ho nedostává zpět."));
-      const key=field(form,"Gemini API klíč","password","apiKey"); key.spellcheck=false; key.maxLength=200;
+      const key=field(form,"Gemini API klíč","password","apiKey"); key.spellcheck=false; key.autocapitalize="none"; key.setAttribute("autocorrect","off");
+      // No maxlength: browsers silently truncate pasted tokens. The server reports
+      // oversize input explicitly and accepts both legacy and dotted auth keys.
+      form.append(node("p","podcast-small","Vlož celý klíč z Google AI Studio, včetně případného AQ. na začátku. Uložení klíče nevolá Gemini; jeho platnost se ověří až při přípravě podcastu."));
       const label=node("label","podcast-field","Hlas dalších podcastů"); const voice=node("select","podcast-select");
       const names={Charon:"Charon · informativní",Kore:"Kore · pevný",Sulafat:"Sulafat · vřelý",Iapetus:"Iapetus · jasný",Schedar:"Schedar · vyrovnaný"};
       for(const v of settings.voices) voice.append(new Option(names[v]||v,v,v===settings.voice,v===settings.voice)); label.append(voice); form.append(label);

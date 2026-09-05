@@ -1,10 +1,10 @@
-const CACHE_NAME = "honza-briefing-v8";
+const CACHE_NAME = "honza-briefing-v9";
 const SHELL = [
   "./",
   "./index.html",
   "./styles.css?v=7",
   "./app.js?v=8",
-  "./podcast.js?v=8",
+  "./podcast.js?v=9",
   "./podcast.css?v=8",
   "./manifest.webmanifest?v=7",
   "./icons/favicon-32.png?v=7",
