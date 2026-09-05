@@ -1,9 +1,11 @@
-const CACHE_NAME = "honza-briefing-v7";
+const CACHE_NAME = "honza-briefing-v8";
 const SHELL = [
   "./",
   "./index.html",
   "./styles.css?v=7",
-  "./app.js?v=7",
+  "./app.js?v=8",
+  "./podcast.js?v=8",
+  "./podcast.css?v=8",
   "./manifest.webmanifest?v=7",
   "./icons/favicon-32.png?v=7",
   "./icons/news-mark.png?v=7",
@@ -30,8 +32,12 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
+  // Never intercept private settings, authentication, audio or partial audio requests.
+  if (url.pathname.includes("/api/") || event.request.headers.has("Range")) return;
 
-  if (url.origin === self.location.origin && url.pathname.includes("/data/") && url.pathname.endsWith(".json")) {
+  const publicSource = url.origin === self.location.origin ||
+    (url.origin === "https://raw.githubusercontent.com" && url.pathname.startsWith("/jdjandobes-netizen/honza-briefing/main/data/"));
+  if (publicSource && url.pathname.includes("/data/") && url.pathname.endsWith(".json")) {
     const canonicalUrl = new URL(url);
     canonicalUrl.search = "";
     const canonicalRequest = new Request(canonicalUrl.href);
@@ -39,7 +45,7 @@ self.addEventListener("fetch", (event) => {
       fetch(event.request)
         .then((response) => {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(canonicalRequest, copy));
+          if (response.ok) event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.put(canonicalRequest, copy)));
           return response;
         })
         .catch(() => caches.match(canonicalRequest))
@@ -79,7 +85,12 @@ self.addEventListener("push", (event) => {
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-  const targetUrl = new URL(event.notification.data?.url || "./", self.location.href).href;
+  let target = new URL("./", self.location.href);
+  try {
+    const candidate = new URL(event.notification.data?.url || "./", self.location.href);
+    if (candidate.origin === self.location.origin) target = candidate;
+  } catch {}
+  const targetUrl = target.href;
 
   event.waitUntil(
     self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((clients) => {

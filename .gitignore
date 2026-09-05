@@ -1,0 +1,9 @@
+server/vendor/
+server/config.php
+api/config-path.php
+runtime/
+*.sqlite*
+*.key
+*.mp3
+*.pcm
+*.wav

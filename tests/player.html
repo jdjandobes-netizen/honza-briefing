@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="cs"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Podcast – syntetický UI test</title><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../podcast.css">
+<body><main class="wrap"><h1>Syntetický test</h1><p>Tato stránka nevolá Gemini. Zvuk je tichý kontrolní MP3.</p><div id="fixture"></div></main>
+<script>
+const originalFetch=window.fetch.bind(window);
+window.fetch=async function(url,options){
+ if(!String(url).includes('api/podcast.php'))return originalFetch(url,options);
+ const action=new URL(url,location.href).searchParams.get('action');
+ const job={id:'2000-01-01-morning',status:'ready',voice:'Charon',model:'synthetic',completed:2,total:2,duration:20.5,chapters:[{title:'Úvod – syntetický test',start:0},{title:'Závěr – syntetický test',start:10.25}],error:null,audioUrl:'synthetic.mp3?fixture=1'};
+ const responses={session:{authenticated:true,csrf:'synthetic'},status:{job},library:{jobs:[job]},settings:{hasKey:false,voice:'Charon',voices:['Charon','Kore'],pushPublicKey:null,workerOnline:false}};
+ return new Response(JSON.stringify(responses[action]||{error:'Syntetický test neumožňuje generování'}),{status:responses[action]?200:400,headers:{'Content-Type':'application/json'}});
+};
+</script><script src="../podcast.js"></script><script>document.querySelector('#fixture').append(BriefingPodcast.mount({},{id:'2000-01-01-morning'}));</script></body></html>
