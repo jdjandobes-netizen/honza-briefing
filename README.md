@@ -21,7 +21,7 @@ Archivní soubor, manifest a pointer se publikují jedním atomickým GitHub com
 - `data/archive/*.json` — neměnná plná ranní a odpolední vydání
 - `data/archive/index.json` — úplný manifest historie
 - `data/current.json` — pouze ukazatel na nejnovější vydání
-- `manifest.webmanifest`, `service-worker.js`, `icons/` — instalace PWA a offline cache navštívených vydání
+- `manifest.webmanifest`, `service-worker.js`, `assets/brand/` — instalace PWA a offline cache navštívených vydání
 - `data/push-config.json` — vypnutá veřejná konfigurace Web Push
 - `AUTOMATION.md` — závazný datový kontrakt a atomický publikační postup
 - `tools/validate-data.mjs` — validace pointeru, manifestu a archivních vydání
@@ -41,3 +41,21 @@ node tools/validate-data.mjs
 ```
 
 Skript bez argumentu ověří pointer, manifest a všechny vydání uvedené v manifestu. Cestu k jednotlivému plnému vydání lze předat jako první argument.
+
+## Ikony prohlížeče a telefonu
+
+Schválené novinové logo je beze změny obrázku publikované v `assets/brand/`.
+Nepoužívat veřejnou cestu `/icons/`: na produkčním Webglobe vrací 404,
+i když soubory existují (na vnořeném TESTu tento problém není).
+Verze je součástí názvu ikon, aby prohlížeč rozpoznal změnu identity PWA.
+`apple-touch-icon.png` v kořeni je záložní kopie neprůhledné varianty pro iOS;
+HTML odkazuje přímo na verzovanou variantu. Původní `icons/` zůstávají zachované.
+Identita manifestu (`id`, `start_url`, `scope`) se při změně ikon nemění.
+
+Kontrola: `node tests/icons.mjs`. Při nasazení ověřit **přes HTTPS na cílové
+doméně**, že každá ikona vrací 200, `image/png` a správný kontrolní součet;
+samotná existence souborů na disku ani úspěch na TESTu nestačí.
+Nahrát nejprve obrázky, pak manifest/HTML a nakonec service worker.
+Již nainstalovaná aplikace může vyžadovat potvrzení aktualizace ikony
+v prohlížeči nebo nové přidání na plochu telefonu. Tímto vydáním se nemění
+přihlášení, push odběry ani uložené podcasty.

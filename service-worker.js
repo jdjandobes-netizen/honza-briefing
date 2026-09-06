@@ -1,4 +1,4 @@
-const CACHE_NAME = "honza-briefing-v9";
+const CACHE_NAME = "honza-briefing-v10";
 const SHELL = [
   "./",
   "./index.html",
@@ -6,12 +6,12 @@ const SHELL = [
   "./app.js?v=8",
   "./podcast.js?v=9",
   "./podcast.css?v=8",
-  "./manifest.webmanifest?v=7",
-  "./icons/favicon-32.png?v=7",
-  "./icons/news-mark.png?v=7",
-  "./icons/icon-192.png?v=7",
-  "./icons/icon-512.png?v=7",
-  "./icons/icon-maskable-512.png?v=7",
+  "./manifest.webmanifest?v=10",
+  "./assets/brand/news-32-v10.png",
+  "./assets/brand/news-192-v10.png",
+  "./assets/brand/news-512-v10.png",
+  "./assets/brand/news-maskable-512-v10.png",
+  "./apple-touch-icon.png",
   "./data/current.json",
   "./data/archive/index.json"
 ];
@@ -73,8 +73,8 @@ self.addEventListener("push", (event) => {
   const title = payload.title || "Briefing je ready";
   const options = {
     body: payload.body || "Nové vydání je připravené ke čtení.",
-    icon: "./icons/icon-192.png",
-    badge: "./icons/icon-192.png",
+    icon: "./assets/brand/news-192-v10.png",
+    badge: "./assets/brand/news-192-v10.png",
     tag: payload.tag || "honza-briefing-ready",
     renotify: true,
     data: { url: payload.url || "./" }
