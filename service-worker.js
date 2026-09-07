@@ -1,4 +1,4 @@
-const CACHE_NAME = "honza-briefing-v13";
+const CACHE_NAME = "honza-briefing-v14";
 const SHELL = [
   "./",
   "./index.html",
@@ -6,6 +6,9 @@ const SHELL = [
   "./app.js?v=8",
   "./japan-safety.js?v=2",
   "./japan-safety.css?v=2",
+  "./emergency-display.js?v=1",
+  "./emergency-display.css?v=1",
+  "./emergency-settings-ui.js?v=1",
   "./push-live.js?v=1",
   "./podcast.js?v=9",
   "./podcast.css?v=8",
@@ -74,6 +77,7 @@ self.addEventListener("push", (event) => {
     badge: "./assets/brand/news-192-v10.png",
     tag: payload.tag || "honza-briefing-ready",
     renotify: true,
+    requireInteraction: Boolean(payload.requireInteraction),
     data: { url: payload.url || "./" }
   };
   event.waitUntil(self.registration.showNotification(title, options));
