@@ -1,9 +1,11 @@
-const CACHE_NAME = "honza-briefing-v10";
+const CACHE_NAME = "honza-briefing-v11";
 const SHELL = [
   "./",
   "./index.html",
   "./styles.css?v=7",
   "./app.js?v=8",
+  "./japan-safety.js?v=1",
+  "./japan-safety.css?v=1",
   "./podcast.js?v=9",
   "./podcast.css?v=8",
   "./manifest.webmanifest?v=10",
@@ -13,7 +15,9 @@ const SHELL = [
   "./assets/brand/news-maskable-512-v10.png",
   "./apple-touch-icon.png",
   "./data/current.json",
-  "./data/archive/index.json"
+  "./data/archive/index.json",
+  "./data/japan-itinerary.json",
+  "./data/emergency-current.json"
 ];
 
 self.addEventListener("install", (event) => {
@@ -32,7 +36,6 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
-  // Never intercept private settings, authentication, audio or partial audio requests.
   if (url.pathname.includes("/api/") || event.request.headers.has("Range")) return;
 
   const publicSource = url.origin === self.location.origin ||
@@ -54,32 +57,24 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (url.origin === self.location.origin) {
-    event.respondWith(
-      caches.match(event.request).then((cached) => cached || fetch(event.request))
-    );
+    event.respondWith(caches.match(event.request).then((cached) => cached || fetch(event.request)));
   }
 });
 
 self.addEventListener("push", (event) => {
   let payload = {};
   if (event.data) {
-    try {
-      payload = event.data.json();
-    } catch {
-      payload = { body: event.data.text() };
-    }
+    try { payload = event.data.json(); } catch { payload = { body: event.data.text() }; }
   }
-
   const title = payload.title || "Briefing je ready";
   const options = {
-    body: payload.body || "Nové vydání je připravené ke čtení.",
+    body: payload.body || "Nové vydání nebo důležité upozornění je připravené.",
     icon: "./assets/brand/news-192-v10.png",
     badge: "./assets/brand/news-192-v10.png",
     tag: payload.tag || "honza-briefing-ready",
     renotify: true,
     data: { url: payload.url || "./" }
   };
-
   event.waitUntil(self.registration.showNotification(title, options));
 });
 
@@ -91,12 +86,9 @@ self.addEventListener("notificationclick", (event) => {
     if (candidate.origin === self.location.origin) target = candidate;
   } catch {}
   const targetUrl = target.href;
-
-  event.waitUntil(
-    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((clients) => {
-      const existing = clients.find((client) => client.url.startsWith(self.location.origin));
-      if (existing) return existing.navigate(targetUrl).then(() => existing.focus());
-      return self.clients.openWindow(targetUrl);
-    })
-  );
+  event.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((clients) => {
+    const existing = clients.find((client) => client.url.startsWith(self.location.origin));
+    if (existing) return existing.navigate(targetUrl).then(() => existing.focus());
+    return self.clients.openWindow(targetUrl);
+  }));
 });
