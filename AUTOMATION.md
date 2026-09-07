@@ -13,7 +13,7 @@ GitHub Pages je stará/legacy metoda. Nikdy ho nepoužívej jako cílový web, n
 
 Repozitář GitHub zůstává pouze datovým backendem a archivem. Produkční frontend na Webglobe načítá archivní JSONy z tohoto repozitáře. Zápis dat proto nadále probíhá přes připojený GitHub connector, ale výsledkem pro uživatele je vždy Webglobe web. Nikdy SSH, osobní token, lokální git ani Claude Artifact.
 
-Nevytvářej žádné boční „živé“ soubory typu `data/japan-current.json` nebo jiné sidecary s aktuálním obsahem. Produkční Webglobe vykresluje normální archivní vydání; veškerý obsah včetně Japonska musí být přímo uvnitř archivního JSON daného vydání.
+Nevytvářej žádné boční „živé“ soubory typu `data/japan-current.json` nebo jiné sidecary s běžným briefingovým obsahem. Produkční Webglobe vykresluje normální archivní vydání; veškerý obsah briefingu včetně Japonska musí být přímo uvnitř archivního JSON daného vydání. Výjimkou je pouze samostatný nouzový live kanál `data/emergency-current.json`, který není historickým vydáním a je spravovaný serverovým cronem na Webglobe.
 
 ## Neměnné pravidlo archivu
 
@@ -106,6 +106,25 @@ Ranní Japonsko: standardně 5–8 hlavních položek + 3–8 minor, pokud je ma
 
 Odpolední Japonsko: vždy zkontroluj znovu. Porovnej s ranní sekcí a publikuj NEW/UPDATE pro nové warningy, změny trajektorie systému, posuny srážek/větru, povodně/sesuvy, významná zemětřesení, evakuační změny a dopravu. Pokud se nic zásadního nezměnilo, je dovolena jedna stručná aktuální statusová položka s JMA zdrojem; neopakuj celé ranní znění.
 
+### Itinerářový safety kontrakt — závazný
+
+**Před každým ranním i odpoledním během načti také `JAPAN_SAFETY.md` a `data/japan-itinerary.json` z aktuálního `main` a řiď se jimi.** Tento doplněk je součástí obsahového kontraktu stejně jako tento soubor. Manuální prompt nemusí pravidla opakovat; samotné načtení `AUTOMATION.md` znamená povinnost načíst i tyto dva zdroje.
+
+Itinerář 12. 9.–3. 10. 2026 se vyhodnocuje celý, nejen právě aktuální zastávka. Kontroluj i budoucí pobyty, přejezdy, pobřežní úseky, horské silnice, soutěsky a výlety uvedené v `routeHighlights`.
+
+Každá `japonsko.items[]` i `japonsko.minor[]` má povinně:
+
+- `location` nebo `locations` s konkrétní lokalitou, pokud možno GPS a vždy absolutním HTTPS `mapUrl`;
+- `itineraryImpact` s `status` přesně `affected`, `watch` nebo `not_affected`, vysvětlením a `affectedStopIds[]`.
+
+Uživatel musí u každé zprávy rovnou vidět pin/mapu a zda je jeho itinerář dotčen.
+
+`japonsko.travel.weatherStops[]` je povinné v KAŽDÉM novém vydání a obsahuje všech 12 zastávek z itineráře ve stejném pořadí. Žádnou nevypouštěj kvůli vzdálenému termínu. Používej `forecastType`: `short-range`, `weekly-outlook`, `seasonal-trend`. Přesnou denní předpověď nikdy nevyráběj za horizontem zdroje; vzdálené zastávky mají místo toho poctivý regionální/týdenní/sezonní trend a nejistotu. S přibližováním termínu detail automaticky zvyšuj.
+
+`japonsko.travel.emergencyGuide` je povinný a obsahuje nouzová čísla, tsunami postup, evakuační úrovně, oficiální evakuační mapy a odkazy na JMA/JNTO Safety Tips podle `JAPAN_SAFETY.md`.
+
+Před commitem ověř itinerářový kontrakt podle logiky `tools/validate-japan.mjs`: přesně 6 sekcí, mapa+impact u každé Japan položky, přesně 12 weatherStops, platné forecastType a emergencyGuide.
+
 ## VWCE
 
 IE00BK5BQT80 / VWCE.DE / XETRA. Preferuj StockInvest.us a justETF. Ověř poslední cenu EUR a, pokud lze, Den, Týden, YTD, 1 rok, 52t. maximum. Ráno výslovně uveď poslední dostupnou uzávěrku před otevřením XETRY; odpoledne rozliš live/delayed/close. Pokud metriku nelze ověřit, použij `—`; nepředstírej realtime.
@@ -160,16 +179,20 @@ Nepoužívej `update_file` pro publikační trojici.
 
 ## Ranní běh 7:00
 
-Urči datum Europe/Prague, proveď plnou ~24h rešerši, povinně detailní Japonsko, vytvoř `${date}-morning`, atomicky publikuj datovou trojici a ověř. Produkční URL je pouze `https://briefing.nacestach.online/`.
+Urči datum Europe/Prague, proveď plnou ~24h rešerši, načti povinně `JAPAN_SAFETY.md` a itinerář, vytvoř detailní itinerářové Japonsko, `${date}-morning`, atomicky publikuj datovou trojici a ověř. Produkční URL je pouze `https://briefing.nacestach.online/`.
 
 ## Odpolední běh 16:30
 
-Jako jediný porovnávací základ načti přesně `data/archive/${date}-morning.json`; nikdy current pointer. Pokud ranní archiv chybí/neplatný, zastav. Proveď široký sběr od 07:00, publikuj jen NEW/UPDATE, povinně znovu zkontroluj Japonsko. Ranní archiv nijak neměň. Atomicky publikuj odpolední datovou trojici a ověř obě dnešní archivní cesty. Produkční URL je pouze `https://briefing.nacestach.online/`.
+Jako jediný porovnávací základ načti přesně `data/archive/${date}-morning.json`; nikdy current pointer. Pokud ranní archiv chybí/neplatný, zastav. Proveď široký sběr od 07:00, publikuj jen NEW/UPDATE, povinně znovu načti `JAPAN_SAFETY.md` a itinerář a zkontroluj Japonsko i všechny weatherStops. Ranní archiv nijak neměň. Atomicky publikuj odpolední datovou trojici a ověř obě dnešní archivní cesty. Produkční URL je pouze `https://briefing.nacestach.online/`.
 
-## Web Push
+## Nouzový live kanál a Web Push
 
-Push neposílej, dokud `data/push-config.json` nemá `enabled:true` a není ověřen samostatný backend. Selhání push nesmí vrátit ani přepsat publikovaný commit.
+`data/emergency-current.json` není historický briefing a denní automatizace jej nepřepisují. Na produkčním Webglobe jej aktualizuje serverový cron z oficiálních JMA/FDMA/Japan Coast Guard feedů podle `EMERGENCY.md`. Frontend může tento soubor pollovat častěji než vznikají briefingy.
+
+Nouzový live kanál je pouze doplněk. Pro životně důležitá rozhodnutí má uživatel vždy následovat JMA/J-Alert, JNTO Safety Tips a aktuální pokyny místních úřadů.
+
+Web Push neposílej, dokud `data/push-config.json` nemá `enabled:true` a není ověřen samostatný push backend. Selhání push nesmí vrátit ani přepsat publikovaný commit ani nouzový JSON.
 
 ## Závěrečná zpráva automatizace
 
-Vždy odkazuj pouze na `https://briefing.nacestach.online/`. Nikdy GitHub Pages. Uveď 2–3 TOP věty, stručný Japan safety status, počet NYT newsletterů přečtených/označených, výsledný commit datového backendu nebo jasnou chybu a nedostupné zdroje.
+Vždy odkazuj pouze na `https://briefing.nacestach.online/`. Nikdy GitHub Pages. Uveď 2–3 TOP věty, stručný Japan safety status včetně nejbližších `affected/watch` zastávek, počet NYT newsletterů přečtených/označených, výsledný commit datového backendu nebo jasnou chybu a nedostupné zdroje.
