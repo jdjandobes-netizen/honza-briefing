@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "kind": "japan-emergency-raw",
+  "generatedAt": null,
+  "pollIntervalSeconds": 60,
+  "alerts": [],
+  "sourceStatus": [],
+  "advisory": "Interní mezistav pro emergency dispatch. Uživatelský frontend čte pouze emergency-current.json."
+}
