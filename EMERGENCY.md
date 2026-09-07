@@ -6,10 +6,14 @@ Produkční web: `https://briefing.nacestach.online/`.
 
 Nouzový kanál běží odděleně od ranního/odpoledního archivu, aby se historická vydání nepřepisovala a kritické upozornění nemuselo čekat na 7:00 nebo 16:30.
 
-- `api/emergency-poll.php` — každou minutu načte oficiální JMA/FDMA/Japan Coast Guard feedy a atomicky přepíše `data/emergency-current.json`.
-- `api/emergency-dispatch.php` — každou minutu porovná fingerprinty událostí s předchozím stavem, AI volá pouze pro NEW/materially UPDATE relevantní události a odešle Web Push podle severity/itineráře.
+- `api/emergency-poll.php` — každou minutu načte oficiální JMA/FDMA/Japan Coast Guard feedy a atomicky zapíše syrový mezistav do `data/emergency-raw.json`.
+- `api/emergency-dispatch.php` — každou minutu porovná fingerprinty událostí s předchozím stavem, pro nové/materially UPDATE relevantní události spustí český AI překlad a safety interpretaci, následně atomicky publikuje uživatelský `data/emergency-current.json` a odešle Web Push podle severity/itineráře.
+- `api/emergency-settings.php` — autentizované nastavení samostatného Gemini API klíče pro emergency překlady. Hodnotu nikdy nevrací klientovi. Pokud samostatný klíč není nastavený, dispatcher použije stávající šifrovaný podcastový Gemini klíč.
 - `api/push.php` + `push-live.js` — same-origin registrace PWA zařízení k existujícímu privátnímu VAPID/subscription backendu.
-- `data/emergency-current.json` — live stav oddělený od historického briefingu.
+- `emergency-display.js/css` — české uživatelské zobrazení: titulek, věrný překlad, jednoduché vysvětlení, doporučené kroky, dopad na trasu a volitelně sbalené původní znění.
+- `emergency-settings-ui.js` — po přihlášení v existujícím podcastovém nastavení přidá možnost uložit/odstranit samostatný emergency AI klíč.
+- `data/emergency-current.json` — jediný live soubor určený pro frontend; nemá se přepisovat syrovou japonštinou.
+- `data/emergency-raw.json` — mezistav z oficiálních feedů pro dispatcher; frontend ho nepoužívá.
 - `japan-safety.js` — v otevřené aplikaci kontroluje live stav jednou za minutu a zobrazuje aktivní kritická/varovná/advisory upozornění.
 - `data/japan-itinerary.json` — 12 zastávek trasy 12. 9.–3. 10. 2026 s GPS body a plánovanými trasami.
 
@@ -24,19 +28,27 @@ Doplňkové oficiální zdroje:
 - FDMA disaster RSS: `https://www.fdma.go.jp/disaster/info/index.xml`
 - Japan Coast Guard MICS RSS: `https://www6.kaiho.mlit.go.jp/rss_en.xml`
 
-JMA high-frequency feed je určený pro časté PULL zpracování; nouzový poller je proto nastaven koncepčně na 1 minutu. Při požadavku na smluvně garantované doručení lze přidat JMBSC/licencovaného poskytovatele jako redundantní druhý kanál.
+JMA high-frequency feed je určený pro časté PULL zpracování; nouzový poller je proto navržen na 1 minutu. Při požadavku na smluvně garantované doručení lze přidat JMBSC/licencovaného poskytovatele jako redundantní druhý kanál.
 
-## AI — pouze při události
+## AI — překlad a interpretace pouze při události
 
-AI se NESPOUŠTÍ každou minutu. `emergency-dispatch.php` ukládá fingerprint každé události a AI volá pouze tehdy, když je alert nový nebo se materiálně změnil a je kritický nebo relevantní pro itinerář. Používá stávající šifrovaně uložený Gemini API klíč z privátního podcast backendu; pokud klíč není dostupný nebo AI selže, oficiální alert i push dál fungují deterministicky.
+AI se NESPOUŠTÍ každou minutu. `emergency-dispatch.php` ukládá fingerprint každé události a AI volá pouze tehdy, když je alert nový nebo se materiálně změnil a je bezpečnostně relevantní. Při dočasném selhání AI se překlad stejného fingerprintu zkusí opakovat omezeně (max. 5 pokusů, ne každou minutu bez omezení).
 
-AI smí pouze doplnit:
-- stručné české vysvětlení;
+Výchozí model je stabilní `gemini-3.8-flash`. Klíč se vybírá takto:
+1. `settings.emergencyAiApiKey` — samostatný emergency klíč, pokud jej uživatel nastavil;
+2. `settings.apiKey` — existující podcastový klíč jako fallback;
+3. bez klíče — deterministický fallback bez plného překladu, ale kritický alert a push nesmí být zablokován.
+
+AI doplní:
+- `titleCs` — český titulek;
+- `translationCs` — věrný český překlad podstaty oficiální zprávy;
+- `plainExplanationCs` — lidské vysvětlení;
 - `affected/watch/not_affected` pro konkrétní itinerář;
-- seznam dotčených `stopIds`;
-- krátké praktické doporučení.
+- `affectedStopIds[]`;
+- `recommendedActions[]`;
+- `urgency`, `why` a `transportImpact` (jen pokud je podklad skutečně ve zdroji).
 
-AI nesmí přepisovat nebo zlehčovat oficiální JMA instrukce a není single point of failure.
+Původní text se zachovává v `officialOriginal`. AI nesmí přepisovat nebo zlehčovat oficiální JMA instrukce a není single point of failure.
 
 ## Push politika
 
@@ -49,13 +61,13 @@ Push používá existující VAPID pár a šifrované subscription úložiště 
 
 ## Aktivace na Webglobe
 
-1. Na produkční hosting nahraj nové/změněné soubory z repozitáře: `api/emergency-poll.php`, `api/emergency-dispatch.php`, `api/push.php`, `api/.htaccess`, `data/emergency-current.json`, `data/japan-itinerary.json`, `japan-safety.js`, `japan-safety.css`, `push-live.js`, `index.html`, `service-worker.js`.
+1. Na produkční hosting nahraj nové/změněné soubory z repozitáře: `api/emergency-poll.php`, `api/emergency-dispatch.php`, `api/emergency-settings.php`, `api/push.php`, `api/.htaccess`, `data/emergency-raw.json`, `data/emergency-current.json`, `data/japan-itinerary.json`, `japan-safety.js`, `japan-safety.css`, `emergency-display.js`, `emergency-display.css`, `emergency-settings-ui.js`, `push-live.js`, `index.html`, `service-worker.js`.
 2. Ve WebAdminu otevři `Hosting → Web → Cron`.
 3. Nastav `https://briefing.nacestach.online/api/emergency-poll.php` na každou minutu (`* * * * *` / ekvivalent Webglobe).
 4. Nastav `https://briefing.nacestach.online/api/emergency-dispatch.php` také na každou minutu. Pokud oba běhy proběhnou ve stejném okamžiku, dispatch bezpečně zpracuje nový stav nejpozději v následujícím minutovém cyklu.
 5. Při prvním týdnu zapni zasílání výstupu cron úloh e-mailem, aby bylo vidět případné selhání feedu/XML/API/push.
 6. Oba cron endpointy standardně povolují zdrojové IP Webglobe cron serverů `62.109.128.59`, `212.57.32.9`, `62.109.150.10`, `212.57.32.162`. Alternativně lze na serveru nastavit `BRIEFING_EMERGENCY_TOKEN`; token nikdy neukládej do GitHubu.
-7. Ověř, že `data/emergency-current.json` má čerstvé `generatedAt` a po dispatchi `dispatch.processedAt`; běžně mají být maximálně několik minut staré.
+7. Ověř, že `data/emergency-raw.json` má čerstvé `generatedAt` a `data/emergency-current.json` má čerstvé `dispatch.processedAt`; běžně mají být maximálně několik minut staré.
 
 ## Mobilní PWA / Web Push
 
