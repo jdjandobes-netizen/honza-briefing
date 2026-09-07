@@ -126,8 +126,8 @@ parseRss(JCG_RSS,'Japan Coast Guard MICS',$alerts,$status);
 $rank=['critical'=>0,'warning'=>1,'advisory'=>2,'info'=>3];
 usort($alerts,fn($a,$b)=>($rank[$a['severity']]<=>$rank[$b['severity']]) ?: strcmp($b['issuedAt'],$a['issuedAt']));
 $alerts=array_slice($alerts,0,50);
-$payload=['schemaVersion'=>1,'kind'=>'japan-emergency-status','generatedAt'=>(new DateTimeImmutable('now',new DateTimeZone('Asia/Tokyo')))->format(DATE_ATOM),'pollIntervalSeconds'=>300,'alerts'=>$alerts,'sourceStatus'=>$status,'advisory'=>'Supplementary travel-safety channel. For life-safety decisions follow JMA, Safety Tips and local authorities directly.'];
+$payload=['schemaVersion'=>1,'kind'=>'japan-emergency-raw','generatedAt'=>(new DateTimeImmutable('now',new DateTimeZone('Asia/Tokyo')))->format(DATE_ATOM),'pollIntervalSeconds'=>60,'alerts'=>$alerts,'sourceStatus'=>$status,'advisory'=>'Internal raw feed for emergency dispatch. User-facing frontend reads emergency-current.json only.'];
 
-$target=dirname(__DIR__).'/data/emergency-current.json';$lockPath=dirname(__DIR__).'/data/.emergency.lock';$lock=fopen($lockPath,'c');if(!$lock||!flock($lock,LOCK_EX))out(['error'=>'lock failed'],500);
+$target=dirname(__DIR__).'/data/emergency-raw.json';$lockPath=dirname(__DIR__).'/data/.emergency.lock';$lock=fopen($lockPath,'c');if(!$lock||!flock($lock,LOCK_EX))out(['error'=>'lock failed'],500);
 $tmp=$target.'.tmp.'.bin2hex(random_bytes(4));$encoded=json_encode($payload,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT);if(file_put_contents($tmp,$encoded,LOCK_EX)===false||!rename($tmp,$target)){@unlink($tmp);flock($lock,LOCK_UN);fclose($lock);out(['error'=>'write failed'],500);}flock($lock,LOCK_UN);fclose($lock);
 out(['ok'=>true,'generatedAt'=>$payload['generatedAt'],'alerts'=>count($alerts),'critical'=>count(array_filter($alerts,fn($a)=>$a['severity']==='critical')),'warning'=>count(array_filter($alerts,fn($a)=>$a['severity']==='warning'))]);
