@@ -1,8 +1,8 @@
 Options -Indexes
-<FilesMatch "^(podcast|push|emergency-poll|emergency-dispatch)\.php$">
+<FilesMatch "^(podcast|push|emergency-poll|emergency-dispatch|emergency-settings)\.php$">
   Require all granted
 </FilesMatch>
-<FilesMatch "^(?!(podcast|push|emergency-poll|emergency-dispatch)\.php$).+">
+<FilesMatch "^(?!(podcast|push|emergency-poll|emergency-dispatch|emergency-settings)\.php$).+">
   Require all denied
 </FilesMatch>
 <IfModule mod_headers.c>
