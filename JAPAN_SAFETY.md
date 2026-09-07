@@ -69,3 +69,17 @@ Priorita live zdrojů:
 4. Oficiální dopravci (JR East apod.) lze přidat pro cílené kontroly při aktivním riziku.
 
 Nouzový backend musí být konzervativní: raději označit `watch` než tvrdit přímý zásah bez geografického podkladu. Žádný live alert nesmí být vydáván jako jediný životně důležitý kanál; aplikace má vždy doporučit Safety Tips/JMA/local authorities.
+
+### Frekvence, AI a push
+
+Oficiální high-frequency feedy se kontrolují **každou minutu**. Polling sám AI nepoužívá. Druhá serverová fáze `emergency-dispatch` porovnává fingerprint nové verze události s předchozí a AI volá pouze při `NEW` nebo materiálním `UPDATE`, pokud je událost kritická nebo relevantní pro itinerář.
+
+AI je pouze interpretační nadstavba: vytvoří stručné české vysvětlení, praktické doporučení a může bezpečně upřesnit `itineraryImpact`. Nesmí být single point of failure. Pokud AI/API selže, oficiální kritický alert se dál zobrazí a odešle push z deterministického fallbacku.
+
+Push politika:
+- `critical` → push vždy;
+- `warning` → push při `affected` nebo `watch`;
+- `advisory` → push při `affected`;
+- `info` → pouze live dashboard bez push.
+
+PWA používá standardní Service Worker + Push API. Na iOS/iPadOS musí být webová aplikace přidaná na plochu a permission request musí následovat po přímé akci uživatele. `notificationclick` má otevřít aktuální briefing rovnou na `#japonsko`.
