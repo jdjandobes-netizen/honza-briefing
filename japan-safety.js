@@ -69,11 +69,63 @@
     story.append(box);
   };
 
+  const renderRouteMap = (travel) => {
+    const stops = (travel?.routeStops?.length ? travel.routeStops : itinerary?.trip?.stops || [])
+      .filter((s) => Number.isFinite(Number(s.lat)) && Number.isFinite(Number(s.lng)));
+    if (stops.length < 2) return null;
+    const box = el("div", "japan-route-map");
+    box.append(el("h4", null, "Mapa itineráře a aktuálních událostí"));
+    const width = 720, height = 520, pad = 44;
+    const lats = stops.map(s => Number(s.lat)), lngs = stops.map(s => Number(s.lng));
+    const minLat = Math.min(...lats) - 0.25, maxLat = Math.max(...lats) + 0.25;
+    const minLng = Math.min(...lngs) - 0.25, maxLng = Math.max(...lngs) + 0.25;
+    const project = (lat, lng) => ({
+      x: pad + ((Number(lng) - minLng) / Math.max(0.001, maxLng - minLng)) * (width - pad * 2),
+      y: height - pad - ((Number(lat) - minLat) / Math.max(0.001, maxLat - minLat)) * (height - pad * 2)
+    });
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+    svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", "Mapa zastávek japonského itineráře a lokalit aktuálních událostí");
+    svg.classList.add("japan-route-svg");
+    const bg = document.createElementNS(svg.namespaceURI, "rect");
+    bg.setAttribute("x", "0"); bg.setAttribute("y", "0"); bg.setAttribute("width", String(width)); bg.setAttribute("height", String(height)); bg.setAttribute("rx", "22"); bg.classList.add("japan-map-bg"); svg.append(bg);
+    const points = stops.map(s => project(s.lat, s.lng));
+    const line = document.createElementNS(svg.namespaceURI, "polyline");
+    line.setAttribute("points", points.map(p => `${p.x},${p.y}`).join(" "));
+    line.classList.add("japan-map-route-line"); svg.append(line);
+    stops.forEach((stop, i) => {
+      const pt = points[i];
+      const a = document.createElementNS(svg.namespaceURI, "a");
+      const u = safeHttps(stop.mapUrl); if (u) { a.setAttribute("href", u); a.setAttribute("target", "_blank"); }
+      const c = document.createElementNS(svg.namespaceURI, "circle"); c.setAttribute("cx", String(pt.x)); c.setAttribute("cy", String(pt.y)); c.setAttribute("r", "10"); c.classList.add("japan-map-stop-pin"); a.append(c);
+      const n = document.createElementNS(svg.namespaceURI, "text"); n.setAttribute("x", String(pt.x)); n.setAttribute("y", String(pt.y + 3.5)); n.setAttribute("text-anchor", "middle"); n.classList.add("japan-map-stop-number"); n.textContent = String(i + 1); a.append(n);
+      svg.append(a);
+    });
+    const japan = latestEdition?.sections?.find((s) => s?.id === "japonsko");
+    const events = [...(japan?.items || []), ...(japan?.minor || [])].flatMap((item) => item?.locations?.length ? item.locations : (item?.location ? [item.location] : []));
+    const plotted = new Set();
+    for (const loc of events) {
+      if (!Number.isFinite(Number(loc?.lat)) || !Number.isFinite(Number(loc?.lng))) continue;
+      const key = `${loc.lat},${loc.lng}`; if (plotted.has(key)) continue; plotted.add(key);
+      const pt = project(loc.lat, loc.lng);
+      const a = document.createElementNS(svg.namespaceURI, "a"); const u = safeHttps(loc.mapUrl); if (u) { a.setAttribute("href", u); a.setAttribute("target", "_blank"); }
+      const c = document.createElementNS(svg.namespaceURI, "circle"); c.setAttribute("cx", String(pt.x)); c.setAttribute("cy", String(pt.y)); c.setAttribute("r", "7"); c.classList.add("japan-map-event-pin"); a.append(c); svg.append(a);
+    }
+    box.append(svg);
+    const legend = el("div", "japan-map-legend");
+    stops.forEach((s, i) => { const u = safeHttps(s.mapUrl); if (!u) return; const a=el("a", null, `${i + 1}. ${s.name}`); a.href=u; a.target="_blank"; a.rel="noopener noreferrer"; legend.append(a); });
+    box.append(legend);
+    return box;
+  };
+
   const renderWeather = (travel) => {
     const block = el("div", "japan-travel-dashboard");
     block.dataset.japanTravel = "1";
     block.append(el("h3", null, "Počasí na celé trase"));
     block.append(el("p", "japan-dashboard-intro", "Všechny zastávky z itineráře. Vzdálenější termíny jsou záměrně vedené jako týdenní nebo sezónní trend, ne jako falešně přesná denní předpověď."));
+    const routeMap = renderRouteMap(travel); if (routeMap) block.append(routeMap);
+
     const routePins = el("div", "japan-route-pins");
     for (const stop of travel?.routeStops || itinerary?.trip?.stops || []) {
       const url = safeHttps(stop.mapUrl);
@@ -81,6 +133,7 @@
       const a = el("a", null, `📍 ${stop.name}`); a.href=url; a.target="_blank"; a.rel="noopener noreferrer"; routePins.append(a);
     }
     if (routePins.childElementCount) block.append(routePins);
+
     const grid = el("div", "japan-weather-grid");
     for (const stop of travel?.weatherStops || []) {
       const card = el("article", "japan-weather-card");
@@ -139,10 +192,12 @@
   };
 
   const queueEnhance=()=>setTimeout(enhanceJapan,0);
+
   const loadItinerary = async () => {
     try { const r=await originalFetch(`data/japan-itinerary.json?t=${Date.now()}`,{cache:"no-store"}); if(r.ok) itinerary=await r.json(); }
     catch(e){ console.warn("Japan itinerary unavailable",e); }
   };
+
   const renderLive = (data) => {
     if (!emergencyHost) {
       emergencyHost=el("aside","japan-live-alerts"); emergencyHost.setAttribute("aria-live","assertive");
@@ -163,10 +218,12 @@
     }
     emergencyHost.hidden = emergencyHost.childElementCount===0;
   };
+
   const pollEmergency = async () => {
     try { const r=await originalFetch(`data/emergency-current.json?t=${Date.now()}`,{cache:"no-store"}); if(r.ok) renderLive(await r.json()); }
     catch(e){ console.warn("Emergency channel unavailable",e); }
   };
+
   document.addEventListener("DOMContentLoaded", async () => {
     await loadItinerary();
     observer=new MutationObserver(queueEnhance); const app=document.querySelector("#app"); if(app) observer.observe(app,{childList:true,subtree:true});
