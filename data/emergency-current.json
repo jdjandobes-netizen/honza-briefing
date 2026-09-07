@@ -2,12 +2,20 @@
   "schemaVersion": 1,
   "kind": "japan-emergency-status",
   "generatedAt": null,
-  "pollIntervalSeconds": 300,
+  "pollIntervalSeconds": 60,
   "alerts": [],
   "sourceStatus": [
     {"name": "JMA high-frequency Atom", "status": "warning"},
     {"name": "Fire and Disaster Management Agency", "status": "warning"},
     {"name": "Japan Coast Guard MICS", "status": "warning"}
   ],
-  "advisory": "Nouzový cron zatím není aktivovaný na Webglobe. Pro životně důležitá rozhodnutí použij JMA, Safety Tips a pokyny místních úřadů."
+  "dispatch": {
+    "processedAt": null,
+    "changed": 0,
+    "aiCalls": 0,
+    "pushSent": 0,
+    "pushFailed": 0,
+    "aiEnabled": false
+  },
+  "advisory": "Nouzový 1min poll + AI/push dispatch musí být aktivován na Webglobe. Pro životně důležitá rozhodnutí použij JMA, Safety Tips a pokyny místních úřadů."
 }
