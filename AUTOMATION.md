@@ -139,6 +139,10 @@ Urči datum Europe/Prague, proveď plnou ~24h rešerši, `${date}-morning`, atom
 
 Jako jediný porovnávací základ načti přesně `data/archive/${date}-morning.json`; nikdy current pointer. Pokud ranní archiv chybí/neplatný, zastav. Proveď široký sběr od 07:00, publikuj jen NEW/UPDATE, Ranní archiv nijak neměň. Atomicky publikuj odpolední datovou trojici a ověř obě dnešní archivní cesty. Produkční URL je pouze `https://briefing.nacestach.online/`.
 
+## Trvalý denní provoz
+
+Plány běží každý den v 07:00 a 16:30 Europe/Prague. Obsahový běh nesmí sám pozastavit, deaktivovat, smazat ani přeplánovat žádnou automatizaci. Ani opakovaná chyba nebo historické rozhodnutí v chatu neopravňuje plán měnit. Při blokující chybě ukonči pouze daný běh, nahlas konkrétní příčinu a ponech další běhy aktivní. Chybějící ranní archiv může zastavit publikaci odpoledního vydání, nikdy další denní běhy. Změnu plánu smí vyvolat jen výslovný požadavek uživatele.
+
 ## Běžný briefing
 
 Japonský cestovní modul, nouzová hlášení, jejich sběr, překlady a crony byly na výslovné zadání uživatele ukončeny. Nepřidávej je zpět a nevyžaduj itinerář, weatherStops ani emergencyGuide. Ranní a odpolední vydání, archiv, VWCE a podcasty pokračují.
