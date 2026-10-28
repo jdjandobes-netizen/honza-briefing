@@ -1,0 +1,19 @@
+Options -Indexes
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "no-referrer"
+Header always set X-Frame-Options "DENY"
+Header always set X-Robots-Tag "noindex, nofollow"
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; media-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+</IfModule>
+<FilesMatch "(?:^\.|\.(?:sqlite|key|log|bak|sql)$)">
+Require all denied
+</FilesMatch>
+
+# Retired travel module: old clients and cron URLs cannot execute it.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(?:japan-[^/]*|emergency-[^/]*|push-live\.js|data/(?:japan-itinerary|emergency-current|emergency-raw)\.json|api/emergency-[^/]*)$ - [G,L]
+RewriteCond %{QUERY_STRING} (^|&)action=emergency(?:[-%]|&|$) [NC]
+RewriteRule ^api/podcast\.php$ - [G,L]
+</IfModule>

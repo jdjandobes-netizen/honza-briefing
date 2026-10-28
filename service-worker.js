@@ -1,16 +1,10 @@
-const CACHE_NAME = "honza-briefing-v14";
+const CACHE_NAME = "honza-briefing-v20";
 const SHELL = [
   "./",
   "./index.html",
   "./styles.css?v=7",
-  "./app.js?v=8",
-  "./japan-safety.js?v=2",
-  "./japan-safety.css?v=2",
-  "./emergency-display.js?v=1",
-  "./emergency-display.css?v=1",
-  "./emergency-settings-ui.js?v=1",
-  "./push-live.js?v=1",
-  "./podcast.js?v=9",
+  "./app.js?v=10",
+  "./podcast.js?v=13",
   "./podcast.css?v=8",
   "./manifest.webmanifest?v=10",
   "./assets/brand/news-32-v10.png",
@@ -19,13 +13,11 @@ const SHELL = [
   "./assets/brand/news-maskable-512-v10.png",
   "./apple-touch-icon.png",
   "./data/current.json",
-  "./data/archive/index.json",
-  "./data/japan-itinerary.json",
-  "./data/emergency-current.json"
+  "./data/archive/index.json"
 ];
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL)));
+  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL.map(path => new Request(path, {cache: "reload"})))));
   self.skipWaiting();
 });
 
@@ -41,6 +33,14 @@ self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
   if (url.pathname.includes("/api/") || event.request.headers.has("Range")) return;
+
+  if (event.request.mode === "navigate" && url.origin === self.location.origin) {
+    event.respondWith(fetch(event.request).then(response => {
+      if (response.ok) { const copy=response.clone(); event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.put(event.request,copy))); }
+      return response;
+    }).catch(async()=>await caches.match(event.request)||await caches.match("./index.html")));
+    return;
+  }
 
   const publicSource = url.origin === self.location.origin ||
     (url.origin === "https://raw.githubusercontent.com" && url.pathname.startsWith("/jdjandobes-netizen/honza-briefing/main/data/"));
@@ -65,22 +65,18 @@ self.addEventListener("fetch", (event) => {
   }
 });
 
+// Only explicit podcast completion notifications remain supported.
 self.addEventListener("push", (event) => {
   let payload = {};
-  if (event.data) {
-    try { payload = event.data.json(); } catch { payload = { body: event.data.text() }; }
-  }
-  const title = payload.title || "Briefing je ready";
-  const options = {
-    body: payload.body || "Nové vydání nebo důležité upozornění je připravené.",
+  try { payload = event.data?.json() || {}; } catch { return; }
+  if (!String(payload.tag || "").startsWith("podcast-")) return;
+  event.waitUntil(self.registration.showNotification(payload.title || "Podcast je pĹ™ipravenĂ˝", {
+    body: payload.body || "HonzĹŻv briefing",
     icon: "./assets/brand/news-192-v10.png",
     badge: "./assets/brand/news-192-v10.png",
-    tag: payload.tag || "honza-briefing-ready",
-    renotify: true,
-    requireInteraction: Boolean(payload.requireInteraction),
-    data: { url: payload.url || "./" }
-  };
-  event.waitUntil(self.registration.showNotification(title, options));
+    tag: payload.tag,
+    data: {url: payload.url || "./"}
+  }));
 });
 
 self.addEventListener("notificationclick", (event) => {

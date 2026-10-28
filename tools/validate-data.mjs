@@ -23,6 +23,8 @@ const validateEdition = (data, label, expected = {}) => {
   if (!data?.publication?.title) errors.push(`${label}: chybí publication.title`);
   if (!["morning", "afternoon"].includes(data?.publication?.edition)) errors.push(`${label}: neplatné publication.edition`);
   if (!Array.isArray(data?.sections)) errors.push(`${label}: sections musí být pole`);
+  const expectedSections = ["cesko", "evropa", "svet", "tech", "investice"];
+  if (JSON.stringify((data?.sections || []).map(s => s.id)) !== JSON.stringify(expectedSections)) errors.push(`${label}: očekáváno pět rubrik běžného briefingu`);
   if (expected.edition && data?.publication?.edition !== expected.edition) errors.push(`${label}: typ vydání neodpovídá manifestu`);
 
   (data?.topStories || []).forEach((item, index) => checkSource(item.source, `${label}.topStories[${index}]`));
@@ -89,3 +91,4 @@ if (errors.length) {
 }
 
 console.log(explicitPath ? `OK: ${explicitPath}` : "OK: pointer, manifest a všechna archivní vydání");
+

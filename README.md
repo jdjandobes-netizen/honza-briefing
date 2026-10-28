@@ -21,18 +21,7 @@ Publikační trojice archiv + manifest + pointer se zapisuje jedním atomickým 
 
 ## Obsah
 
-Každé nové vydání má šest sekcí v tomto pořadí:
-
-1. Česko
-2. Evropa
-3. Svět
-4. Japonsko
-5. Tech
-6. Investice
-
-Sekce **Japonsko** je prioritní kvůli cestě do Japonska. Detailně sleduje JMA počasí a warningy, tajfuny/tropické systémy, povodně a sesuvy, zemětřesení/tsunami/sopky, evakuační přípravy a dopravu, s hlavním fokusem na Tokio/Kantó a Tóhoku/Aomori. Doplňuje kulturu, folklor a aktuální zajímavosti.
-
-Nevytvářet žádné sidecar soubory typu `japan-current.json`; aktuální Japonsko musí být součástí normálního archivního vydání, protože to produkční Webglobe vykresluje.
+Každé nové vydání má pět sekcí: Česko, Evropa, Svět, Tech a Investice. Součástí zůstávají VWCE a podcasty. Přepínač vydání zpřístupňuje celý zachovaný archiv.
 
 ## Hlavní soubory
 
@@ -44,10 +33,11 @@ Nevytvářet žádné sidecar soubory typu `japan-current.json`; aktuální Japo
 - `manifest.webmanifest`, `service-worker.js`, `assets/brand/` — PWA
 - `api/podcast.php`, `podcast.js`, `podcast.css` — podcastová vrstva
 
-## Web Push
+## Provoz
 
-Push zůstává vypnutý, dokud `data/push-config.json` nemá `enabled:true` a není ověřen samostatný backend. Selhání push nesmí ovlivnit publikované vydání.
+Web obsahuje běžné ranní a odpolední briefingy. Cestovní safety modul a jeho nouzové crony jsou ukončené. Oznámení o dokončení podcastu zůstává samostatnou volitelnou funkcí.
 
 ## Důležité pro nasazení
 
 Produkční kontrola se provádí na `https://briefing.nacestach.online/`, nikoli na GitHub Pages. U ikon používat `assets/brand/`; veřejná cesta `/icons/` na produkčním Webglobe vrací 404. Při změně PWA assetů ověřit přes HTTPS na cílové Webglobe doméně.
+

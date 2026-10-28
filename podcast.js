@@ -106,7 +106,7 @@
     if (!onService()) { location.href = SERVICE_ORIGIN + "/"; return; }
     if (dialog) dialog.remove();
     dialog = node("dialog","podcast-dialog"); dialog.setAttribute("aria-labelledby","podcast-settings-title");
-    const title = node("h2",null,"Nastavení podcastu"); title.id = "podcast-settings-title";
+    const title = node("h2",null,"Nastavení briefingu"); title.id = "podcast-settings-title";
     dialog.append(title,button("Zavřít",()=>dialog.close(),"podcast-close"));
     const error = node("p","podcast-form-message"); error.setAttribute("role","status"); dialog.append(error); document.body.append(dialog); dialog.showModal();
     try {

@@ -2,11 +2,9 @@ const app = document.querySelector("#app");
 const nav = document.querySelector("#section-nav");
 const refreshButton = document.querySelector("#refresh-button");
 const installButton = document.querySelector("#install-button");
-const notificationButton = document.querySelector("#notification-button");
 const progressBar = document.querySelector("#reading-progress-bar");
 
 let deferredInstallPrompt = null;
-let pushConfig = null;
 let archiveIndex = null;
 let currentPointer = null;
 let selectedEditionId = null;
@@ -80,25 +78,8 @@ const validateArchiveIndex = (data) => {
   return data;
 };
 
-const visibleArchiveEntries = (index) => {
-  const entries = [...(index?.editions || [])];
-  const latestDate = parseArchiveDate(index?.latest?.date) || entries
-    .map((entry) => parseArchiveDate(entry.date))
-    .filter(Boolean)
-    .sort((a, b) => b - a)[0];
-  if (!latestDate) return [];
-
-  const visibleDays = Math.max(7, Number(index?.retention?.visibleCalendarDays) || 7);
-  const oldestVisible = new Date(latestDate);
-  oldestVisible.setUTCDate(oldestVisible.getUTCDate() - (visibleDays - 1));
-
-  return entries
-    .filter((entry) => {
-      const date = parseArchiveDate(entry.date);
-      return date && date >= oldestVisible && date <= latestDate;
-    })
-    .sort((a, b) => b.date.localeCompare(a.date) || (a.edition === "afternoon" ? -1 : 1));
-};
+const visibleArchiveEntries = (index) => [...(index?.editions || [])]
+  .sort((a, b) => b.date.localeCompare(a.date) || (a.edition === b.edition ? 0 : a.edition === "afternoon" ? -1 : 1));
 
 const sourceLink = (source) => {
   const url = safeUrl(source?.url);
@@ -199,12 +180,16 @@ const renderSection = (sectionData, index) => {
 
 const renderVwce = (vwce) => {
   if (!vwce) return null;
+  if (!vwce.metrics && vwce.priceEUR) vwce = { ...vwce, metrics: [
+    ["Den", "day"], ["Týden", "week"], ["Od začátku roku", "ytd"], ["1 rok", "oneYear"],
+    ["52týdenní maximum", "high52w"], ["52týdenní minimum", "low52w"]
+  ].map(([label, key]) => ({label, value: vwce[key] || "—"})) };
   const section = el("section", "briefing-section");
   section.id = "vwce";
   section.append(renderHeading("VWCE", vwce.marketStatus || "XETRA", "Trhy / ETF"));
   const panel = el("div", "vwce-panel");
   const price = el("div", "vwce-price");
-  price.append(el("strong", null, vwce.price || "—"));
+  price.append(el("strong", null, vwce.price || vwce.priceEUR || "—"));
   price.append(el("span", "meta-line", `${vwce.currency || "EUR"} · ${vwce.asOf || "čas neuveden"}`));
   panel.append(price);
 
@@ -237,7 +222,9 @@ const renderPodcasts = (podcasts) => {
   section.id = "podcasty";
   section.append(renderHeading("Podcasty", "Nové díly a ověřené tipy", "Audio / Výběr"));
   const list = el("div", "podcast-list");
-  for (const podcast of podcasts.shows || []) {
+  for (const item of podcasts.shows || []) {
+    const podcast = { ...item, show: item.show || item.name, title: item.title || item.latest, url: item.url || item.source?.url,
+      status: item.status || (item.newWithin24h === false ? "BEZE ZMĚNY" : "NOVÉ") };
     const row = el("article", "podcast-row");
     const show = el("div", "podcast-show");
     show.append(el("span", `badge${podcast.status === "BEZE ZMĚNY" ? " quiet" : ""}`, podcast.status || "NOVÉ"));
@@ -256,8 +243,8 @@ const renderPodcasts = (podcasts) => {
     const recommendations = el("div", "recommendations");
     for (const item of podcasts.recommendations) {
       const card = el("div", "recommendation");
-      card.append(el("strong", null, item.show));
-      const link = sourceLink({ name: item.title, url: item.url });
+      card.append(el("strong", null, item.show || item.name));
+      const link = sourceLink({ name: item.title || item.episode, url: item.url || item.source?.url });
       card.append(link);
       if (item.date) card.append(el("div", "podcast-date", item.date));
       recommendations.append(card);
@@ -366,6 +353,7 @@ const buildNavigation = (data) => {
 };
 
 const render = (data, activeEntry = null) => {
+  data = { ...data, sections: (data.sections || []).filter(s => ["cesko", "evropa", "svet", "tech", "investice"].includes(s.id)) };
   const publication = data.publication || {};
   document.title = publication.title ? `${publication.title} · Honzův briefing` : "Honzův briefing";
   app.replaceChildren();
@@ -419,8 +407,9 @@ const render = (data, activeEntry = null) => {
 
   const footer = el("footer", "publication-footer");
   if (publication.nextEdition) footer.append(el("p", "footer-meta", `Další vydání: ${publication.nextEdition}`));
-  if (data.footer?.sources?.length) footer.append(el("p", null, `Použité zdroje: ${data.footer.sources.join(", ")}.`));
+  if (data.footer?.sources?.length) footer.append(el("p", null, `Použité zdroje: ${data.footer.sources.map(s => typeof s === "string" ? s : s.name).join(", ")}.`));
   if (data.footer?.disclaimer) footer.append(el("p", null, data.footer.disclaimer));
+  if (data.footer?.note) footer.append(el("p", null, data.footer.note));
   app.append(footer);
 
   buildNavigation(data);
@@ -514,64 +503,6 @@ const loadBriefing = async () => {
   }
 };
 
-const urlBase64ToUint8Array = (value) => {
-  const padding = "=".repeat((4 - value.length % 4) % 4);
-  const base64 = (value + padding).replace(/-/g, "+").replace(/_/g, "/");
-  const raw = window.atob(base64);
-  return Uint8Array.from([...raw].map((character) => character.charCodeAt(0)));
-};
-
-const setupNotifications = async () => {
-  if (!("Notification" in window) || !("serviceWorker" in navigator) || !("PushManager" in window)) return;
-
-  try {
-    const response = await fetch(`data/push-config.json?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) return;
-    pushConfig = await response.json();
-    const endpoint = pushConfig?.subscribeEndpoint ? safeUrl(pushConfig.subscribeEndpoint) : null;
-    if (!pushConfig?.enabled || !endpoint || new URL(endpoint).protocol !== "https:" || !pushConfig?.publicKey) return;
-    pushConfig.subscribeEndpoint = endpoint;
-
-    const registration = await navigator.serviceWorker.ready;
-    const existingSubscription = await registration.pushManager.getSubscription();
-    notificationButton.hidden = false;
-    notificationButton.textContent = existingSubscription ? "Push zapnutý" : "Zapnout push";
-    notificationButton.disabled = Boolean(existingSubscription);
-  } catch {
-    notificationButton.hidden = true;
-  }
-};
-
-notificationButton.addEventListener("click", async () => {
-  if (!pushConfig?.enabled) return;
-  notificationButton.disabled = true;
-  notificationButton.textContent = "Zapínám…";
-
-  try {
-    const permission = await Notification.requestPermission();
-    if (permission !== "granted") throw new Error("Upozornění nebyla povolena");
-
-    const registration = await navigator.serviceWorker.ready;
-    const subscription = await registration.pushManager.subscribe({
-      userVisibleOnly: true,
-      applicationServerKey: urlBase64ToUint8Array(pushConfig.publicKey)
-    });
-
-    const response = await fetch(pushConfig.subscribeEndpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ subscription, app: "honza-briefing" })
-    });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-    notificationButton.textContent = "Push zapnutý";
-  } catch (error) {
-    notificationButton.textContent = "Zkusit znovu";
-    notificationButton.title = error?.message || "Push se nepodařilo zapnout";
-    notificationButton.disabled = false;
-  }
-});
-
 refreshButton.addEventListener("click", loadBriefing);
 
 window.addEventListener("scroll", () => {
@@ -597,7 +528,6 @@ installButton.addEventListener("click", async () => {
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", async () => {
     await navigator.serviceWorker.register("service-worker.js");
-    await setupNotifications();
   });
 }
 
