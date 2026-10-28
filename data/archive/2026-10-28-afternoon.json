@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "28. října 2026",
+    "generatedAt": "19:10 CET",
+    "readingMinutes": 7,
+    "nextEdition": "Ranní přehled 29. října v 7:00",
+    "freshnessLabel": "Dodatečně dokončený odpolední běh",
+    "intro": "Dnešní odpolední vydání je na výslovný ruční pokyn dokončeno dodatečně a zachycuje informace dostupné při sestavení. Ranní vydání 28. října nevyšlo, proto jde o samostatný přehled dnešních událostí bez předstíraného srovnání s ránem. Ve Španělsku stoupl počet obětí srážky rychlovlaků na 68, studenti oznámili stávku kvůli financování ČT a ČRo a Fed ponechal sazby beze změny."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24 / ČTK",
+      "status": "ok"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "ok"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "ok"
+    },
+    {
+      "name": "Reflex / podcasty",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters přes syndikaci",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "ok"
+    },
+    {
+      "name": "CNN",
+      "status": "error"
+    },
+    {
+      "name": "NPR",
+      "status": "error"
+    },
+    {
+      "name": "Fed / firemní zdroje",
+      "status": "ok"
+    },
+    {
+      "name": "VWCE – uzávěrka 27. 10.",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové zdroje",
+      "status": "ok"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Srážka rychlovlaků ve Španělsku má nejméně 68 obětí",
+      "summary": "Záchranáři dál prohledávají trosky u Toleda. Ministr dopravy označil za příčinu chybu dispečinku; české ministerstvo zahraničí prověřuje možnost, že ve vlaku cestoval Čech. Počet obětí se může měnit.",
+      "source": {
+        "name": "ČT24 / ČTK",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/ve-spanelsku-se-srazily-vysokorychlostni-vlaky-zemrelo-nejmene-deset-lidi-379083"
+      },
+      "narration": {
+        "audioTag": "serious"
+      }
+    },
+    {
+      "title": "Studenti vyhlásili stávku na 3. listopadu",
+      "summary": "V Brně a Plzni protestovali proti plánovanému zrušení televizních a rozhlasových poplatků. Studentská platforma oznámila stávku na stejný den jako iniciativa zaměstnanců ČT a ČRo.",
+      "source": {
+        "name": "Novinky",
+        "url": "https://www.novinky.cz/clanek/domaci-zpravy-jihomoravsky-kraj-studenti-v-brne-vyhlasili-stavku-40605335"
+      },
+      "narration": {
+        "audioTag": "serious"
+      }
+    },
+    {
+      "title": "Fed ponechal sazby na 3,75–4 %",
+      "summary": "Výbor rozhodl poměrem 10 : 2. Dvě členky chtěly zvýšení o čtvrt procentního bodu; zveřejněné rozhodnutí už nahrazuje předchozí tržní očekávání.",
+      "source": {
+        "name": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      },
+      "narration": {
+        "audioTag": "calm"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "note": "Svátek republiky, veřejná média a sociální pomoc",
+      "items": [
+        {
+          "title": "Studenti chystají stávku kvůli financování ČT a ČRo",
+          "summary": "Výbor solidarity studentů oznámil na 3. listopadu stávku. Ve středu se na brněnském náměstí Svobody sešly zhruba dva tisíce lidí, protestovalo se také v Plzni. Iniciativa zaměstnanců veřejnoprávních médií vyhlásila stávku na stejný den. Jde o oznámené protesty proti vládnímu návrhu, nikoli o potvrzení, že už byl převod financování médií dokončen.",
+          "source": {
+            "name": "Novinky",
+            "url": "https://www.novinky.cz/clanek/domaci-zpravy-jihomoravsky-kraj-studenti-v-brne-vyhlasili-stavku-40605335"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Česko si připomnělo 108 let od vzniku Československa",
+          "summary": "Piety na Vítkově se zúčastnili prezident, premiér i další ústavní činitelé. Pavel poté jmenoval či povýšil šestnáct generálů: náčelník generálního štábu Miroslav Hlaváč získal hodnost armádního generála a šéf Vězeňské služby Tomáš Hůlka se stal generálporučíkem. Veřejnosti se otevřely také parlamentní a další státní budovy.",
+          "source": {
+            "name": "ČT24 / ČTK",
+            "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pietni-akt-na-vitkove-ke-108-vyroci-vzniku-ceskoslovenska-379081"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Pavel se Stubbem probírali společný evropský postup vůči Rusku",
+          "summary": "Prezidenti telefonicky navázali na úterní jednání finského prezidenta a norského premiéra s Putinem. Podle Hradu hovořili o evropském postoji k případným mírovým jednáním a o věrohodných bezpečnostních zárukách pro Ukrajinu i Evropu. Podrobnosti rozhovoru zveřejněny nebyly; telefonát neznamená sjednané příměří.",
+          "source": {
+            "name": "Novinky",
+            "url": "https://www.novinky.cz/clanek/valka-na-ukrajine-pavel-hovoril-se-stubbem-o-jednani-s-putinem-40605356"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Neziskovky upozorňují na přenášení práce úřadů na poradny",
+          "summary": "Seznam Zprávy popisují klienty, které úřady práce posílají do charit a neziskových poraden kvůli dávkám nebo podpůrným plánům. Organizace kritizují papírování a nejasnou praxi. Úřad práce vysvětluje, že propojení s další pomocí může být vhodné, ale využití charity či nadace samo není podmínkou přiznání dávky.",
+          "source": {
+            "name": "Seznam Zprávy",
+            "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zajimavy-chaos-urady-prace-hrnou-papirovani-s-klienty-na-neziskovky-318636"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Večerní předávání státních vyznamenání je naplánováno od 20:00. V okamžiku sestavení tohoto přehledu ceremoniál ještě nezačal; dnešní oceněné proto nevydávám za již vyhlášené.",
+          "source": {
+            "name": "Česká televize",
+            "url": "https://www.ceskatelevize.cz/porady/10095299942-predavani-statnich-vyznamenani-prezidentem-republiky/226411033481028/"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "text": "Podle dat ministerstva dopravy nezvládají autoškolu v limitu tří pokusů téměř dvě procenta žadatelů u teorie a přes pět procent u jízd. ČT24 shrnuje výsledky pěti let fungování tohoto limitu.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/domaci/autoskolu-na-tri-pokusy-nezvladla-dve-procenta-lidi-u-testu-pet-procent-u-jizd-379062"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "note": "Tragédie na železnici a bezpečnost evropského prostoru",
+      "items": [
+        {
+          "title": "Počet obětí nehody u Toleda vzrostl na 68",
+          "summary": "Ve středu ráno se srazily rychlovlaky Renfe a Iryo a část vagonů skončila pod náspem. Záchranné práce pokračují, trať Madrid–Andalusie je přerušená. Ministr Óscar Puente přičítá nehodu chybnému povolení k jízdě při výpadku zabezpečení; konečné vyšetření tím není uzavřeno. MZV prověřuje možného českého cestujícího.",
+          "source": {
+            "name": "ČT24 / ČTK",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/ve-spanelsku-se-srazily-vysokorychlostni-vlaky-zemrelo-nejmene-deset-lidi-379083"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Námořní drony zasáhly nákladní loď u Bulharska",
+          "summary": "Podle bulharského ministra obrany zasáhly tři bezposádkové čluny kontejnerovou loď Contship Jet v bulharské výlučné ekonomické zóně. Všech osmnáct členů posádky bylo zachráněno a nejsou hlášena úmrtí. Loď pod liberijskou vlajkou plula z Haify do Konstance. Pachatel útoku zatím není známý; nelze ho automaticky připsat konkrétní straně války.",
+          "source": {
+            "name": "ČT24 / ČTK",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/namorni-drony-zasahly-nakladni-lod-v-cernem-mori-379089"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Slovensko podle Pellegriniho zvládne ochranu nebe vlastními silami",
+          "summary": "Prezident oznámil obnovení schopnosti samostatně bránit vzdušný prostor po období spojenecké pomoci. Na Slovensku je deset objednaných F-16, další čtyři slouží v USA k výcviku personálu. Jde o oznámení slovenské hlavy státu o dosažené schopnosti, nikoli o vystoupení ze společné protivzdušné obrany NATO.",
+          "source": {
+            "name": "ČT24 / ČTK",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/slovensko-je-opet-schopne-plne-chranit-svuj-vzdusny-prostor-oznamil-pellegrini-379084"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Ruská diplomacie oznámila Lavrovovu účast na pátečním a sobotním setkání ministrů zahraničí G20 v Atlantě. Jde o plánovanou návštěvu, ne o již uskutečněné jednání nebo příslib ruského ústupku.",
+          "source": {
+            "name": "Novinky / Reuters",
+            "url": "https://www.novinky.cz/clanek/zahranicni-lavrov-leti-do-usa-40605371"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "text": "Nizozemská vláda podle večerního přehledu ČT24 nařídila držet drůbež v uzavřených prostorách po třech nově ohlášených ohniscích ptačí chřipky. Zpráva se týká nizozemských chovů.",
+          "source": {
+            "name": "ČT24 – přehled 28. 10.",
+            "url": "https://ct24.ceskatelevize.cz/"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "note": "Izraelské sčítání, Brazílie a zprostředkování kolem Íránu",
+      "items": [
+        {
+          "title": "Izraelská vláda ani opozice zatím nemají většinu",
+          "summary": "Při sečtení 84,5 procenta hlasů připadal podle průběžných výsledků Netanjahuovu bloku odhad 54 křesel, opozici 49 a arabským stranám 17 ze 120. Část zvláštních hlasů ještě zbývá zpracovat. Oba hlavní tábory mluví o vítězství, ale sestavení vlády zůstává otevřené. Průběžné mandáty nelze vydávat za konečný oficiální výsledek.",
+          "source": {
+            "name": "ČT24 / ČTK",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-izraeli-se-uzavrely-volebni-mistnosti-zacina-scitani-hlasu-379071"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Flávio Bolsonaro po porážce přicestoval na Floridu",
+          "summary": "Přílet neúspěšného brazilského prezidentského kandidáta s rodinou do oblasti Miami už potvrdili reportéři na místě. Bolsonaro opustil Brazílii po soudním příkazu odevzdat pasy v souvislosti s vyšetřováním praní peněz; vinu popírá. Jeho volební porážka Lulou ani cesta do USA samy neznamenají pravomocné rozhodnutí v trestní věci.",
+          "source": {
+            "name": "ČT24 / ČTK",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/bolsonaro-po-prohranych-volbach-opustil-brazilii-tvrdi-zdroje-z-jeho-okoli-379079"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Katarské zprostředkování zatím nepřineslo dohodu s Íránem",
+          "summary": "Reuters uvádí, že vyjednavači předložili nový návrh ukončení války, o němž Teherán uvažuje. Vysoce postavený íránský představitel však mluví pouze o nepřijatelných nápadech, nikoli o skutečné nabídce. Zdroje se tedy rozcházejí už v popisu stavu jednání; přijatý mírový plán ani obnovení běžné plavby Hormuzem potvrzeny nejsou.",
+          "source": {
+            "name": "Reuters přes Business Recorder",
+            "url": "https://www.brecorder.com/live/iran-israel-war"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "NYT popisují operaci lidí spojených s demokratickou kandidátkou Mary Peltolovou, kteří v aljašském senátním souboji získávali další kandidáty k odlákání hlasů republikánu Danu Sullivanovi. Jde o zjištění redakce před volbami, ne o jejich výsledek.",
+          "source": {
+            "name": "NYT Breaking News / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a183170eb725f71"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "text": "Zemřela Dolores Huertaová, spoluzakladatelka odborů United Farm Workers a významná osobnost boje za občanská práva. Podle dnešního newsletteru NYT jí bylo 96 let.",
+          "source": {
+            "name": "NYT Breaking News / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a183460c62f073c"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "text": "Středeční Today's Headlines uvádí, že velká porota odmítla vznést obvinění proti bývalé Trumpově spolupracovnici Cassidy Hutchinsonové. Newsletter tento výsledek odlišuje od žádosti ministerstva spravedlnosti o obžalobu.",
+          "source": {
+            "name": "NYT Today's Headlines / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a181a2cee9972f9"
+          },
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Tech",
+      "note": "Ověřené firemní novinky a ekonomika umělé inteligence",
+      "items": [
+        {
+          "title": "Apple otevřel předobjednávky MacBooku Pro s M6",
+          "summary": "Oficiální úterní oznámení stanovilo začátek předobjednávek čtrnáctipalcového modelu na 28. října a dostupnost na 6. listopadu. Apple uvádí dvanáctijádrové CPU i GPU a rychlejší místní AI úlohy; výkonnostní procenta jsou firemní měření. Tuto konkrétní verzi s Liquid Retina XDR nezaměňuji s dalšími nově představovanými modely.",
+          "source": {
+            "name": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+          },
+          "narration": {
+            "audioTag": "curious"
+          }
+        },
+        {
+          "title": "SK hynix oznámil rekordní čtvrtletí díky AI pamětem",
+          "summary": "Za třetí čtvrtletí firma předběžně vykázala tržby 104,6155 bilionu wonů a provozní zisk 83,3338 bilionu wonů. Provozní marže dosáhla 80 procent, výsledky podle firmy táhly dražší serverové paměti a HBM4. Výhled nedostatku pamětí až do roku 2030 je firemní očekávání, nikoli jistota; účetní prověrka čtvrtletních výsledků ještě není dokončená.",
+          "source": {
+            "name": "SK hynix Newsroom",
+            "url": "https://news.skhynix.com/en/q3-2026-business-results/"
+          },
+          "narration": {
+            "audioTag": "curious"
+          }
+        },
+        {
+          "title": "NYT srovnávají rozměr AI investic s jejich náklady",
+          "summary": "The Morning uvádí u Anthropic za první pololetí tržby 16,3 miliardy dolarů, ztrátu 80,7 miliardy a možnou hodnotu při IPO dva biliony dolarů. Jde o čísla a úvahy reprodukované newsletterem, nikoli o realizovanou burzovní kapitalizaci. Přehled zároveň upozorňuje na vysoké výdaje celého odvětví na infrastrukturu a na nejistotu návratnosti.",
+          "source": {
+            "name": "NYT The Morning / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a182258c8dac220"
+          },
+          "narration": {
+            "audioTag": "curious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Today's Headlines přibližují německou Neuru a učení robotů v tréninkovém prostředí. Téma popisuje směr vývoje evropské robotiky; samotná reportáž nedokládá široké komerční nasazení univerzálních humanoidních robotů.",
+          "source": {
+            "name": "NYT Today's Headlines / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a181a2cee9972f9"
+          },
+          "narration": {
+            "audioTag": "curious"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "note": "Rozhodnutí Fedu a tlak na evropské dodávky paliv",
+      "items": [
+        {
+          "title": "Fed ponechal cílové pásmo sazeb na 3,75–4 %",
+          "summary": "Oficiální oznámení vydané ve 14:00 EDT, tedy v 19:00 pražského času, potvrdilo rozhodnutí poměrem 10 : 2. Lisa Cooková a Beth Hammacková chtěly zvýšení o čtvrt procentního bodu. Výbor popisuje silnou ekonomickou aktivitu a nadále zvýšenou inflaci. Jde o zveřejněné rozhodnutí; další pohyb sazeb tím předem určený není.",
+          "source": {
+            "name": "Federal Reserve",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+          },
+          "narration": {
+            "audioTag": "calm"
+          }
+        },
+        {
+          "title": "Komise jedná s rafineriemi o vyšší produkci paliv",
+          "summary": "Eurokomisař Dan Jörgensen zahájil dialog o zvýšení evropské výroby a spolehlivosti dodávek. Podle jeho odkazu na IEA může napětí na světovém trhu s naftou přetrvat do značné části roku 2027. Jednání je v úvodní fázi; nezaručuje okamžitý pokles cen u čerpacích stanic ani už schválené zvýšení produkce.",
+          "source": {
+            "name": "Novinky / ČTK",
+            "url": "https://www.novinky.cz/clanek/ekonomika-evropska-unie-chce-zvysit-produkci-paliv-40605360"
+          },
+          "narration": {
+            "audioTag": "calm"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Před rozhodnutím Fedu Reuters v intradenním přehledu z 16:15 popisovaly kolísání Wall Street: slabší velké technologické firmy vyvažovaly zisky výrobců čipů. Tento časový snímek není dnešní burzovní uzávěrka ani potvrzená reakce na později zveřejněné rozhodnutí Fedu.",
+          "source": {
+            "name": "Reuters přes MarketScreener",
+            "url": "https://es.marketscreener.com/noticias/wall-st-cotiza-vol-til-perdidas-en-firmas-de-gran-capitalizaci-n-compensan-alzas-de-semiconductores-ce785cd2de8cf627"
+          },
+          "narration": {
+            "audioTag": "calm"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "price": "171,68",
+    "currency": "EUR",
+    "asOf": "27. října 2026 – poslední ověřená uzávěrka StockInvest.us",
+    "marketStatus": "XETRA – uzávěrka předchozího dne, nikoli dnešní live cena",
+    "metrics": [
+      {
+        "label": "Den uzávěrky 27. 10.",
+        "value": "+0,99 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "—",
+        "tone": "muted"
+      },
+      {
+        "label": "YTD",
+        "value": "—",
+        "tone": "muted"
+      },
+      {
+        "label": "1 rok",
+        "value": "—",
+        "tone": "muted"
+      },
+      {
+        "label": "52t. maximum k 27. 10.",
+        "value": "173,96 EUR",
+        "tone": "muted"
+      },
+      {
+        "label": "52t. minimum k 27. 10.",
+        "value": "139,20 EUR",
+        "tone": "muted"
+      }
+    ],
+    "note": "Preferované zdroje při kontrole neposkytly stejně čerstvou ověřitelnou uzávěrku 28. října. StockInvest.us stále vrací 27. říjen: 171,68 EUR a +0,99 % proti 170,00 EUR z 26. října. justETF potvrzuje identitu fondu IE00BK5BQT80, ale načtená varianta profilu uvádí jiný burzovní ticker; její výnosy proto neslučuji s cenou VWCE.DE. Neověřené výnosové metriky zůstávají —.",
+    "sources": [
+      {
+        "name": "StockInvest.us – historické ceny",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "StockInvest.us – čas dat",
+        "url": "https://stockinvest.us/stock/VWCE.DE"
+      },
+      {
+        "name": "justETF – identita fondu",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "28. října 2026 při sestavení",
+    "note": "Nové znamená zveřejněné za posledních přibližně 24 hodin. U Seznamu byly ověřeny absolutní časy v přímých metadatech stránek; zastaralé relativní údaje webové cache nebyly považovány za dnešní. Zvuk se automaticky negeneroval.",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "date": "26. října 2026, 22:00 CET",
+        "status": "BEZE ZMĚNY",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole/832238"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "date": "27. října 2026, 12:25 CET",
+        "status": "BEZE ZMĚNY",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja/832602"
+      },
+      {
+        "show": "Amerika bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "date": "21. října 2026",
+        "status": "BEZE ZMĚNY",
+        "url": "https://amerikabejby.podbean.com/e/chce-nas-donald-trump-prodat-rusku/"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Z Babišova boje proti ČT se nejvíc raduje Okamura",
+        "date": "27. října 2026, 15:59 CET",
+        "status": "BEZE ZMĚNY",
+        "url": "https://vrtetipsem.podbean.com/e/z%c2%a0babisova-boje-proti-ct-se%c2%a0nejvic-raduje-okamura/"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "date": "26. října 2026, 18:00 CET",
+        "status": "BEZE ZMĚNY",
+        "url": "https://www.reflex.cz/pkp"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Studio N",
+        "title": "Moláček: Babišovi to bouchlo do ksichtu, vláda se absolutně přepočítala. Na Letnou přijde půl milionu lidí",
+        "date": "28. října 2026 – politický komentář; odhad účasti v názvu není skutečný počet demonstrantů",
+        "url": "https://denikn.podbean.com/e/molacek-babisovi-to-bouchlo-do-ksichtu-vlada-se-absolutne-prepocitala-na-letnou-prijde-pul-milionu-lidi/"
+      },
+      {
+        "show": "Ve vatě",
+        "title": "Nájem, nebo hypotéka? V Praze je rozdíl i 26 tisíc měsíčně",
+        "date": "22. října 2026",
+        "url": "https://podcasty.seznam.cz/podcast/ve-vate/827206"
+      },
+      {
+        "show": "The Ezra Klein Show",
+        "title": "Nate Silver on What the Polls Say — and What His Gut’s Telling Him",
+        "date": "28. října 2026 – ověřeno v Today's Headlines, 55 minut",
+        "url": "https://mail.google.com/mail/#all/1a181a2cee9972f9"
+      }
+    ]
+  },
+  "footer": {
+    "sources": [
+      "ČT24 / ČTK",
+      "Novinky",
+      "Seznam Zprávy",
+      "NYT newslettery v Gmailu",
+      "Reuters přes Business Recorder a MarketScreener",
+      "Federal Reserve",
+      "Apple Newsroom",
+      "SK hynix Newsroom",
+      "StockInvest.us",
+      "justETF",
+      "Seznam Podcasty",
+      "Deník N / Podbean RSS",
+      "Reflex"
+    ],
+    "disclaimer": "Samostatný dodatečný odpolední přehled na ruční pokyn. Ranní vydání 28. října chybí a nebylo zpětně vytvořeno. Tržní informace nejsou osobním investičním doporučením. Podcasty v tomto seznamu jsou odkazy k poslechu; placené generování vlastního podcastu nebylo spuštěno.",
+    "note": "NYT: 7 povolených dnešních newsletterů přečteno, všech 7 potvrzeně označeno jako přečtené. CNN a NPR blokují automatický přístup; přímý Reuters nebyl dostupný, využity syndikované texty. Deník N/R5M a část indexů iROZHLAS/Euronews byly omezené nebo zastaralé. Podcasty byly ověřeny také v přímých metadatech a RSS. U VWCE chybí spolehlivá nová uzávěrka 28. října, zůstává výslovně označená uzávěrka 27. října."
+  },
+  "research": {
+    "mode": "manual-afternoon-catch-up",
+    "baselineMorning": null,
+    "baselineStatus": "confirmed-404",
+    "nytRead": 7,
+    "nytMarkedRead": 7,
+    "passes": [
+      "wide-candidate-collection",
+      "source-verification-selection-deduplication"
+    ],
+    "unavailableSources": [
+      "CNN – robots.txt",
+      "NPR – robots.txt",
+      "Reuters – přímý web",
+      "Deník N/R5M – nedostupný výpis",
+      "iROZHLAS/Euronews – část výpisů zastaralá",
+      "VWCE – neověřena uzávěrka 28. října"
+    ],
+    "assembledAt": "2026-10-28T19:10:00+01:00"
+  }
+}
