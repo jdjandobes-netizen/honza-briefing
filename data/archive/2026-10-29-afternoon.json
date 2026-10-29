@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "29. října 2026",
+    "generatedAt": "2026-10-29T16:32:43+01:00",
+    "readingMinutes": 14,
+    "nextEdition": "Ranní přehled zítra v 07:00.",
+    "intro": "Od rána přibyly zásadní zprávy z ECB, Španělska a Izraele. V Česku soud rozhodl v kauze bývalého soudce Kydalky a pokračuje spor o financování veřejnoprávních médií. Trhy řeší náklady AI a ceny energií."
+  },
+  "sourceStatus": [
+    {
+      "name": "NYT newslettery z Gmailu",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS, Deník N, Reuters, Reflex",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24, Seznam Zprávy, Novinky, Euronews, Al Jazeera — nedostatek spolehlivých dnešních článků",
+      "status": "warning"
+    },
+    {
+      "name": "CNN a NPR — přímý přístup blokován",
+      "status": "warning"
+    },
+    {
+      "name": "VWCE aktuální odpolední kurz a některé podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "ECB ponechala sazbu 2,50 %, Lagardeová odejde předčasně",
+      "summary": "Depozitní sazba zůstala beze změny; prezidentka Christine Lagardeová oznámila odchod k 7. únoru 2027. ECB upozornila na riziko inflace kvůli energiím.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/view-ecb-keeps-rates-unchanged-euro-slips-2026-10-29/"
+      },
+      "tag": "NEW",
+      "time": "14:15"
+    },
+    {
+      "title": "Španělsko: bilance železniční katastrofy vzrostla na 69 mrtvých",
+      "summary": "Oproti ranním 68 obětem jde o potvrzený posun. V nemocnicích zůstává 57 lidí, strojvedoucí uskutečnili stávku za větší bezpečnost.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/spanish-rescuers-search-trains-hope-finding-survivors-deadly-crash-2026-10-29/"
+      },
+      "tag": "UPDATE",
+      "time": "09:41"
+    },
+    {
+      "title": "Netanjahu bez veřejných důkazů obviňuje arabské strany z volebních podvodů",
+      "summary": "Po téměř 93 % sečtených hlasů má jeho blok asi 53 mandátů, opozice 48 a arabské strany 19. Volební komise prověřuje jednotlivá podezření, ale nevidí podklad pro tvrzení o systematickém narušení voleb.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/netanyahu-risk-losing-power-steps-up-attacks-israels-arab-parties-2026-10-29/"
+      },
+      "tag": "UPDATE",
+      "time": "15:12"
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Soud osvobodil bývalého soudce Kydalku kvůli předání rozsudku novinářům",
+          "summary": "Podle nepravomocného verdiktu poskytnutí rozsudku v kauze Čapí hnízdo nenaplnilo trestný čin. Žalobce se odvolal.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/byvaly-soudce-kydalka-byl-osvobozen-podle-obzaloby-mel-novinarum-dat-rozsudek-z_2610291255_mst"
+          },
+          "tag": "NEW",
+          "time": "12:55"
+        },
+        {
+          "title": "Policie obvinila tři muže z pokusu ovlivnit komunální volby na Lounsku",
+          "summary": "Podle kriminalistů slibovali peníze za změnu trvalého bydliště a hlasování podle instrukcí; k placenému hlasování podle policie nakonec nedošlo.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/kriminaliste-obvinili-tri-muze-z-pokusu-ovlivnit-volby-na-lounsku-za-zmenu_2610291120_bva"
+          },
+          "tag": "NEW",
+          "time": "11:20"
+        },
+        {
+          "title": "Zastupitelé Turnova opouštějí ANO kvůli celostátní politice",
+          "summary": "Místní představitelé kritizují fungování strany a její postup ve sporu o financování veřejnoprávních médií.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/zastupitele-turnova-konci-v-ano-nechteji-byt-zatizeni-celostatni-politikou-hani_2610291112_jho"
+          },
+          "tag": "NEW",
+          "time": "11:12"
+        },
+        {
+          "title": "Ředitel ČT Chudárek se má večer sejít s Babišem",
+          "summary": "Schůzka k navržené změně financování České televize je ohlášena na 19:00. V době sestavení nejsou výsledky jednání známé.",
+          "source": {
+            "name": "Deník N",
+            "url": "https://denikn.cz/minuta/2236960/"
+          },
+          "tag": "UPDATE",
+          "time": "10:19"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Školní inspektor Zatloukal upozornil, že vysoká administrativní autonomie ředitelů škol omezuje jejich prostor pro pedagogické vedení.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-10-29"
+          }
+        },
+        {
+          "text": "Policie vyšetřuje položení předmětů na koleje v Jihlavě; vlak narazil, ale nevykolejil.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-10-29"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "ECB ponechala sazbu 2,50 %, Lagardeová odejde předčasně",
+          "summary": "Depozitní sazba zůstala beze změny; prezidentka Christine Lagardeová oznámila odchod k 7. únoru 2027. ECB upozornila na riziko inflace kvůli energiím.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/view-ecb-keeps-rates-unchanged-euro-slips-2026-10-29/"
+          },
+          "tag": "NEW",
+          "time": "14:15"
+        },
+        {
+          "title": "Španělsko: bilance železniční katastrofy vzrostla na 69 mrtvých",
+          "summary": "Oproti ranním 68 obětem jde o potvrzený posun. V nemocnicích zůstává 57 lidí, strojvedoucí uskutečnili stávku za větší bezpečnost.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/spanish-rescuers-search-trains-hope-finding-survivors-deadly-crash-2026-10-29/"
+          },
+          "tag": "UPDATE",
+          "time": "09:41"
+        },
+        {
+          "title": "Švédský parlament bude hlasovat o kandidátce bez jisté většiny",
+          "summary": "Předseda parlamentu navrhl hlasování o Elisabeth Thand Ringqvistové ze Strany středu. Středolevice má 176 z 349 mandátů, ale není shoda na složení vlády.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/swedish-parliament-vote-centre-party-leader-prime-minister-despite-gridlock-2026-10-29/"
+          },
+          "tag": "NEW",
+          "time": "16:09"
+        },
+        {
+          "title": "Itálie obviňuje Německo z tlaku na evropské ceny plynu",
+          "summary": "Podle italského ministerstva energetiky pozdní doplňování německých zásobníků přispělo ke zdražení plynu. Jde o tvrzení italské strany, nikoli prokázanou jedinou příčinu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/italy-blames-german-gas-storage-delays-price-spike-2026-10-29/"
+          },
+          "tag": "NEW",
+          "time": "15:37"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Německý prezident Steinmeier v Pekingu kritizoval nerovné podmínky obchodu s Čínou.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/germanys-steinmeier-says-china-must-avoid-one-sided-benefits-economic-ties-2026-10-29/"
+          }
+        },
+        {
+          "text": "Drahé refinancování dál tlačí na ceny evropských komerčních nemovitostí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/european-property-slump-deepens-borrowing-costs-force-price-cuts-2026-10-29/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Netanjahu bez veřejných důkazů obviňuje arabské strany z volebních podvodů",
+          "summary": "Po téměř 93 % sečtených hlasů má jeho blok asi 53 mandátů, opozice 48 a arabské strany 19. Volební komise prověřuje jednotlivá podezření, ale nevidí podklad pro tvrzení o systematickém narušení voleb.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/netanyahu-risk-losing-power-steps-up-attacks-israels-arab-parties-2026-10-29/"
+          },
+          "tag": "UPDATE",
+          "time": "15:12"
+        },
+        {
+          "title": "Diplomatické naděje kolem Íránu zlevnily ropu",
+          "summary": "Brent byl kolem 14:14 pražského času na 113,77 USD za barel. Katar zprostředkovává jednání, ale Teherán a Washington se dál rozcházejí v podmínkách.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/us-oil-prices-fall-investors-gauge-risks-mideast-supply-2026-10-29/"
+          },
+          "tag": "UPDATE",
+          "time": "14:14"
+        },
+        {
+          "title": "NYT: podezřelá taktika s dvojníkem jména kandidáta na Aljašce",
+          "summary": "Newsletter The Morning popisuje snahu demokratických operativců nalézt kandidáta se stejným jménem jako republikánský senátor Dan Sullivan. Kampaň Mary Peltolaové zapojení odmítá; guvernér nařídil vyšetření.",
+          "source": {
+            "name": "NYT — The Morning (Gmail)",
+            "url": "https://www.nytimes.com/"
+          },
+          "tag": "NEW",
+          "time": "11:41"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Newsletter NYT Today's Headlines informuje, že Flávio Bolsonaro po prohraných brazilských volbách odjel do Miami a sám se označuje za legitimního vůdce.",
+          "source": {
+            "name": "NYT — Today's Headlines (Gmail)",
+            "url": "https://www.nytimes.com/"
+          }
+        },
+        {
+          "text": "QatarEnergy si smluvně zajišťuje LNG z USA a dalších zemí pro případ dalších výpadků Hormuzského průlivu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/qatarenergy-buys-us-other-lng-hedge-future-hormuz-disruptions-2026-10-29/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Akcie Alphabetu se po výsledcích propadaly až o 13 %",
+          "summary": "Nový vývoj oproti ranním výsledkům: trh trestá slabší reklamu a náklady na AI infrastrukturu, Nasdaq oslabil zhruba o 1,6 %. Jde o intradenní stav.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/"
+          },
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Google TPU systémy rostou, ale vážou provozní hotovost",
+          "summary": "Reuters popisuje, jak dodávky vlastních AI čipových systémů vyžadují nákupy hardware a tvorbu zásob před inkasem od zákazníků. Růst cloudu tak nemusí hned zlepšit cash flow.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/googles-nvidia-chip-challenge-boosts-cloud-sales-crimps-cash-flow-2026-10-29/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Investoři čekají na další výsledky Intelu a Amazonu; aktuální tlak na AI tituly není potvrzením dlouhodobého trendu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-29/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "ECB drží sazbu 2,50 %, trhy řeší prosinec a nástupnictví",
+          "summary": "Po dnešním rozhodnutí euro mírně oslabilo a dluhopisové výnosy klesaly. Energetická inflace může podpořit další zvýšení sazeb, slabší financování naopak působí proti.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/view-ecb-keeps-rates-unchanged-euro-slips-2026-10-29/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Shell a TotalEnergies vykázaly nejvyšší kvartální zisky od roku 2022",
+          "summary": "Shell oznámil 10,81 mld. USD, TotalEnergies upravený zisk 9,1 mld. USD. Pomohly mimořádně silné rafinérské marže.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/shell-beats-expectations-with-108-billion-third-quarter-profit-2026-10-29/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Nasdaq ztrácí kvůli Alphabetu a nákladům AI boomu",
+          "summary": "Alphabet v intradenním obchodování odepisoval kolem 13 % a Nasdaq zhruba 1,6 %. Nejde o uzávěrkové hodnoty.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Brent v odpoledním časovém snapshotu klesl na přibližně 113,77 USD za barel, nikoli na potvrzenou uzávěrku.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/us-oil-prices-fall-investors-gauge-risks-mideast-supply-2026-10-29/"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "171,52",
+    "currency": "EUR",
+    "asOf": "29. října 2026, 09:15 CET; Yahoo Finance, opožděný intradenní snapshot, nikoli aktuální kurz v 16:32 ani uzávěrka",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,24 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Odpolední aktuální kurz nebylo možné spolehlivě potvrdit. StockInvest.us stále uváděl uzávěrku 28. října 171,94 EUR; Yahoo zobrazovalo opožděný dnešní snapshot.",
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "url": "https://it.finance.yahoo.com/quote/VWCE.DE/history/"
+      },
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "justETF",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-10-29T16:32:43+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "STAN a lidovci se sbližují. Sázejí víc na lídry a marketing než na program",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "23. října 2026",
+        "status": "Poslední dříve ověřený díl; novější datum nepotvrzeno"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://talk.youradio.cz/porady/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; dostupný katalog opožděný"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední veřejně ověřená epizoda, novější nepotvrzena"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Z Babišova boje proti ČT se nejvíc raduje Okamura",
+        "url": "https://denikn.cz/2234660/vrteti-psem-z-babisova-boje-proti-ct-se-nejvic-raduje-okamura/tag/podcast-tykacuvsvet/",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl, novější nepotvrzen"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "26. října 2026",
+        "status": "Poslední díl potvrzený na webu Reflexu"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Hlaváček s Portlíkem si už porcují Prahu. Dopravu nikdo moc nechce a hledá se třetí do party",
+        "url": "https://www.irozhlas.cz/vinohradska12",
+        "date": "27. října 2026"
+      },
+      {
+        "show": "Studio N",
+        "title": "Kintera: Budu se muset stáhnout, je zakinterováno. Kontaminuji veřejný prostor sám sebou",
+        "url": "https://denikn.cz/podcasty/",
+        "date": "23. října 2026"
+      },
+      {
+        "show": "Ve vatě",
+        "title": "Nájem, nebo hypotéka? V Praze je rozdíl i 26 tisíc měsíčně",
+        "url": "https://podcasty.seznam.cz/podcast/ve-vate",
+        "date": "22. října 2026"
+      }
+    ],
+    "note": "Ověřené veřejné odkazy, žádné generování zvuku. Novější díly u některých pořadů nebyly potvrzeny."
+  },
+  "footer": {
+    "sources": [
+      "iROZHLAS",
+      "Deník N",
+      "Reflex",
+      "Reuters",
+      "NYT newslettery z Gmailu",
+      "Yahoo Finance",
+      "StockInvest.us",
+      "justETF",
+      "Seznam Podcasty"
+    ],
+    "note": "NYT: 4 povolené newslettery přečteny a 4 potvrzeně označeny přečtenými. CNN/NPR nedostupné; další některé webové zdroje a aktuální odpolední VWCE cena neověřeny."
+  },
+  "nyt": {
+    "read": 4,
+    "markedRead": 4,
+    "subjects": [
+      "Opinion Today: Is the end of the Trump era in sight?",
+      "The Morning: Stacking ballots",
+      "N.Y. Today: They pick up cash from weed stores — up to $250,000 a day",
+      "Today's Headlines: Israel’s Parties Gird for Wrangling to Form a Government, With No Clear Path"
+    ]
+  }
+}
