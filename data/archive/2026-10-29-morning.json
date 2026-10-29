@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "29. října 2026",
+    "generatedAt": "2026-10-29T06:58:40+01:00",
+    "readingMinutes": 18,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Ráno po státním svátku dominuje železniční katastrofa ve Španělsku, povolební pat v Izraeli a český spor o veřejnoprávní média. Technologické výsledky ukazují rozdílnou návratnost masivních investic do AI."
+  },
+  "sourceStatus": [
+    {
+      "name": "NYT newslettery z Gmailu",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24, iROZHLAS, Seznam Zprávy, Novinky, Deník N, Reflex",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters, Euronews, Al Jazeera",
+      "status": "ok"
+    },
+    {
+      "name": "CNN a NPR přímý přístup",
+      "status": "warning"
+    },
+    {
+      "name": "Podbean RSS a část podcastových katalogů",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "ok"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Španělsko: nejméně 68 obětí srážky rychlovlaků",
+      "summary": "Po železniční katastrofě u Toleda začíná třídenní státní smutek; vyšetřuje se postup dispečinku.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/two-high-speed-trains-rear-end-spain-rail-operator-says-2026-10-28/"
+      }
+    },
+    {
+      "title": "Česko: stávka kvůli financování ČT a ČRo",
+      "summary": "Studenti i pracovníci veřejnoprávních médií oznámili protest na 3. listopadu.",
+      "source": {
+        "name": "ČT24",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/studenti-vyhlasili-stavku-kvuli-ruseni-poplatku-pro-ct-a-cro-379086"
+      }
+    },
+    {
+      "title": "Izrael: volební pat bez většiny",
+      "summary": "Arabské strany mohou rozhodnout o povolebním vyjednávání; výsledky zatím nejsou konečné.",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/29/no-clear-winner-in-israeli-election-with-nearly-90-percent-of-votes-counted"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Pavel ocenil 51 osobností a varoval před oslabováním důvěry",
+          "summary": "V projevu k 28. říjnu prezident kritizoval nedostatečnou odpovědnost politiků v bezpečnosti, financích a veřejné debatě. Řád Bílého lva obdržely Iva Janžurová a Helena Illnerová, in memoriam Věra Čáslavská a Miloš Forman.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/domaci/predavani-statnich-vyznamenani-prezidentem-republiky-379088"
+          }
+        },
+        {
+          "title": "Studenti a pracovníci ČT a ČRo chystají stávku na 3. listopadu",
+          "summary": "Protest míří proti vládnímu plánu zrušit poplatky a převést financování veřejnoprávních médií do rozpočtu. Vláda odmítá, že by změna ohrozila jejich nezávislost; kritici upozorňují na opačné riziko.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/domaci/studenti-vyhlasili-stavku-kvuli-ruseni-poplatku-pro-ct-a-cro-379086"
+          }
+        },
+        {
+          "title": "Odchod poslance Pražáka z ANO vyvolal debatu o koalici",
+          "summary": "Pražák zůstává ve Sněmovně jako nezařazený a vládní většina zatím trvá. Podle expertů nelze vyloučit další odchody; Pražák připustil i vliv sporu o financování ČT a ČRo.",
+          "source": {
+            "name": "Novinky",
+            "url": "https://www.novinky.cz/clanek/domaci-odchod-jednoho-poslance-koalici-neublizil-dalsi-by-se-ale-mohli-pridat-mini-odbornici-40605381"
+          }
+        },
+        {
+          "title": "Chrudim povede čtyřkoalice, vítězné ANO bude v opozici",
+          "summary": "SNK Evropští demokraté, ODS, Chrudim společně a Piráti s nezávislými vytvořili těsnou většinu 14 zastupitelů. ANO po osmi letech ztratí vedení města.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/volby/chrudim-povede-ctyrkoalice-vitezne-ano-miri-po-osmi-letech-do-opozice_2610282118_jor"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Na Vítkově proběhla pieta ke 108. výročí vzniku Československa; prezident jmenoval také nové generály.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pietni-akt-na-vitkove-ke-108-vyroci-vzniku-ceskoslovenska-379081"
+          }
+        },
+        {
+          "text": "Mezi oceněnými jsou manželé Vlčkovi za podporu dětské paliativní péče a budování hospice na Cibulce.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/domaci/predavani-statnich-vyznamenani-prezidentem-republiky-379088"
+          }
+        },
+        {
+          "text": "Deník N zveřejnil investigaci o někdejším podnikání politika Tomáše Portlíka; z titulku nelze dovozovat protiprávní jednání.",
+          "source": {
+            "name": "Deník N",
+            "url": "https://denikn.cz/2225262/tri-miliony-v-hotovosti-vymenou-za-firmu-v-dluzich-jak-zmizely-penize-z-portlikova-zivotniho-obchodu/"
+          }
+        },
+        {
+          "text": "Na čtvrtek je plánováno jednání premiéra Babiše s maďarským premiérem Péterem Magyarem.",
+          "source": {
+            "name": "Deník N",
+            "url": "https://denikn.cz/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Ve Španělsku zahynulo při srážce rychlovlaků nejméně 68 lidí",
+          "summary": "U města Urda se srazily soupravy Renfe a Iryo. Po výpadku zabezpečení měl dispečink podle předběžných informací povolit jízdu navzdory červenému signálu; vyšetřování pokračuje. Doprava Madrid–Andalusie byla přerušena.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/two-high-speed-trains-rear-end-spain-rail-operator-says-2026-10-28/"
+          }
+        },
+        {
+          "title": "Británie představila rozpočet s energetickou pomocí a vyšší bankovní daní",
+          "summary": "Ministr John Healey oznámil zimní podporu 100 liber pro přibližně 20 milionů domácností a dočasné vyšší zdanění bank. Rozpočet reaguje na drahé energie a napjaté veřejné finance.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/uk/uk-budget-heres-what-finance-minister-healey-is-announcing-2026-10-28/"
+          }
+        },
+        {
+          "title": "Nizozemsko poskytne Ukrajině 500 milionů eur na zimní obranu",
+          "summary": "Pomoc zahrnuje drony a další vojenské vybavení. Haag rovněž ohlásil 1,2 miliardy eur nevojenské podpory během tří let, zejména na obnovu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/dutch-pledge-ukraine-reconstruction-support-zelenskiy-visits-2026-10-28/"
+          }
+        },
+        {
+          "title": "Turecko varovalo před útoky na civilní plavidla v Černém moři",
+          "summary": "Po zásahu nákladní lodi drony u bulharského pobřeží Ankara vyzvala Rusko a Ukrajinu k ochraně obchodní dopravy. Pachatel konkrétního incidentu zatím není doložen.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/turkey-warns-against-further-attacks-by-russia-ukraine-black-sea-vessels-2026-10-28/"
+          }
+        },
+        {
+          "title": "Moldavsko svolá bezpečnostní radu po kyberútoku na státní systémy",
+          "summary": "Vládní informační systémy zasáhl útok v období 19.–23. října. Rozsah škod ani odpovědnost zatím nebyly spolehlivě potvrzeny.",
+          "source": {
+            "name": "ČT24 / AFP",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-moldavsku-se-po-rozsahlem-kyberutoku-sejde-narodni-bezpecnostni-rada-379093"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Mladí lidé napříč Evropou protestují proti drahému bydlení, korupci a nejisté práci; Reuters popisuje generační příčiny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/nobody-heard-us-why-gen-z-are-leading-protests-across-europe-2026-10-28/"
+          }
+        },
+        {
+          "text": "Rusko začalo pro export obilí využívat arktický Murmansk jako alternativu k rizikovým námořním trasám.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/russia-turns-arctic-ww2-route-export-grain-2026-10-28/"
+          }
+        },
+        {
+          "text": "Ve čtvrtek začíná summit Kanada–EU a jednání unijních ministrů energetiky; výsledky se teprve očekávají.",
+          "source": {
+            "name": "Deník N",
+            "url": "https://denikn.cz/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Izraelské volby stále bez vítěze, arabské strany mohou rozhodnout",
+          "summary": "Po téměř 90 procentech sečtených hlasů připadá Netanjahuovu bloku přibližně 53 mandátů, opozici 48 a arabským stranám asi 19. Pro většinu je potřeba 61 křesel. Obvinění Likudu z podvodů jsou tvrzení strany, nikoli prokázaný fakt.",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/29/no-clear-winner-in-israeli-election-with-nearly-90-percent-of-votes-counted"
+          }
+        },
+        {
+          "title": "Írán odmítá katarský návrh na příměří",
+          "summary": "Katar navrhl sedmidenní postup k ukončení konfliktu. Teherán žádá nejprve ukončení americké blokády a sankcí; Washington požaduje řešení jaderného programu od začátku. Dohoda potvrzena není.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/qatari-mediators-present-iran-with-new-deal-end-war-official-says-2026-10-28/"
+          }
+        },
+        {
+          "title": "Húsíové tvrdí, že zaútočili na saúdskou rafinerii; ropa zdražila",
+          "summary": "Hnutí se přihlásilo k útoku na Ras Tanura, saúdské úřady jej v době zprávy nepotvrdily. Brent vzrostl přibližně na 115 dolarů za barel.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/gulf-stocks-slide-ras-tanura-refinery-attack-rattles-investors-2026-10-28/"
+          }
+        },
+        {
+          "title": "Náklady USA na válku s Íránem překročily podle Pentagonu 47 miliard dolarů",
+          "summary": "Odhad získaný Reuters zahrnuje náklady na náhradu munice a ztracené techniky; nemusí pokrývat veškeré opravy základen.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/us-costs-iran-war-rise-over-47-billion-according-pentagon-estimate-2026-10-28/"
+          }
+        },
+        {
+          "title": "Část republikánských kandidátů se před volbami distancuje od Trumpa",
+          "summary": "Newsletter NYT On Politics z 28. října rozebírá kampaně Susan Collinsové a Johna Sununua a jejich snahu zdůraznit nezávislost na prezidentovi. Jde o strategii jednotlivců, nikoli celé strany.",
+          "source": {
+            "name": "NYT — On Politics (Gmail)",
+            "url": "https://www.nytimes.com/section/politics"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Valné shromáždění OSN znovu vyzvalo k ukončení dlouhodobého amerického embarga vůči Kubě.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/"
+          }
+        },
+        {
+          "text": "Haiti odložilo prezidentské volby na červenec 2027; termín byl změněn po dlouhé politické krizi.",
+          "source": {
+            "name": "Deník N / Reuters",
+            "url": "https://denikn.cz/"
+          }
+        },
+        {
+          "text": "Severní Korea ve čtvrtek ráno vypálila neidentifikovaný projektil směrem k Japonskému moři, oznámila jihokorejská armáda.",
+          "source": {
+            "name": "Novinky / ČTK",
+            "url": "https://www.novinky.cz/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Alphabet po výsledcích klesl: AI investice zatěžují cash flow",
+          "summary": "Tržby 127,6 miliardy dolarů zaostaly za očekáváním, čistý zisk klesl o čtvrtinu. Cloud rostl, ale volný peněžní tok byl záporný a slabší reklama ve vyhledávání znepokojila investory.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/"
+          }
+        },
+        {
+          "title": "Microsoft hlásí 48% růst Azure a silný peněžní tok",
+          "summary": "Tržby firmy vzrostly o 20 procent a volný peněžní tok dosáhl 18,6 miliardy dolarů. Výsledky ukazují odlišnou ekonomiku AI investic oproti Alphabetu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/"
+          }
+        },
+        {
+          "title": "Anthropic rozšířil Claude pro právníky o interaktivní nástroje",
+          "summary": "Nové právní pracovní postupy pomáhají s kontrolou citací, mapováním regulatorních povinností a srovnáváním právních otázek. Společnost představila příklady s advokátními kancelářemi.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/legalindustry/anthropic-unveils-additional-claude-tools-lawyers-2026-10-28/"
+          }
+        },
+        {
+          "title": "Unitree zvýšil tržby o 70 procent, zisk ale klesl",
+          "summary": "Čínský výrobce robotů vykázal čtvrtletní tržby 665 milionů jüanů a pokles zisku o 17,4 procenta. Výdaje na výzkum a vývoj prudce rostou.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/unitrees-q3-profit-down-174-on-year-test-chinas-robotics-sector-2026-10-28/"
+          }
+        },
+        {
+          "title": "NVision představil laboratorní cestu ke kvantovým čipům",
+          "summary": "Výzkum publikovaný v Nature používá organické molekuly nanášené na běžně vyráběné čipy. Jde o experimentální technologii, nikoli komerční počítač.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/german-startup-nvision-shows-new-path-quantum-computing-chips-nature-paper-2026-10-28/"
+          }
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Fed ponechal sazby v pásmu 3,75–4,00 procenta",
+          "summary": "Šéf centrální banky Kevin Warsh zdůraznil rozhodování podle dat a odmítl politický vliv. Prosincový krok je otevřený a inflace zůstává rizikem.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/warsh-says-politics-played-no-role-feds-rate-decision-by-group-he-is-honored-2026-10-28/"
+          }
+        },
+        {
+          "title": "Bank of Canada zvýšila sazbu na 2,50 procenta",
+          "summary": "Kanadská centrální banka reaguje na přetrvávající inflaci a odolnější hospodářský růst. Vyšší ceny energií představují další tlak.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/full-text-bank-canada-raises-key-rate-250-2026-10-28/"
+          }
+        },
+        {
+          "title": "Brent kolem 115 dolarů kvůli napětí v Perském zálivu",
+          "summary": "Trhy reagují na hrozby pro dodávky ropy a hlášený útok na saúdskou infrastrukturu. Dopad na inflaci je rizikem, nikoli jistotou.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/gulf-stocks-slide-ras-tanura-refinery-attack-rattles-investors-2026-10-28/"
+          }
+        },
+        {
+          "title": "Británie ponechala daňově zvýhodněný hotovostní ISA na 20 tisících liber",
+          "summary": "Vláda zrušila plánované snížení ročního limitu a připravuje nový Starter ISA. Změna se týká Británie, nikoli českého DIP.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/uk-finance-minister-reverses-cuts-tax-free-cash-savings-allowance-2026-10-28/"
+          }
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "171,94",
+    "currency": "EUR",
+    "asOf": "28. října 2026, poslední uzávěrka XETRA před otevřením 29. října",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+0,15 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "StockInvest.us, uzávěrka 28. října, nikoli realtime. Neověřené metriky ponechány jako —.",
+    "sources": [
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "justETF",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-10-29T06:58:40+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "STAN a lidovci se sbližují. Sázejí víc na lídry a marketing než na program",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "23. října 2026",
+        "status": "Poslední ověřený díl; nový za posledních 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://talk.youradio.cz/porady/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední ověřený díl; nový za posledních 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední ověřený díl; nový za posledních 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Z Babišova boje proti ČT se nejvíc raduje Okamura",
+        "url": "https://denikn.cz/2234660/vrteti-psem-z-babisova-boje-proti-ct-se-nejvic-raduje-okamura/tag/podcast-tykacuvsvet/",
+        "date": "27. října 2026",
+        "status": "Poslední ověřený díl; nový za posledních 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "26. října 2026",
+        "status": "Poslední ověřený díl; nový za posledních 24 hodin nepotvrzen"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Hlaváček s Portlíkem si už porcují Prahu. Dopravu nikdo moc nechce a hledá se třetí do party",
+        "url": "https://www.irozhlas.cz/vinohradska12",
+        "date": "27. října 2026"
+      },
+      {
+        "show": "Studio N",
+        "title": "Kintera: Budu se muset stáhnout, je zakinterováno. Kontaminuji veřejný prostor sám sebou",
+        "url": "https://denikn.cz/podcasty/",
+        "date": "23. října 2026"
+      },
+      {
+        "show": "Ve vatě",
+        "title": "Nájem, nebo hypotéka? V Praze je rozdíl i 26 tisíc měsíčně",
+        "url": "https://podcasty.seznam.cz/podcast/ve-vate",
+        "date": "22. října 2026"
+      }
+    ],
+    "note": "Ověřené veřejné epizody bez generování zvuku; část katalogů byla opožděná."
+  },
+  "footer": {
+    "sources": [
+      "ČT24",
+      "Seznam Zprávy",
+      "Deník N",
+      "iROZHLAS",
+      "Novinky",
+      "Reflex",
+      "Reuters",
+      "Euronews",
+      "Al Jazeera",
+      "NYT newslettery z Gmailu",
+      "StockInvest.us",
+      "justETF",
+      "Seznam Podcasty"
+    ],
+    "note": "NYT: 2 povolené newslettery z 28.–29. října přečteny a potvrzeně označeny přečtenými. CNN a NPR blokovaly přímý přístup; Podbean RSS nebylo dostupné, některé podcastové katalogy měly opožděné indexování."
+  },
+  "nyt": {
+    "read": 2,
+    "markedRead": 2,
+    "subjects": [
+      "The World: What to make of Israel’s ambiguous election",
+      "On Politics: The Republicans running from Trump"
+    ]
+  }
+}
