@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "30. října 2026",
+    "generatedAt": "2026-10-30T16:28:05+01:00",
+    "readingMinutes": 14,
+    "nextEdition": "Ranní přehled zítra v 7:00.",
+    "intro": "Odpoledne přineslo převzetí Tesca Albertem, neověřená íránská hlášení o tankerech v Hormuzském průlivu a prudké oslabení technologických akcií. Eurozóna zároveň překvapila silnějším růstem, než analytici čekali."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Reflex",
+      "status": "ok"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N",
+      "status": "warning"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "error"
+    },
+    {
+      "name": "NPR",
+      "status": "error"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "ok"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Albert kupuje české a slovenské Tesco",
+      "summary": "Transakce za zhruba 41,4 miliardy korun čeká na antimonopolní schválení.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/tesco-sell-czech-slovak-businesses-ahold-delhaize-19-billion-deal-2026-10-30/"
+      },
+      "tag": "NEW"
+    },
+    {
+      "title": "Írán hlásí tři hořící tankery v Hormuzském průlivu",
+      "summary": "Reuters íránská tvrzení zatím nedokázala nezávisle potvrdit.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/"
+      },
+      "tag": "NEW"
+    },
+    {
+      "title": "Nasdaq prudce oslabuje kvůli nákladům AI boomu",
+      "summary": "V průběžném stavu ztrácel 2,21 % a Intel přes 30 %; nejde o uzávěrku.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+      },
+      "tag": "NEW"
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Albert kupuje české a slovenské Tesco za 41,4 miliardy Kč",
+          "summary": "Ahold Delhaize převezme podnikání Tesca v ČR a SR za 1,7 miliardy eur včetně nájemních závazků. Obchod čeká na souhlas regulátorů a dokončení v roce 2027.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/tesco-sell-czech-slovak-businesses-ahold-delhaize-19-billion-deal-2026-10-30/"
+          },
+          "tag": "NEW",
+          "time": "09:13"
+        },
+        {
+          "title": "V rozpočtu chybějí prostředky na pokračování výzkumných grantů ERC CZ",
+          "summary": "Učená společnost žádá poslance o navýšení prostředků. Ministerstvo školství potvrzuje, že aktuální návrh rozpočtu neumožňuje další grantovou výzvu; o konečném rozpočtu se ještě rozhodne.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/veda/uspesne-vedecke-granty-maji-skoncit-at-pokracuji-vyzyva-ucena-spolecnost-379145"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Při železniční katastrofě ve Španělsku zemřel také Čech",
+          "summary": "Ministerstvo zahraničí potvrdilo českého občana mezi identifikovanými oběťmi a poskytuje konzulární pomoc rodině. Jde o nový údaj proti rannímu souhrnu.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/pri-srazce-vlaku-ve-spanelsku-zemrel-cesky-obcan-oznamilo-ministerstvo-379143"
+          },
+          "tag": "UPDATE",
+          "time": "11:39"
+        },
+        {
+          "title": "Sportovní arbitráž povolila návrat ruských hokejových reprezentací",
+          "summary": "CAS rozhodl o okamžitém návratu do mezinárodních soutěží. IIHF uvedla, že verdikt bude respektovat, přestože s ním nesouhlasí; české reakce jsou převážně odmítavé.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/sportovni-arbitrazni-soud-vratil-ruske-hokejove-tymy-do-mezinarodnich-soutezi-379140"
+          },
+          "tag": "NEW",
+          "time": "10:54"
+        }
+      ],
+      "minor": [
+        {
+          "text": "V Českých Budějovicích se jedná o koalici bez vítězného Našeho Česka; dohoda zatím uzavřena nebyla.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/regiony/v-ceskych-budejovicich-jednaji-o-koalici-strany-bez-vitezneho-naseho-ceska-379146"
+          }
+        },
+        {
+          "text": "ČT24 zaznamenala zkušenosti Čechů s rychlými deportacemi z USA a obavy českých rodin; jde o svědectví, nikoli o novou právní úpravu.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/trumpovu-imigracni-politiku-pocituji-i-cesi-v-usa-nekteri-zakusili-deportaci-379150"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "HDP eurozóny překonal odhady, ve třetím čtvrtletí vzrostl o 0,4 %",
+          "summary": "Analytici čekali 0,2 %. Německo rostlo o 0,2 %, Španělsko a Nizozemsko o 0,6 %, Francie klesla o 0,1 %. Dražší energie a inflace zůstávají rizikem.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/euro-zone-growth-beats-projections-again-2026-10-30/"
+          },
+          "tag": "NEW",
+          "time": "11:10"
+        },
+        {
+          "title": "Španělský ministr dopravy odmítá odstoupit po tragédii vlaků",
+          "summary": "Óscar Puente čelí kritice kvůli selhání signalizace a pokynu k jízdě běžnou rychlostí namísto maximálně 40 km/h. Odpovědnost za srážku se stále vyšetřuje.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/spanish-train-was-travelling-160-kph-when-it-smashed-into-second-one-report-2026-10-30/"
+          },
+          "tag": "UPDATE",
+          "time": "10:17"
+        },
+        {
+          "title": "Protestní stávka zasáhla 113 přístavů ve 22 zemích",
+          "summary": "Přístavní odbory protestují proti vojenským zásilkám, úmrtím námořníků a pracovním podmínkám. V Pireu se zastavila část nákladních operací i trajektů; rozsah ekonomických škod není potvrzen.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/world-at-work/dockworkers-strike-in-europe-beyond-against-arms-shipments-war-deaths-2026-10-30/"
+          },
+          "tag": "NEW",
+          "time": "15:16"
+        },
+        {
+          "title": "Německo odmítá italská obvinění kvůli drahému plynu",
+          "summary": "Berlín označil za nepodložené tvrzení, že kvůli privatizaci energetických firem zanedbal zásobníky a tím zvýšil ceny plynu. Jde o spor vládních stanovisek, nikoli uzavřený závěr.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/germany-rejects-unfounded-claims-spat-with-italy-over-gas-storage-2026-10-30/"
+          },
+          "tag": "UPDATE"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Merz slíbil tlumočit Bruselu výhrady asijských obchodních partnerů k návrhu pravidel Made in Europe; legislativa ještě není schválena.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/germanys-merz-relay-asian-partners-protectionism-concerns-brussels-2026-10-30/"
+          }
+        },
+        {
+          "text": "Nová data HDP potvrzují rozdílnou kondici evropských ekonomik: Francie klesala, zatímco Německo mírně rostlo.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/euro-zone-growth-beats-projections-again-2026-10-30/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Írán tvrdí, že v Hormuzském průlivu hořely tři ropné tankery",
+          "summary": "Podle íránských revolučních gard jeden tanker najel na minu. Reuters nedokázala hlášení ani tvrzení o zničení amerického bezpilotního plavidla nezávisle ověřit.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/"
+          },
+          "tag": "NEW",
+          "time": "13:00"
+        },
+        {
+          "title": "V okupovaných Oleškách začala evakuace civilistů",
+          "summary": "Ukrajinští i ruští představitelé potvrdili začátek humanitární operace během místního příměří. Počty evakuovaných nejsou spolehlivě uzavřeny a válka jinde pokračuje.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-ukrajinskych-oleskach-evakuuji-obyvatele-379149"
+          },
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Papež Lev XIV. odevzdal hlas v amerických volbách",
+          "summary": "Vatikán potvrdil poštovní hlasování papeže narozeného v Chicagu v listopadových kongresových volbách. Jde o historicky první známý případ; jeho volební preference nejsou zveřejněny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/pope-leo-becomes-first-pontiff-cast-ballot-us-election-2026-10-30/"
+          },
+          "tag": "NEW",
+          "time": "15:56"
+        },
+        {
+          "title": "Útoky zasáhly ruskou rafinerii i ukrajinská města",
+          "summary": "Po dronovém útoku hoří rafinerie v Novokujbyševsku. Kyjev hlásí po ruském úderu jednoho mrtvého a Charkov zraněné. WSJ popisuje předchozí pauzu útoků na rafinerie, Reuters ji nepotvrdila.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-rusku-hori-novokujbysevska-rafinerie-v-kyjeve-je-po-utoku-jeden-mrtvy-379144"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "NYT Today's Headlines informoval o rozšíření amerického vyšetřování voleb v Kalifornii; podezření na rozsáhlé nelegální hlasování není doloženo.",
+          "source": {
+            "name": "NYT — Today's Headlines (Gmail)",
+            "url": "https://mail.google.com/mail/#all/1a18bef945e551a0"
+          }
+        },
+        {
+          "text": "NYT The Morning popsal čínský laserový přístroj využívající AI k zaměřování komárů, včetně rizik pro bezpečnost očí.",
+          "source": {
+            "name": "NYT — The Morning (Gmail)",
+            "url": "https://mail.google.com/mail/#all/1a18c79aea8af510"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Hackeři odcizili z Binance kryptoměny za 6,3 miliardy dolarů",
+          "summary": "Burza pozastavila výběry a slíbila pokrýt ztráty vlastními prostředky. Analytické firmy připisují útok Severní Koreji, Binance původ útoku nepotvrdila; část aktiv byla zmrazena.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/tether-circle-freeze-238-billion-after-binance-reports-security-incident-2026-10-29/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Foxconn připravuje další spolupráci s OpenAI",
+          "summary": "Po setkání s šéfem OpenAI Samem Altmanem Foxconn potvrdil přípravu nové spolupráce na AI infrastruktuře, detaily ale zatím neoznámil. V USA testuje také humanoidní roboty.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/foxconn-working-new-tie-up-with-openai-says-there-is-no-ai-bubble-2026-10-30/"
+          },
+          "tag": "NEW",
+          "time": "09:38"
+        },
+        {
+          "title": "Britský soud zamítl žalobu Meta, TikToku a X proti Ofcomu",
+          "summary": "Platformy neuspěly s námitkami proti rozsahu dat požadovaných regulátorem podle Online Safety Act. Jde o rozhodnutí o informačních povinnostech, nikoli o finální sankci.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/meta-tiktok-x-lose-legal-challenge-against-uk-watchdog-over-online-safety-data-2026-10-30/"
+          },
+          "tag": "NEW",
+          "time": "11:19"
+        },
+        {
+          "title": "Nasazování AI do armádních operací zvyšuje otázky kontroly a odpovědnosti",
+          "summary": "Reuters analyzuje využití AI v amerických vojenských operacích, přínosy rychlejší analýzy i rizika chyb, civilních škod a závislosti na dodavatelích.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/ais-rewiring-us-warfare-may-be-only-beginning-2026-10-30/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Nasdaq v pátek odpoledne ztrácel 2,21 %, Intel přes 30 %",
+          "summary": "V průběžném snapshotu kolem 14:53 CET klesal S&P 500 o 1,22 %. Investoři reagují na vysoké AI investice a cash flow technologických firem; nejde o uzávěrkové ceny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+          },
+          "tag": "NEW",
+          "time": "14:53"
+        },
+        {
+          "title": "Z amerických akciových fondů odteklo za týden 6,65 miliardy USD",
+          "summary": "V týdnu do 28. října šlo o první čistý odliv za tři týdny. Investoři řeší výdaje na AI, ale sektorové technologické fondy současně zaznamenaly příliv.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/investors-pull-money-us-equity-funds-ahead-earnings-reports-ai-hyperscalers-2026-10-30/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Americké dluhopisy posílily, desetiletý výnos klesal k 4,91 %",
+          "summary": "Přesun od rizikových technologických akcií podpořil ceny státních dluhopisů; desetiletý výnos klesal zhruba o osm bazických bodů. Jde o průběžné hodnoty.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Bank of Japan nechala sazby beze změny, ale oznámila rychlejší prodej ETF v příštím roce; trh zvažuje prosincové zvýšení sazeb.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "171,44",
+    "currency": "EUR",
+    "asOf": "29. října 2026, 17:35 CET; poslední potvrzená uzávěrka XETRA, nikoli cena z 30. října",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,29 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Páteční live ani delayed kurz se nepodařilo bezpečně ověřit. Zachována čtvrteční uzávěrka, nikoli odhad.",
+    "sources": [
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "justETF",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      },
+      {
+        "name": "Yahoo Finance",
+        "url": "https://es.finance.yahoo.com/quote/VWCE.DE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-10-30T16:28:05+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "STAN a lidovci se sbližují. Sázejí víc na lídry a marketing než na program",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "23. října 2026",
+        "status": "Poslední veřejně potvrzený díl; novější datum za 24 hodin nebylo spolehlivě ověřeno"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední veřejně potvrzený díl; novější datum za 24 hodin nebylo spolehlivě ověřeno"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední veřejně potvrzený díl; novější datum za 24 hodin nebylo spolehlivě ověřeno"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Z Babišova boje proti ČT se nejvíc raduje Okamura",
+        "url": "https://denikn.cz/podcast-vrtetipsem",
+        "date": "27. října 2026",
+        "status": "Poslední veřejně potvrzený díl; novější datum za 24 hodin nebylo spolehlivě ověřeno"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "26. října 2026",
+        "status": "Poslední veřejně potvrzený díl; novější datum za 24 hodin nebylo spolehlivě ověřeno"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Ve vatě",
+        "title": "Zisky rostou, investice bobtnají. Co čekat od amerických akcií",
+        "url": "https://podcasty.seznam.cz/podcast/ve-vate",
+        "date": "29. října 2026"
+      },
+      {
+        "show": "Studio N",
+        "title": "Moláček: Babišovi to bouchlo do ksichtu, vláda se absolutně přepočítala. Na Letnou přijde půl milionu lidí",
+        "url": "https://denikn.cz/podcast-studio-n/",
+        "date": "28. října 2026"
+      },
+      {
+        "show": "Vinohradská 12",
+        "title": "Hlaváček s Portlíkem si už porcují Prahu. Dopravu nikdo moc nechce a hledá se třetí do party",
+        "url": "https://www.irozhlas.cz/vinohradska12",
+        "date": "27. října 2026"
+      }
+    ],
+    "note": "Pouze veřejné odkazy a dříve datované ověřené epizody. Bez generování audia a placených API; nové díly u některých katalogů nepotvrzeny."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "ČT24",
+      "ČTK",
+      "Reflex",
+      "NYT newslettery z Gmailu",
+      "StockInvest.us",
+      "Yahoo Finance",
+      "justETF",
+      "Seznam Podcasty",
+      "Deník N"
+    ],
+    "note": "NYT: 4 dnešní povolené newslettery přečteny a 4 potvrzeně označeny přečtenými. CNN a NPR blokovány; u dalších médií omezená dostupnost ověřitelných odpoledních článků. Páteční kurz VWCE nepotvrzen."
+  },
+  "nyt": {
+    "read": 4,
+    "markedRead": 4,
+    "subjects": [
+      "Opinion Today: How to get rich in Trump’s America",
+      "The Morning: Mosquito-killing lasers",
+      "N.Y. Today: Halloween, the Marathon, daylight saving — what a weekend",
+      "Today's Headlines: Justice Dept. Pressures California With Expanded Election Investigation"
+    ]
+  }
+}
