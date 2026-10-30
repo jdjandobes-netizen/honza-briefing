@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "30. října 2026",
+    "generatedAt": "2026-10-30T07:00:53+01:00",
+    "readingMinutes": 19,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Ráno 30. října: český spor o financování médií, závěrečná evropská platba z plánu obnovy, tragédie ve Španělsku a ruský útok na ukrajinské civilisty. Výsledky technologických firem zvyšují otázky návratnosti investic do AI."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N",
+      "status": "ok"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Euronews",
+      "status": "ok"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "ok"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "ČT a ČRo: Babiš připustil nový model financování, dohoda ale není",
+      "summary": "Po jednání s vedením ČT zůstává otevřená otázka nezávislosti a financování veřejnoprávních médií.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-domov/babis-chudarkovi-pripustil-jiny-model-financovani-medii-ukazuje-nepripravenost_2610292136_med"
+      }
+    },
+    {
+      "title": "Španělská železniční katastrofa má již 69 obětí",
+      "summary": "Vyšetřování zkoumá postup po výpadku signalizace; vláda vyhlásila státní smutek.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/spanish-rescuers-search-trains-hope-finding-survivors-deadly-crash-2026-10-29/"
+      }
+    },
+    {
+      "title": "Ruský dron zasáhl nádraží v Dnipru, 14 mrtvých",
+      "summary": "Ukrajinské úřady hlásí další civilní oběti při souběžných útocích v několika městech.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/russian-drone-attack-train-station-kills-13-ukraines-dnipro-2026-10-29/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Babiš po jednání s šéfem ČT připustil alternativu ke státnímu rozpočtu",
+          "summary": "Premiér a Hynek Chudárek se na podobě financování ČT a ČRo nedohodli. Chudárek uvedl, že Babiš zvažuje inspiraci severskými účelovými daněmi; šéf rozhlasu René Zavoral označil postup vlády za nepřipravený. Jde o návrhy, nikoli schválenou změnu.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/babis-chudarkovi-pripustil-jiny-model-financovani-medii-ukazuje-nepripravenost_2610292136_med"
+          }
+        },
+        {
+          "title": "Evropská komise předběžně schválila Česku závěrečných 23 miliard z plánu obnovy",
+          "summary": "Sedmá žádost o 951 milionů eur splnila podle Komise 13 milníků a 25 cílů. Peníze míří například do bydlení, zdravotnictví, komunitní energetiky a výzkumu; převod ještě vyžaduje potvrzení Radou EU.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/ekonomika/evropska-komise-schvalila-posledni-platbu-pro-cesky-narodni-plan-obnovy_2610291822_kvr"
+          }
+        },
+        {
+          "title": "Koncepce armády přiznává nesplnění 70 procent cílů NATO",
+          "summary": "Připravovaný dokument AČR do roku 2040 popisuje nedostatky v zásobách, personálu a protidronové obraně. U nákladných schopností odhaduje zpoždění pět až deset let; bez vyšších výdajů podle dokumentu nelze cíle splnit.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/neplnime-70-procent-pozadavku-nato-armada-na-velky-konflikt-nema-silu-varuje_2610290500_hrk"
+          }
+        },
+        {
+          "title": "Babiš a maďarský premiér Magyar podepsali dopravní memorandum",
+          "summary": "Česko a Maďarsko chtějí posílit propojení včetně vysokorychlostní železnice Praha–Brno–Bratislava–Budapešť. Memorandum není stavebním povolením ani závazným termínem dokončení.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/muzeme-vytvorit-propojenou-evropu-magyar-a-babis-podepsali-memorandum-o_2610291705_kvr"
+          }
+        },
+        {
+          "title": "Soud nepravomocně osvobodil bývalého soudce Kydalku",
+          "summary": "Podle soudu předání rozsudku v kauze Čapí hnízdo novinářům nenaplnilo trestný čin. Žalobce se odvolal, rozsudek tedy není pravomocný.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/byvaly-soudce-kydalka-byl-osvobozen-podle-obzaloby-mel-novinarum-dat-rozsudek-z_2610291255_mst"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Deník N komentuje tři požadavky vedení ČT a ČRo na zachování nezávislosti při změně financování; jde o názorový text.",
+          "source": {
+            "name": "Deník N",
+            "url": "https://denikn.cz/2237042/pointa-n-jestli-chce-babis-splnit-slovo-mel-by-ct-a-rozhlas-vyslyset/"
+          }
+        },
+        {
+          "text": "Arnika označila čistírnu v Rybitví za největšího loňského vykázaného vypouštěče PFAS do vody; jde o žebříček ekologického spolku.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/nejvic-vecnych-chemikalii-loni-do-vody-vypustila-cistirna-v-rybitvi-zpracova_2610291635_mkm"
+          }
+        },
+        {
+          "text": "Komunitní sdílení elektřiny podle dat Energetického datového centra zahrnuje přes 30 tisíc výrobních a téměř 60 tisíc odběrných míst.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/ekonomika/zajem-o-komunitni-energetiku-roste-elektrinu-sdili-lide-v-liberci-vsetin-ma-za_2610291619_bva"
+          }
+        },
+        {
+          "text": "Policie obvinila dvě osoby kvůli nehodě nákladního vlaku s únikem benzenu; platí presumpce neviny.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/az-osm-let-vezeni-hrozi-dvou-lidem-za-nehodu-vlaku-ze-ktereho-unikl-benzen_2610290954_mst"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Španělsko: bilance srážky rychlovlaků vzrostla na 69 obětí",
+          "summary": "Po nehodě v provincii Toledo pokračovalo vyprošťování a 57 lidí zůstávalo hospitalizováno. Ministr dopravy poukázal na povolení jízdy po výpadku signalizace; odpovědnost musí určit vyšetřování. Strojvedoucí stávkovali.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/spanish-rescuers-search-trains-hope-finding-survivors-deadly-crash-2026-10-29/"
+          }
+        },
+        {
+          "title": "ECB drží sazby, Lagardeová oznámila předčasný odchod",
+          "summary": "Evropská centrální banka ponechala depozitní sazbu na 2,50 procenta. Christine Lagardeová oznámila odchod k 7. únoru 2027; drahé energie zvyšují inflační rizika, slabší financování naopak brzdí růst.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/view-ecb-keeps-rates-unchanged-euro-slips-2026-10-29/"
+          }
+        },
+        {
+          "title": "Macron viní francouzskou krajní pravici z podpory rasistického klimatu",
+          "summary": "Po rasově motivovaném útoku v Trappes, při němž zemřel mladý muž a sedm lidí utrpělo zranění, prezident kritizoval Národní sdružení. Strana obvinění odmítá; jde o politický spor, nikoli soudní závěr o odpovědnosti strany.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/macron-accuses-french-far-right-fomenting-spread-racism-2026-10-29/"
+          }
+        },
+        {
+          "title": "Albánská opozice narušila parlament po týdnech demonstrací",
+          "summary": "Poslanci při jednání použili světlice a zablokovali řečniště. Studentské protesty proti korupci, nezaměstnanosti a problémům školství představují pro premiéra Ramu výrazný tlak.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/albania-opposition-disrupts-parliament-session-after-violent-street-protests-2026-10-29/"
+          }
+        },
+        {
+          "title": "Maďarská vláda zachová jadernou dohodu s USA z Orbánovy éry",
+          "summary": "Kabinet Pétera Magyara chce dát právní váhu spolupráci na civilní jaderné energetice a malých modulárních reaktorech. Současně zkoumá alternativy k ruskému rozšíření elektrárny Paks.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/hungary-stick-with-orban-era-nuclear-cooperation-deal-with-us-2026-10-29/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Řecký premiér vyzval k ochraně civilní námořní dopravy po potopení řecké kontejnerové lodi u Bulharska.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/greeces-mitsotakis-calls-global-maritime-truce-condemns-attacks-shipping-2026-10-29/"
+          }
+        },
+        {
+          "text": "Polský soud poprvé odsoudil biskupa za neohlášení sexuálního zneužívání dětí v diecézi.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/polsko-odsoudilo-biskupa-za-neohlaseni-zneuzivani-deti_2610291953_zfr"
+          }
+        },
+        {
+          "text": "Putin prohlásil, že chce obnovit vztahy s Evropou, současně varoval před možnou eskalací; jde o jeho veřejné výroky.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/putin-says-moscow-seeks-better-european-ties-conflict-will-produce-no-winners-2026-10-29/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Izrael: po téměř úplném sčítání stále chybí většina",
+          "summary": "Netanjahuův blok má podle průběžných výsledků přibližně 53 křesel, blok Gadiho Eisenkota 48 a arabské strany kolem 19. Netanjahu bez předložených důkazů obvinil arabské strany z podvodů; volební orgány nevidí důkaz systémového narušení.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/netanyahu-risk-losing-power-steps-up-attacks-israels-arab-parties-2026-10-29/"
+          }
+        },
+        {
+          "title": "Ruský útok na nádraží v Dnipru zabil 14 lidí",
+          "summary": "Podle ukrajinských úřadů dron zasáhl nástupiště před odjezdem příměstského vlaku. Další údery zasáhly Černihiv, Kremenčuk a Kyjev. Bilance i okolnosti se mohou s pokračujícím záchranným úsilím měnit.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russian-drone-attack-train-station-kills-13-ukraines-dnipro-2026-10-29/"
+          }
+        },
+        {
+          "title": "Reuters popsala síť íránských obranných agentur obcházejících blokádu",
+          "summary": "Investigace identifikovala tisíce navázaných subjektů a nákupy vojenského či dvojího použití za nejméně dvě miliardy dolarů od ledna 2025. Závěry vycházejí z obchodních záznamů; dotčené firmy a úřady část tvrzení odmítají.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/iran/irans-hidden-web-military-agencies-is-slipping-hardware-past-us-blockade-2026-10-29/"
+          }
+        },
+        {
+          "title": "USA: spor o kandidáta na Aljašce eskaluje před volbami do Kongresu",
+          "summary": "Trumpova administrativa rozšířila právní kroky kolem kandidatury druhého Daniela Sullivana. Demokratka Mary Peltola popírá podíl na údajné manipulaci a právní experti upozorňují, že samotná podobnost jmen nezakládá protiprávnost.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/trump-confronts-new-midterm-battleground-south-carolina-2026-10-29/"
+          }
+        },
+        {
+          "title": "Kalifornský soud odmítl zásah do sčítání korespondenčních hlasů",
+          "summary": "Federální soudce odmítl žádost amerického ministerstva spravedlnosti zastavit započtení hlasů části voličů kvůli neprokázaným podezřením na neoprávněné hlasování. Ministerstvo se odvolalo.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us-justice-dept-loses-initial-bid-block-votes-alleged-noncitizens-california-2026-10-29/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Příměří v části Chersonské oblasti umožňuje přípravu humanitární mise do okupovaných Olešek; širší válka pokračuje.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/top-russian-official-takes-us-journalists-into-besieged-ukrainian-city-ahead-2026-10-29/"
+          }
+        },
+        {
+          "text": "Polymarket prověřuje podezřelé sázky na izraelské volby; podezření zatím nedokazuje obchodování s neveřejnými informacemi.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/polymarket-probes-suspicious-trades-around-israel-election-bloomberg-news-2026-10-29/"
+          }
+        },
+        {
+          "text": "Zemřel britský herec Patrick Stewart, představitel kapitána Picarda ze Star Treku; bylo mu 86 let.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-10-29"
+          }
+        },
+        {
+          "text": "NYT The World upozornil na energetické náklady celoskleněných mrakodrapů v horkých oblastech; jde o klimaticko-architektonickou analýzu.",
+          "source": {
+            "name": "NYT — The World (Gmail)",
+            "url": "https://mail.google.com/mail/#all/1a18b4eea3cd47a8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Mistral zveřejnil model Large 4 s důrazem na kyberbezpečnost",
+          "summary": "Francouzská firma zpřístupnila otevřené váhy modelu, který lze provozovat na vlastní infrastruktuře. Zdůrazňuje hledání a opravy zranitelností, zároveň připouští rizika neomezené dostupnosti.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-2026-10-29/"
+          }
+        },
+        {
+          "title": "Intel varuje před slabší poptávkou po PC a výrobními omezeními",
+          "summary": "Výhled tržeb na čtvrté čtvrtletí 15–16 miliard dolarů zaostal za očekáváním. Výpadek izraelského závodu má podle firmy způsobit přibližně 600 milionů dolarů ztracených tržeb za dvě čtvrtletí; akcie po výsledcích prudce oslabily.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/"
+          }
+        },
+        {
+          "title": "Amazonu prudce roste AWS, investice do AI však spotřebovávají hotovost",
+          "summary": "Tržby AWS vzrostly meziročně o 39 procent na 46 miliard dolarů. Amazon plánuje letos kapitálové výdaje kolem 220 miliard dolarů a výhled vánočního čtvrtletí investory zklamal.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/amazon-projects-fourth-quarter-sales-below-estimates-2026-10-29/"
+          }
+        },
+        {
+          "title": "Microsoft plánuje dluhopisovou emisi kolem 25 miliard dolarů",
+          "summary": "Podle zdrojů Reuters chce firma financovat investice do AI a datových center víceletými dluhopisy. Microsoft emisi potvrdil regulatorně, ale přesná částka se může změnit.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/microsoft-expects-raise-25-billion-us-bond-sale-source-says-2026-10-29/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Slabší výsledky Alphabetu znovu otevřely otázku návratnosti masivních investic do AI infrastruktury.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice a ekonomika",
+      "items": [
+        {
+          "title": "Wall Street oslabila, Alphabet ztratil 12,6 procenta",
+          "summary": "Ve čtvrtek Nasdaq odepsal 1,37 procenta, S&P 500 0,30 procenta a Dow Jones 0,25 procenta. Trh rozlišuje mezi růstem AI tržeb a nákladností investic; jde o uzávěrky, ne páteční živé kurzy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/"
+          }
+        },
+        {
+          "title": "Shell a TotalEnergies vykázaly nejvyšší čtvrtletní zisky od roku 2022",
+          "summary": "Výsledky podpořily rafinérské marže a výpadky dodávek v důsledku konfliktů. Shell oznámil upravený zisk 10,81 miliardy dolarů a TotalEnergies 9,1 miliardy; jde o mimořádně silný cyklus, ne záruku opakování.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/shell-beats-expectations-with-108-billion-third-quarter-profit-2026-10-29/"
+          }
+        },
+        {
+          "title": "ECB ponechala sazby; energetická inflace komplikuje další výhled",
+          "summary": "Trhy po čtvrtečním rozhodnutí sledovaly pokles výnosů a mírné oslabení eura. Budoucí změna sazeb zůstává nejistá kvůli protichůdným vlivům cen energií a utažených finančních podmínek.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/view-ecb-keeps-rates-unchanged-euro-slips-2026-10-29/"
+          }
+        },
+        {
+          "title": "Linde zvýšila celoroční výhled díky poptávce výrobců čipů",
+          "summary": "Tržby ve třetím čtvrtletí vzrostly o devět procent na 9,4 miliardy dolarů a segment elektroniky o 15 procent. Firma těží z investic do polovodičových továren pro AI.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/linde-raises-full-year-earnings-outlook-after-q3-profit-beat-2026-10-29/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "VWCE na XETRA uzavřelo 29. října na 171,44 EUR, proti 28. říjnu pokles o 0,29 procenta; jde o poslední ověřenou uzávěrku před pátečním otevřením.",
+          "source": {
+            "name": "StockInvest.us",
+            "url": "https://stockinvest.us/stock-price/VWCE.DE"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "171,44",
+    "currency": "EUR",
+    "asOf": "29. října 2026, poslední ověřená uzávěrka XETRA před otevřením 30. října",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,29 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Cena a denní změna jsou čtvrteční uzávěrka, nikoli páteční realtime. Další metriky bez dostatečně čerstvého ověření zůstávají —.",
+    "sources": [
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "justETF",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-10-30T07:00:53+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "STAN a lidovci se sbližují. Sázejí víc na lídry a marketing než na program",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "23. října 2026",
+        "status": "Poslední ověřený díl; za 24 hodin novější nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední ověřený díl; za 24 hodin novější nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby",
+        "date": "21. října 2026",
+        "status": "Poslední veřejně ověřená epizoda; placený katalog může obsahovat novější"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Z Babišova boje proti ČT se nejvíc raduje Okamura",
+        "url": "https://denikn.cz/podcast-vrtetipsem",
+        "date": "27. října 2026",
+        "status": "Poslední veřejně ověřená epizoda; za 24 hodin novější nepotvrzen"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "26. října 2026",
+        "status": "Poslední ověřený díl; za 24 hodin novější nepotvrzen"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Ve vatě",
+        "title": "Zisky rostou, investice bobtnají. Co čekat od amerických akcií",
+        "url": "https://podcasty.seznam.cz/podcast/ve-vate",
+        "date": "29. října 2026"
+      },
+      {
+        "show": "Studio N",
+        "title": "Moláček: Babišovi to bouchlo do ksichtu, vláda se absolutně přepočítala. Na Letnou přijde půl milionu lidí",
+        "url": "https://denikn.cz/podcast-studio-n/",
+        "date": "28. října 2026"
+      },
+      {
+        "show": "Vinohradská 12",
+        "title": "Hlaváček s Portlíkem si už porcují Prahu. Dopravu nikdo moc nechce a hledá se třetí do party",
+        "url": "https://www.irozhlas.cz/vinohradska12",
+        "date": "27. října 2026"
+      }
+    ],
+    "note": "Pouze veřejně ověřené názvy a odkazy. Žádné TTS, generování audia ani placená API volání. Některé placené katalogy nemají veřejně potvrzené nejnovější díly."
+  },
+  "footer": {
+    "sources": [
+      "iROZHLAS",
+      "ČT24",
+      "Seznam Zprávy",
+      "Deník N",
+      "Novinky",
+      "Reflex",
+      "Reuters",
+      "Euronews",
+      "Al Jazeera",
+      "NYT newslettery z Gmailu",
+      "StockInvest.us",
+      "justETF",
+      "Seznam Podcasty"
+    ],
+    "note": "NYT: 3 povolené newslettery ze dne 29.–30. října přečteny a 3 potvrzeně označeny přečtenými. Zpravodajství sestaveno dvouprůchodově. CNN a NPR nebyly spolehlivě dostupné; část ČT24, Seznam Zpráv, Novinek, Al Jazeery a podcastových katalogů byla omezená. Původní japonský cestovní modul ani nouzový kanál nejsou součástí vydání."
+  },
+  "nyt": {
+    "read": 3,
+    "markedRead": 3,
+    "subjects": [
+      "The World: The perils of glittering skylines",
+      "On Politics: Fallout in Alaska, and ballot hijinks all over",
+      "Breaking news: Patrick Stewart dies at 86"
+    ]
+  }
+}
