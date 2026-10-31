@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "31. října 2026",
+    "generatedAt": "2026-10-31T07:01:47+01:00",
+    "readingMinutes": 21,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Sobotní ráno: české domácnosti čeká dražší energie, evropská politika řeší obchod a protesty, útok na tanker v Hormuzu zvyšuje cenu ropy a americké technologické akcie prudce padají. Shrnutí pokrývá zprávy z pátku a sobotního rána."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Deník N",
+      "status": "ok"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "Stock Analysis",
+      "status": "ok"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "ČEZ zdraží elektřinu a plyn 1,6 milionu zákazníků",
+      "summary": "Od ledna 2027 porostou ceny nefixovaných tarifů; u elektřiny o 3,5 %, u plynu o 6,5 %.",
+      "source": {
+        "name": "ČT24",
+        "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/cez-zdrazi-od-noveho-roku-elektrinu-i-plyn-379154"
+      }
+    },
+    {
+      "title": "Útok na tanker v Hormuzu zvedá cenu ropy",
+      "summary": "Britské námořní hlášení potvrdilo zásah lodi; Brent v pátek uzavřel na 117,64 USD za barel.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/"
+      }
+    },
+    {
+      "title": "Americké technologické akcie prudce oslabily",
+      "summary": "Nasdaq v pátek klesl o 2,86 %, Intel o 28,6 %. Investoři zpochybňují návratnost investic do AI.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "ČEZ od ledna zdraží elektřinu i plyn pro 1,6 milionu zákazníků",
+          "summary": "U smluv na dobu neurčitou poroste silová elektřina o 3,5 % (asi 330 Kč/MWh s DPH) a plyn o 6,5 % (asi 180 Kč/MWh). Jde o ceny pro rok 2027, nikoli o plošné zdražení všech fixovaných tarifů.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/cez-zdrazi-od-noveho-roku-elektrinu-i-plyn-379154"
+          }
+        },
+        {
+          "title": "Albert kupuje české a slovenské Tesco",
+          "summary": "Ahold Delhaize se dohodla na převzetí prodejen Tesca v ČR a SR za přibližně 1,7 miliardy eur včetně nájemních závazků. Dokončení se čeká až po regulatorním schválení v roce 2027.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/tesco-sell-czech-slovak-businesses-ahold-delhaize-19-billion-deal-2026-10-30/"
+          }
+        },
+        {
+          "title": "Doosan: spor o stavební část Dukovan nezasahuje do technologických dodávek",
+          "summary": "KHNP ukončila jednání s konsorciem o stavební části nových bloků. Doosan Energy a plzeňský Doosan Škoda Power tvrdí, že jejich kontrakty na technologii a turbínu pokračují; konečný dodavatel stavební části zatím není jistý.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/ekonomika/doosan-ujistil-korejskou-burzu-ze-se-spor-kolem-smlouvy-khnp-na-stavbu-dukovan_2610301648_jaf"
+          }
+        },
+        {
+          "title": "Jižní Morava má podle měření nejsušší leden až září za 65 let",
+          "summary": "Krajský průměr činil asi 287 mm, necelých 65 % dlouhodobého normálu. Na některých stanicích nespadla ani polovina běžných srážek; dopady jsou vidět v zemědělství i na hladinách nádrží.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/veda-technologie/priroda/na-jizni-morave-naprselo-nejmene-za-poslednich-65-let-rijnove-deste-podle_2610301601_bva"
+          }
+        },
+        {
+          "title": "Česká diplomacie a obranný průmysl jednaly v Polsku o munici a letounech",
+          "summary": "Ministr Karel Havlíček uvedl, že se probírala společná výroba munice, letouny L-39 Skyfox a regulace cen energií. Zatím jde o jednání, ne o potvrzené kontrakty.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/havlicek-v-polsku-jednal-o-spolecne-vyrobe-munice-letounech-skyfox-i-regulaci_2610301558_mst"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Pražská burza v pátek klesla o 0,79 % na 2627,33 bodu; oslabily zejména banky a Doosan Škoda Power.",
+          "source": {
+            "name": "Deník N / ČTK",
+            "url": "https://denikn.cz/ekonomika/"
+          }
+        },
+        {
+          "text": "Podle údajů ministerstva financí klesnou o víkendu a v pondělí stropy cen pohonných hmot na 49,45 Kč/l nafty a 43,87 Kč/l benzinu.",
+          "source": {
+            "name": "Deník N / ČTK",
+            "url": "https://denikn.cz/ekonomika/"
+          }
+        },
+        {
+          "text": "Svaz zdravotních pojišťoven uvádí, že spotřeba léků na duševní potíže vzrostla za pět let o 43,5 %.",
+          "source": {
+            "name": "Deník N",
+            "url": "https://denikn.cz/ekonomika/"
+          }
+        },
+        {
+          "text": "Sezonní turistické vlaky do Českého ráje, cyklobus do Brd a vybrané pražské přívozy mají poslední jízdy nejpozději 1. listopadu.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/cyklobus-do-brd-i-vlak-do-ceskeho-raje-pojede-letos-naposledy-sezona_2610301649_bva"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "EU a Kanada chtějí do poloviny roku 2027 vymezit hlubší partnerství",
+          "summary": "Premiér Mark Carney mluví o možném přidruženém členství, ale pojem nemá právní status a kvůli výhradám některých států se nedostal do závěrečného dokumentu summitu. Jednání se zaměří na obchod, AI, energetiku a kritické suroviny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/eu-canada-define-ever-closer-association-by-2027-summit-2026-10-30/"
+          }
+        },
+        {
+          "title": "Itálii zasáhla celostátní stávka a protesty ve více než 40 městech",
+          "summary": "Desetitisíce demonstrantů požadovaly vyšší mzdy a veřejné služby a protestovaly proti vojenským dodávkám. V Turíně a Římě došlo i ke střetům s policií; jde o pokračování širší vlny protestů.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/mass-protests-sweep-italy-during-nationwide-strike-2026-10-30/"
+          }
+        },
+        {
+          "title": "Polský ministr Sikorski navrhl rychlé příměří v Černém moři kvůli přepravě obilí",
+          "summary": "Na jednání G20 požadoval bezpečné námořní koridory a zapojení Ukrajiny i Evropy do mírových jednání. Podpořil také možný vstup Polska do G20, který by vyžadoval konsenzus členů.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/polands-sikorski-calls-rapid-ceasefire-black-sea-allow-food-shipments-2026-10-31/"
+          }
+        },
+        {
+          "title": "Eurozóna rostla ve třetím čtvrtletí o 0,4 %, více než se čekalo",
+          "summary": "Předběžný růst HDP překonal očekávaných 0,2 %. Německo přidalo 0,2 %, Španělsko a Nizozemsko 0,6 %, Francie klesla o 0,1 %. Drahá energie a inflační tlaky ale výhled komplikují.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/euro-zone-growth-beats-projections-again-2026-10-30/"
+          }
+        },
+        {
+          "title": "Merz chce Bruselu tlumočit asijské obavy z evropského protekcionismu",
+          "summary": "Německý kancléř během asijské cesty slyšel kritiku návrhu Made in Europe, který má podpořit evropský průmysl. Zákon zatím nebyl přijat a bude předmětem vyjednávání EU.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/germanys-merz-relay-asian-partners-protectionism-concerns-brussels-2026-10-30/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Odborová akce zasáhla podle Reuters 113 přístavů ve 22 zemích; v řeckém Pireu omezila nákladní dopravu i trajekty.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/world-at-work/dockworkers-strike-in-europe-beyond-against-arms-shipments-war-deaths-2026-10-30/"
+          }
+        },
+        {
+          "text": "Pentagon podle zdrojů Reuters soukromě žádal některé evropské spojence NATO o umírněnější veřejnou rétoriku vůči Rusku.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/pentagon-tells-europeans-cool-their-rhetoric-russia-sources-say-2026-10-30/"
+          }
+        },
+        {
+          "text": "Evropské akcie v pátek klesly: STOXX 600 o 0,36 %, technologie o 2,75 %, přesto šlo pro širší index o nejsilnější měsíc od června.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/european-shares-ease-ai-driven-tech-selloff-deepens-2026-10-30/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Tanker v Hormuzském průlivu zasáhly přísavné miny, posádka přežila",
+          "summary": "Britská UKMTO informovala o požáru strojovny, který se podařilo uhasit. Odpovědnost za útok není potvrzena; íránská tvrzení o dalších hořících tankerech Reuters nezávisle neověřila.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/tanker-strait-hormuz-hit-by-limpet-mines-security-sources-say-2026-10-30/"
+          }
+        },
+        {
+          "title": "Ropa Brent uzavřela pátek na 117,64 dolaru za barel",
+          "summary": "Prosincový kontrakt posílil o 2,4 % na šestiměsíční maximum. Trh reaguje na útoky na lodě a riziko další eskalace íránské války; jde o uzávěrku kontraktu, nikoli dnešní živý kurz.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/"
+          }
+        },
+        {
+          "title": "Katarští vyjednavači se vrátili do Teheránu jednat o dohodě USA a Íránu",
+          "summary": "Podle zdroje Reuters Katar obnovil zprostředkování. Washington požaduje jaderné otázky od začátku, Írán přednostně konec blokády a ropných sankcí; dohoda dosud není uzavřena.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/qatari-mediators-return-tehran-push-us-iran-deal-official-says-2026-10-30/"
+          }
+        },
+        {
+          "title": "Zelenskyj má v sobotu jednat s Erdoganem v Istanbulu",
+          "summary": "Ukrajinský prezident ohlásil cestu do Turecka a naději na listopadová jednání Ukrajiny, Ruska a USA v Abú Zabí. Konkrétní průlom ani potvrzené příměří zatím oznámeny nebyly.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/zelenskiy-says-he-will-head-turkey-talks-2026-10-30/"
+          }
+        },
+        {
+          "title": "NYT: nejméně polovina ze 63 hlavních kandidátů do amerického Senátu jsou dolaroví milionáři",
+          "summary": "Newsletter On Politics vychází z povinných majetkových přiznání. Hodnoty jsou v širokých intervalech, proto jde o odhad minimálního majetku, nikoli přesné osobní jmění. Vysoké životní náklady jsou současně klíčovým tématem voleb.",
+          "source": {
+            "name": "NYT — On Politics (Gmail)",
+            "url": "https://mail.google.com/mail/#all/1a18f117c43a7ecb"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "WSJ podle Reuters uvedl, že Ukrajina po tlaku Trumpa pozastavila útoky na ruské rafinerie; Reuters informaci nezávisle nepotvrdila.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/ukraine-pauses-strikes-russian-refineries-after-pressure-trump-wsj-reports-2026-10-30/"
+          }
+        },
+        {
+          "text": "Papež Lev XIV. podle Vatikánu korespondenčně hlasoval v amerických volbách, jeho konkrétní volba není zveřejněna.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/pope-leo-becomes-first-pontiff-cast-ballot-us-election-2026-10-30/"
+          }
+        },
+        {
+          "text": "Newsletter The World přináší reportáž o cestovateli Karlu Bushbym, který se po 28 letech pěší cesty kolem světa blíží domů.",
+          "source": {
+            "name": "NYT — The World (Gmail)",
+            "url": "https://mail.google.com/mail/#all/1a19044705d7da24"
+          }
+        },
+        {
+          "text": "Íránské revoluční gardy tvrdí, že v Hormuzu hořelo několik tankerů; britské námořní bezpečnostní hlášení potvrzuje incidenty, nikoli všechny íránské údaje.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Intel se propadl téměř o 29 % a strhl polovodičové akcie",
+          "summary": "Výhled tržeb zaostal o více než miliardu dolarů za očekáváním a firma nepředpokládá letos kladné cash flow. Investoři se obávají vysokých výdajů na čipy a datová centra i slabší poptávky po PC.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/intel-warning-sparks-chip-rout-pc-weakness-clouds-turnaround-2026-10-30/"
+          }
+        },
+        {
+          "title": "Meta, TikTok a X neuspěly u britského soudu proti požadavkům Ofcomu",
+          "summary": "Soud odmítl jejich námitky proti požadavkům na data o moderování obsahu podle Online Safety Act. Rozhodnutí posiluje dohled, ale samo o sobě není uloženou pokutou.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/meta-tiktok-x-lose-legal-challenge-against-uk-watchdog-over-online-safety-data-2026-10-30/"
+          }
+        },
+        {
+          "title": "Foxconn připravuje novou spolupráci s OpenAI na AI infrastruktuře",
+          "summary": "Předseda Young Liu po setkání se Samem Altmanem potvrdil práci na dalším partnerství, podrobnosti dosud nezveřejnil. Foxconn současně rozšiřuje výrobu AI serverů a testuje humanoidní roboty.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/foxconn-working-new-tie-up-with-openai-says-there-is-no-ai-bubble-2026-10-30/"
+          }
+        },
+        {
+          "title": "Reuters popisuje rychlé nasazení AI do amerických vojenských operací",
+          "summary": "Analytické systémy pomáhají spojovat zpravodajské informace a urychlovat rozhodování, ale přinášejí rizika chyb, civilních škod a nedostatečné lidské kontroly. Jde o analýzu, ne potvrzení bezchybnosti systémů.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/ais-rewiring-us-warfare-may-be-only-beginning-2026-10-30/"
+          }
+        },
+        {
+          "title": "Krádež kryptoměn z Binance za 6,3 miliardy USD se dál vyšetřuje",
+          "summary": "Analytické firmy podle médií podezírají severokorejské hackery; původ útoku není úředně potvrzen. Rozsah incidentu je mimořádný a zvýšil tlak na bezpečnost kryptoburz.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/veda-technologie/technologie/nejvetsi-kradez-kryptomen-v-historii-hackersky-utok-na-binace-dopadne-na-vsechny_2610301321_mst"
+          }
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Wall Street v pátek prudce oslabila kvůli nákladům na AI",
+          "summary": "Nasdaq uzavřel o 2,86 % níže, S&P 500 ztratil 1,82 % a Dow Jones 1,09 %. Intel spadl o 28,6 % a polovodičový index o 7,2 %. Jde o páteční uzávěrky, ne sobotní obchodování.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+          }
+        },
+        {
+          "title": "VWCE na XETŘE uzavřelo pátek na 168,90 EUR",
+          "summary": "Historická tabulka Stock Analysis uvádí 30. října uzávěrku 168,90 EUR, denní pokles 1,48 % oproti 171,44 EUR ve čtvrtek. Preferovaný StockInvest.us zatím zobrazuje jen čtvrteční závěr, proto je uveden odlišný zdroj a čas.",
+          "source": {
+            "name": "Stock Analysis",
+            "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+          }
+        },
+        {
+          "title": "Brent v říjnu zdražil o 13,6 %, trh oceňuje riziko konfliktu",
+          "summary": "Páteční prosincová uzávěrka 117,64 USD/barel zvyšuje riziko dražších pohonných hmot a inflačních tlaků. Budoucí vývoj zůstává závislý na průjezdnosti Hormuzu a diplomatických jednáních.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/"
+          }
+        },
+        {
+          "title": "Evropský STOXX 600 zakončil říjen mírným pátečním poklesem",
+          "summary": "Páteční ztráta 0,36 % byla tažena technologiemi, ale index měl nejlepší měsíc od června. Rozdíl mezi indexy ukazuje, že globální výprodej AI akcií nezasáhl všechny sektory stejně.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/european-shares-ease-ai-driven-tech-selloff-deepens-2026-10-30/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Pražský PX uzavřel pátek na 2627,33 bodu (−0,79 %), podle ČTK oslabily banky a Doosan Škoda Power.",
+          "source": {
+            "name": "Deník N / ČTK",
+            "url": "https://denikn.cz/ekonomika/"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "168,90",
+    "currency": "EUR",
+    "asOf": "30. října 2026, 17:36 CET; poslední dostupná páteční uzávěrka XETRA před dalším otevřením v pondělí",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−1,48 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Stock Analysis uvádí uzávěrku 168,90 EUR ze 30. 10.; preferovaný StockInvest.us i Yahoo stále uvádějí 171,44 EUR z 29. 10. Rozdíl je způsoben zastaralým časem zdroje, nikoli odhadem sobotní ceny.",
+    "sources": [
+      {
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+      },
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "justETF",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-10-31T07:01:47+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "27. října 2026",
+        "status": "Poslední ověřený díl; nový díl za posledních 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "28. října 2026",
+        "status": "Poslední ověřený díl; nový díl za posledních 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední veřejně dostupný ověřený díl"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Z Babišova boje proti ČT se nejvíc raduje Okamura",
+        "url": "https://denikn.cz/podcast-vrtetipsem",
+        "date": "27. října 2026",
+        "status": "Poslední veřejně dostupný ověřený díl"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "26. října 2026",
+        "status": "Poslední ověřený díl"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Studio N",
+        "title": "Francouzi v ulicích, Vučić na kolenou. Co se stane, když mladým dojde trpělivost",
+        "url": "https://denikn.cz/podcast-studio-n",
+        "date": "30. října 2026"
+      },
+      {
+        "show": "Vinohradská 12",
+        "title": "Netanjahu se o moc nedělí, co Eisenkot? Volební pat může prolomit aliance, do které se nikomu nechce",
+        "url": "https://www.irozhlas.cz/zpravy-svet/netanjahu-se-o-moc-nedeli-co-eisenkot-volebni-pat-muze-prolomit-aliance-do-ktere_2610300600_med",
+        "date": "30. října 2026"
+      },
+      {
+        "show": "Ve vatě",
+        "title": "Zisky rostou, investice bobtnají. Co čekat od amerických akcií",
+        "url": "https://podcasty.seznam.cz/podcast/ve-vate",
+        "date": "29. října 2026"
+      }
+    ],
+    "note": "Jen odkazy na veřejně ověřené epizody; žádné audio ani placené API nebylo generováno."
+  },
+  "footer": {
+    "sources": [
+      "ČT24",
+      "iROZHLAS",
+      "Deník N",
+      "Reuters",
+      "Reflex",
+      "NYT newslettery z Gmailu",
+      "Stock Analysis",
+      "StockInvest.us",
+      "justETF",
+      "Seznam Podcasty"
+    ],
+    "note": "NYT: 2 relevantní aktuální newslettery přečteny a 2 potvrzeně označeny přečtenými. CNN/NPR a část dalších webů neposkytly dostatečně ověřitelné čerstvé články. Preferovaný StockInvest.us zatím zobrazuje pouze čtvrteční cenu VWCE."
+  },
+  "nyt": {
+    "read": 2,
+    "markedRead": 2,
+    "subjects": [
+      "The World: Five stories you might have missed",
+      "On Politics: The midterms are a millionaire’s game"
+    ]
+  }
+}
