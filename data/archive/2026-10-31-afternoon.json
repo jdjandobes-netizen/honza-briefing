@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "31. října 2026",
+    "generatedAt": "2026-10-31T16:27:22+01:00",
+    "readingMinutes": 12,
+    "nextEdition": "Ranní přehled zítra v 7:00.",
+    "intro": "Sobotní odpoledne přineslo nový návrh financování veřejnoprávních médií, institucionální krizi v Polsku, evakuace civilistů z okupované Ukrajiny a další íránská jednání. Ve světě AI se zároveň řeší zpráva o snížení cíle financování OpenAI. Uvádíme pouze události nové nebo podstatně změněné oproti dnešnímu rannímu archivu."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Novinky",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Euronews",
+      "status": "ok"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Closelook",
+      "status": "ok"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Babiš mění návrh financování ČT a ČRo",
+      "summary": "Dobrovolné poplatky a zákonná garance financování mimo přímou rozpočtovou kapitolu; návrh zatím nemá jasné parametry.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-domov/babis-verejnopravni-media-nemusela-byt-placena-primo-z-rozpoctu-poplatky-jsou_2610311320_med"
+      }
+    },
+    {
+      "title": "Polský ústavní tribunál vyvolal krizové jednání prezidenta",
+      "summary": "Po pozastavení vedení soudu protesty, zadržení demonstranti a ostrý spor o legitimitu kroků vlády.",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/10/31/poland-political-crisis-constitutional-court-in-chaos-as-nawrocki-accuses-government-of-st"
+      }
+    },
+    {
+      "title": "OpenAI podle FT snižuje cíl financování o 10 miliard dolarů",
+      "summary": "Nové jednání s investory má podle médií mířit zhruba na 20 miliard USD; potvrzené uzavření kola chybí.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Babiš navrhuje dobrovolné poplatky za ČT a ČRo a zákonnou garanci financování",
+          "summary": "Premiér v sobotu řekl, že ministerstvo financí chystá model dobrovolných poplatků a předvídatelné povinné platby mimo přímou rozpočtovou kapitolu. Konkrétní zdroj peněz neupřesnil; opozice zpochybňuje proveditelnost i postup změny zákona. Nejde o schválené řešení.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/babis-verejnopravni-media-nemusela-byt-placena-primo-z-rozpoctu-poplatky-jsou_2610311320_med"
+          },
+          "time": "31. 10., aktualizace 15:18",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Babiš kritizoval veřejné excesy Motoristů, rozkol koalice však odmítá",
+          "summary": "V sobotní televizní debatě premiér uvedl, že opakovaně žádal Petra Macinku o omezení kontroverzních výroků. Podle Babiše koalice jako celek problém nemá; jde o jeho politické hodnocení, nikoli oznámenou personální změnu.",
+          "source": {
+            "name": "Novinky",
+            "url": "https://www.novinky.cz/clanek/domaci-motoristum-zalepit-pusu-babisovi-se-jejich-excesy-nelibi-40605907"
+          },
+          "time": "31. 10., 14:32",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Na D7 u Slaného se odpoledne převádí provoz na novou polovinu vozovky",
+          "summary": "Na úseku Slaný–Kutrovice mají řidiči využít 3,5 km nové vozovky, stále pouze jeden pruh v každém směru. Dokončení tří navazujících středočeských úseků je plánováno na rok 2027.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/ridici-zacnou-v-sobotu-vyuzivat-novou-cast-d7-u-slaneho-provoz-zustane-v-obou_2610311121_bod"
+          },
+          "time": "31. 10., 11:21",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Ve věku 67 let zemřel viceprezident České stomatologické komory a pedagog Robert Houba; zprávu potvrdilo vedení komory.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/zemrel-viceprezident-ceske-stomatologicke-komory-robert-houba-bylo-mu-67-let_2610311448_zko"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Polsko: spor o ústavní tribunál eskaloval, prezident svolává krizová jednání",
+          "summary": "Po pozastavení předsedy tribunálu Bogdana Święczkowského se u soudu střetli demonstranti s policií a podle AP byli tři zadrženi. Prezident Nawrocki se vrátil ze zahraniční cesty a odmítá postup vládních nominantů; Tusk tvrdí, že napravuje porušování právního státu. Právní legitimita kroků je předmětem sporu.",
+          "source": {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/10/31/poland-political-crisis-constitutional-court-in-chaos-as-nawrocki-accuses-government-of-st"
+          },
+          "time": "31. 10., 10:30",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Francie nasadila před sobotními protesty 70 tisíc policistů",
+          "summary": "Úřady čekají přibližně 150 shromáždění, část pochodů v Paříži omezily a varují před násilím. Protesty souvisejí s cenami, veřejnými službami a rozpočtem; očekávaná účast a případné střety nejsou potvrzeným výsledkem demonstrací.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/france-braces-fresh-unrest-government-vows-tough-response-2026-10-31/"
+          },
+          "time": "31. 10., dopoledne",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Z okupovaných Olešek se během místního příměří vracejí civilisté na Ukrajinu",
+          "summary": "Reuters informuje o evakuacích přes Rusko a Bělorusko do ukrajinské Černihivské oblasti. Šestidenní humanitární přestávka umožnila odminování a pomoc; nejde o celostátní příměří, boje jinde pokračují.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/three-planes-carrying-residents-evacuated-oleshky-arrive-belarus-news-agency-2026-10-31/"
+          },
+          "time": "31. 10., odpoledne",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Fitch zhoršil výhled francouzského ratingu na negativní",
+          "summary": "Rating A+ zůstal, výhled se ale změnil ze stabilního kvůli slabému růstu, nákladům dluhu a rozpočtovým rizikům. Vláda slibuje odpovědný rozpočet pro rok 2027 a deficit nejvýše 5 %, jeho přijetí je však politicky nejisté.",
+          "source": {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/10/31/france-aims-for-responsible-2027-budget-as-fitch-downgrades-outlook"
+          },
+          "time": "31. 10., aktualizace 10:40",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Polský ministr Sikorski na G20 požadoval rychlé příměří v Černém moři kvůli bezpečnému vývozu obilí; jde o diplomatický návrh, ne uzavřenou dohodu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/polands-sikorski-calls-rapid-ceasefire-black-sea-allow-food-shipments-2026-10-31/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Íránští vyjednavači se po jednáních v Teheránu setkali s Katarem v Dauhá",
+          "summary": "Reuters popisuje sobotní pokračování zprostředkování mezi Íránem a USA. Katarský sedmidenní návrh Teherán nepřijal, strany se liší v pořadí ústupků kolem sankcí, blokády a Hormuzu. Hrozba další eskalace trvá, dohoda zatím není.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+          },
+          "time": "31. 10., sobota",
+          "tag": "UPDATE",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Americký federální soud dočasně zakázal zastrašování volebních pracovníků",
+          "summary": "Soudkyně Trina Thompsonová vydala před úterními volbami předběžné opatření proti výhrůžkám a nátlaku federálních úřadů na pracovníky zpracovávající hlasy. Jde o dočasné soudní rozhodnutí, nikoli konečný rozsudek ve věci.",
+          "source": {
+            "name": "The Washington Post",
+            "url": "https://www.washingtonpost.com/politics/2026/10/31/judge-orders-trump-officials-not-threaten-or-intimidate-election-workers/"
+          },
+          "time": "31. 10., sobota",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Dnešní NYT Opinion Today přináší komentář Alissy Quartové o finanční nejistotě americké střední třídy; jde o názorovou reportáž a výpovědi respondentů, nikoli nový reprezentativní statistický průzkum.",
+          "source": {
+            "name": "NYT — Opinion Today (Gmail)",
+            "url": "https://mail.google.com/mail/#all/1a191d70928f2e13"
+          }
+        },
+        {
+          "text": "Íránští představitelé dál varují před obnovením amerických útoků; jejich výhrůžky nelze vydávat za potvrzené nové bojové operace.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-10-31"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "OpenAI podle FT snížila cíl investičního kola o 10 miliard dolarů",
+          "summary": "Reuters s odkazem na Financial Times píše, že cílový objem financování klesl přibližně na 20 miliard USD a zamýšlené ocenění firmy na 1,25 bilionu USD. Jde o mediálně oznámené parametry, nikoli potvrzené uzavření kola; souvisí s výprodejem AI akcií.",
+          "source": {
+            "name": "Reuters / Financial Times",
+            "url": "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/"
+          },
+          "time": "31. 10., sobota",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Nová analýza Reuters upozorňuje na finanční rizika AI infrastruktury",
+          "summary": "Breakingviews rozebírá, zda příjmy AI firem unesou jejich výdajové závazky, a uvádí citlivost zisků velkých technologických firem na odpisy datových center. Jde o analytický scénář, ne o nový burzovní kurz ani potvrzenou prognózu.",
+          "source": {
+            "name": "Reuters Breakingviews",
+            "url": "https://www.reuters.com/commentary/breakingviews/global-markets-breakingviews-2026-10-31/"
+          },
+          "time": "31. 10., sobota",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "168,90",
+    "currency": "EUR",
+    "asOf": "30. října 2026, páteční uzávěrka XETRA; sobota 31. 10. je neobchodní den, nejde o live cenu",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−1,48 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Cena 168,90 EUR je páteční závěr, nikoli sobotní pohyb. Ověřeno proti historické tabulce; některé preferované stránky stále zobrazují starší údaje.",
+    "sources": [
+      {
+        "name": "Closelook",
+        "url": "https://closelook.io/indices/stock/vwce.xetra/price-history/"
+      },
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "justETF",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-10-31T16:27:22+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; sobotní nový díl se nepodařilo potvrdit"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "28. října 2026",
+        "status": "Poslední dříve ověřený díl; sobotní nový díl se nepodařilo potvrdit"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; sobotní nový díl se nepodařilo potvrdit"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Z Babišova boje proti ČT se nejvíc raduje Okamura",
+        "url": "https://denikn.cz/podcast-vrtetipsem",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; sobotní nový díl se nepodařilo potvrdit"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "26. října 2026",
+        "status": "Poslední dříve ověřený díl; sobotní nový díl se nepodařilo potvrdit"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Studio N",
+        "title": "Francouzi v ulicích, Vučić na kolenou. Co se stane, když mladým dojde trpělivost",
+        "url": "https://denikn.cz/podcast-studio-n",
+        "date": "30. října 2026"
+      },
+      {
+        "show": "Vinohradská 12",
+        "title": "Netanjahu se o moc nedělí, co Eisenkot? Volební pat může prolomit aliance, do které se nikomu nechce",
+        "url": "https://www.irozhlas.cz/zpravy-svet/netanjahu-se-o-moc-nedeli-co-eisenkot-volebni-pat-muze-prolomit-aliance-do-ktere_2610300600_med",
+        "date": "30. října 2026"
+      },
+      {
+        "show": "Ve vatě",
+        "title": "Zisky rostou, investice bobtnají. Co čekat od amerických akcií",
+        "url": "https://podcasty.seznam.cz/podcast/ve-vate",
+        "date": "29. října 2026"
+      }
+    ],
+    "note": "Ověřeny veřejné katalogy, nové sobotní epizody nebyly spolehlivě doloženy; uvedeny poslední dříve ověřené tituly a data. Žádné audio ani placené API nebylo generováno."
+  },
+  "footer": {
+    "sources": [
+      "iROZHLAS",
+      "Novinky",
+      "Reuters",
+      "Euronews",
+      "Associated Press",
+      "The Washington Post",
+      "NYT Opinion Today (Gmail)",
+      "Reuters Breakingviews",
+      "Closelook",
+      "StockInvest.us",
+      "justETF",
+      "Seznam Podcasty"
+    ],
+    "note": "NYT: 1 povolený newsletter přečten, 1 potvrzeně označen jako přečtený. Nepovolený NYT kvíz ponechán beze změny. ČT24, Seznam Zprávy, Deník N, Reflex, Al Jazeera, CNN a NPR neposkytly dostatek nových ověřitelných položek; některé podcastové katalogy nebyly aktuální. VWCE je páteční uzávěrka."
+  },
+  "nyt": {
+    "read": 1,
+    "markedRead": 1,
+    "subjects": [
+      "Opinion Today: This is what Americans are going without"
+    ]
+  }
+}

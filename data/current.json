@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "kind": "briefing-pointer",
-  "updatedAt": "2026-10-31T07:01:47+01:00",
+  "updatedAt": "2026-10-31T16:27:22+01:00",
   "current": {
-    "id": "2026-10-31-morning",
+    "id": "2026-10-31-afternoon",
     "date": "2026-10-31",
-    "edition": "morning",
-    "title": "Ranní přehled",
-    "generatedAt": "2026-10-31T07:01:47+01:00",
-    "path": "data/archive/2026-10-31-morning.json"
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "generatedAt": "2026-10-31T16:27:22+01:00",
+    "path": "data/archive/2026-10-31-afternoon.json"
   }
 }
