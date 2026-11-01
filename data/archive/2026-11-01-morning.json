@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "1. listopadu 2026",
+    "generatedAt": "2026-11-01T07:07:15+01:00",
+    "readingMinutes": 19,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Nedělní ráno: Babiš dál mění návrh financování veřejnoprávních médií, polská ústavní krize se vyostřuje a íránská jednání s Katarem zatím nepřinesla dohodu. Trhy zůstávají po pátečním výprodeji technologických akcií zavřené; uvádíme poslední ověřené uzávěrky."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "ok"
+    },
+    {
+      "name": "ČTK / České noviny",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Euronews",
+      "status": "ok"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "The Verge",
+      "status": "ok"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Stock Analysis",
+      "status": "ok"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Babiš slibuje dobrovolné poplatky pro ČT a ČRo, financování ale zatím nemá jasný model",
+      "summary": "Premiér v sobotu uvedl, že ministerstvo financí připravuje dobrovolné platby a zákonnou garanci financování médií mimo přímé rozpočtové výdaje. Konkrétní konstrukce není schválená; koaliční rada se jí má zabývat v pondělí. Jde o premiérův návrh, nikoli platné právo.",
+      "source": {
+        "name": "ČTK / České noviny",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-diskusi-o-poplatcich-nebudeme-omezovat-penize-nepujdou-z-rozpoctu/2895395"
+      }
+    },
+    {
+      "title": "Polská ústavní krize eskaluje, Tusk hájí nové soudce a prezident mluví o převzetí soudu",
+      "summary": "Po pozastavení předsedy ústavního tribunálu Bogdana Święczkowského se prezident Karol Nawrocki vrátil ze zahraniční cesty a zpochybnil legitimitu postupu. Premiér Donald Tusk v sobotním projevu naopak slíbil ochranu práce nově zvolených soudců. Právní posouzení kroků obou táborů zůstává sporné.",
+      "source": {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/10/31/poland-crisis-donald-tusk-strikes-defiant-tone-vowing-no-compromise-on-rule-of-law-after-t"
+      }
+    },
+    {
+      "title": "Írán a Katar pokračují v jednáních, obavy z nových amerických úderů trvají",
+      "summary": "Íránští vyjednavači v sobotu v Dauhá jednali s katarskými prostředníky o podmínkách deeskalace. Teherán odmítl katarský sedmidenní návrh a trvá na vlastní cestě k otevření Hormuzu; USA podle ministra Rubia zatím o novém úderu nerozhodly. Dohoda potvrzena není.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Babiš slibuje dobrovolné poplatky pro ČT a ČRo, financování ale zatím nemá jasný model",
+          "summary": "Premiér v sobotu uvedl, že ministerstvo financí připravuje dobrovolné platby a zákonnou garanci financování médií mimo přímé rozpočtové výdaje. Konkrétní konstrukce není schválená; koaliční rada se jí má zabývat v pondělí. Jde o premiérův návrh, nikoli platné právo.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/babis-diskusi-o-poplatcich-nebudeme-omezovat-penize-nepujdou-z-rozpoctu/2895395"
+          },
+          "time": "31. 10., 14:15"
+        },
+        {
+          "title": "Premiér letos neplánuje měnit ministry, další roky nevyloučil",
+          "summary": "Babiš v sobotní debatě odmítl okamžitou rekonstrukci kabinetu ANO, SPD a Motoristů. Na leden ohlásil hodnocení plnění programu a ministrů a kritizoval některé veřejné výroky Motoristů. Nejde o oznámenou personální změnu.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/babis-letos-nechysta-vymeny-ve-vlade-v-dalsich-letech-je-nevyloucil/2895413"
+          },
+          "time": "31. 10., 14:24"
+        },
+        {
+          "title": "Vysokorychlostní železnice Praha–Drážďany pokračuje v posuzování vlivů na Podřipsko",
+          "summary": "Správa železnic dokončuje dokumentaci EIA pro Podřipsko; ministerstvu ji chce předložit do konce roku. Plánovaná mezistátní smlouva s Německem je důležitá pro přípravu Krušnohorského tunelu. Zahájení stavby v oblasti se předpokládá kolem roku 2032, termíny se mohou změnit.",
+          "source": {
+            "name": "iROZHLAS / ČTK",
+            "url": "https://www.irozhlas.cz/zpravy-domov/zeleznicari-zkoumaji-vliv-budouci-rychlodrahy-na-podripsko-zavery-predlozi-na_2610311837_bod"
+          },
+          "time": "31. 10., 18:37"
+        },
+        {
+          "title": "ČSÚ: Češi po pětašedesátce žijí déle, zdravých let je ale menšina",
+          "summary": "Za dvacet let vzrostla naděje dožití ve věku 65 let přibližně o 2,5 až 3 roky. Podle statistického úřadu tráví ženy v dobrém zdraví zhruba dvě pětiny zbývajícího života a muži necelou polovinu. Údaj ukazuje rozdíl mezi délkou života a délkou života bez omezení.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/udaje-csu-nadeje-doziti-senioru-roste-jen-cast-seniorskeho-zivota-je-ve-zdravi/2895344"
+          },
+          "time": "31. 10., 08:25"
+        },
+        {
+          "title": "Na Benešovsku havarovalo ultralehké letadlo, pilot zemřel",
+          "summary": "U Vranova v sobotu odpoledne havarovalo dvojmístné ultralehké letadlo, na palubě byl pouze pilot. Policie a letečtí vyšetřovatelé zjišťují příčinu; žádná konkrétní příčina dosud nebyla potvrzena.",
+          "source": {
+            "name": "iROZHLAS / ČTK",
+            "url": "https://www.irozhlas.cz/zpravy-domov/pad-ultralehkeho-letadla-na-benesovsku-neprezil-pilot-priciny-nehody-vysetruji_2610311939_tkp"
+          },
+          "time": "31. 10., 19:39"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Podle předběžných statistik zemřelo v říjnu při dopravních nehodách 30 lidí, o čtyři méně než loni; bilance se může dodatečně změnit.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/2895452"
+          }
+        },
+        {
+          "text": "Na Ji.hlavě zvítězily v české dokumentární soutěži filmy Zářit Martina Páva a Land of Fire Nikoly Klingera.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/2895564"
+          }
+        },
+        {
+          "text": "Plzeň vymění nebezpečně praskající povrch terasy Velkého divadla, oprava má stát přibližně 9,1 milionu Kč.",
+          "source": {
+            "name": "iROZHLAS / ČTK",
+            "url": "https://www.irozhlas.cz/zpravy-domov/dute-lamely-na-terase-plzenskeho-divadla-neodolaly-povetrnostnim-podminkam-mesto_2610311924_bod"
+          }
+        },
+        {
+          "text": "Vláda má v pondělí jednat o rozpočtu Státního fondu audiovize; premiér slíbil jeho schválení, rozhodnutí zatím nepadlo.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/cr-vlada-snemovna/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Polská ústavní krize eskaluje, Tusk hájí nové soudce a prezident mluví o převzetí soudu",
+          "summary": "Po pozastavení předsedy ústavního tribunálu Bogdana Święczkowského se prezident Karol Nawrocki vrátil ze zahraniční cesty a zpochybnil legitimitu postupu. Premiér Donald Tusk v sobotním projevu naopak slíbil ochranu práce nově zvolených soudců. Právní posouzení kroků obou táborů zůstává sporné.",
+          "source": {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/10/31/poland-crisis-donald-tusk-strikes-defiant-tone-vowing-no-compromise-on-rule-of-law-after-t"
+          },
+          "time": "31. 10., večer"
+        },
+        {
+          "title": "Ve Francii pokračovaly protesty kvůli životním nákladům, účast klesla",
+          "summary": "Podle úřadů vyšlo v sobotu do ulic asi 320 tisíc lidí, oproti 410 tisícům předchozí týden. Většina pochodů proběhla pokojně, menší střety s policií se odehrály v několika městech. Demonstranti kritizují ceny energií, inflaci a stav veřejných služeb.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/france-braces-fresh-unrest-government-vows-tough-response-2026-10-31/"
+          },
+          "time": "31. 10."
+        },
+        {
+          "title": "Evakuovaní z okupovaných ukrajinských Olešek dorazili na ukrajinské území",
+          "summary": "Humanitární přesun proběhl za místního příměří a přes složitou trasu přes Rusko a Bělorusko. Evakuovaní popisují hlad a nedostatek zdravotní péče. Jde o omezené lokální příměří, nikoli o přerušení bojů na celé frontě.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/three-planes-carrying-residents-evacuated-oleshky-arrive-belarus-news-agency-2026-10-31/"
+          },
+          "time": "31. 10."
+        },
+        {
+          "title": "Polsko žádá rychlé příměří v Černém moři pro ochranu obilních lodí",
+          "summary": "Ministr zahraničí Radosław Sikorski na G20 vyzval k bezpečnému vývozu obilí a zdůraznil nutnost účasti Ukrajiny na případné dohodě. Jde o diplomatickou výzvu, nikoli již dojednané příměří.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/polands-sikorski-calls-rapid-ceasefire-black-sea-allow-food-shipments-2026-10-31/"
+          },
+          "time": "31. 10."
+        }
+      ],
+      "minor": [
+        {
+          "text": "V Itálii při páteční generální stávce demonstrovaly desetitisíce lidí proti drahotě a za vyšší mzdy; v několika městech se střetli s policií.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/mass-protests-sweep-italy-during-nationwide-strike-2026-10-30/"
+          }
+        },
+        {
+          "text": "Páteční protestní stávka přístavních pracovníků zasáhla podle organizátorů 113 přístavů ve 22 zemích a místy omezila trajekty i nákladní dopravu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/world-at-work/dockworkers-strike-in-europe-beyond-against-arms-shipments-war-deaths-2026-10-30/"
+          }
+        },
+        {
+          "text": "Polský prezident Nawrocki označuje změny ve vedení tribunálu za nezákonné; Tuskova vláda tvrdí, že obnovuje nezávislost justice. Obojí jsou stanoviska aktérů sporu.",
+          "source": {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/10/31/poland-political-crisis-constitutional-court-in-chaos-as-nawrocki-accuses-government-of-st"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Írán a Katar pokračují v jednáních, obavy z nových amerických úderů trvají",
+          "summary": "Íránští vyjednavači v sobotu v Dauhá jednali s katarskými prostředníky o podmínkách deeskalace. Teherán odmítl katarský sedmidenní návrh a trvá na vlastní cestě k otevření Hormuzu; USA podle ministra Rubia zatím o novém úderu nerozhodly. Dohoda potvrzena není.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+          },
+          "time": "31. 10."
+        },
+        {
+          "title": "Americký soud zakázal ministerstvu spravedlnosti vyhrožovat volebním úředníkům",
+          "summary": "Federální soudkyně vydala dočasné opatření proti tlaku na státní a místní volební úřady kvůli údajným neobčanům na voličských seznamech. Rozhodnutí přichází před americkými volbami do Kongresu a neřeší konečný výsledek celého sporu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/government/judge-orders-trump-administration-cease-threats-prosecute-election-officials-2026-10-31/"
+          },
+          "time": "31. 10."
+        },
+        {
+          "title": "Země Quad chtějí bezpečnější dodávky čipů a kritických surovin",
+          "summary": "Ministři USA, Japonska, Indie a Austrálie se dohodli na prohloubení spolupráce v polovodičích, AI a infrastruktuře. Společné prohlášení varuje před hospodářským nátlakem a omezeními vývozu; Čínu přímo nejmenuje.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/rubio-host-meeting-indo-pacific-quad-wrap-up-g20-gathering-2026-10-31/"
+          },
+          "time": "31. 10."
+        },
+        {
+          "title": "USA a Kanada zkoumají omezené příměří na ochranu dopravy v Černém moři",
+          "summary": "Marco Rubio a kanadská ministryně Anita Anandová uvedli, že roste zájem o dohodu chránící lodě s obilím a energií. Rusko podle kanadské strany zatím neprojevilo ochotu přistoupit; širší mírová dohoda není na dosah.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us-sees-growing-interest-limited-ceasefire-black-sea-2026-10-31/"
+          },
+          "time": "31. 10."
+        }
+      ],
+      "minor": [
+        {
+          "text": "Íránské revoluční gardy tvrdí, že v Hormuzu hořely čtyři tankery; Reuters tyto počty nezávisle neověřila. Britská UKMTO potvrdila hlášení o zásahu plavidla.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/"
+          }
+        },
+        {
+          "text": "Americký soud s konečnou platností zamítl Trumpovu žalobu proti Wall Street Journalu týkající se reportáže o Epsteinovi.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us-judge-dismisses-trumps-lawsuit-against-wall-street-journal-with-prejudice-2026-10-31/"
+          }
+        },
+        {
+          "text": "Na schůzce G20 ministrů zahraničí nevzniklo společné prohlášení; rozdíly kolem Ruska a Ukrajiny přetrvávají.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us-sees-growing-interest-limited-ceasefire-black-sea-2026-10-31/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Velké AI firmy podporují společný standard pro odmítnutí trénovacího scrapingu",
+          "summary": "OpenAI, Anthropic, Google a Microsoft podpořily návrh společného signálu v robots.txt, jímž by weby určovaly pravidla pro AI crawly a trénink. Jde o připravovaný standard, nikoli už univerzálně fungující ochranu; zavádění má probíhat postupně.",
+          "source": {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+          },
+          "time": "31. 10."
+        },
+        {
+          "title": "Reuters: AI mění americké vojenské operace, přibývá rizik chybných vyhodnocení",
+          "summary": "Reportáž popisuje rychlejší zpracování zpravodajských dat pomocí AI včetně systému Maven. Upozorňuje zároveň na chybovost, civilní rizika a závislost armády na dodavatelích; jde o investigativní analýzu, ne tvrzení o bezchybné autonomii.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/ais-rewiring-us-warfare-may-be-only-beginning-2026-10-30/"
+          },
+          "time": "30. 10."
+        },
+        {
+          "title": "Microsoft ustupuje od Copilotu v chytrých televizích",
+          "summary": "Podle oznámení zobrazeného uživatelům přestane během roku 2026 fungovat Copilot na televizích LG a Samsung. Přesný konečný termín zatím nebyl sdělen; firma soustřeďuje AI produktové úsilí na práci a produktivitu.",
+          "source": {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending"
+          },
+          "time": "29. 10."
+        },
+        {
+          "title": "Mistral zpřístupnil model Large 4 se zaměřením na kyberbezpečnost",
+          "summary": "Francouzská firma podle Reuters uvolnila model, který lze provozovat na vlastní infrastruktuře. Firma zdůrazňuje možnosti hledání zranitelností, otevřené váhy však současně znamenají obtížnější kontrolu dalšího použití.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-2026-10-29/"
+          },
+          "time": "29. 10."
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Wall Street čeká týden voleb, výsledků firem a dat o práci po výprodeji AI akcií",
+          "summary": "Páteční uzávěrka přinesla pokles S&P 500 asi o 1,8 % a Nasdaqu asi o 2,9 %, Intel spadl téměř o 29 %. Investoři sledují rentabilitu datových center, americké volby a říjnovou statistiku zaměstnanosti. Jde o páteční uzávěrky, ne nedělní ceny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/legalindustry/wall-st-week-ahead-midterm-elections-earnings-jobs-data-loom-ai-wary-market-2026-10-30/"
+          },
+          "time": "30. 10., páteční close"
+        },
+        {
+          "title": "OPEC+ se před nedělní schůzkou předběžně shodl na zachování prosincových těžebních cílů",
+          "summary": "Reuters s odvoláním na tři zdroje píše o předběžné dohodě ponechat produkční cíle beze změny. Formální rozhodnutí a podrobnosti ještě nebyly zveřejněny; zásadní nejistotou zůstává vývoz z Perského zálivu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/"
+          },
+          "time": "31. 10."
+        },
+        {
+          "title": "VWCE uzavřelo pátek na XETŘE za 168,90 EUR",
+          "summary": "Poslední ověřená uzávěrka VWCE.DE je z pátku 30. října a znamená denní pokles 1,48 %. V sobotu ani v neděli se na XETŘE neobchoduje; nové pondělní kotace zatím nejsou k dispozici.",
+          "source": {
+            "name": "Stock Analysis",
+            "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+          },
+          "time": "30. 10., close"
+        },
+        {
+          "title": "Exxon a Chevron těžily z vysokých rafinérských marží",
+          "summary": "Obě americké ropné společnosti podle pátečních výsledků překonaly očekávání analytiků. Rafinérské marže podporují válečné výpadky dodávek; jejich udržitelnost po obnovení dopravy je nejistá.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/wrapup-exxon-chevron-earnings-propelled-by-war-driven-refining-surge-2026-10-30/"
+          },
+          "time": "30. 10."
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "168,90",
+    "currency": "EUR",
+    "asOf": "30. října 2026, 17:36 CET; poslední dostupná páteční uzávěrka před pondělním otevřením XETRY, v neděli bez obchodování",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−1,48 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Páteční cena ověřena v historických datech Stock Analysis. StockInvest.us a justETF neposkytly stejně aktuální úplný přehled výkonnostních metrik; neověřené hodnoty jsou ponechány prázdné.",
+    "sources": [
+      {
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+      },
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "justETF",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-01T07:07:15+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Jak se z Andreje Babiše stal komik na BBC",
+        "url": "https://www.seznamzpravy.cz/sekce/audio-podcast-vlevo-dole-267",
+        "date": "28. října 2026",
+        "status": "Poslední veřejně ověřený díl; nový díl za posledních 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední veřejně ověřený díl; nový díl za posledních 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední ověřený veřejný díl; aktuálnější nebyl potvrzen"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš je v problémech. Má se začít bát?",
+        "url": "https://denikn.cz/minuta/tema/3813/vrtetipsem",
+        "date": "25. října 2026",
+        "status": "Poslední veřejně ověřený díl; část katalogů je opožděná"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/clanek/padni-komu-padni/138967/padni-komu-padni-otazkovy-special-jak-volime-kdo-z-babisovy-vlady-nas-prekvapil-a-nadava-orban-slovakum.html",
+        "date": "26. října 2026",
+        "status": "Poslední ověřený podcastový díl; sobotní video není potvrzeno jako nový podcast"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "The Daily",
+        "title": "Martin McDonagh Has a Vision for Hope. It's Not for the Faint of Heart.",
+        "url": "https://themelo.in/podcasts/the-daily",
+        "date": "31. října 2026"
+      },
+      {
+        "show": "Hard Fork",
+        "title": "Are We in an A.I. Bubble? We're About to Find Out.",
+        "url": "https://podcasts.apple.com/nz/podcast/are-we-in-an-a-i-bubble-were-about-to-find-out/id1528594034?i=1000798873825",
+        "date": "30. října 2026"
+      },
+      {
+        "show": "Vinohradská 12",
+        "title": "Netanjahu se o moc nedělí, co Eisenkot? Volební pat může prolomit aliance, do které se nikomu nechce",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "30. října 2026"
+      }
+    ],
+    "note": "Odkazy vedou na veřejně ověřené epizody nebo stránky pořadů. Žádné audio, TTS ani placené API nebylo spuštěno."
+  },
+  "footer": {
+    "sources": [
+      "ČTK / České noviny",
+      "iROZHLAS",
+      "Reuters",
+      "Euronews",
+      "The Verge",
+      "Reflex",
+      "Deník N",
+      "Seznam Zprávy",
+      "Stock Analysis",
+      "StockInvest.us",
+      "justETF",
+      "Seznam Podcasty",
+      "mujRozhlas",
+      "Apple Podcasts"
+    ],
+    "note": "NYT: žádný z 3 nalezených nepřečtených e-mailů z posledních 48 hodin nepatřil mezi povolené newslettery, takže 0 přečteno a 0 označeno. CNN a NPR blokovaly přímý přístup; ČT24, Seznam Zprávy, Novinky, Deník N a část podcastových katalogů poskytly omezené čerstvé výsledky. Sobota/neděle: VWCE nemá novou cenu."
+  },
+  "nyt": {
+    "read": 0,
+    "markedRead": 0,
+    "subjects": []
+  }
+}
