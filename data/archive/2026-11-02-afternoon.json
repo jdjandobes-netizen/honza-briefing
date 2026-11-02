@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "2. listopadu 2026",
+    "generatedAt": "2026-11-02T16:45:54+01:00",
+    "readingMinutes": 13,
+    "nextEdition": "Ranní přehled zítra v 7:00.",
+    "intro": "Vláda schválila armádní koncepci a prezident Pavel kritizuje její finanční krytí. Evropou se šíří kyberútok na chlazení supermarketů, íránská jednání skončila bez průlomu a ropa prudce zlevnila. V Česku přibyly konkrétní informace o úterní stávce veřejnoprávních médií a rozpočtová data."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "ČTK / České noviny",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Stock Analysis",
+      "status": "ok"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "error"
+    },
+    {
+      "name": "NPR",
+      "status": "error"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Vláda schválila koncepci armády, Pavel upozornil na nesplněné závazky",
+      "summary": "Ranní plán se změnil v přijatý dokument; prezident tvrdí, že peníze nestačí na alianční cíle.",
+      "source": {
+        "name": "ČTK / České noviny",
+        "url": "https://www.ceskenoviny.cz/zpravy/vlada-schvalila-koncepci-armady-podle-pavla-nezajisti-plneni-zavazku/2895044"
+      }
+    },
+    {
+      "title": "Kyberútok zasáhl chlazení supermarketů v několika zemích EU",
+      "summary": "Řetězce likvidují znehodnocené potraviny; pachatel není znám a případ se vyšetřuje.",
+      "source": {
+        "name": "ČTK / Reuters",
+        "url": "https://www.ceskenoviny.cz/zpravy/chladici-zarizeni-v-evrope-zasahl-kyberneticky-utok-brusel-mluvi-o-zameru/2896192"
+      }
+    },
+    {
+      "title": "Íránská jednání bez průlomu, ropa během dne ztratila přes šest procent",
+      "summary": "Diplomatické kontakty pokračují, otevření Hormuzu ani příměří potvrzeno není.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-2026-11-02/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Vláda schválila armádní koncepci do roku 2040, Pavel varuje před nesplněnými závazky",
+          "summary": "Ranní plán jednání se změnil ve schválený dokument. Prezident Pavel tvrdí, že plánované financování 2 % HDP nezajistí alianční závazky. Babiš zdůrazňuje protivzdušnou a protidronovou obranu.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/vlada-schvalila-koncepci-armady-podle-pavla-nezajisti-plneni-zavazku/2895044"
+          },
+          "time": "2. 11., aktualizace 15:47",
+          "tag": "UPDATE",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Babiš očekává druhé čtení změny financování ČT a ČRo kolem 15. ledna",
+          "summary": "Premiér dnes uvedl nový orientační termín a slíbil debatu o konkrétním modelu. Koalice chce povinné poplatky zrušit; náhradní financování schválené není.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/babis-druhe-cteni-navrhu-na-zruseni-poplatku-by-mohlo-byt-kolem-15-ledna/2896300"
+          },
+          "time": "2. 11., 16:02",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Úterní stávka ČT a ČRo zasáhne Události i Studio 6",
+          "summary": "Česká televize upřesnila omezení zpravodajských a digitálních služeb během 24hodinové stávky. Mimořádné zpravodajství má být zachováno.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/uterni-stavka-v-ct-se-projevi-ve-zmenach-programu-i-omezeni-zpravodajstvi/2896060"
+          },
+          "time": "2. 11., aktualizace 16:12",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Pražské ustavující zastupitelstvo se zřejmě přeruší o týden až dva",
+          "summary": "Po jednání STAN, Spolu a Prahy sobě Hlaváček oznámil plán přerušit čtvrteční schůzi po složení slibů. Třetí partner koalice není vybrán.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/hlavacek-ustavujici-zastupitelstvo-prahy-prerusime-do-dojednani-koalice/2895938"
+          },
+          "time": "2. 11., 14:19",
+          "tag": "UPDATE",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Soud nepravomocně zprostil Číňana obžaloby ze špionáže",
+          "summary": "Pražský městský soud dospěl k závěru, že žalovaný skutek nebyl trestným činem. Rozsudek není pravomocný; muž byl prvním stíhaným podle ustanovení o neoprávněné činnosti pro cizí moc.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/soud-zprostil-obzaloby-muze-vineneho-ze-spionaze-pro-cinskou-tajnou-sluzbu/2887638"
+          },
+          "time": "2. 11., 16:34",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Vláda schválila návrh implementace konfiskační směrnice: policie by mohla předběžně zajistit podezřelý majetek až na sedm pracovních dnů. Zákon ještě neplatí.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/policie-by-mohla-ziskat-moznost-zajistit-az-na-sedm-dni-podezrely-majetek/2896258"
+          }
+        },
+        {
+          "text": "Prezident Pavel vyzval k debatě o víceletém financování a nezávislosti ČT a ČRo, nikoli jen o samotných poplatcích.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/prezident-pavel-ma-debatu-o-zruseni-poplatku-za-ct-a-cro-za-zuzenou/2896196"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Kyberútok zasáhl chlazení supermarketů v několika zemích EU",
+          "summary": "V Belgii, Lucembursku, Švédsku, Irsku a Estonsku se kazí potraviny po dálkové manipulaci s teplotou. Eurokomisař Hansen mluví o cíleném narušení zásobování; pachatel není znám a plošný nedostatek potravin nehrozí.",
+          "source": {
+            "name": "ČTK / Reuters",
+            "url": "https://www.ceskenoviny.cz/zpravy/chladici-zarizeni-v-evrope-zasahl-kyberneticky-utok-brusel-mluvi-o-zameru/2896192"
+          },
+          "time": "2. 11., aktualizace 16:44",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Pavel varuje, že Evropa může zůstat mimo mírová jednání o Ukrajině",
+          "summary": "Český prezident upozornil, že čekání na úplnou evropskou shodu může uzavřít příležitost ovlivnit vyjednávání. Jde o jeho politické hodnocení.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/pavel-pokud-se-evropa-nezapoji-do-mirovych-jednani-mohou-skoncit-bez-ni/2896175"
+          },
+          "time": "2. 11., aktualizace 15:07",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Americký návrh obnovit tranzit ruského plynu přes Ukrajinu narazil na Moskvu",
+          "summary": "Podle WSJ američtí vyjednavači navrhli prodej přes prostředníky jako součást možné mírové dohody. Kreml dnes uvedl, že nynější situace realizaci neumožňuje; dodávky obnoveny nejsou.",
+          "source": {
+            "name": "ČTK / WSJ",
+            "url": "https://www.ceskenoviny.cz/zpravy/usa-navrhly-obnovu-prodeje-ruskeho-plynu-do-eu-podle-moskvy-to-zatim-neni-mozne-/2895953"
+          },
+          "time": "2. 11., aktualizace 12:08",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Bulharské prezidentské volby vyhrála Jotovová",
+          "summary": "Nová pondělní zpráva potvrzuje vítězství, které ranní vydání uvádělo pouze jako předběžné. Politické dopady výsledku zůstávají otevřené.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/bulharske-prezidentske-volby-vyhrala-jotovova/2892977"
+          },
+          "time": "2. 11., 10:36",
+          "tag": "UPDATE",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Ukrajina obvinila Rusko z přeskupování sil během příměří u Olešek; Kreml tvrdí, že podobně mohla postupovat i Ukrajina. Obě tvrzení jsou sporná.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/ukraine-says-russia-used-oleshky-ceasefire-reinforce-positions-2026-11-02/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Jednání o ukončení války s Íránem skončila bez průlomu",
+          "summary": "Íránská delegace odjela z Dauhá, ale zprostředkované kontakty s USA pokračují. Teherán podmiňuje otevření Hormuzu kroky Washingtonu; dohoda ani příměří nejsou potvrzeny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-2026-11-02/"
+          },
+          "time": "2. 11., pondělí",
+          "tag": "UPDATE",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Poslední průzkumy NYT/Siena dávají demokratům náskok v senátních soubojích",
+          "summary": "Dnešní The Morning uvádí náskok demokratů v šesti ze sedmi sledovaných států včetně Texasu a Kansasu. Průzkumy nejsou volební výsledek a úterní hlasování může dopadnout jinak.",
+          "source": {
+            "name": "NYT The Morning / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a19c1dbeb0098a8"
+          },
+          "time": "2. 11., 12:55 CET",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Čína zahájila diplomatickou iniciativu kolem Íránu",
+          "summary": "Ministr Wang I jednal odděleně s íránským a saúdským představitelem a podpořil politické řešení. Čínský zvláštní vyslanec má navštívit Írán, Omán a Saúdskou Arábii.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/chinas-foreign-minister-pushes-dialogue-resolve-middle-east-conflict-2026-11-02/"
+          },
+          "time": "2. 11., pondělí",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Ukrajinský generální štáb tvrdí, že Rusko využilo příměří u Olešek k posílení pozic; Moskva konkrétní ruské přesuny nekomentovala.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/ukraine-says-russia-used-oleshky-ceasefire-reinforce-positions-2026-11-02/"
+          }
+        },
+        {
+          "text": "NYT Today's Headlines informuje o mozkové příhodě senátora Chrise Murphyho; podle newsletteru je při vědomí a reaguje.",
+          "source": {
+            "name": "NYT Today's Headlines / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a19b998355334ab"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Marvell oznámil převzetí Lumentumu za 115 miliard dolarů včetně dluhu",
+          "summary": "Akciová transakce propojí čipy pro AI datacentra s optickými komponentami. Dokončení se očekává v první polovině roku 2028 a podléhá regulatornímu schválení.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/"
+          },
+          "time": "2. 11., pondělí",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "OpenAI, G42 a ADNOC oznámily spolupráci na AI v energetice",
+          "summary": "Abúzabská energetická skupina chce využít pokročilé modely ve svém provozu. Konkrétní ekonomické přínosy zatím nejsou doloženy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/abu-dhabis-adnoc-g42-sign-deal-with-openai-sam-altman-travels-uae-2026-11-02/"
+          },
+          "time": "2. 11., pondělí",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Oracle plánuje získat 20 miliard dolarů pro AI a cloud",
+          "summary": "Firma oznámila dluhové a akciové financování infrastruktury. Trh sleduje zadlužení, cash flow a návratnost investic; podmínky emisí nejsou finální.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/"
+          },
+          "time": "2. 11., pondělí",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Brent během pondělí prohloubil pokles přes šest procent",
+          "summary": "Kolem 14:40 SEČ se Brent obchodoval kolem 106,60 USD a WTI pod 97,70 USD za barel. Trh reagoval na naděje na íránskou dohodu, která ale zatím nevznikla. Nejde o uzávěrku.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/-ceny-ropy-diky-nadeji-na-ukonceni-iranskeho-konfliktu-ztraceji-pres-sest-procent/2895144"
+          },
+          "time": "2. 11., 14:40",
+          "tag": "UPDATE",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "Říjnový kumulovaný schodek českého rozpočtu dosáhl 230,9 miliardy korun",
+          "summary": "Ministerstvo financí zveřejnilo deficit vyšší než loňských 183,1 miliardy. Výdaje rostly meziročně o 5 %, příjmy o 2,8 %. Jde o saldo leden až říjen.",
+          "source": {
+            "name": "ČTK / MF ČR",
+            "url": "https://www.ceskenoviny.cz/zpravy/-schodek-rozpoctu-v-rijnu-vzrostl-na-2309-miliardy-je-vyssi-nez-pred-rokem/2895940"
+          },
+          "time": "2. 11., aktualizace 16:17",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "ECB upozornila na vysoké valuace AI akcií a napětí na dluhopisových trzích",
+          "summary": "Viceprezident ECB Boris Vujčić varoval před riziky pro finanční stabilitu včetně nebankovních fondů. Podrobnější zpráva má vyjít 18. listopadu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/ecb-flags-ai-valuations-bond-stress-fund-losses-main-risks-2026-11-02/"
+          },
+          "time": "2. 11., pondělí",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        },
+        {
+          "title": "VWCE na XETŘE dosáhlo 169,80 EUR na opožděné kotaci",
+          "summary": "Stock Analysis uvádí v 16:26 CET cenu 169,80 EUR, +0,53 % proti páteční uzávěrce 168,90 EUR. Nejde o závěrečnou pondělní cenu.",
+          "source": {
+            "name": "Stock Analysis",
+            "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+          },
+          "time": "2. 11., 16:26 CET",
+          "tag": "NEW",
+          "narration": {
+            "audioTag": "serious"
+          }
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "169,80",
+    "currency": "EUR",
+    "asOf": "2. listopadu 2026, 16:26 CET; opožděná intradenní kotace Stock Analysis, nikoli uzávěrka ani live cena",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+0,53 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Stock Analysis uvádí 169,80 EUR k 16:26 CET; StockInvest.us stále zobrazuje páteční uzávěrku 168,90 EUR. Neověřené metriky jsou —.",
+    "sources": [
+      {
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+      },
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      },
+      {
+        "name": "justETF",
+        "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-02T16:45:54+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026",
+        "status": "Poslední veřejně ověřený díl; nový za 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední veřejně ověřený díl; nový za 24 hodin nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední veřejně ověřený díl; předplatitelský katalog může být novější"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; aktuální placený katalog nelze spolehlivě ověřit"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/clanek/padni-komu-padni/138967/padni-komu-padni-otazkovy-special-jak-volime-kdo-z-babisovy-vlady-nas-prekvapil-a-nadava-orban-slovakum.html",
+        "date": "26. října 2026",
+        "status": "Poslední dříve ověřený díl; aktuální katalog nedostupný"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Amerikanista: Trump se bojí modrého tsunami. Prohru ve volbách bude prezentovat jako podvod",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "2. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026"
+      }
+    ],
+    "note": "Veřejné katalogy ověřeny, u části pořadů mohou být novější placené epizody. Bez TTS a placených API."
+  },
+  "footer": {
+    "sources": [
+      "ČTK / České noviny",
+      "Reuters",
+      "Gmail / NYT",
+      "Stock Analysis",
+      "StockInvest.us",
+      "justETF",
+      "Seznam Podcasty",
+      "Deník N",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 4 povolené newslettery přečteny, 4 potvrzeně označeny jako přečtené. Nepovolený e-mail zůstal nedotčen. CNN a NPR blokované, další zdroje částečně omezené. VWCE je opožděná intradenní kotace."
+  }
+}
