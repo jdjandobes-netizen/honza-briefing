@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "3. listopadu 2026",
+    "generatedAt": "2026-11-03T16:29:24+01:00",
+    "readingMinutes": 12,
+    "nextEdition": "Ranní přehled zítra v 07:00.",
+    "intro": "Od rána přibyly zprávy o amerických úderech v Íránu, rozsáhlém útoku na ukrajinskou energetiku a dnešní stávce veřejnoprávních médií."
+  },
+  "sourceStatus": [
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "De Belegger / VWCE",
+      "status": "warning"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "USA provedly omezené údery na íránský ostrov Kešm",
+      "summary": "Američtí představitelé podle Reuters označují zásah za obrannou reakci na ohrožení amerických sil. Neoznámili návrat k rozsáhlým operacím; situace zůstává napjatá.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/"
+      }
+    },
+    {
+      "title": "Ruský rozsáhlý útok vyřadil části ukrajinské energetiky",
+      "summary": "Podle ukrajinských úřadů Rusko nasadilo stovky dronů a desítky raket. Společnost DTEK oznámila odstavení tří z pěti tepelných elektráren a výpadky proudu v Kyjevě a dalších regionech.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/russian-strikes-knock-out-power-swathes-ukraine-kyiv-hits-russian-refinery-2026-11-03/"
+      }
+    },
+    {
+      "title": "Zaměstnanci ČT a ČRo dnes stávkují proti změně financování",
+      "summary": "Dnešní protest se týká plánovaného zrušení koncesionářských poplatků a obav o nezávislost veřejnoprávních médií. Konkrétní rozsah dopadů na vysílání se nepodařilo nezávisle potvrdit.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/3-11-2026-stavka-9654131"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Zaměstnanci ČT a ČRo dnes stávkují proti změně financování",
+          "summary": "Dnešní protest se týká plánovaného zrušení koncesionářských poplatků a obav o nezávislost veřejnoprávních médií. Konkrétní rozsah dopadů na vysílání se nepodařilo nezávisle potvrdit.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/3-11-2026-stavka-9654131"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Ruský rozsáhlý útok vyřadil části ukrajinské energetiky",
+          "summary": "Podle ukrajinských úřadů Rusko nasadilo stovky dronů a desítky raket. Společnost DTEK oznámila odstavení tří z pěti tepelných elektráren a výpadky proudu v Kyjevě a dalších regionech.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/russian-strikes-knock-out-power-swathes-ukraine-kyiv-hits-russian-refinery-2026-11-03/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Evropské akcie oslabují při obavách z AI a Íránu",
+          "summary": "STOXX 600 dopoledne ztrácel přibližně 0,4 %. Tlak na technologie a ceny ropy odráží nejistotu kolem návratnosti AI investic a bezpečnosti v Perském zálivu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/europe-stocks-set-fall-us-iran-tensions-fuel-oil-rebound-2026-11-03/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Evropské dluhopisové trhy čeká příliv emisí na financování AI",
+          "summary": "Americké technologické společnosti zvyšují objem eurových dluhopisů; analytici upozorňují na možné rozšíření kreditních spreadů a vyšší cenu kapitálu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/ai-related-debt-binge-may-pressure-european-bond-markets-2026-11-03/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Schwarz Digits a francouzský Bull připravují evropskou cloudovou infrastrukturu pro AI pod evropskou jurisdikcí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/schwarz-digits-bull-partner-up-build-european-ai-computing-services-2026-11-03/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "USA provedly omezené údery na íránský ostrov Kešm",
+          "summary": "Američtí představitelé podle Reuters označují zásah za obrannou reakci na ohrožení amerických sil. Neoznámili návrat k rozsáhlým operacím; situace zůstává napjatá.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Federální soud omezil zásahy Trumpovy administrativy do volebních seznamů",
+          "summary": "Soudkyně Tanya Chutkanová dočasně zakázala federálním úřadům tlačit na státy kvůli seznamům údajně neoprávněných voličů; upozornila na riziko chyb v datech.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/judge-blocks-trump-administration-pressuring-states-over-noncitizen-voting-2026-11-03/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Reuters/Ipsos: hlavním tématem amerických voličů jsou životní náklady",
+          "summary": "V průzkumu označilo životní náklady za hlavní problém 48 % registrovaných voličů; otázku demokratických pravidel 26 %. Jde o předvolební průzkum, nikoli výsledky hlasování.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/nine-things-us-voters-minds-ahead-midterm-elections-according-reutersipsos-poll-2026-11-03/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Ropa Brent během úterý kolísala kvůli zprávám o Íránu a diplomatických vyjádřeních USA; intradenní údaje nejsou uzávěrkou.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Apple ztrácí kvůli rostoucím cenám pamětí",
+          "summary": "Akcie podle Reuters klesaly přibližně o 4 %. Nový šéf John Ternus upozornil na tlak cen čipů na marže i přes silný prodej prémiových iPhonů.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/apple-shares-slide-higher-memory-costs-fuel-margin-concerns-2026-11-03/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Lidlův Schwarz Digits a Bull chystají suverénní evropský AI cloud",
+          "summary": "Společnosti oznámily předběžnou dohodu o evropských výpočetních službách, serverech a platformě STACKIT; finanční podmínky nezveřejnily.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/schwarz-digits-bull-partner-up-build-european-ai-computing-services-2026-11-03/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "AI dluhopisová expanze může zdražit financování v Evropě",
+          "summary": "Analytici očekávají větší nabídku dluhopisů amerických technologických firem v eurech, což může zvýšit výnosy požadované investory. Jde o tržní riziko, nikoli jistý scénář.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/ai-related-debt-binge-may-pressure-european-bond-markets-2026-11-03/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Čínský finanční regulátor varuje před koncentrací investic do AI",
+          "summary": "Xiao Yuanqi upozornil, že nadměrná koncentrace kapitálu a úvěrů v AI může vytlačovat tradiční odvětví a zvyšovat finanční rizika.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/ai-investment-is-becoming-overly-concentrated-chinese-official-says-2026-11-03/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "167,40",
+    "currency": "EUR",
+    "asOf": "3. listopadu 2026 v 09:21 CET, opožděný intradenní údaj XETRA, nikoli uzávěrka",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−1,2 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Ověřen jen dopolední časově označený kurz; novější intradenní cenu se nepodařilo potvrdit.",
+    "sources": [
+      {
+        "name": "De Belegger",
+        "url": "https://www.debelegger.nl/koers/VWCE.XETRA"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-03T16:29:24+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026",
+        "status": "Poslední dříve ověřený díl; nový díl dnes nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; nový díl dnes nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; nový díl dnes nepotvrzen"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; nový díl dnes nepotvrzen"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/clanek/padni-komu-padni/138967/padni-komu-padni-otazkovy-special-jak-volime-kdo-z-babisovy-vlady-nas-prekvapil-a-nadava-orban-slovakum.html",
+        "date": "26. října 2026",
+        "status": "Poslední dříve ověřený díl; nový díl dnes nepotvrzen"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Amerikanista: Trump se bojí modrého tsunami. Prohru ve volbách bude prezentovat jako podvod",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "2. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026"
+      }
+    ],
+    "note": "Pouze dříve ověřené veřejné odkazy; nové díly nebyly spolehlivě potvrzeny, žádné audio nebylo generováno."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "NYT / Gmail",
+      "De Belegger",
+      "Seznam Podcasty",
+      "Deník N",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 4 newslettery přečteny a 4 potvrzeně označeny. Zdroje s nedostatečným čerstvým ověřením jsou označeny."
+  }
+}
