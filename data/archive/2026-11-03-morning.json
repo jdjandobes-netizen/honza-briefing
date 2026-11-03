@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "3. listopadu 2026",
+    "generatedAt": "2026-11-03T07:18:00+01:00",
+    "readingMinutes": 17,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Amerika dnes volí Kongres. Česká vláda a prezident se přou o armádní koncepci, Ukrajina hlásí další oběti ruského útoku a technologické firmy financují nákladnou AI expanzi."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "MarketScreener",
+      "status": "ok"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Vláda schválila koncepci armády, Pavel ji označil za nerealistickou",
+      "summary": "Dokument do roku 2040 podle prezidenta nenaplňuje základní cíle. Koncepce upozorňuje na nedostatek vojáků, vybavení i zásob.",
+      "source": {
+        "name": "ČT24",
+        "url": "https://ct24.ceskatelevize.cz/clanek/media/souhrn-zasadni-udalosti-pondeli-2-listopadu-379237"
+      }
+    },
+    {
+      "title": "Ruské pumy zabily podle Ukrajiny 26 lidí ve škole využívané jako úkryt",
+      "summary": "Záchranáři hledají další pohřešované v Komyšuvache v Záporožské oblasti.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/ukraines-zelenskiy-russian-bombing-kills-18-southeastern-zaporizhzhia-region-2026-11-02/"
+      }
+    },
+    {
+      "title": "USA dnes volí Kongres, demokraté doufají v převzetí většiny",
+      "summary": "Průzkumy podle NYT ukazují šance demokratů, výsledek však zůstává nejistý.",
+      "source": {
+        "name": "NYT The World / Gmail",
+        "url": "https://mail.google.com/mail/#all/1a19ff64acdd5d45"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Vláda schválila koncepci armády, Pavel ji označil za nerealistickou",
+          "summary": "Dokument do roku 2040 podle prezidenta nenaplňuje základní cíle. Koncepce upozorňuje na nedostatek vojáků, vybavení i zásob.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/media/souhrn-zasadni-udalosti-pondeli-2-listopadu-379237"
+          }
+        },
+        {
+          "title": "Schodek státního rozpočtu dosáhl 230,9 miliardy Kč",
+          "summary": "Říjnový deficit je čtvrtý nejhlubší v historii ČR, plánovaný celoroční schodek činí 310 miliard.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/media/souhrn-zasadni-udalosti-pondeli-2-listopadu-379237"
+          }
+        },
+        {
+          "title": "Babiš počítá s druhým čtením změny televizních poplatků v lednu",
+          "summary": "Premiér obhajuje změnu financování ČT a ČRo, zákon však zatím schválen není.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/1000"
+          }
+        },
+        {
+          "title": "Soud zprostil čínského občana obžaloby ze špionáže",
+          "summary": "Pražský městský soud rozhodl, že žalovaný skutek není trestným činem. Rozsudek není pravomocný.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/media/souhrn-zasadni-udalosti-pondeli-2-listopadu-379237"
+          }
+        },
+        {
+          "title": "Zemřel protikomunistický odbojář Josef Mašín",
+          "summary": "Paměť národa oznámila jeho úmrtí ve věku 94 let.",
+          "source": {
+            "name": "ČT24",
+            "url": "https://ct24.ceskatelevize.cz/clanek/media/souhrn-zasadni-udalosti-pondeli-2-listopadu-379237"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "GIBS obvinila bývalého IT náměstka ÚVN z podvodu.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/1000"
+          }
+        },
+        {
+          "text": "Fond audiovize má v roce 2027 hospodařit s 2,39 miliardy Kč.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/1000"
+          }
+        },
+        {
+          "text": "Jihlavským primátorem zůstává Petr Ryška z ODS.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/1000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Ruské pumy zabily podle Ukrajiny 26 lidí ve škole využívané jako úkryt",
+          "summary": "Záchranáři hledají další pohřešované v Komyšuvache v Záporožské oblasti.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/ukraines-zelenskiy-russian-bombing-kills-18-southeastern-zaporizhzhia-region-2026-11-02/"
+          }
+        },
+        {
+          "title": "USA připravují na 10.–11. listopadu rozhovory s Ruskem a Ukrajinou",
+          "summary": "Jednání v Abú Zabí se mají týkat míru a bezpečnostních záruk; výsledek je nejistý.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/us-hold-trilateral-talks-with-ukraine-russia-abu-dhabi-next-week-us-official-2026-11-02/"
+          }
+        },
+        {
+          "title": "Kyjev obviňuje Moskvu ze zneužití příměří u Olešek",
+          "summary": "Během šestidenní pauzy proběhla evakuace stovek civilistů. Rusko tvrzení o přesunech jednotek nepotvrdilo.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/ukraine-says-russia-used-oleshky-ceasefire-reinforce-positions-2026-11-02/"
+          }
+        },
+        {
+          "title": "Evropské zásobníky plynu jsou podle TotalEnergies nedostatečně naplněné",
+          "summary": "Evropské zásoby byly na začátku listopadu zhruba na 74,6 procenta, což může zvýšit zimní ceny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/totalenergies-chief-sees-no-gas-shortage-europe-this-winter-2026-11-02/"
+          }
+        },
+        {
+          "title": "Kyberútok narušil chlazení potravin v evropských obchodech",
+          "summary": "Incidenty v Belgii, Lucembursku, Švédsku a Irsku způsobily ztráty potravin; pachatel není znám.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/temperature-soars-swedish-grocery-store-freezers-one-store-blames-hackers-2026-11-02/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "ECB varuje před vysokými valuacemi AI akcií a dluhopisovými riziky.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/ecb-flags-ai-valuations-bond-stress-fund-losses-main-risks-2026-11-02/"
+          }
+        },
+        {
+          "text": "Evropské vlády mají před jednáním o Ukrajině koordinovat bezpečnostní garance.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/us-hold-trilateral-talks-with-ukraine-russia-abu-dhabi-next-week-us-official-2026-11-02/"
+          }
+        },
+        {
+          "text": "Boje na Ukrajině pokračovaly i mimo oblast krátkého humanitárního příměří.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/ukraine-says-russia-used-oleshky-ceasefire-reinforce-positions-2026-11-02/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "USA dnes volí Kongres, demokraté doufají v převzetí většiny",
+          "summary": "Průzkumy podle NYT ukazují šance demokratů, výsledek však zůstává nejistý.",
+          "source": {
+            "name": "NYT The World / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a19ff64acdd5d45"
+          }
+        },
+        {
+          "title": "Jednání Íránu a Kataru nepřinesla průlom",
+          "summary": "Otevření Hormuzu, sankce a jaderný program zůstávají předmětem nepřímých rozhovorů s USA.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-2026-11-02/"
+          }
+        },
+        {
+          "title": "Trump zpochybnil obnovení amerických útoků na Írán",
+          "summary": "Prezident uvedl, že o dalších úderech neuvažuje, současně pokračuje diplomatické vyjednávání.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/trump-raises-doubts-about-renewed-attacks-iran-2026-11-02/"
+          }
+        },
+        {
+          "title": "Midterms mohou změnit Trumpovu schopnost prosazovat politiku",
+          "summary": "Demokratická Sněmovna by mohla vyšetřovat administrativu, Senát navíc blokovat nominace.",
+          "source": {
+            "name": "NYT The World / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a19ff64acdd5d45"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Demokraté podle předvolebního newsletteru věří ve výhru i v tradičně republikánských státech.",
+          "source": {
+            "name": "NYT On Politics / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a19ee6c5005593b"
+          }
+        },
+        {
+          "text": "Hormuzská krize dál ohrožuje lodní dopravu a energie.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-2026-11-02/"
+          }
+        },
+        {
+          "text": "Írán odmítá přesun vysoce obohaceného uranu do zahraničí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-2026-11-02/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Oracle získává 20 miliard dolarů na AI infrastrukturu",
+          "summary": "Polovina financování je akciová, polovina dluhopisová; investoři se obávají nákladů.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/"
+          }
+        },
+        {
+          "title": "Marvell kupuje Lumentum za přibližně 115 miliard dolarů",
+          "summary": "Akvizice má posílit optické propojení AI datových center a čeká na regulatorní schválení.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/"
+          }
+        },
+        {
+          "title": "Anthropic před IPO hlásí růst tržeb, ale i obří závazky",
+          "summary": "Tržby ve třetím čtvrtletí vzrostly na 16,96 miliardy dolarů, firma varuje před náklady na výpočetní výkon.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/"
+          }
+        },
+        {
+          "title": "OpenAI spolupracuje s ADNOC a G42 v energetice",
+          "summary": "Dohoda v Abú Zabí se zaměřuje na nasazení AI v provozu a analýzách.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/abu-dhabis-adnoc-g42-sign-deal-with-openai-sam-altman-travels-uae-2026-11-02/"
+          }
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE uzavřelo pondělí na 169,38 EUR",
+          "summary": "Poslední uzávěrka XETRA před úterním otevřením, mezidenně +0,28 %.",
+          "source": {
+            "name": "MarketScreener",
+            "url": "https://www.marketscreener.com/quote/etf/VANGUARD-FTSE-ALL-WORLD-U-62604759/quotes/"
+          }
+        },
+        {
+          "title": "Alphabet prodává eurové dluhopisy za 6 miliard EUR",
+          "summary": "Poptávka investorů překročila 17 miliard EUR; financování AI zvyšuje nároky na kapitál.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-tech-debt-2026-11-02/"
+          }
+        },
+        {
+          "title": "Deutsche Bank zlepšila doporučení pro americké technologické akcie",
+          "summary": "Podle banky byl výprodej přehnaný; jde o analytický názor, nikoli jistotu růstu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/deutsche-bank-upgrades-us-tech-says-selloff-has-gone-too-far-2026-11-02/"
+          }
+        },
+        {
+          "title": "ECB upozorňuje na rizika valuací AI a dluhopisů",
+          "summary": "Zvýšené riziko může zasáhnout i nebankovní investiční fondy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/ecb-flags-ai-valuations-bond-stress-fund-losses-main-risks-2026-11-02/"
+          }
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "169,38",
+    "currency": "EUR",
+    "asOf": "2. listopadu 2026, poslední uzávěrka XETRA před otevřením 3. listopadu",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+0,28 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "−0,36 %",
+        "tone": "negative"
+      },
+      {
+        "label": "YTD",
+        "value": "+16,48 %",
+        "tone": "positive"
+      },
+      {
+        "label": "1 rok",
+        "value": "+16,38 %",
+        "tone": "positive"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Ověřená uzávěrka, nikoli live cena.",
+    "sources": [
+      {
+        "name": "MarketScreener",
+        "url": "https://www.marketscreener.com/quote/etf/VANGUARD-FTSE-ALL-WORLD-U-62604759/quotes/"
+      },
+      {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/VWCE.DE/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-03T07:18:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026",
+        "status": "Poslední dříve ověřený díl; aktuálnější epizoda nebyla potvrzena"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; aktuálnější epizoda nebyla potvrzena"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; aktuálnější epizoda nebyla potvrzena"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; aktuálnější epizoda nebyla potvrzena"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/clanek/padni-komu-padni/138967/padni-komu-padni-otazkovy-special-jak-volime-kdo-z-babisovy-vlady-nas-prekvapil-a-nadava-orban-slovakum.html",
+        "date": "26. října 2026",
+        "status": "Poslední dříve ověřený díl; aktuálnější epizoda nebyla potvrzena"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Amerikanista: Trump se bojí modrého tsunami. Prohru ve volbách bude prezentovat jako podvod",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "2. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026"
+      }
+    ],
+    "note": "Pouze veřejné odkazy na dříve ověřené epizody; bez generování zvuku."
+  },
+  "footer": {
+    "sources": [
+      "ČT24",
+      "iROZHLAS",
+      "Reuters",
+      "NYT / Gmail",
+      "MarketScreener",
+      "Yahoo Finance",
+      "Seznam Podcasty",
+      "Deník N",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 2 přečteny, 2 potvrzeně označeny. Některé zdroje a aktuální podcastové katalogy omezené."
+  }
+}
