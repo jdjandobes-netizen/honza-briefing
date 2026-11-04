@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "4. listopadu 2026",
+    "generatedAt": "2026-11-04T16:29:00+01:00",
+    "readingMinutes": 8,
+    "nextEdition": "Ranní přehled zítra v 7:00.",
+    "intro": "Od rána přibyly nové informace o obětech ruského útoku, plánech demokratů v americkém Kongresu a návrzích ECB pro klimatickou odolnost."
+  },
+  "sourceStatus": [
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Associated Press",
+      "status": "ok"
+    },
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Po útoku na ukrajinské humanitární centrum přibývají oběti",
+      "summary": "Reuters uvádí 37 mrtvých a 59 pohřešovaných po ruském zásahu budovy využívané k distribuci pomoci v Komyšuvase. Rusko tvrdí, že mířilo na vojenské jednotky; nezávislé ověření tvrzení stran není úplné.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/dozens-dead-missing-after-russian-strike-ukrainian-aid-centre-officials-say-2026-11-04/"
+      },
+      "tag": "NEW"
+    },
+    {
+      "title": "Demokraté připravují převzetí vedení Sněmovny reprezentantů",
+      "summary": "Hakeem Jeffries je po vítězství demokratů favoritem na prvního černošského předsedu Sněmovny. Strana plánuje kontrolu Trumpovy administrativy, jeho volba do funkce ale ještě neproběhla.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/legal/government/hakeem-jeffries-poised-become-speaker-us-house-representatives-2026-11-04/"
+      },
+      "tag": "NEW"
+    },
+    {
+      "title": "Lagardeová žádá evropský systém pojištění klimatických katastrof",
+      "summary": "Šéfka ECB navrhla veřejně-soukromý zajišťovací systém a rychlejší investice do elektrických sítí a akumulace. Jde o návrhy, nikoli přijatou politiku.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/sustainability/cop/ecbs-lagarde-urges-climate-resilience-drive-after-scorching-summer-2026-11-04/"
+      },
+      "tag": "NEW"
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny."
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Po útoku na ukrajinské humanitární centrum přibývají oběti",
+          "summary": "Reuters uvádí 37 mrtvých a 59 pohřešovaných po ruském zásahu budovy využívané k distribuci pomoci v Komyšuvase. Rusko tvrdí, že mířilo na vojenské jednotky; nezávislé ověření tvrzení stran není úplné.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/dozens-dead-missing-after-russian-strike-ukrainian-aid-centre-officials-say-2026-11-04/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Lagardeová žádá evropský systém pojištění klimatických katastrof",
+          "summary": "Šéfka ECB navrhla veřejně-soukromý zajišťovací systém a rychlejší investice do elektrických sítí a akumulace. Jde o návrhy, nikoli přijatou politiku.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/sustainability/cop/ecbs-lagarde-urges-climate-resilience-drive-after-scorching-summer-2026-11-04/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "OSN upozornila na velkou mezeru ve financování klimatické adaptace",
+          "summary": "Podle nové zprávy OSN dosáhly prostředky od vyspělých zemí v roce 2024 zhruba 28,2 miliardy dolarů, zatímco odhadovaná roční potřeba rozvojových zemí činí 305 miliard dolarů.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/sustainability/cop/rich-countries-fall-far-short-climate-adaptation-funding-un-says-2026-11-04/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Demokraté připravují převzetí vedení Sněmovny reprezentantů",
+          "summary": "Hakeem Jeffries je po vítězství demokratů favoritem na prvního černošského předsedu Sněmovny. Strana plánuje kontrolu Trumpovy administrativy, jeho volba do funkce ale ještě neproběhla.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/government/hakeem-jeffries-poised-become-speaker-us-house-representatives-2026-11-04/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Republikánský předseda Sněmovny Mike Johnson nebude znovu usilovat o vedení strany",
+          "summary": "Po demokratickém vítězství v kongresových volbách podle AP Johnson oznámil, že nebude znovu kandidovat na předsedu republikánského klubu.",
+          "source": {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Izraelská opozice využívá americké volby k tlaku na Netanjahua",
+          "summary": "Opoziční představitelé tvrdí, že demokratické vítězství v Kongresu ukazuje oslabení podpory izraelského premiéra ve Washingtonu. Prezident Herzog jedná o sestavení nové izraelské vlády.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/netanyahu-rivals-seize-democrats-sweep-us-congress-seeking-his-ouster-2026-11-04/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Investoři přehodnocují AI infrastrukturu po amerických volbách",
+          "summary": "Reuters uvádí, že obavy z přísnějšího dohledu nad datovými centry tlačily na jejich provozovatele, zatímco AMD po výhledu růstu posílila. Jde o reakci trhu, ne přijatou regulaci.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/us-stock-index-futures-steady-democrats-seize-congress-2026-11-04/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Americké akciové futures po volbách rostly",
+          "summary": "Podle Reuters před otevřením trhu futures na Dow přidávaly 1,44 %, S&P 500 1,04 % a Nasdaq 100 0,93 %. Jde o předobchodní indikaci, nikoli závěrečné ceny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/us-stock-index-futures-steady-democrats-seize-congress-2026-11-04/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "168,06",
+    "currency": "EUR",
+    "asOf": "3. listopadu 2026, 17:36 CET — poslední ověřená uzávěrka XETRA; odpolední kurz 4. listopadu nedostupný",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,779 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "168,06 EUR je úterní uzávěrka, nikoli aktuální středeční live/delayed kotace; novou cenu se nepodařilo ověřit.",
+    "sources": [
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-04T16:29:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/clanek/padni-komu-padni/138967/padni-komu-padni-otazkovy-special-jak-volime-kdo-z-babisovy-vlady-nas-prekvapil-a-nadava-orban-slovakum.html",
+        "date": "26. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Amerikanista: Trump se bojí modrého tsunami. Prohru ve volbách bude prezentovat jako podvod",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "2. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026"
+      }
+    ],
+    "note": "Zachovány dříve ověřené odkazy a data epizod; novější vydání nebyla spolehlivě potvrzena. Bez generování audia."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "Associated Press",
+      "Gmail / NYT",
+      "StockInvest.us",
+      "Seznam Podcasty",
+      "Deník N",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 5 přečtených, 5 potvrzeně označených jako přečtené. Část českých zdrojů a podcastových katalogů nebylo možné spolehlivě ověřit."
+  }
+}
