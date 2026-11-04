@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "4. listopadu 2026",
+    "generatedAt": "2026-11-04T07:02:00+01:00",
+    "readingMinutes": 16,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Demokraté podle projekcí slaví průlom v amerických volbách. Česko má za sebou stávku veřejnoprávních médií, Rusko útočí na ukrajinskou energetiku a VWCE v úterý oslabilo."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "ČTK / České noviny",
+      "status": "ok"
+    },
+    {
+      "name": "TN.cz",
+      "status": "ok"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Demokraté podle projekcí získali senátní křeslo v Texasu",
+      "summary": "James Talarico porazil republikána Kena Paxtona a ukončil 32 let bez demokratického vítězství v celostátních volbách v Texasu. Jde o mediální projekci, nikoli konečnou certifikaci.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/us/james-talarico-becomes-first-democrat-win-statewide-texas-since-1994-2026-11-04/"
+      }
+    },
+    {
+      "title": "Stávka České televize a Českého rozhlasu omezila vysílání",
+      "summary": "Zaměstnanci obou veřejnoprávních institucí 3. listopadu na 24 hodin přerušili část vysílání. Protestují proti návrhu převést financování z poplatků na státní rozpočet.",
+      "source": {
+        "name": "TN.cz",
+        "url": "https://tn.nova.cz/zpravodajstvi/clanek/660464-stavka-ceske-televize-a-rozhlasu-v-ulicich-mest-se-sesly-tisice-protestujicich"
+      }
+    },
+    {
+      "title": "Ruské útoky vyřadily část ukrajinské energetiky",
+      "summary": "Podle ukrajinských úřadů Rusko vypustilo stovky dronů a desítky raket; společnost DTEK hlásí odstavení tří z pěti tepelných elektráren a rozsáhlé výpadky elektřiny.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/russian-strikes-knock-out-power-swathes-ukraine-kyiv-hits-russian-refinery-2026-11-03/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Stávka České televize a Českého rozhlasu omezila vysílání",
+          "summary": "Zaměstnanci obou veřejnoprávních institucí 3. listopadu na 24 hodin přerušili část vysílání. Protestují proti návrhu převést financování z poplatků na státní rozpočet.",
+          "source": {
+            "name": "TN.cz",
+            "url": "https://tn.nova.cz/zpravodajstvi/clanek/660464-stavka-ceske-televize-a-rozhlasu-v-ulicich-mest-se-sesly-tisice-protestujicich"
+          }
+        },
+        {
+          "title": "Na Václavském náměstí demonstrovaly tisíce lidí",
+          "summary": "Na podporu nezávislosti veřejnoprávních médií dorazili zaměstnanci, studenti a veřejnost. Organizátoři varují před politickým tlakem; vláda změnu financování obhajuje.",
+          "source": {
+            "name": "ČTK / České noviny",
+            "url": "https://www.ceskenoviny.cz/zpravy/zive-protest-za-verejnopravni-media-na-vaclavskem-namesti/2896664"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Stávka se dotkla i pořadů Události, Studio 6 a Dobré ráno; ČT24 vysílala ve zvláštním režimu.",
+          "source": {
+            "name": "TN.cz",
+            "url": "https://tn.nova.cz/zpravodajstvi/clanek/660464-stavka-ceske-televize-a-rozhlasu-v-ulicich-mest-se-sesly-tisice-protestujicich"
+          }
+        },
+        {
+          "text": "Studenti vysokých škol se připojili k protestům proti změně financování médií.",
+          "source": {
+            "name": "Seznam Zprávy",
+            "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-studenti-se-pridali-k-ceske-televizi-a-rozhlasu-take-vyhlasili-stavku-318986"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Ruské útoky vyřadily část ukrajinské energetiky",
+          "summary": "Podle ukrajinských úřadů Rusko vypustilo stovky dronů a desítky raket; společnost DTEK hlásí odstavení tří z pěti tepelných elektráren a rozsáhlé výpadky elektřiny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/russian-strikes-knock-out-power-swathes-ukraine-kyiv-hits-russian-refinery-2026-11-03/"
+          }
+        },
+        {
+          "title": "Merz slíbil Ukrajině další pomoc před zimou",
+          "summary": "Německý kancléř při jednání se Zelenským v Berlíně přislíbil energetickou podporu a varoval před eskalací útoků v Černém moři.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/merz-promises-more-support-ukraine-warns-russia-over-black-sea-attacks-2026-11-03/"
+          }
+        },
+        {
+          "title": "Grónský parlament schválil bezpečnostní dohodu s USA a Dánskem",
+          "summary": "Dohoda umožňuje rozšířit americkou vojenskou přítomnost, současně potvrzuje dánskou svrchovanost a právo Gróňanů na sebeurčení. Ještě ji musí schválit Dánsko.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/greenland-lawmakers-set-ratify-trump-security-deal-2026-11-03/"
+          }
+        },
+        {
+          "title": "EU podmíněně schválila čínské převzetí MediaMarktu a Saturnu",
+          "summary": "Čínský JD.com získal souhlas s akvizicí německé Ceconomy za 2,5 miliardy dolarů; Brusel vyžaduje záruky proti zvýhodňování dotacemi.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/jdcom-wins-eu-approval-acquisition-ceconomy-2026-11-03/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Ukrajinské drony podle ruského gubernátora poškodily rafinerii v Jaroslavli; rozsah škod nebyl nezávisle potvrzen.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-refinery-russias-yaroslavl-damaged-ukrainian-drone-attack-governor-says-2026-11-03/"
+          }
+        },
+        {
+          "text": "Dohoda o Grónsku získala 16 hlasů pro, sedm poslanců se zdrželo.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/greenland-lawmakers-set-ratify-trump-security-deal-2026-11-03/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Demokraté podle projekcí získali senátní křeslo v Texasu",
+          "summary": "James Talarico porazil republikána Kena Paxtona a ukončil 32 let bez demokratického vítězství v celostátních volbách v Texasu. Jde o mediální projekci, nikoli konečnou certifikaci.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/james-talarico-becomes-first-democrat-win-statewide-texas-since-1994-2026-11-04/"
+          }
+        },
+        {
+          "title": "NYT hlásí demokratický průlom v Senátu USA",
+          "summary": "Ranní newsletter The World ze 4. listopadu uvádí, že demokraté získali Senát a blíží se většině v obou komorách. Konečné potvrzení všech volebních výsledků ještě probíhá.",
+          "source": {
+            "name": "NYT The World / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a1a51127f402a7b"
+          }
+        },
+        {
+          "title": "Demokratka Hinojosa podle projekcí porazila texaského guvernéra Abbotta",
+          "summary": "Výsledek by znamenal mimořádnou změnu v tradičně republikánském státě; zpráva vychází z mediálních projekcí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/texas-governor-abbott-loses-bid-fourth-term-2026-11-04/"
+          }
+        },
+        {
+          "title": "V Rusku rostou účty za energie a tlak na domácnosti",
+          "summary": "Reuters popisuje zvýšení tarifů za služby o více než 13 procent letos a další inflační tlak na domácnosti i malé firmy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/many-russians-higher-utility-bills-are-latest-inflation-shock-2026-11-03/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "NYT oznámily vítězství demokratů v senátním souboji v Jižní Karolíně; konečné výsledky je třeba odlišit od projekcí.",
+          "source": {
+            "name": "NYT Breaking News / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a1a497324e40130"
+          }
+        },
+        {
+          "text": "Výsledek voleb může ovlivnit Trumpovy nominace, rozpočtovou politiku i kontrolu administrativy.",
+          "source": {
+            "name": "NYT On Politics / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a1a3c62f77d4acc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "AI firmy zvyšují objem dluhopisů v Evropě",
+          "summary": "Alphabet a další technologické firmy financují datová centra emisemi eurových dluhopisů. Analytici varují, že větší nabídka může zvyšovat výnosy i náklady na úvěry.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/ai-related-debt-binge-may-pressure-european-bond-markets-2026-11-03/"
+          }
+        },
+        {
+          "title": "Nvidia a další výrobci čipů se po výprodeji zotavili",
+          "summary": "V úterním obchodování Nvidia posílila o 2,3 procenta a Micron o 2,6 procenta. Investoři dál řeší návratnost vysokých výdajů na AI infrastrukturu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/us-stock-futures-mixed-apple-slides-midterms-loom-2026-11-03/"
+          }
+        },
+        {
+          "title": "Apple upozornil na tlak dražších paměťových čipů",
+          "summary": "Společnost podle Reuters očekává dopad rostoucích cen pamětí na marže ve svátečním čtvrtletí; její akcie v úterý oslabily.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/us-stock-futures-mixed-apple-slides-midterms-loom-2026-11-03/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Američtí hyperscaleři mohou podle odhadů emitovat další desítky miliard eur dluhu na financování AI.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/ai-related-debt-binge-may-pressure-european-bond-markets-2026-11-03/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE uzavřelo úterý na 168,06 EUR",
+          "summary": "Poslední dostupná uzávěrka XETRA před středečním otevřením: −0,779 % proti pondělním 169,38 EUR.",
+          "source": {
+            "name": "StockInvest.us",
+            "url": "https://stockinvest.us/stock-price/VWCE.DE"
+          }
+        },
+        {
+          "title": "Nasdaq vzrostl, Dow Jones mírně oslabil",
+          "summary": "V úterý Nasdaq přidal 0,83 %, S&P 500 0,36 %, zatímco Dow Jones odepsal 0,38 %. Trh čekal na výsledky amerických voleb.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/us-stock-futures-mixed-apple-slides-midterms-loom-2026-11-03/"
+          }
+        },
+        {
+          "title": "ECB varuje před oslabováním kapitálových pravidel bank",
+          "summary": "Člen bankovního dohledu Pedro Machado podpořil přeshraniční ochranné mechanismy, ale odmítl plošné snižování kapitálových požadavků.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/ecbs-machado-warns-against-softer-capital-requirements-banks-2026-11-03/"
+          }
+        },
+        {
+          "title": "Příliv AI dluhopisů může změnit evropský úvěrový trh",
+          "summary": "Analytici očekávají růst nabídky eurových podnikových dluhopisů a možné rozšíření kreditních spreadů; jde o prognózu, nikoli jistý vývoj.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/ai-related-debt-binge-may-pressure-european-bond-markets-2026-11-03/"
+          }
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "168,06",
+    "currency": "EUR",
+    "asOf": "3. listopadu 2026, poslední uzávěrka XETRA před otevřením 4. listopadu",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,779 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Ověřená úterní uzávěrka z historických dat StockInvest.us, nikoli živá cena.",
+    "sources": [
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-04T07:02:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Padni komu padni otázkový speciál: Jak volíme? Kdo z Babišovy vlády nás překvapil? A nadává Orbán Slovákům?",
+        "url": "https://www.reflex.cz/clanek/padni-komu-padni/138967/padni-komu-padni-otazkovy-special-jak-volime-kdo-z-babisovy-vlady-nas-prekvapil-a-nadava-orban-slovakum.html",
+        "date": "26. října 2026",
+        "status": "Dříve ověřená epizoda; novější díl se nepodařilo spolehlivě potvrdit"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Amerikanista: Trump se bojí modrého tsunami. Prohru ve volbách bude prezentovat jako podvod",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "2. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Babišova vláda zase dostala lidi do ulic",
+        "url": "https://podcasty.seznam.cz/podcast/vlevo-dole",
+        "date": "26. října 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026"
+      }
+    ],
+    "note": "Odkazy na dříve ověřené epizody. Aktuálnější díly nebylo možné spolehlivě ověřit; žádné audio se negenerovalo."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "ČTK / České noviny",
+      "TN.cz",
+      "Seznam Zprávy",
+      "NYT / Gmail",
+      "StockInvest.us",
+      "Seznam Podcasty",
+      "Deník N",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 4 skutečně přečteny, 4 potvrzeně označeny jako přečtené. Omezený přístup k části českých a zahraničních zdrojů a podcastovým katalogům."
+  }
+}
