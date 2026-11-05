@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "5. listopadu 2026",
+    "generatedAt": "2026-11-05T07:00:00+01:00",
+    "readingMinutes": 17,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Demokraté podle výsledků midterms získali obě komory amerického Kongresu a trhy reagují prudkým propadem ropy. V Česku pokračuje spor o financování ČT a ČRo. Evropská komise tlačí na ukrajinské reformy a VWCE se po úterním poklesu zotavilo."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "ok"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Investing.com",
+      "status": "ok"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Demokraté ovládnou obě komory Kongresu; Trump přiznal vliv války s Íránem",
+      "summary": "Americké midterms zásadně mění politické poměry. Demokratická většina posílí parlamentní dohled, rozpočtové páky a vyšetřovací pravomoci, ale prezidentovy pravomoci automaticky nezanikají.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/us/trump-acknowledges-iran-played-role-republican-midterm-losses-2026-11-04/"
+      }
+    },
+    {
+      "title": "Ropa Brent se propadla o téměř devět procent",
+      "summary": "Cena středeční uzávěrky klesla na 94,62 USD za barel. Trh sází na větší tlak na jednání s Íránem, skutečná mírová dohoda ale zatím není.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/oil-edges-down-investors-await-us-midterm-election-results-2026-11-04/"
+      }
+    },
+    {
+      "title": "Česká vláda po protestech dál prosazuje zrušení televizních a rozhlasových poplatků",
+      "summary": "Babiš po stávce ČT a ČRo potvrdil pokračování koaličního záměru; detaily výše a garancí budoucího financování zůstávají předmětem jednání.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-domov/stavku-vzal-babis-na-vedomi-od-zruseni-poplatku-ale-koalice-neustoupi-uvedl_2611041030_eml"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Babiš po stávce ČT a ČRo trvá na zrušení poplatků",
+          "summary": "Premiér označil úterní protest za vzatý na vědomí, ale koalice ANO, SPD a Motoristů podle něj od přechodu na jiné financování neustoupí. Zaměstnanci médií varují před oslabením nezávislosti.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/stavku-vzal-babis-na-vedomi-od-zruseni-poplatku-ale-koalice-neustoupi-uvedl_2611041030_eml"
+          }
+        },
+        {
+          "title": "ANO tvrdí, že má na změně financování médií úplnou shodu",
+          "summary": "Poslanec Martin Kolovratník řekl, že klub ANO podporuje zrušení koncesionářských poplatků. O konkrétní výši garantované částky, valorizaci a právních pojistkách se podle něj teprve jedná.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/kolovratnik-k-ukonceni-koncesionarskych-poplatku-chceme-pokracovat-mame_2611042346_jar"
+          }
+        },
+        {
+          "title": "Sněmovna schválila český zákon navazující na evropský DSA",
+          "summary": "Poslanci schválili úpravu českých pravidel k evropskému nařízení o digitálních službách. Podle zpravodajství má mimo jiné posílit ochranu dětí v online prostředí.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/1000"
+          }
+        },
+        {
+          "title": "Komentátoři hledají prostor pro kompromis o veřejnoprávních médiích",
+          "summary": "Komentář Seznam Zpráv hodnotí Babišovu reakci na protesty a možné cesty dohody. Jde o názorový text, nikoli o potvrzenou změnu vládního návrhu.",
+          "source": {
+            "name": "Seznam Zprávy",
+            "url": "https://www.seznamzpravy.cz/sekce/domaci-politika-252"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Poslanec Kolovratník uvedl, že navrhovaná změna podle něj neohrožuje nezávislost médií; jde o stanovisko ANO, které kritici zpochybňují.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/kolovratnik-k-ukonceni-koncesionarskych-poplatku-chceme-pokracovat-mame_2611042346_jar"
+          }
+        },
+        {
+          "text": "Zlín má podle regionálního zpravodajství nového primátora Vančuru, jeho předchůdce kritizuje plán vykonávat funkci jako neuvolněnou.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/1000"
+          }
+        },
+        {
+          "text": "V české politické debatě pokračuje spor o podobu armádní koncepce do roku 2040.",
+          "source": {
+            "name": "Seznam Zprávy",
+            "url": "https://www.seznamzpravy.cz/sekce/domaci-politika-252"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Komise vyzývá Ukrajinu k rychlejším reformám před vstupem do EU",
+          "summary": "Evropská komise žádá urychlení změn v justici, protikorupčních pravidlech a ochraně menšin. Cíl uzavřít přístupová jednání do konce roku 2028 zůstává ambiciózní.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/ukraine-needs-accelerate-reforms-meet-its-eu-accession-goal-blocs-executive-says-2026-11-04/"
+          }
+        },
+        {
+          "title": "Po ruském úderu na ukrajinské centrum pomoci roste počet obětí",
+          "summary": "Ukrajinské úřady uvádějí 40 mrtvých a 59 pohřešovaných po pondělním zásahu v Komyšuvache. Rusko tvrdí, že útočilo na vojenský cíl; tato tvrzení nejsou totožná s ukrajinskými zjištěními.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/dozens-dead-missing-after-russian-strike-ukrainian-aid-centre-officials-say-2026-11-04/"
+          }
+        },
+        {
+          "title": "EU oznámila 525 milionů eur pro evropské návrháře čipů",
+          "summary": "Balík zahrnuje granty pro polovodičové startupy a evropskou platformu pro návrh čipů. Brusel chce snížit závislost na amerických a čínských technologiích.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/europe-invest-525-million-chip-startups-catch-up-with-us-china-2026-11-04/"
+          }
+        },
+        {
+          "title": "Útoky v Černém moři ohrožují lodní dopravu u států NATO",
+          "summary": "Reuters popisuje zásahy komerčních lodí a rizika pro rumunské a bulharské pobřeží. Moskva odmítá obvinění z útoků na sousední státy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/war-widens-black-sea-test-nato-red-lines-2026-11-03/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Komise hodnotí moldavský postup k EU jako rychlejší než ukrajinský, přesto i Moldavsko čekají další reformy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/ukraine-needs-accelerate-reforms-meet-its-eu-accession-goal-blocs-executive-says-2026-11-04/"
+          }
+        },
+        {
+          "text": "V ukrajinské Záporožské oblasti se podle policie stále pátrá po pohřešovaných po bombardování distribučního centra.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/dozens-dead-missing-after-russian-strike-ukrainian-aid-centre-officials-say-2026-11-04/"
+          }
+        },
+        {
+          "text": "Německo již v úterý slíbilo Ukrajině další energetickou podporu před zimou.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/merz-promises-more-support-ukraine-warns-russia-over-black-sea-attacks-2026-11-03/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Demokraté podle volebních výsledků získali obě komory Kongresu USA",
+          "summary": "Americké midterms znamenají zásadní oslabení republikánů. Trump uznal, že válka s Íránem přispěla k porážce; nová kongresová většina nastoupí v lednu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/trump-acknowledges-iran-played-role-republican-midterm-losses-2026-11-04/"
+          }
+        },
+        {
+          "title": "Trump a Vance připisují volební ztráty také válce s Íránem",
+          "summary": "Trump konflikt nadále hájí, přesto připustil jeho politické náklady. Viceprezident Vance označil válku za příčinu porážky republikánů; jde o jejich vlastní hodnocení.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/trump-acknowledges-iran-played-role-republican-midterm-losses-2026-11-04/"
+          }
+        },
+        {
+          "title": "Ropa Brent se propadla pod 95 dolarů za barel",
+          "summary": "Brent podle Reuters ve středu ztratil 8,7 procenta na 94,62 USD. Investoři spekulují, že výsledek voleb posílí tlak na ukončení konfliktu s Íránem; příměří však sjednáno není.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-edges-down-investors-await-us-midterm-election-results-2026-11-04/"
+          }
+        },
+        {
+          "title": "USA rozšířily sankce za podporu íránského ropného obchodu",
+          "summary": "Americké ministerstvo financí postihlo subjekty v Indii a Turecku. Tvrdí, že pomáhaly obcházet sankce a zajišťovaly služby označeným íránským dopravcům.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/government/us-slaps-sanctions-indian-turkish-firms-people-aiding-iran-2026-11-04/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Newsletter NYT The World hodnotí americké volby jako historický posun a připomíná průlomové výsledky v Texasu i dalších státech.",
+          "source": {
+            "name": "NYT The World / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a1aa23436dde124"
+          }
+        },
+        {
+          "text": "NYT Breaking News uvádí, že republikánský předseda Sněmovny Mike Johnson se po volební porážce nebude znovu ucházet o vedení své strany v dolní komoře.",
+          "source": {
+            "name": "NYT Breaking News / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a1a76d55753f4ab"
+          }
+        },
+        {
+          "text": "Katarské zprostředkování jednání mezi Washingtonem a Teheránem pokračuje, ale podle Reuters jsou pozice stran stále vzdálené.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-edges-down-investors-await-us-midterm-election-results-2026-11-04/"
+          }
+        },
+        {
+          "text": "Demokraté mohou od ledna využívat kontrolu rozpočtu a výborů ke zvýšení dohledu nad Trumpovou energetickou politikou; nejde o automatické ukončení války.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/how-democratic-sweep-could-change-us-energy-policy-2026-11-04/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "AMD sází na prudký růst datových center a AI čipů",
+          "summary": "AMD předpovídá růst tržeb v roce 2027 o více než 80 procent. Datacentrové tržby ve třetím čtvrtletí meziročně stouply o 97 procent; výhled je firemní prognózou.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/amd-shares-jump-ai-driven-data-center-strength-fuels-growth-outlook-2026-11-04/"
+          }
+        },
+        {
+          "title": "Figma zvyšuje příjmy z AI kreditů",
+          "summary": "Více než 80 procent velkých platících klientů Figmy podle firmy pravidelně používá AI kredity. Firma zlepšila celoroční výhled tržeb, akcie však po výsledcích oslabily.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/figma-banking-ai-credits-in-house-model-lift-margins-2026-11-04/"
+          }
+        },
+        {
+          "title": "Google finančně podpoří datacentrový projekt pro Anthropic",
+          "summary": "TeraWulf získal úvěrové zajištění od Googlu pro infrastrukturu pronajatou Anthropic. Projekt v Kentucky má začít fungovat nejdříve ve druhé polovině roku 2027.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/terawulf-gets-credit-backstop-google-anthropic-data-center-project-2026-11-04/"
+          }
+        },
+        {
+          "title": "Tencent představuje AI model omezený na obrannou kyberbezpečnost",
+          "summary": "Čínská firma oznámila model Hy4 trénovaný na vyhledávání a opravování chyb, nikoli na vytváření útočných nástrojů. Bezpečnostní výsledky zatím pocházejí z firemních testů.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Evropská platforma pro návrh čipů má startupům zpřístupnit vývojové nástroje i výrobní kapacity.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/europe-invest-525-million-chip-startups-catch-up-with-us-china-2026-11-04/"
+          }
+        },
+        {
+          "text": "Investoři řeší, zda zpřísnění pravidel pro nová AI datacentra nezvýhodní již zavedené technologické giganty.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/democrats-midterm-sweep-fuels-750-billion-big-tech-rally-2026-11-04/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE uzavřelo středu na 169,86 EUR",
+          "summary": "Poslední dostupná uzávěrka XETRA z 4. listopadu je 169,86 EUR, tedy o 1,07 procenta více než v úterý. Jde o uzavřenou seanci, nikoli dnešní živý kurz.",
+          "source": {
+            "name": "Investing.com",
+            "url": "https://uk.investing.com/etfs/vanguard-ftse-all-world-ucits-acc-historical-data?cid=1148060"
+          }
+        },
+        {
+          "title": "Velké technologické firmy po volbách výrazně posílily",
+          "summary": "Reuters popisuje růst Amazonu, Applu a dalších firem, kterým investoři připisují výhodu v případě omezení nové výstavby AI datacenter. Jde o tržní očekávání, nikoli jistý dopad legislativy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/democrats-midterm-sweep-fuels-750-billion-big-tech-rally-2026-11-04/"
+          }
+        },
+        {
+          "title": "Akcie čisté energie rostly, provozovatelé datacenter oslabovali",
+          "summary": "Po amerických volbách se investoři přesouvali mezi sektory. Obnovitelné zdroje těžily z očekávání podpory demokratů, datacentra z obav o regulaci a financování.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/ai-data-center-stocks-dip-renewables-surge-after-democrat-sweep-us-midterm-2026-11-04/"
+          }
+        },
+        {
+          "title": "Světové trhy reagují na propad ropy a oslabení dolaru",
+          "summary": "Brent po volbách spadl pod 100 dolarů, dolar oslabil vůči euru a americký S&P 500 ve středu přidal 1,6 procenta. Trhy zohledňují možnou změnu americké zahraniční politiky.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/global-markets-global-markets-2026-11-05/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Britský FTSE 100 ve středu podle Reuters vzrostl o 1,79 procenta na dvoutýdenní maximum.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/ftse-100-climbs-1-banks-miners-boost-2026-11-04/"
+          }
+        },
+        {
+          "text": "52týdenní maximum VWCE.DE uvádějí sledované zdroje na 173,96 EUR.",
+          "source": {
+            "name": "Portfoliotracker",
+            "url": "https://portfoliotracker.cz/en/etf/vwce.de"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "169,86",
+    "currency": "EUR",
+    "asOf": "4. listopadu 2026, uzávěrka XETRA 17:36; poslední dostupná uzávěrka před otevřením 5. listopadu",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+1,07 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Uzavřená seance z 4. listopadu, nikoli realtime; ověřeno shodně ve dvou cenových přehledech.",
+    "sources": [
+      {
+        "name": "Investing.com",
+        "url": "https://uk.investing.com/etfs/vanguard-ftse-all-world-ucits-acc-historical-data?cid=1148060"
+      },
+      {
+        "name": "Portfoliotracker",
+        "url": "https://portfoliotracker.cz/en/etf/vwce.de"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-05T07:00:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026",
+        "status": "Nový díl potvrzen v katalogu Epapyrus"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Dříve ověřený díl; novější se nepodařilo potvrdit"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Dříve ověřený díl; novější se nepodařilo potvrdit"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Dříve ověřený díl; novější se nepodařilo potvrdit"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední potvrzený díl podle katalogu Reflexu"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Potápěčka, plachetnice a časované bomby: Příběh komanda, které Němci viní ze sabotáže století",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      },
+      {
+        "show": "Na Východ!",
+        "title": "Horko a chlad. O aktuálních vztazích Varšavy a Kyjeva s polským bohemistou",
+        "url": "https://www.mujrozhlas.cz/",
+        "date": "4. listopadu 2026"
+      }
+    ],
+    "note": "Nové názvy a data jsou uvedeny jen při ověření v katalogu. U tří pořadů zůstává poslední dříve ověřená epizoda; žádné audio se negenerovalo."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "Seznam Zprávy",
+      "NYT / Gmail",
+      "Investing.com",
+      "Portfoliotracker",
+      "Epapyrus",
+      "Seznam Podcasty",
+      "Deník N",
+      "Reflex",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 2 newslettery skutečně přečteny a 2 potvrzeně označeny jako přečtené. Omezená dostupnost části českých a zahraničních zdrojů a podcastových katalogů."
+  }
+}
