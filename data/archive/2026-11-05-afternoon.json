@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "5. listopadu 2026",
+    "generatedAt": "2026-11-05T16:29:00+01:00",
+    "readingMinutes": 11,
+    "nextEdition": "Ranní přehled zítra v 07:00.",
+    "intro": "Nová rozhodnutí a bezpečnostní incidenty v Evropě, zatímco britská centrální banka zpřísnila měnovou politiku. Zprávy bez nového vývoje od rána neopakujeme."
+  },
+  "sourceStatus": [
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "warning"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us / justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Britská centrální banka zvýšila sazbu na 4 %",
+      "summary": "Bank of England dnes zvýšila základní úrokovou sazbu o 0,25 procentního bodu. Pro hlasovalo osm členů měnového výboru, jeden chtěl vyšší zvýšení. Banka varuje před inflací kvůli válce s Íránem.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/bank-england-raises-rates-first-time-since-2023-says-more-may-come-2026-11-05/"
+      },
+      "tag": "NEW"
+    },
+    {
+      "title": "Evropu zasáhla nová vlna falešných bombových hrozeb na letech",
+      "summary": "Nejméně 25 letů dostalo ve čtvrtek výhrůžky; některé stroje odklonily trasu či prověřovaly bezpečnostní složky. U popsaných případů nebyly nalezeny výbušniny, pachatel není znám.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/bomb-alert-diverts-airbus-a320-plane-going-dublin-rome-french-pm-says-2026-11-05/"
+      },
+      "tag": "NEW"
+    },
+    {
+      "title": "Ukrajinská protikorupční agentura obvinila vysoké bezpečnostní funkcionáře",
+      "summary": "NABU oznámil podezření vůči třem vysokým představitelům SBU a policie v kauze organizované trestné činnosti. Jde o obvinění, nikoli pravomocné odsouzení.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/ukraine-accuses-senior-security-police-officials-over-criminal-ring-2026-11-05/"
+      },
+      "tag": "NEW"
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny."
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Britská centrální banka zvýšila sazbu na 4 %",
+          "summary": "Bank of England dnes zvýšila základní úrokovou sazbu o 0,25 procentního bodu. Pro hlasovalo osm členů měnového výboru, jeden chtěl vyšší zvýšení. Banka varuje před inflací kvůli válce s Íránem.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/bank-england-raises-rates-first-time-since-2023-says-more-may-come-2026-11-05/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Německo navrhuje dalších 100 milionů eur na obnovu Ukrajiny",
+          "summary": "Německé ministerstvo financí předložilo návrh dodatečné pomoci na opravy energetiky, vody a dopravy. Jde o návrh rozpočtového financování, nikoli již vyplacené peníze.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/germany-proposes-extra-100-million-ukraine-infrastructure-2026-11-05/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Evropu zasáhla nová vlna falešných bombových hrozeb na letech",
+          "summary": "Nejméně 25 letů dostalo ve čtvrtek výhrůžky; některé stroje odklonily trasu či prověřovaly bezpečnostní složky. U popsaných případů nebyly nalezeny výbušniny, pachatel není znám.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/bomb-alert-diverts-airbus-a320-plane-going-dublin-rome-french-pm-says-2026-11-05/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Britský soud uznal Russella Branda vinným ze znásilnění a sexuálních útoků",
+          "summary": "Londýnská porota rozhodla o vině v případě znásilnění jedné ženy a sexuálních útoků vůči třem dalším. U části jiných obvinění ho zprostila viny; trest má soud stanovit v pondělí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/comedian-russell-brand-found-guilty-rape-2026-11-05/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Francie prodlužuje působení námořního hlídkového letounu v Rumunsku po útocích na obchodní lodě v Černém moři.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/france-extends-maritime-patrol-planes-stay-black-sea-after-cargo-ship-attacks-2026-11-05/"
+          }
+        },
+        {
+          "text": "Itálie připravuje další vojenský balík pro Ukrajinu; jeho obsah a konečné schválení zatím nejsou potvrzeny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/italy-finalising-new-military-aid-package-ukraine-2026-11-05/"
+          }
+        },
+        {
+          "text": "Giorgia Meloniová varovala, že bez jednotného vyjednavače může Evropa ztratit vliv na mírová jednání o Ukrajině.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/italys-meloni-warns-europe-risks-irrelevance-ukraine-peace-talks-2026-11-05/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Ukrajinská protikorupční agentura obvinila vysoké bezpečnostní funkcionáře",
+          "summary": "NABU oznámil podezření vůči třem vysokým představitelům SBU a policie v kauze organizované trestné činnosti. Jde o obvinění, nikoli pravomocné odsouzení.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/ukraine-accuses-senior-security-police-officials-over-criminal-ring-2026-11-05/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Melania Trumpová hostí zástupce Ruska a Ukrajiny v Bílém domě",
+          "summary": "Bílý dům oznámil čtvrteční setkání k nedávnému humanitárnímu příměří v Oleškách. Nejde o uzavřenou mírovou dohodu; další jednání jsou plánována na 10.–11. listopadu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/russias-dmitriev-washington-first-us-contact-since-trumps-midterm-setback-2026-11-05/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "NYT Today's Headlines upozornil na prohlášení J. D. Vance, který spojuje volební ztráty republikánů s válkou v Íránu; jde o politické hodnocení.",
+          "source": {
+            "name": "NYT / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a1ab0c8b9233eb1"
+          }
+        },
+        {
+          "text": "NYT New York Today rozebírá možné zvýšení daní bohatým v New Yorku po vítězství demokratů; žádné takové zvýšení zatím schváleno není.",
+          "source": {
+            "name": "NYT / Gmail",
+            "url": "https://mail.google.com/mail/#all/1a1ab35b4428e1ec"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Statisíce čipů Nvidia H200 čekají v Hongkongu na povolení Číny",
+          "summary": "Reuters uvádí přibližně 600 tisíc čipů H200 uskladněných před případným dovozem na čínskou pevninu. Omezení dovozu a technologická závislost komplikují dodávky pro AI.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/nvidia-chips-pile-up-hong-kong-china-withholds-import-approval-2026-11-05/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Bank of England zvýšila sazbu, trhy přehodnocují inflační riziko",
+          "summary": "Základní sazba v Británii vzrostla na 4 % a centrální banka čeká vrchol inflace na 4,8 % ve druhém čtvrtletí 2027. Prognóza závisí na cenách energií.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/bank-england-raises-rates-first-time-since-2023-says-more-may-come-2026-11-05/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Po volebním propadu ropa částečně korigovala ztráty",
+          "summary": "Reuters popisuje přibližně 2,5% zotavení ropy k 97 dolarům za barel během dne, zatímco čipové akcie oslabovaly. Údaj je intradenní a nikoli závěrečná cena.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/global-markets-global-markets-2026-11-05/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "169,86",
+    "currency": "EUR",
+    "asOf": "4. listopadu 2026, uzávěrka XETRA 17:36; dnešní intradenní kurz k 16:29 CET se nepodařilo ověřit",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "—"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Poslední ověřená uzávěrka; nejde o aktuální intradenní cenu. Metriky bez nového ověření jsou —.",
+    "sources": [
+      {
+        "name": "Investing.com",
+        "url": "https://uk.investing.com/etfs/vanguard-ftse-all-world-ucits-acc-historical-data?cid=1148060"
+      },
+      {
+        "name": "Portfoliotracker",
+        "url": "https://portfoliotracker.cz/en/etf/vwce.de"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-05T16:29:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026",
+        "status": "Nový díl potvrzen v katalogu Epapyrus"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Dříve ověřený díl; novější se nepodařilo potvrdit"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Dříve ověřený díl; novější se nepodařilo potvrdit"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Dříve ověřený díl; novější se nepodařilo potvrdit"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední potvrzený díl podle katalogu Reflexu"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Potápěčka, plachetnice a časované bomby: Příběh komanda, které Němci viní ze sabotáže století",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      },
+      {
+        "show": "Na Východ!",
+        "title": "Horko a chlad. O aktuálních vztazích Varšavy a Kyjeva s polským bohemistou",
+        "url": "https://www.mujrozhlas.cz/",
+        "date": "4. listopadu 2026"
+      }
+    ],
+    "note": "Aktuální nové epizody nebyly odpoledne nezávisle potvrzeny. Uvedeny poslední ráno ověřené odkazy a data; žádný zvuk nebyl generován."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "NYT / Gmail",
+      "Investing.com",
+      "Portfoliotracker",
+      "Epapyrus",
+      "Seznam Podcasty",
+      "Deník N",
+      "Reflex",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 5 povolených newsletterů přečteno a 5 potvrzeně označeno jako přečtené. Omezená dostupnost českých médií, CNN, NPR a podcastových katalogů; odpolední kurz VWCE neověřen."
+  }
+}
