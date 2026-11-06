@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "6. listopadu 2026",
+    "generatedAt": "2026-11-06T07:00:00+01:00",
+    "readingMinutes": 15,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Írán předal nový návrh k jednání, ale Hormuzský průliv zůstává rizikový. Americké technologické akcie zažily prudký výprodej a v Česku se řeší financování obranného summitu."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Investing.com",
+      "status": "ok"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Írán předal USA přes Katar nový jaderný návrh",
+      "summary": "Podle íránského představitele Washington návrh posuzuje. Teherán ale podmiňuje jednání splněním sedmi požadavků, zatímco USA trvají na zahrnutí jaderného programu.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/"
+      }
+    },
+    {
+      "title": "Výprodej akcií AI firem otřásl technologickým sektorem",
+      "summary": "Nasdaq ve čtvrtek klesl o 5,52 % a polovodičový index o více než 12 %. Investoři přehodnocují rizika regulace AI a návratnost investic do datových center.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/"
+      }
+    },
+    {
+      "title": "Ministerstvo obrany navrhuje ukončit podporu Prague Defence Summit",
+      "summary": "Podle interního materiálu získaného iROZHLASem má vláda v pondělí rozhodovat o odstoupení od darovací smlouvy. Konference by přišla o finanční podporu na příští rok; její konání není jisté.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-domov/babisova-vlada-chce-sebrat-penize-na-obranny-summit-kde-vystoupili-prvni-muz_2611060620_hrk"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Ministerstvo obrany navrhuje ukončit podporu Prague Defence Summit",
+          "summary": "Podle interního materiálu získaného iROZHLASem má vláda v pondělí rozhodovat o odstoupení od darovací smlouvy. Konference by přišla o finanční podporu na příští rok; její konání není jisté.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/babisova-vlada-chce-sebrat-penize-na-obranny-summit-kde-vystoupili-prvni-muz_2611060620_hrk"
+          }
+        },
+        {
+          "title": "Řehka kritizuje obrannou koncepci vlády",
+          "summary": "Bývalý náčelník generálního štábu v rozhovoru pro Radiožurnál tvrdí, že nová koncepce odkládá problémy a Česko zaostává v aliančních schopnostních cílech. Jde o jeho hodnocení.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        },
+        {
+          "title": "Spor o financování ČT a ČRo pokračuje",
+          "summary": "Koalice po stávce zaměstnanců veřejnoprávních médií dál prosazuje zrušení poplatků. Podoba budoucího financování a jeho záruky zůstávají otevřené.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/stavku-vzal-babis-na-vedomi-od-zruseni-poplatku-ale-koalice-neustoupi-uvedl_2611041030_eml"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "O finanční podpoře Prague Defence Summit se má podle zveřejněného materiálu rozhodovat v pondělí, nejde zatím o schválený krok.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/babisova-vlada-chce-sebrat-penize-na-obranny-summit-kde-vystoupili-prvni-muz_2611060620_hrk"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Bank of England zvýšila základní sazbu na 4 %",
+          "summary": "Britská centrální banka zvýšila sazbu o čtvrt procentního bodu poměrem hlasů 8 ku 1. Kvůli energetickým cenám nevylučuje další zpřísnění.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/uk/view-bank-england-delivers-first-rate-hike-three-years-gilt-yields-rise-2026-11-05/"
+          }
+        },
+        {
+          "title": "Německo navrhuje dalších 100 milionů eur pro ukrajinskou infrastrukturu",
+          "summary": "Dodatečné prostředky mají pomoci opravám energetiky, vodovodů a dopravy po ruských útocích. Jde o návrh předložený rozpočtovému výboru, nikoli již vyplacené peníze.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/germany-proposes-extra-100-million-ukraine-infrastructure-2026-11-05/"
+          }
+        },
+        {
+          "title": "Švédsko obnovuje cílené vnitroschengenské kontroly",
+          "summary": "Stockholm odůvodňuje šestiměsíční opatření obavou ze sabotáží a hybridních hrozeb připisovaných Rusku. Moskva taková obvinění odmítá.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/sweden-reintroduces-internal-border-control-citing-security-situation-2026-11-05/"
+          }
+        },
+        {
+          "title": "Evropské technologické a zbrojní akcie ve čtvrtek oslabily",
+          "summary": "Index STOXX 600 klesl o 0,38 %, evropské technologické firmy ztratily 3,2 %. Rheinmetall prudce oslabil po snížení výhledu tržeb.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/european-shares-rise-mining-gains-tech-lags-2026-11-05/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Růst nákladů na energie zůstává hlavním rizikem pro britskou inflaci, upozornila centrální banka.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/uk/view-bank-england-delivers-first-rate-hike-three-years-gilt-yields-rise-2026-11-05/"
+          }
+        },
+        {
+          "text": "Německý návrh má doplnit dříve vyčleněnou podporu ukrajinské energetiky.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/germany-proposes-extra-100-million-ukraine-infrastructure-2026-11-05/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Írán předal USA přes Katar nový jaderný návrh",
+          "summary": "Podle íránského představitele Washington návrh posuzuje. Teherán ale podmiňuje jednání splněním sedmi požadavků, zatímco USA trvají na zahrnutí jaderného programu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/"
+          }
+        },
+        {
+          "title": "V Hormuzském průlivu pokračují incidenty s tankery",
+          "summary": "Íránské revoluční gardy hlásí zásahy lodí minami a požár tankeru. Reuters uvádí nejméně pět incidentů od neděle; nezávislé potvrzení všech íránských tvrzení není dostupné.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/"
+          }
+        },
+        {
+          "title": "Demokratická většina v Kongresu posílí dohled nad Trumpem",
+          "summary": "Po volebním obratu získají demokraté větší kontrolní a rozpočtové nástroje, prezidentovi však zůstává značný prostor v zahraniční politice a při vojenských rozhodnutích.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/midterms-upended-congress-trump-still-commands-foreign-policy-2026-11-05/"
+          }
+        },
+        {
+          "title": "Putin přijal íránského bezpečnostního představitele",
+          "summary": "Mohsen Rezaei v Moskvě jednal o regionální bezpečnosti a ekonomických projektech včetně plynovodu. Diplomatické rozpory mezi USA a Íránem přetrvávají.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/putin-met-iranian-security-council-chief-rezaei-moscow-2026-11-05/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Ministr obrany Pete Hegseth odmítá kritiku vedení Pentagonu a hájí americkou válku s Íránem.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/government/hegseth-vows-keep-fighting-pentagon-defends-iran-war-2026-11-05/"
+          }
+        },
+        {
+          "text": "Katar pokračuje ve zprostředkování jednání, dosažení dohody však zatím nebylo oznámeno.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Výprodej akcií AI firem otřásl technologickým sektorem",
+          "summary": "Nasdaq ve čtvrtek klesl o 5,52 % a polovodičový index o více než 12 %. Investoři přehodnocují rizika regulace AI a návratnost investic do datových center.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/"
+          }
+        },
+        {
+          "title": "IREN odložila část dodávek AI infrastruktury pro Microsoft",
+          "summary": "Firma uvedla změny v návrhu sítí a zpoždění dodavatelů. Zároveň plánuje rozsáhlé kapitálové výdaje a oznámila lepší než očekávané tržby.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
+          }
+        },
+        {
+          "title": "Pojišťovací AI startup Kalepa získal 75 milionů dolarů",
+          "summary": "Investiční kolo oceňuje firmu na 470 milionů dolarů. Kalepa nabízí AI podporu pro underwriting, oceňování rizik a správu pojistného portfolia; deklarované přínosy vycházejí z údajů firmy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/ai-powered-insurance-startup-kalepa-valued-470-million-new-funding-round-2026-11-05/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Akcie společnosti Nvidia ve čtvrtek oslabily o více než devět procent.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE uzavřelo 5. listopadu na 165,98 EUR",
+          "summary": "Poslední ověřená uzávěrka XETRA před dnešním otevřením znamená denní pokles o 2,28 %. Nejde o živý páteční kurz.",
+          "source": {
+            "name": "Investing.com",
+            "url": "https://uk.investing.com/etfs/vanguard-ftse-all-world-ucits-acc-historical-data?cid=1148060"
+          }
+        },
+        {
+          "title": "Nasdaq ztratil 5,52 %, S&P 500 klesl o 4,36 %",
+          "summary": "Americké trhy ve čtvrtek výrazně oslabily, zejména polovodiče a firmy spojené s AI. Tržní komentátoři poukazují na přecenění rizik regulace a datacentrových investic.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/"
+          }
+        },
+        {
+          "title": "Maersk potřetí zvýšil celoroční výhled zisku",
+          "summary": "Přepravní skupina očekává EBITDA 14 až 14,5 miliardy dolarů díky vyšším přepravním sazbám. Akcie přesto klesly, protože trh se soustředil na slabší objemy a náklady.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/container-shipping-group-maersk-raises-outlook-again-2026-11-05/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Evropské technologické akcie oslabily o 3,2 % a následovaly americký sektorový výprodej.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/european-shares-rise-mining-gains-tech-lags-2026-11-05/"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "165,98",
+    "currency": "EUR",
+    "asOf": "5. listopadu 2026, uzávěrka XETRA; poslední dostupná před otevřením 6. listopadu",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−2,28 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Ověřená uzávěrka 5. listopadu; nikoli realtime.",
+    "sources": [
+      {
+        "name": "Investing.com",
+        "url": "https://uk.investing.com/etfs/vanguard-ftse-all-world-ucits-acc-historical-data?cid=1148060"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-06T07:00:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Potápěčka, plachetnice a časované bomby: Příběh komanda, které Němci viní ze sabotáže století",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Katalogy nebylo možné spolehlivě aktualizovat; všechny epizody jsou označeny jako dříve ověřené, nikoli jako dnešní novinky. Žádné audio nebylo generováno."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "NYT / Gmail",
+      "Investing.com",
+      "Epapyrus",
+      "Seznam Podcasty",
+      "Deník N",
+      "Reflex",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 2 přečtené povolené newslettery; označení jako přečtené bylo odesláno, potvrzení výsledku se ověřuje. Omezené zdroje jsou označeny ve sourceStatus."
+  }
+}
