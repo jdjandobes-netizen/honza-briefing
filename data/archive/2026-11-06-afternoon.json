@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "6. listopadu 2026",
+    "generatedAt": "2026-11-06T16:32:12+01:00",
+    "readingMinutes": 9,
+    "nextEdition": "Ranní přehled zítra v 07:00.",
+    "intro": "Od rána přibylo rozhodnutí Rady EU o metanových pravidlech, protesty proti datovým centrům a nové signály z technologických a akciových trhů."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "DeBelegger",
+      "status": "ok"
+    },
+    {
+      "name": "StockInvest.us / justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Rada EU podpořila odklad metanových pravidel pro dovoz energií",
+      "summary": "Členské státy se shodly na ročním odkladu vykazování emisí metanu u dovozců ropy, plynu a uhlí do 1. ledna 2028. Konečné znění ještě musí dojednat s Evropským parlamentem.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/eu-backs-one-year-delay-methane-rules-over-iran-war-disruption-2026-11-06/"
+      }
+    },
+    {
+      "title": "SoftBank zasáhly obavy o dluh a návratnost investic do AI",
+      "summary": "Akcie v pátek ztratily 10,8 % a pětiletý CDS spread dosáhl nejvyšší hodnoty od roku 2022. Investoři zpochybňují tempo návratnosti masivních investic do OpenAI a datových center.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/softbank-cds-softbank-cds-2026-11-06/"
+      }
+    },
+    {
+      "title": "Americké akcie po čtvrtečním propadu částečně oživily",
+      "summary": "V pátečním dopoledním obchodování Nasdaq přidával asi 1,8 % a Nvidia 6,5 %. Vývoj zůstává intradenní; trh zároveň zvažuje možnost zvýšení sazeb Fedu.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny."
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Rada EU podpořila odklad metanových pravidel pro dovoz energií",
+          "summary": "Členské státy se shodly na ročním odkladu vykazování emisí metanu u dovozců ropy, plynu a uhlí do 1. ledna 2028. Konečné znění ještě musí dojednat s Evropským parlamentem.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/eu-backs-one-year-delay-methane-rules-over-iran-war-disruption-2026-11-06/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Aktivisté obsadili staveniště datového centra Microsoftu v Amsterdamu",
+          "summary": "Více než sto protestujících vstoupilo na stavbu; koalice plánuje protesty v 16 evropských zemích. Kritizuje spotřebu vody a energie, Microsoft odmítá protiprávní zásahy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Kreml připouští budoucí zapojení Evropy do bezpečnostních rozhovorů",
+          "summary": "Mluvčí Dmitrij Peskov tvrdí, že bezpečnostní záruky pro Ukrajinu a evropské uspořádání nebude možné dlouhodobě řešit bez Evropy. Současně kritizoval evropskou nejednotnost; nejde o uzavřenou dohodu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/kremlin-accuses-europe-struggling-decide-who-will-speak-it-at-future-ukraine-2026-11-06/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Britský index FTSE 100 ztrácel v 11:43 GMT přibližně 2,2 %; údaj není závěrečná cena.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/ftse-100-tumbles-2-ai-jitters-spark-global-selloff-2026-11-06/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Americké akcie po čtvrtečním propadu částečně oživily",
+          "summary": "V pátečním dopoledním obchodování Nasdaq přidával asi 1,8 % a Nvidia 6,5 %. Vývoj zůstává intradenní; trh zároveň zvažuje možnost zvýšení sazeb Fedu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Šéf newyorského Fedu varuje před přetrvávající inflací",
+          "summary": "John Williams označil inflaci za stále příliš vysokou, ale nepředjímal další rozhodnutí o sazbách. Zmínil tlak cen energií i investic do AI.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/us-inflation-too-high-essential-get-back-2-feds-williams-2026-11-06/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "ADNOC uzavřel desetiletou smlouvu na dodávky LNG do Indie",
+          "summary": "Abú Zabí oznámilo dohodu s Gujarat Energy. Reuters neuvádí její objem ani hodnotu; dohoda rozšiřuje dlouhodobé energetické vazby.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/adnoc-signs-10-year-lng-supply-agreement-with-indias-gujarat-energy-2026-11-06/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "SoftBank zasáhly obavy o dluh a návratnost investic do AI",
+          "summary": "Akcie v pátek ztratily 10,8 % a pětiletý CDS spread dosáhl nejvyšší hodnoty od roku 2022. Investoři zpochybňují tempo návratnosti masivních investic do OpenAI a datových center.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/media-telecom/softbank-cds-softbank-cds-2026-11-06/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Pokročilé pouzdření čipů se stává úzkým hrdlem AI infrastruktury",
+          "summary": "Reuters popisuje růst investic do technologií spojujících procesory a paměti. Kapacity TSMC tlačí Nvidia, AMD a další firmy k alternativním dodavatelům.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE: dostupná páteční intradenní kotace 164,52 EUR",
+          "summary": "Zdroj uvádí cenu z XETRA v 11:15 CET dne 6. listopadu, přibližně o 0,9 % pod předchozí uzávěrkou. Nejde o živou cenu v okamžiku sestavení.",
+          "source": {
+            "name": "DeBelegger",
+            "url": "https://www.debelegger.nl/es/accion/VWCE.XETRA"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Výprodej technologií přinutil hedgeové fondy omezovat riziko",
+          "summary": "Podle dat citovaných Reuters fondy zaměřené na technologické long-short strategie ve čtvrtek ztratily přes 4 %; někteří správci snižují páku a propouštějí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/tech-selloff-wipes-out-hedge-fund-gains-prompting-risk-cuts-layoffs-2026-11-06/"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "164,52",
+    "currency": "EUR",
+    "asOf": "6. listopadu 2026, 11:15 CET; opožděná intradenní kotace, nikoli live ani close",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,9 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Páteční kotace je časově opožděná; odpolední a závěrečná cena nebyla ověřena.",
+    "sources": [
+      {
+        "name": "DeBelegger",
+        "url": "https://www.debelegger.nl/es/accion/VWCE.XETRA"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-06T16:32:12+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; nové vydání dnes nepotvrzeno"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; nové vydání dnes nepotvrzeno"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; nové vydání dnes nepotvrzeno"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; nové vydání dnes nepotvrzeno"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; nové vydání dnes nepotvrzeno"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Potápěčka, plachetnice a časované bomby: Příběh komanda, které Němci viní ze sabotáže století",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Nové epizody se nepodařilo nezávisle potvrdit; uvedené názvy a data jsou poslední dříve ověřené údaje. Audio nebylo generováno."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "Gmail / NYT",
+      "DeBelegger"
+    ],
+    "note": "NYT: 4 povolené newslettery přečteny a potvrzeně označeny jako přečtené. Další nepovolený e-mail zůstal beze změny. České a další zdroje neposkytly dostatek ověřitelných odpoledních změn; neověřené zprávy nejsou zařazeny."
+  }
+}
