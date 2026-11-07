@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "7. listopadu 2026",
+    "generatedAt": "2026-11-07T16:35:00+01:00",
+    "readingMinutes": 5,
+    "nextEdition": "Ranní přehled zítra v 7:00.",
+    "intro": "Od rána přibyly zprávy o těsném výsledku novozélandských voleb, katarském zprostředkování mezi USA a Íránem a úpravě českého návrhu podpory v nezaměstnanosti."
+  },
+  "sourceStatus": [
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "The Guardian",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "VWCE / XETRA",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Novozélandské volby skončily mimořádně těsným předběžným výsledkem",
+      "summary": "Podle průběžných výsledků po sečtení zhruba 97 % hlasů má blok dosavadního premiéra těsnou většinu 67 mandátů. Zvláštní hlasy ještě mohou výsledek změnit; konečné výsledky se očekávají 27. listopadu.",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls"
+      }
+    },
+    {
+      "title": "Katar tvrdí, že zprostředkování mezi USA a Íránem pokračuje",
+      "summary": "Katarský premiér uvedl, že Washington má i po volbách zájem o dohodu a rozhovory podle něj pokročily. Dohoda zatím uzavřena nebyla; jde o vyjádření mediátora.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/qatar-says-its-mediation-efforts-between-us-iran-continue-prevent-escalation-2026-11-07/"
+      }
+    },
+    {
+      "title": "Juchelka po kritice SPD upravuje návrh podpory v nezaměstnanosti",
+      "summary": "Ministr práce Aleš Juchelka chce změnit návrh snížení podpory v prvních dvou měsících, aby nedopadl na samoživitelky. Jde o návrh, nikoli schválenou změnu.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Juchelka po kritice SPD upravuje návrh podpory v nezaměstnanosti",
+          "summary": "Ministr práce Aleš Juchelka chce změnit návrh snížení podpory v prvních dvou měsících, aby nedopadl na samoživitelky. Jde o návrh, nikoli schválenou změnu.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+          },
+          "time": "7. 11., 9:35 CET",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny."
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Katar tvrdí, že zprostředkování mezi USA a Íránem pokračuje",
+          "summary": "Katarský premiér uvedl, že Washington má i po volbách zájem o dohodu a rozhovory podle něj pokročily. Dohoda zatím uzavřena nebyla; jde o vyjádření mediátora.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/qatar-says-its-mediation-efforts-between-us-iran-continue-prevent-escalation-2026-11-07/"
+          },
+          "tag": "NEW"
+        },
+        {
+          "title": "Novozélandské volby skončily mimořádně těsným předběžným výsledkem",
+          "summary": "Podle průběžných výsledků po sečtení zhruba 97 % hlasů má blok dosavadního premiéra těsnou většinu 67 mandátů. Zvláštní hlasy ještě mohou výsledek změnit; konečné výsledky se očekávají 27. listopadu.",
+          "source": {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls"
+          },
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Íránská agentura Tasnim hlásí dva zásahy raket na ostrově Kešm; škody a původ střel nebyly oficiálně potvrzeny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says-2026-11-06/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny."
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny."
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "164,94",
+    "currency": "EUR",
+    "asOf": "6. listopadu 2026, páteční uzávěrka XETRA; sobota bez obchodování",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,63 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "−2,62 %",
+        "tone": "negative"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Páteční uzávěrka 164,94 EUR převzatá z dnešního ranního archivu; sobotní živý kurz neexistuje. Nové ocenění nebylo nezávisle potvrzeno.",
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "url": "https://de.finance.yahoo.com/quote/VWCE.DE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-07T16:35:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Potápěčka, plachetnice a časované bomby: Příběh komanda, které Němci viní ze sabotáže století",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Ponechány dříve ověřené odkazy a názvy z ranního vydání; nové sobotní epizody se nepodařilo spolehlivě ověřit. Žádné audio nebylo generováno."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "The Guardian",
+      "iROZHLAS",
+      "NYT / Gmail",
+      "Yahoo Finance"
+    ],
+    "note": "NYT: 4 povolené newslettery přečteny a všechny 4 potvrzeně označeny jako přečtené. Neověřené nové podcastové díly nebyly přidány."
+  }
+}
