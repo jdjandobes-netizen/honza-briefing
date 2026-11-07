@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "7. listopadu 2026",
+    "generatedAt": "2026-11-07T07:15:00+01:00",
+    "readingMinutes": 14,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Onsemi zrušila plán velké investice v Rožnově, poslanci posunuli změny penzijního spoření a Trump oznámil výměnu personálního šéfa Bílého domu."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Yahoo Finance",
+      "status": "ok"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Onsemi zrušila plán investice 43,5 miliardy korun v Rožnově",
+      "summary": "Výrobce polovodičů oznámil zrušení plánovaného rozšíření kvůli vývoji trhu. Stávající provoz má pokračovat.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/ekonomika/rozsahla-investice-do-roznovskeho-silicon-valley-se-nekona-onsemi-rusi-plan-na_2611062038_jos"
+      }
+    },
+    {
+      "title": "Sněmovna posunula změny penzijního spoření do závěrečného kola",
+      "summary": "Po druhém čtení je předloženo téměř 50 pozměňovacích návrhů, včetně návrhů k poplatkům a DIP. Zákon dosud není schválen.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/ekonomika/zmeny-sporeni-na-penzi-jsou-pred-schvalovanim-poslanci-nacetli-temer-50_2611061643_jos"
+      }
+    },
+    {
+      "title": "Stephen Miller převezme personální vedení Bílého domu",
+      "summary": "Trump oznámil, že Miller v pondělí nahradí Susie Wilesovou.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-svet/novym-personalnim-sefem-bileho-domu-bude-stephen-miller-nahradi-susie-wilesovou_2611062039_vsn"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Onsemi zrušila plán investice 43,5 miliardy korun v Rožnově",
+          "summary": "Výrobce polovodičů oznámil zrušení plánovaného rozšíření kvůli vývoji trhu. Stávající provoz má pokračovat.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/ekonomika/rozsahla-investice-do-roznovskeho-silicon-valley-se-nekona-onsemi-rusi-plan-na_2611062038_jos"
+          }
+        },
+        {
+          "title": "Sněmovna posunula změny penzijního spoření do závěrečného kola",
+          "summary": "Po druhém čtení je předloženo téměř 50 pozměňovacích návrhů, včetně návrhů k poplatkům a DIP. Zákon dosud není schválen.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/ekonomika/zmeny-sporeni-na-penzi-jsou-pred-schvalovanim-poslanci-nacetli-temer-50_2611061643_jos"
+          }
+        },
+        {
+          "title": "Rozsáhlý výpadek elektřiny zasáhl Prahu",
+          "summary": "Páteční výpadek postihl přibližně 70 tisíc odběrných míst na levém břehu Vltavy, včetně nemocnic.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/prahu-zasahl-vypadek-elektriny-postihl-take-velke-prazske-nemocnice-co-v-takove_2611061233_aln"
+          }
+        },
+        {
+          "title": "Vláda vybrala nové sídlo agentury EUSPA v Praze",
+          "summary": "Vicepremiér Havlíček uvedl, že dohoda je hotová a zbývá doladit podrobnosti.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/jsme-dohodnuti-zustava-v-cesku-vlada-uz-vybrala-nove-sidlo-agentury-eu-pro_2611061344_jgr"
+          }
+        },
+        {
+          "title": "Sanace benzenu v Hustopečích bude pokračovat",
+          "summary": "Odstraněno bylo 182 tun benzenu, přibližně 30 tun zůstává v podloží. Náklady mají činit 317 milionů korun.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/182-tun-benzenu-v-hustopecich-odstraneno-dalsi-tri-desitky-tun-jsou-v-podlozi_2611062108_zfr"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Sokol schválil žalobu o více než 38 milionů korun na bývalou starostku a jednatele.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        },
+        {
+          "text": "Nemocnice v Rumburku uzavírá dětské oddělení, víkendová pohotovost zůstává.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        },
+        {
+          "text": "Ministr vnitra požádá EU o snížení českého příspěvku do mechanismu solidarity.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "EU chce odložit metanové povinnosti dovozců energií",
+          "summary": "Členské státy podpořily odklad do ledna 2028, finální znění ještě musí dojednat s europoslanci.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/eu-backs-one-year-delay-methane-rules-over-iran-war-disruption-2026-11-06/"
+          }
+        },
+        {
+          "title": "Francouzské obchody sčítají škody po protestech",
+          "summary": "Odbory uvádějí 1,6 milionu demonstrantů, ministerstvo vnitra necelých 600 tisíc; počty jsou sporné.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/ekonomika/obchody-ve-francii-scitaji-ztraty-misto-vanocnich-trzeb-plati-za-bezpecnost_2611061237_ako"
+          }
+        },
+        {
+          "title": "Protestující vnikli na staveniště datového centra Microsoftu",
+          "summary": "Více než sto aktivistů v Amsterdamu protestovalo proti energetickým a environmentálním nákladům AI infrastruktury.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/"
+          }
+        },
+        {
+          "title": "Evropská komise vytýká TikToku doporučovací algoritmus",
+          "summary": "Komise dospěla k závěru, že platforma porušuje pravidla DSA; jde o stanovisko regulátora.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/veda-technologie/technologie/kralici-nory-maji-negativni-dopad-na-dusevni-zdravi-podle-komise-tiktok-porusuje_2611062148_jos"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "EU zvažuje možnost dalších odkladů metanových povinností, pokud nebude připravena infrastruktura pro vykazování.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/eu-backs-one-year-delay-methane-rules-over-iran-war-disruption-2026-11-06/"
+          }
+        },
+        {
+          "text": "Další protesty proti datovým centrům jsou plánovány v Irsku, Polsku a Dánsku.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Stephen Miller převezme personální vedení Bílého domu",
+          "summary": "Trump oznámil, že Miller v pondělí nahradí Susie Wilesovou.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/novym-personalnim-sefem-bileho-domu-bude-stephen-miller-nahradi-susie-wilesovou_2611062039_vsn"
+          }
+        },
+        {
+          "title": "Brent v pátek uzavřel na 98,32 dolaru za barel",
+          "summary": "Trh sleduje riziko dalších útoků na Írán a nejistý výhled diplomatických jednání.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-set-sharp-weekly-drop-middle-east-supply-concerns-provide-floor-2026-11-06/"
+          }
+        },
+        {
+          "title": "USA rozšířily sankční seznam vůči Íránu",
+          "summary": "Americké ministerstvo financí oznámilo nové sankce při pokračujícím napětí s Teheránem.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        },
+        {
+          "title": "Bilance ruského útoku na Komyšuvachu vzrostla na 53 obětí",
+          "summary": "Ukrajinské úřady v pátek aktualizovaly počet obětí pondělního útoku.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        },
+        {
+          "title": "Papež Lev XIV. zahájil cestu po Latinské Americe",
+          "summary": "Přiletěl do Uruguaye na začátku dvanáctidenní cesty po regionu.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Keňský vůdce sekty Paul Mackenzie byl odsouzen ke 200 letům vězení za vraždy 191 lidí.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        },
+        {
+          "text": "Izraelský premiér Netanjahu tvrdí, že vztahy s USA zůstávají silné.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-06"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "TSMC podle médií zvažuje výrobu pamětí 3D DRAM",
+          "summary": "The Information tvrdí, že se o možnost zajímá Nvidia. Firmy zprávu zatím nepotvrdily.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/tsmc-considers-making-advanced-memory-chips-information-reports-2026-11-06/"
+          }
+        },
+        {
+          "title": "Microsoft údajně omezuje pronájem AI infrastruktury od Oracle",
+          "summary": "Bloomberg podle Reuters uvádí, že Microsoft neprodloužil část kontraktu kvůli starším GPU.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/"
+          }
+        },
+        {
+          "title": "Pokročilé pouzdření čipů je novým úzkým hrdlem AI průmyslu",
+          "summary": "Výrobci investují miliardy do technologií spojujících procesory a paměti, popisuje Reuters.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+          }
+        },
+        {
+          "title": "Kyberútoky zasáhly chladicí boxy supermarketů",
+          "summary": "Útočníci pronikli do připojených řídicích jednotek, což ukazuje rizika zanedbaných IoT zařízení.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/veda-technologie/technologie/kyberutoky-na-mrazaky-koubsky-je-namiste-revize-veci-pripojenych-k-internetu-na_2611062347_vsn"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Bílý dům zrušil plánované zasedání poradního technologického panelu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/trump-administration-scraps-meeting-panel-that-includes-metas-zuckerberg-nvidias-2026-11-06/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE uzavřelo pátek na 164,94 EUR",
+          "summary": "Páteční uzávěrka XETRA podle historických dat Yahoo Finance představuje denní pokles asi 0,63 %.",
+          "source": {
+            "name": "Yahoo Finance",
+            "url": "https://de.finance.yahoo.com/quote/VWCE.DE/history/"
+          }
+        },
+        {
+          "title": "Nasdaq v pátek posílil, ale za týden ztratil 3,4 %",
+          "summary": "Po čtvrtečním propadu vzrostl index o 1,1 %, ztráty za celý týden však přetrvaly.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
+          }
+        },
+        {
+          "title": "Technologické hedgeové fondy snižují riziko",
+          "summary": "Reuters s odkazem na Goldman Sachs uvádí čtvrteční pokles technologických long-short fondů o více než čtyři procenta.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/tech-selloff-wipes-out-hedge-fund-gains-prompting-risk-cuts-layoffs-2026-11-06/"
+          }
+        },
+        {
+          "title": "Ropa Brent zůstává pod 100 USD",
+          "summary": "V pátek uzavřela na 98,32 USD, trh zohledňuje jak riziko eskalace s Íránem, tak možnost dohody.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-set-sharp-weekly-drop-middle-east-supply-concerns-provide-floor-2026-11-06/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "S&P 500 v pátek přidal 0,32 %, ale za celý týden ztratil 2,7 %.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "164,94",
+    "currency": "EUR",
+    "asOf": "6. listopadu 2026, uzávěrka XETRA před víkendem",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,63 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "−2,62 %",
+        "tone": "negative"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Poslední páteční uzávěrka, nikoli realtime.",
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "url": "https://de.finance.yahoo.com/quote/VWCE.DE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-07T07:15:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější nepotvrzen"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Potápěčka, plachetnice a časované bomby: Příběh komanda, které Němci viní ze sabotáže století",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Dříve ověřené epizody; novější díly nebylo možné spolehlivě potvrdit. Žádné audio nebylo generováno."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "NYT / Gmail",
+      "Yahoo Finance",
+      "Epapyrus",
+      "Seznam Podcasty",
+      "Deník N",
+      "Reflex",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 2 newslettery přečteny a potvrzeně označeny. Ostatní omezení viz sourceStatus."
+  }
+}
