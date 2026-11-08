@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "8. listopadu 2026",
+    "generatedAt": "2026-11-08T07:00:00+01:00",
+    "readingMinutes": 13,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Polskem otřásla střelba v Krakově, Ukrajina hlásí další zásahy energetiky a Izrael čeká pokus opozice sestavit vládu."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "warning"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Yahoo Finance",
+      "status": "ok"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Střelba v centru Krakova: šest mrtvých",
+      "summary": "Polská policie zadržela podezřelého. V jeho domě byla nalezena další tři těla; motiv se vyšetřuje. Polsko vyhlásilo státní smutek.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-svet/strelba-polsko-krakov-policie_2611071613_jkd"
+      }
+    },
+    {
+      "title": "Rusko zasáhlo ukrajinskou energetickou infrastrukturu",
+      "summary": "Podle ukrajinských představitelů noční útok poškodil rozvodny v Kyjevě i dalších regionech před plánovanými rozhovory v Abú Zabí.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-svet/online-rusko-vnima-diplomacii-jako-formu-agrese-stupnujicimi-utoky-tlaci-na_2611071643_jho"
+      }
+    },
+    {
+      "title": "Izraelskou vládu se pokusí sestavit opoziční Eisenkot",
+      "summary": "Izraelský prezident má v neděli pověřit Gadiho Eisenkota. Na sestavení koalice dostane nejprve 28 dní.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-svet/novou-izraelskou-vladu-bude-sestavovat-opozicni-lidr-eisenkot-prezident-ho_2611072114_jho"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Valašské Meziříčí přijde o porodnici",
+          "summary": "Skupina Agel oznámila trvalé uzavření porodnice a přesun dětské péče do Nového Jičína. Uvádí nedostatek lékařů.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/agel-zavre-porodnici-ve-valasskem-mezirici-provoz-uz-neobnovi-detskou-peci_2611070501_zfr"
+          }
+        },
+        {
+          "title": "Opozice kritizuje financování armádní koncepce",
+          "summary": "Po schválení plánu výstavby armády do roku 2040 pokračuje spor o rozpočtové krytí. Prezident Pavel upozorňuje na nesplnění spojeneckých závazků.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/armada-potrebuje-vic-nez-udrzovaci-rozpocet-mini-opozice-davame-tolik-kolik_2611071831_jos"
+          }
+        },
+        {
+          "title": "Prahou prošel pochod podporující reformu veřejnoprávních médií",
+          "summary": "Před Českou televizí vystoupili mimo jiné Kateřina Konečná a Oldřich Kaiser; na místě byli také zastánci současného systému médií veřejné služby.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/prahou-prosel-pochod-za-reformu-verejnopravnich-medii-pred-budovou-ct-vystoupila_2611071815_jho"
+          }
+        },
+        {
+          "title": "Téměř tisíc lidí běželo Prahou na podporu ČT a ČRo",
+          "summary": "Účastníci absolvovali symbolickou trasu dlouhou 4,36 kilometru jako připomínku vysílání Českého rozhlasu.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/temer-tisic-lidi-bezelo-centrem-prahy-za-cesky-rozhlas-a-ceskou-televizi-trasa_2611071141_aru"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "V Praze v Jinonicích vznikla nová budova německé školy za přibližně 200 milionů korun.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+          }
+        },
+        {
+          "text": "Meteorologové zaznamenali na horách noční mrazy až pod minus 14 stupňů.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+          }
+        },
+        {
+          "text": "Geopark Český ráj přišel o značku UNESCO; krajští představitelé mluví o reputační škodě.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Polsko truchlí po masové střelbě v Krakově",
+          "summary": "Na hlavním náměstí zemřelo šest lidí, další byli zraněni. Úřady vyšetřují motiv a okolnosti; počet zraněných se mezi aktualizacemi zdrojů liší.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/strelba-polsko-krakov-policie_2611071613_jkd"
+          }
+        },
+        {
+          "title": "Francie vyšetřuje falešné bombové hrozby na letech",
+          "summary": "Výhrůžky se týkaly desítek evropských letů včetně spojů s vazbou na Česko. Vyšetřovatelé prověřují i případné zahraniční vazby.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/francie-vysetruje-falesne-bombove-hrozby-letum-chce-najit-pachatele-a-proverit_2611071830_jho"
+          }
+        },
+        {
+          "title": "Francouzské demonstrace byly slabší než předchozí víkendy",
+          "summary": "Organizátoři uvádějí 250 tisíc účastníků, úřady 146 tisíc. Většina akcí podle dostupných zpráv proběhla pokojně.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+          }
+        },
+        {
+          "title": "V Polsku pokračuje spor o Ústavní soud",
+          "summary": "Právnička Katarína Šipulová upozorňuje, že konflikt mezi vládou a opozicí pravděpodobně nepůjde rychle vyřešit.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/polsko-ustavni-soud-krize-soudci-tusk-nawrocki_2611071409_elev"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Švýcarský hokejový svaz oznámil, že jeho dvacítka nenastoupí proti Rusku na mistrovství světa.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+          }
+        },
+        {
+          "text": "Ve Francii vyšetřovatelé zkoumají, zda koordinované výhrůžky letům souvisejí s cizími mocnostmi.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/francie-vysetruje-falesne-bombove-hrozby-letum-chce-najit-pachatele-a-proverit_2611071830_jho"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Izraelský prezident pověří Eisenkota sestavením vlády",
+          "summary": "Opoziční lídr Gadi Eisenkot má získat mandát na 28 dní; Netanjahu zůstává do vzniku nové vlády premiérem.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/novou-izraelskou-vladu-bude-sestavovat-opozicni-lidr-eisenkot-prezident-ho_2611072114_jho"
+          }
+        },
+        {
+          "title": "Ruské útoky poškodily ukrajinské rozvodny",
+          "summary": "Podle ukrajinských úřadů byly zasaženy Kyjev a další regiony. Zelenskyj tvrdí, že Rusko útoky zvyšuje tlak před diplomatickými jednáními.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/online-rusko-vnima-diplomacii-jako-formu-agrese-stupnujicimi-utoky-tlaci-na_2611071643_jho"
+          }
+        },
+        {
+          "title": "Sýrie plánuje nasadit vojáky v Saúdské Arábii a Jemenu",
+          "summary": "Podle informací ČTK a AFP mají syrští vojáci pomáhat proti húsíjským povstalcům; stovky jich podle zprávy v oblasti již působí.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/syrie-v-saudske-arabii-a-jemenu-nasadi-tisice-vojaku-maji-pomahat-v-konfliktu-s_2611071536_jho"
+          }
+        },
+        {
+          "title": "Polská střelba vyvolala mezinárodní reakce",
+          "summary": "Český prezident Petr Pavel zaslal kondolenci a česká policie oznámila preventivní posílení hlídek na frekventovaných místech.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-svet/strelba-polsko-krakov-policie_2611071613_jkd"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Analytik Milan Slezák vykládá jmenování Stephena Millera jako přípravu Trumpovy administrativy na střet s Kongresem; jde o jeho hodnocení.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+          }
+        },
+        {
+          "text": "Reportáž Českého rozhlasu popisuje omezenou komunikaci Ukrajinců s rodinami na Ruskem okupovaných územích.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Český programátor pomáhal opravit závažnou chybu v PHP",
+          "summary": "Ondřej Surý v rozhovoru popsal odpovědnost při řešení zranitelnosti široce používané webové technologie.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/veda-technologie/technologie/necitil-jsem-tlak-ani-stres-spis-zodpovednost-vuci-lidem-uvedl-cesky-programator_2611072158_lbl"
+          }
+        },
+        {
+          "title": "Brněnští výzkumníci testují nové čištění vody",
+          "summary": "Tým CEITEC VUT zkoumá využití světla a materiálu z močoviny pro zachytávání a rozklad znečištění.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/veda-technologie/veda/svetlo-a-mocovina-misto-slozite-filtrace-brnensti-vedci-vyvijeji-setrnejsi_2611071015_lhv"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Rozhovor o opravě PHP připomíná, že bezpečnost široce nasazených open-source technologií ovlivňuje miliony webů.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/veda-technologie/technologie/necitil-jsem-tlak-ani-stres-spis-zodpovednost-vuci-lidem-uvedl-cesky-programator_2611072158_lbl"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE zakončilo páteční obchodování na XETRA na 164,94 EUR",
+          "summary": "Podle historických dat Yahoo Finance jde o poslední dostupnou uzávěrku před nedělním ránem. Alternativní agregátor uvádí odlišnou hodnotu, proto je vhodné ověřit zdroj při další obchodní seanci.",
+          "source": {
+            "name": "Yahoo Finance",
+            "url": "https://de.finance.yahoo.com/quote/VWCE.DE/history/"
+          }
+        },
+        {
+          "title": "Trhy zůstávají o víkendu uzavřené",
+          "summary": "Pro VWCE na XETRA není v neděli nový kurz. Aktuální pohyb fondu lze posuzovat až po otevření trhu v pondělí.",
+          "source": {
+            "name": "Yahoo Finance",
+            "url": "https://de.finance.yahoo.com/quote/VWCE.DE/history/"
+          }
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "164,94",
+    "currency": "EUR",
+    "asOf": "6. listopadu 2026, páteční uzávěrka XETRA; neděle bez obchodování",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "−0,63 %",
+        "tone": "negative"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Yahoo Finance uvádí 164,94 EUR, jiný agregátor odlišnou cenu. Jde o poslední dostupnou uzávěrku, nikoli nedělní živý kurz.",
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "url": "https://de.finance.yahoo.com/quote/VWCE.DE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-08T07:00:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 8. listopadu nepotvrzena"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Jsem nahlodán se vydat na Letnou, říká šéf Rozhlasu René Zavoral",
+        "url": "https://podcasty.seznam.cz/podcast/ptam-se-ja",
+        "date": "27. října 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 8. listopadu nepotvrzena"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 8. listopadu nepotvrzena"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 8. listopadu nepotvrzena"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 8. listopadu nepotvrzena"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Potápěčka, plachetnice a časované bomby: Příběh komanda, které Němci viní ze sabotáže století",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Proč se otřásá ANO? Babišův dres byl zárukou úspěchu, dnes je toxický",
+        "url": "https://web.epapyrus.cz/podcast/vlevo-dole-15",
+        "date": "4. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Odkazy a názvy převzaty z dříve ověřeného katalogového výběru, aktuální epizody nebylo možné nezávisle potvrdit. Audio nebylo generováno."
+  },
+  "footer": {
+    "sources": [
+      "iROZHLAS",
+      "Reuters",
+      "Yahoo Finance"
+    ],
+    "note": "NYT: 0 povolených newsletterů přečteno a 0 označeno; jediný nalezený nepřečtený e-mail nebyl povoleným titulem. Část zdrojů a nové podcastové epizody nebyly ověřitelné."
+  }
+}
