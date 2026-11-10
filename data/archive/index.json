@@ -1,21 +1,29 @@
 {
   "schemaVersion": 1,
   "kind": "briefing-archive-index",
-  "updatedAt": "2026-11-08T16:37:00+01:00",
+  "updatedAt": "2026-11-10T07:00:00+01:00",
   "timezone": "Europe/Prague",
   "retention": {
     "visibleCalendarDays": 7,
     "deleteOlder": false
   },
   "latest": {
-    "id": "2026-11-08-afternoon",
-    "date": "2026-11-08",
-    "edition": "afternoon",
-    "title": "Odpolední přehled",
-    "generatedAt": "2026-11-08T16:37:00+01:00",
-    "path": "data/archive/2026-11-08-afternoon.json"
+    "id": "2026-11-10-morning",
+    "date": "2026-11-10",
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "generatedAt": "2026-11-10T07:00:00+01:00",
+    "path": "data/archive/2026-11-10-morning.json"
   },
   "editions": [
+    {
+      "id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "edition": "morning",
+      "title": "Ranní přehled",
+      "generatedAt": "2026-11-10T07:00:00+01:00",
+      "path": "data/archive/2026-11-10-morning.json"
+    },
     {
       "id": "2026-11-08-afternoon",
       "date": "2026-11-08",
