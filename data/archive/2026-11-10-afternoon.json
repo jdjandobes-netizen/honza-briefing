@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "10. listopadu 2026",
+    "generatedAt": "2026-11-10T16:27:00+01:00",
+    "readingMinutes": 9,
+    "nextEdition": "Ranní přehled zítra v 07:00.",
+    "intro": "Od rána začaly rozhovory o Ukrajině, TSMC schválila nové AI investice a americká inflace zvýšila sázky na růst sazeb."
+  },
+  "sourceStatus": [
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Stock Analysis / VWCE",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Rozhovory o Ukrajině skutečně začaly v Abú Zabí",
+      "summary": "Rubio označil jednání USA, Ruska a Ukrajiny za produktivní. Kyjev potvrdil diskusi o humanitárních otázkách a bezpečnostních zárukách; územní spor trvá.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+      }
+    },
+    {
+      "title": "TSMC schválila až miliardu dolarů investic do AI firem",
+      "summary": "Výrobce čipů schválil rámec až 500 milionů dolarů do Anthropic a stejnou částku do OpenAI. Nejde o již uskutečněný nákup.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+      }
+    },
+    {
+      "title": "Americká jádrová inflace zvyšuje očekávání růstu sazeb",
+      "summary": "Říjnový jádrový CPI vzrostl o 0,3 % meziměsíčně. Tržní pravděpodobnost prosincového zvýšení sazeb Fedu o 50 bazických bodů se přiblížila 15 %; nejde o rozhodnutí.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/investors-boost-odds-half-point-fed-hike-core-cpi-rise-meets-wallers-bar-2026-11-10/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Babiš upozorňuje na dopad blokace rozpočtu EU",
+          "summary": "Při sporu o pomoc Ukrajině premiér uvedl, že zablokování rozpočtu Unie by zároveň zastavilo prostředky pro Kyjev. Dohoda není uzavřena.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/slovak-pm-fico-accuses-merz-blackmail-linking-ukraine-funding-eu-budget-talks-2026-11-10/"
+          },
+          "time": "13:49 CET",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "EU slibuje 50 milionů eur na bezpečnost Černého moře",
+          "summary": "Komise chce urychlit společné námořní bezpečnostní centrum Bulharska a Rumunska po útocích na obchodní lodě. Odpovědnost za jednotlivé útoky nebyla prokázána.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/eus-von-der-leyen-pledges-50-million-speed-up-security-hub-black-sea-2026-11-10/"
+          },
+          "time": "14:02 CET",
+          "tag": "NEW"
+        },
+        {
+          "title": "Fico obvinil Merze z vydírání kvůli financování Ukrajiny",
+          "summary": "Německo chce podporu Ukrajiny spojit s jednáním o příštím rozpočtu EU. Slovenský premiér protestuje a připomíná právo veta.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/slovak-pm-fico-accuses-merz-blackmail-linking-ukraine-funding-eu-budget-talks-2026-11-10/"
+          },
+          "time": "13:49 CET",
+          "tag": "NEW"
+        },
+        {
+          "title": "Rozhovory o Ukrajině skutečně začaly v Abú Zabí",
+          "summary": "Rubio označil jednání USA, Ruska a Ukrajiny za produktivní. Kyjev potvrdil diskusi o humanitárních otázkách a bezpečnostních zárukách; územní spor trvá.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+          },
+          "time": "10. listopadu",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Ruské útoky zasáhly ukrajinskou energetiku",
+          "summary": "Ukrajinské úřady hlásí zásahy pěti velkých rozvoden, výpadky v šesti regionech a dvě oběti ve Vinnycké oblasti.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/russia-pounds-ukraines-power-grid-talks-open-abu-dhabi-2026-11-10/"
+          },
+          "time": "10. listopadu",
+          "tag": "NEW"
+        },
+        {
+          "title": "Aktivisté připravují podporu možné kandidatury AOC",
+          "summary": "Dnešní NYT New York Today popisuje vznik sítě Ready for AOC pro případnou prezidentskou kandidaturu v roce 2028. Ocasio-Cortez kandidaturu neoznámila.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://mail.google.com/mail/u/0/#all/1a1c4f60db236fe1"
+          },
+          "time": "11:17 CET",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "TSMC schválila až miliardu dolarů investic do AI firem",
+          "summary": "Výrobce čipů schválil rámec až 500 milionů dolarů do Anthropic a stejnou částku do OpenAI. Nejde o již uskutečněný nákup.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+          },
+          "time": "15:15 CET",
+          "tag": "NEW"
+        },
+        {
+          "title": "Anthropic připravuje mimořádně velké IPO",
+          "summary": "Reuters uvádí možnou valuaci až 1,4 bilionu dolarů. Starší návrh cenových podmínek byl stažen jako nepřesný; IPO ještě nebylo dokončeno.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/"
+          },
+          "time": "10. listopadu",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Americká jádrová inflace zvyšuje očekávání růstu sazeb",
+          "summary": "Říjnový jádrový CPI vzrostl o 0,3 % meziměsíčně. Tržní pravděpodobnost prosincového zvýšení sazeb Fedu o 50 bazických bodů se přiblížila 15 %; nejde o rozhodnutí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/investors-boost-odds-half-point-fed-hike-core-cpi-rise-meets-wallers-bar-2026-11-10/"
+          },
+          "time": "15:51 CET",
+          "tag": "NEW"
+        },
+        {
+          "title": "VWCE má ověřenou pouze dopolední opožděnou cenu",
+          "summary": "Stock Analysis ukazuje 167,88 EUR v 09:35 CET. Novější odpolední nebo závěrečnou cenu se nepodařilo potvrdit.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+          },
+          "time": "09:35 CET",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "167,88",
+    "currency": "EUR",
+    "asOf": "10. listopadu 2026 09:35 CET, opožděná intradenní kotace, nikoli závěrečná cena",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+0,27 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Novější cena nebyla potvrzena.",
+    "sources": [
+      {
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-10T16:27:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější odpolední epizoda nepotvrzena"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější odpolední epizoda nepotvrzena"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; novější odpolední epizoda nepotvrzena"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; novější odpolední epizoda nepotvrzena"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější odpolední epizoda nepotvrzena"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Hokejový návrat Rusů? Samozřejmě že pomůže jejich propagandě, federace to podcenila, soudí politolog",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "10. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Zachovány dříve ověřené odkazy a data; novější epizody odpoledne nebyly potvrzeny."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "NYT newslettery (Gmail)",
+      "Stock Analysis",
+      "Youradio Talk",
+      "Stream",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 4 povolené newslettery přečteny / 4 potvrzeně označeny. Jeden nepovolený e-mail beze změny. Ostatní zdroje a podcastové katalogy poskytly neúplné odpolední informace."
+  }
+}
