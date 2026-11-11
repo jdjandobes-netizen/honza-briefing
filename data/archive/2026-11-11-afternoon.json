@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "11. listopadu 2026",
+    "generatedAt": "2026-11-11T16:28:00+01:00",
+    "readingMinutes": 8,
+    "nextEdition": "Ranní přehled zítra v 07:00.",
+    "intro": "Od rána přibyly bombové hrozby evropským školám, změny na trzích AI infrastruktury a nové signály kolem Íránu. Starší ranní témata bez posunu neopakujeme."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Yahoo Finance / VWCE",
+      "status": "warning"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Výhrůžné e-maily zasáhly tisíce škol v Itálii a další evropské země",
+      "summary": "Reuters uvádí zhruba 6 300 italských škol, kterým přišly bombové hrozby; některé se evakuovaly. Podobné zprávy dorazily do Británie a Irska. Úřady je považují za falešné, pachatel není potvrzen.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/least-300-italian-schools-evacuated-after-email-bomb-alerts-2026-11-11/"
+      }
+    },
+    {
+      "title": "CoreWeave pomáhá obratu sentimentu kolem AI infrastruktury",
+      "summary": "Po silnějším výhledu tržeb a důrazu na financování z kontraktů akcie CoreWeave během středy rostly zhruba o 10 % a Nvidia asi o 5 %. Jde o průběžný pohyb, nikoli uzávěrku.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+      }
+    },
+    {
+      "title": "Írán odmítá vyvézt obohacený jaderný materiál; ropa reaguje růstem",
+      "summary": "Vyjádření íránského bezpečnostního představitele oslabilo očekávání rychlé dohody s USA. Brent podle Reuters během středy posiloval přibližně o procento; jde o průběžnou cenu.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Ministerstvo připravuje dostupnější hypotéky pro mladé v regionech",
+          "summary": "Zvažovaný program pro domácnosti do 36 let má pomoci lidem s dostatečným příjmem, kteří nemají naspořené vlastní prostředky. Jde o návrh, nikoli schválené pravidlo.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-11"
+          },
+          "time": "09:42",
+          "tag": "NEW"
+        },
+        {
+          "title": "Česko si připomíná Den válečných veteránů",
+          "summary": "Na pražském náměstí Míru vzniklo pietní místo se symbolickými křížky; vzpomínkové akce probíhají i jinde v republice.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/symbolicke-krizky-i-vojenska-technika-valecne-veterany-si-lide-pripominaji-i-na_2611111146_vaa"
+          },
+          "time": "11:46",
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Kladno dokončilo opravu autobusového nádraží za 47 milionů korun.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Výhrůžné e-maily zasáhly tisíce škol v Itálii a další evropské země",
+          "summary": "Reuters uvádí zhruba 6 300 italských škol, kterým přišly bombové hrozby; některé se evakuovaly. Podobné zprávy dorazily do Británie a Irska. Úřady je považují za falešné, pachatel není potvrzen.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/least-300-italian-schools-evacuated-after-email-bomb-alerts-2026-11-11/"
+          },
+          "time": "11. 11.",
+          "tag": "NEW"
+        },
+        {
+          "title": "Ruský diplomat navrhuje možnost bilaterálních paktů o neútočení se státy NATO",
+          "summary": "Alexej Drobinin popsal varianty budoucí bezpečnostní architektury. Nejde o uzavřenou dohodu ani přijatý návrh NATO.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russian-diplomat-says-moscow-could-conclude-non-aggression-pacts-with-nato-2026-11-11/"
+          },
+          "time": "11. 11.",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Po dronovém útoku hořelo v ruském přístavu Usť-Luga",
+          "summary": "Podle oblastního gubernátora utrpěli zranění tři pracovníci a výpadek zasáhl elektrickou stanici. Reuters jeho tvrzení nezávisle nepotvrdil.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/drone-attack-causes-fire-russias-baltic-sea-port-ust-luga-governor-says-2026-11-11/"
+          },
+          "time": "11. 11.",
+          "tag": "UPDATE"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Írán odmítá vyvézt obohacený jaderný materiál; ropa reaguje růstem",
+          "summary": "Vyjádření íránského bezpečnostního představitele oslabilo očekávání rychlé dohody s USA. Brent podle Reuters během středy posiloval přibližně o procento; jde o průběžnou cenu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/"
+          },
+          "time": "11. 11.",
+          "tag": "NEW"
+        },
+        {
+          "title": "Na COP31 lídři varují, aby války neodsunuly klimatickou politiku",
+          "summary": "Prezidenti Brazílie a Turecka vyzvali k pokračování jednání o energetické transformaci. Podoba nové dohody zatím není uzavřena.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/sustainability/cop/world-leaders-address-cop31-turkey-pushes-new-climate-deal-2026-11-11/"
+          },
+          "time": "11. 11.",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "CoreWeave pomáhá obratu sentimentu kolem AI infrastruktury",
+          "summary": "Po silnějším výhledu tržeb a důrazu na financování z kontraktů akcie CoreWeave během středy rostly zhruba o 10 % a Nvidia asi o 5 %. Jde o průběžný pohyb, nikoli uzávěrku.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+          },
+          "time": "11. 11.",
+          "tag": "UPDATE"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE na Xetře: ověřená opožděná intradenní kotace 169,54 EUR",
+          "summary": "Yahoo Finance označuje cenu 169,54 EUR k 10:41:20 SEČ jako delayed quote; nelze ji vydávat za aktuální cenu v 16:28 ani dnešní uzávěrku.",
+          "source": {
+            "name": "Yahoo Finance",
+            "url": "https://es.finance.yahoo.com/quote/VWCE.DE/history/"
+          },
+          "time": "10:41 SEČ",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Technologické akcie zvedají globální indexy po úterním výprodeji",
+          "summary": "Reuters popisuje růst evropských a asijských akcií i amerických futures, přesto přetrvává nejistota kolem sazeb Fedu. Tržní hodnoty se mohou během dne změnit.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/"
+          },
+          "time": "11. 11.",
+          "tag": "UPDATE"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "169,54",
+    "currency": "EUR",
+    "asOf": "11. listopadu 2026, 10:41:20 SEČ; opožděná intradenní kotace, nikoli 16:28 ani uzávěrka",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+1,15 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Yahoo Finance označuje kotaci jako delayed; žádná živá cena ani uzávěrka nebyla potvrzena.",
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "url": "https://es.finance.yahoo.com/quote/VWCE.DE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-11T16:28:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Hokejový návrat Rusů? Samozřejmě že pomůže jejich propagandě, federace to podcenila, soudí politolog",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "10. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Novější konkrétní epizody se nepodařilo nezávisle potvrdit; zůstávají dříve ověřené tituly a data, nikoli nové epizody."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "Yahoo Finance",
+      "NYT newslettery (Gmail)"
+    ],
+    "note": "NYT: 4 povolené newslettery skutečně přečteny a 4 potvrzeně označeny jako přečtené. Některé české zdroje a podcastové katalogy neposkytly ověřitelné novinky."
+  }
+}
