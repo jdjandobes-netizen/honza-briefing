@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "11. listopadu 2026",
+    "generatedAt": "2026-11-11T07:00:00+01:00",
+    "readingMinutes": 17,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Jednání o Ukrajině pokračují navzdory útokům na energetiku, USA zvažují postup vůči Íránu a AI sektor čelí výprodeji. V Česku se řeší veřejnoprávní média a pražská koalice."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Stock Analysis / VWCE",
+      "status": "warning"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Ukrajina a Rusko jednaly v Abú Zabí o zajatcích a bezpečnostních zárukách",
+      "summary": "Američany zprostředkovaná jednání pokračují ve středu. Kyjev je označil za věcná, zásadní územní rozpory však přetrvávají.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+      }
+    },
+    {
+      "title": "Rusko útočilo na ukrajinskou energetickou infrastrukturu",
+      "summary": "Podle ukrajinských úřadů útoky zasáhly deset regionů, způsobily výpadky elektřiny a zabily nejméně dva lidi. Reuters údaje připisuje místním úřadům.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/russia-pounds-ukraines-power-grid-talks-open-abu-dhabi-2026-11-10/"
+      }
+    },
+    {
+      "title": "Nvidia dál oslabuje pod tlakem obav z AI sektoru",
+      "summary": "Akcie Nvidie v úterý podle Reuters výrazně klesaly po vyšší americké inflaci a nejistotě kolem vedení i datových center. Jde o vývoj během obchodování.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/nvidia-selloff-deepens-adding-to-ai-jitters-2026-11-10/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Studenti protestovali za nezávislost České televize a rozhlasu",
+          "summary": "Ve velkých českých městech proběhly studentské protesty proti vládnímu záměru nahradit koncesionářské poplatky financováním ze státního rozpočtu.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        },
+        {
+          "title": "STAN navrhuje pražskou koalici bez Pirátů",
+          "summary": "Hnutí STAN usiluje o spolupráci se Spolu a Prahou sobě. O podobě vedení metropole se ještě jedná.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        },
+        {
+          "title": "Sněmovní výbor zahájil řízení vůči poslanci Ševčíkovi",
+          "summary": "Řízení se týká výroku o menopauze vůči poslankyni Šebelové; poslanec kauzu označuje za přehnanou. O výsledku řízení dosud není rozhodnuto.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        },
+        {
+          "title": "Krajské soudy řeší výsledky komunálních voleb",
+          "summary": "Soud prohlásil hlasování ve Slavětíně za neplatné, zatímco výsledky v Mariánských Lázních ponechal v platnosti i přes zjištěné kupčení s hlasy.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        },
+        {
+          "title": "Pavel jednal s maďarským prezidentem Bakou",
+          "summary": "Prezidenti hovořili o evropské bezpečnosti a ruské válce proti Ukrajině; podle Pavla mají jejich země v bezpečnostních otázkách společné postoje.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Bohumín dokončil část protipovodňových hrází chránících Pudlov.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        },
+        {
+          "text": "Jablonec investuje téměř 19 milionů korun do obnovy krizového rozhlasu.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        },
+        {
+          "text": "Brno zahájí adventní trhy již v pátek.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        },
+        {
+          "text": "Zimní údržbu v České Lípě nově zajišťují městské technické služby.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Ukrajina a Rusko jednaly v Abú Zabí o zajatcích a bezpečnostních zárukách",
+          "summary": "Američany zprostředkovaná jednání pokračují ve středu. Kyjev je označil za věcná, zásadní územní rozpory však přetrvávají.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+          }
+        },
+        {
+          "title": "Rusko útočilo na ukrajinskou energetickou infrastrukturu",
+          "summary": "Podle ukrajinských úřadů útoky zasáhly deset regionů, způsobily výpadky elektřiny a zabily nejméně dva lidi. Reuters údaje připisuje místním úřadům.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/russia-pounds-ukraines-power-grid-talks-open-abu-dhabi-2026-11-10/"
+          }
+        },
+        {
+          "title": "Merz žádá všechny země EU o příspěvek na podporu Ukrajiny",
+          "summary": "Německý kancléř chce financování Kyjeva promítnout do evropského rozpočtu. Česko, Slovensko a Maďarsko se staví proti zapojení do další půjčky.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/eu-budget-clash-germanys-merz-says-all-eu-states-must-back-ukraine-2026-11-10/"
+          }
+        },
+        {
+          "title": "Francie předvolala íránského velvyslance kvůli kyberútokům",
+          "summary": "Paříž obvinila íránské revoluční gardy z útoku na chladicí zařízení supermarketů a zvažuje sankce. Teherán odpovědnost odmítá.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response-2026-11-10/"
+          }
+        },
+        {
+          "title": "Německo plánuje získat polovinu výrobce tanků KNDS",
+          "summary": "Podle zdrojů Reuters má Berlín za padesátiprocentní podíl zaplatit 6,6 miliardy eur; vláda detaily jednání nepotvrdila.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/germany-pay-66-billion-50-stake-leopard-tank-maker-knds-2026-11-10/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Britská policie zadržela amerického vojáka kvůli podezření ze špionáže pro Rusko.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/uk/uk-police-say-member-us-army-arrested-under-national-security-act-2026-11-10/"
+          }
+        },
+        {
+          "text": "Itálie upozornila na nedostatečné evropské posily pro ochranu lodní dopravy v Rudém moři.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/italy-says-eu-nations-failed-commit-red-sea-security-2026-11-10/"
+          }
+        },
+        {
+          "text": "Rusko hlásí sestřelení 92 dronů nad Leningradskou oblastí; Reuters tvrzení nezávisle nepotvrdil.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russia-shoots-down-92-drones-over-leningrad-region-2026-11-11/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "USA a Írán zatím nevedou přímé rozhovory, tvrdí Teherán",
+          "summary": "Íránský bezpečnostní představitel Mohsen Rezaei popřel probíhající jednání. Katar dál zprostředkovává kontakty, podmínky obou stran se rozcházejí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/irans-top-security-official-says-no-talks-underway-with-us-2026-11-10/"
+          }
+        },
+        {
+          "title": "Rubio na G7 slibuje pokračování tvrdého ekonomického tlaku na Írán",
+          "summary": "Podle diplomatů americký ministr zahraničí podporuje sankce jako alternativu k obnovení bojů. Katar se snaží najít prostor pro diplomatické řešení.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/qatari-pm-makes-unscheduled-stop-g7-brief-europeans-post-trump-talks-2026-11-10/"
+          }
+        },
+        {
+          "title": "Kanada obnovila sankce vůči jedenácti íránským subjektům",
+          "summary": "Ottawa krok zdůvodňuje vazbami na jaderné a raketové aktivity. Mezi zasaženými jsou banky a energetické společnosti.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/canada-reimposes-sanctions-11-iranian-entities-contributing-nuclear-activities-2026-11-10/"
+          }
+        },
+        {
+          "title": "Americká administrativa zvažuje další postup ve válce s Íránem",
+          "summary": "Dnešní newsletter NYT The World popisuje rozdílné postoje viceprezidenta Vance a ministra obrany Hegsetha i varianty omezených úderů a diplomacie. Jde o scénáře, nikoli oznámené rozhodnutí.",
+          "source": {
+            "name": "NYT / The World (Gmail)",
+            "url": "https://mail.google.com/mail/u/0/#all/1a1c91132bfb5895"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Útok dronů přerušil dodávky elektřiny a vody v části ukrajinského Kryvého Rihu.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/drone-attack-leaves-part-ukraines-kryvyi-rih-without-power-2026-11-10/"
+          }
+        },
+        {
+          "text": "V nemocnicích zůstává 14 zraněných po střelbě v Krakově.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        },
+        {
+          "text": "Bulharská hromadná dopravní nehoda si podle místních úřadů vyžádala 11 obětí.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "TSMC schválila investice do OpenAI a Anthropic",
+          "summary": "Tchajwanský výrobce čipů schválil investice až 500 milionů dolarů do každé firmy. Rozhodnutí odráží očekávanou poptávku po AI infrastruktuře.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+          }
+        },
+        {
+          "title": "Nvidia dál oslabuje pod tlakem obav z AI sektoru",
+          "summary": "Akcie Nvidie v úterý podle Reuters výrazně klesaly po vyšší americké inflaci a nejistotě kolem vedení i datových center. Jde o vývoj během obchodování.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nvidia-selloff-deepens-adding-to-ai-jitters-2026-11-10/"
+          }
+        },
+        {
+          "title": "Francouzský incident ukazuje zranitelnost připojených chladicích systémů",
+          "summary": "Údajný útok na stovky supermarketů měl zasáhnout řízení chlazení. Francie obvinila Írán, který to odmítá.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response-2026-11-10/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Český vědec Jan Černocký získal ocenění Česká hlava za výzkum počítačového zpracování řeči.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "VWCE: poslední ověřená cena 167,88 EUR",
+          "summary": "Stock Analysis uvádí 10. listopadu cenu 167,88 EUR (+0,27 %), avšak stránka ji časuje na 9:35 SEČ. Nelze ji bez dalšího vydávat za závěrečnou cenu dne.",
+          "source": {
+            "name": "Stock Analysis",
+            "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+          }
+        },
+        {
+          "title": "Vyšší americká inflace zvyšuje obavy z dalšího růstu sazeb",
+          "summary": "Reuters spojuje úterní pokles technologických akcií s očekáváním přísnější politiky Fedu; tržní reakce není předpovědí budoucích výnosů.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nvidia-selloff-deepens-adding-to-ai-jitters-2026-11-10/"
+          }
+        },
+        {
+          "title": "Německá investice do KNDS ukazuje růst významu obranného průmyslu",
+          "summary": "Připravovaný vstup Berlína do zbrojařské skupiny je podle zdrojů Reuters motivován kontrolou strategických technologií.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/germany-pay-66-billion-50-stake-leopard-tank-maker-knds-2026-11-10/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Riziko geopolitického vývoje kolem Hormuzského průlivu zůstává zásadní pro energetické trhy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/qatari-pm-makes-unscheduled-stop-g7-brief-europeans-post-trump-talks-2026-11-10/"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "167,88",
+    "currency": "EUR",
+    "asOf": "10. listopadu 2026, 09:35 SEČ, poslední spolehlivě časově označená kotace; uzávěrka 10. listopadu nepotvrzena",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+0,27 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Údaj je zpožděná kotace, nikoli potvrzená uzávěrka; XETRA je před středečním otevřením.",
+    "sources": [
+      {
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/quote/etr/VWCE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-11T07:00:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřený díl; novější epizoda k 11. listopadu nebyla spolehlivě potvrzena"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Hokejový návrat Rusů? Samozřejmě že pomůže jejich propagandě, federace to podcenila, soudí politolog",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "10. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Aktuální názvy a data nových epizod nebyly spolehlivě ověřeny. Použity jen dříve ověřené tipy; nejde o novinky za posledních 24 hodin."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "NYT newsletter The World (Gmail)",
+      "Stock Analysis"
+    ],
+    "note": "NYT: 1 newsletter přečten a 1 potvrzeně označen jako přečtený. Další nalezená zpráva nesplňovala seznam povolených newsletterů. U některých médií a podcastů nebyly potvrzeny aktuální údaje."
+  }
+}
