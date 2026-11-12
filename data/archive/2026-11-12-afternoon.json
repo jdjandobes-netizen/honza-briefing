@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "12. listopadu 2026",
+    "generatedAt": "2026-11-12T16:40:00+01:00",
+    "readingMinutes": 7,
+    "nextEdition": "Ranní přehled zítra v 07:00.",
+    "intro": "Od rána přibyly zprávy o změně vedení Nvidie, nových britských sankcích a pokračujících americko-ruských jednáních. Neověřené okolnosti událostí jsou výslovně označeny."
+  },
+  "sourceStatus": [
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Česká média",
+      "status": "warning"
+    },
+    {
+      "name": "Yahoo Finance / VWCE",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Jensen Huang odstoupil z čela Nvidie, akcie prudce klesají",
+      "summary": "Reuters informuje o odchodu dlouholetého šéfa Nvidie; prozatímní vedení převzala finanční ředitelka Colette Kressová. Akcie společnosti během amerického obchodování výrazně oslabily.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/global-ai-stocks-sink-nvidia-crisis-deepens-sector-selloff-2026-11-12/"
+      }
+    },
+    {
+      "title": "Američtí vyslanci odcestovali do Moskvy za Putinem",
+      "summary": "Steve Witkoff a Jared Kushner přijeli k dalším jednáním po rozhovorech v Abú Zabí. Širší mírová dohoda stále naráží zejména na územní požadavky Ruska.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/us-envoys-arrive-moscow-latest-round-ukrainian-peace-talks-with-putin-2026-11-12/"
+      }
+    },
+    {
+      "title": "Británie rozšířila sankce na ruské ropné firmy",
+      "summary": "Londýn nově sankcionoval Slavneft a další energetické subjekty a plavidla. Britská vláda tvrdí, že nyní postihuje všech deset největších ruských producentů ropy.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/uk-sanctions-russias-slavneft-latest-move-against-oil-producers-2026-11-12/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [],
+      "minor": [],
+      "emptyMessage": "Od rána bez zásadní změny."
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Británie rozšířila sankce na ruské ropné firmy",
+          "summary": "Londýn nově sankcionoval Slavneft a další energetické subjekty a plavidla. Britská vláda tvrdí, že nyní postihuje všech deset největších ruských producentů ropy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/uk-sanctions-russias-slavneft-latest-move-against-oil-producers-2026-11-12/"
+          },
+          "time": "12. 11.",
+          "tag": "NEW"
+        },
+        {
+          "title": "Francie očekává další unijní sankce proti Rusku",
+          "summary": "Francouzský ministr Benjamin Haddad uvedl, že EU má v pondělí schválit sankce proti dalším 150 subjektům a 50 bankám. Zatím jde o avizovaný krok, nikoli schválené opatření.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/eu-approve-more-sanctions-russia-monday-france-says-2026-11-12/"
+          },
+          "time": "12. 11.",
+          "tag": "NEW"
+        },
+        {
+          "title": "Wizz Air žádá evropskou koordinaci kvůli bombovým hrozbám",
+          "summary": "Šéf aerolinek vyzval k celoevropské reakci na falešné hrozby. Dopravce minulý týden obdržel výhrůžky týkající se 14 letů; původce ani společný organizátor nejsou potvrzeni.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/wizz-air-chief-calls-europe-wide-coordination-bomb-threats-2026-11-12/"
+          },
+          "time": "12. 11.",
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Finská armáda zaznamenala zásah ruské válečné lodě ve Finském zálivu; příčina a případné oběti nebyly zveřejněny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/finland-says-it-detects-strike-russian-warship-baltic-sea-2026-11-12/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Američtí vyslanci odcestovali do Moskvy za Putinem",
+          "summary": "Steve Witkoff a Jared Kushner přijeli k dalším jednáním po rozhovorech v Abú Zabí. Širší mírová dohoda stále naráží zejména na územní požadavky Ruska.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/us-envoys-arrive-moscow-latest-round-ukrainian-peace-talks-with-putin-2026-11-12/"
+          },
+          "time": "12. 11.",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "Írán tvrdí, že exploze vyřadily dva tankery v Hormuzském průlivu",
+          "summary": "Íránské revoluční gardy uvedly, že lodě zasáhly exploze po nedodržení pokynů k plavbě. Příčinu a okolnosti nelze z dostupného oznámení nezávisle potvrdit.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/"
+          },
+          "time": "12. 11.",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Jensen Huang odstoupil z čela Nvidie, akcie prudce klesají",
+          "summary": "Reuters informuje o odchodu dlouholetého šéfa Nvidie; prozatímní vedení převzala finanční ředitelka Colette Kressová. Akcie společnosti během amerického obchodování výrazně oslabily.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/retail-consumer/global-ai-stocks-sink-nvidia-crisis-deepens-sector-selloff-2026-11-12/"
+          },
+          "time": "12. 11.",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "AMD rozšiřuje partnerství s PsiQuantum",
+          "summary": "AMD oznámila kapitálovou investici nezveřejněné výše a spolupráci na infrastruktuře kvantových počítačů využívající čipy, optické propojení a výpočetní technologie.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/amd-invest-psiquantum-advance-quantum-computing-infrastructure-2026-11-12/"
+          },
+          "time": "12. 11.",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Nasdaq a S&P 500 pod tlakem po změně vedení Nvidie",
+          "summary": "Ve čtvrtek v 09:45 newyorského času ztrácel Nasdaq 0,56 % a S&P 500 0,29 %. Jde o intradenní hodnoty, nikoli závěrečné kurzy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/"
+          },
+          "time": "15:45 SEČ",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "170,92",
+    "currency": "EUR",
+    "asOf": "11. listopadu 2026, 17:36 SEČ, poslední ověřená uzávěrka XETRA podle Yahoo Finance; čtvrteční živý ani opožděný kurz nepotvrzen",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "—"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Poslední ověřená uzávěrka, nikoli aktuální čtvrteční cena.",
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "url": "https://de.finance.yahoo.com/quote/VWCE.DE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-12T16:40:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Hokejový návrat Rusů? Samozřejmě že pomůže jejich propagandě, federace to podcenila, soudí politolog",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "10. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Aktuální nové epizody nebyly nezávisle potvrzeny. Ponechány pouze dříve doložené názvy s původními daty; žádný tip není vydáván za dnešní premiéru."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "Yahoo Finance",
+      "NYT newslettery (Gmail)"
+    ],
+    "note": "NYT: 4 povolené newslettery přečteny a 4 potvrzeně označeny jako přečtené. České zdroje a aktuální podcastové katalogy neposkytly dostatek ověřených novinek."
+  }
+}
