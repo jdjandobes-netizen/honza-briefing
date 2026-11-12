@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "12. listopadu 2026",
+    "generatedAt": "2026-11-12T07:00:00+01:00",
+    "readingMinutes": 10,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Dohoda o výměně zajatců v Abú Zabí, česká jednání o letounech pro Ukrajinu a španělská generální stávka. Přehled zachycuje zprávy zejména z 11. listopadu."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Ukrajina a Rusko se v Abú Zabí předběžně dohodly na výměně zajatců",
+      "summary": "Po dvou dnech americky zprostředkovaných jednání se strany přiblížily velké výměně zajatců. Územní spor a nedůvěra zůstávají zásadní překážkou míru.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
+      }
+    },
+    {
+      "title": "Česko zvažuje dodávku až 16 letounů Skyfox Ukrajině",
+      "summary": "Ministr Karel Havlíček po jednání v Kyjevě mluvil o dalších 12 strojích vedle čtyř dříve potvrzených. Jde o možnost, nikoli dokončený kontrakt.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-domov/cesko-mohlo-dodat-ukrajine-16-letounu-skyfox-uvedl-havlicek-ctyri-uz-byly-v_2611112022_ntu"
+      }
+    },
+    {
+      "title": "Ve Španělsku proběhla první generální stávka po 14 letech",
+      "summary": "Podle Reuters se zapojily přibližně čtyři miliony pracovníků. Protest mířil proti nedostupnému bydlení; v Madridu a Barceloně došlo také ke střetům s policií.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/world-at-work/workers-across-spain-stage-first-general-strike-14-years-anger-over-housing-2026-11-11/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Česko zvažuje dodávku až 16 letounů Skyfox Ukrajině",
+          "summary": "Ministr Karel Havlíček po jednání v Kyjevě mluvil o dalších 12 strojích vedle čtyř dříve potvrzených. Jde o možnost, nikoli dokončený kontrakt.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/cesko-mohlo-dodat-ukrajine-16-letounu-skyfox-uvedl-havlicek-ctyri-uz-byly-v_2611112022_ntu"
+          },
+          "time": "11. 11. 20:22"
+        },
+        {
+          "title": "Šéf antimonopolního úřadu Mlsna přišel o bezpečnostní prověrku",
+          "summary": "Mlsna odebrání prověrky potvrdil a hodlá se bránit. Transparency International jej označila za závažný signál, zatímco Mlsna upozorňuje, že prověrka není podmínkou funkce.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/sef-uohs-mlsna-prisel-o-proverku-transparency-international-oznacila-za-dalsi_2611111840_ntu"
+          },
+          "time": "11. 11. 18:40"
+        },
+        {
+          "title": "Piráti odmítají podpořit koaliční návrh celostátního referenda",
+          "summary": "Ústavní zákon potřebuje ve Sněmovně nejméně 120 hlasů. Koalice potřebnou podporu zatím nemá; Piráti ji podle svého vyjádření neposkytnou.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/s-touhle-vladou-ne-pirati-ve-snemovne-nepodpori-celostatni-referendum-vadi-jim_2611111600_ako"
+          },
+          "time": "11. 11. 16:00"
+        },
+        {
+          "title": "Česko se nezúčastnilo vojenského cvičení v Polsku",
+          "summary": "Tomio Okamura vysvětloval postoj koalice odmítáním nasazení českých vojáků mimo území NATO, včetně případných mírových sil na Ukrajině.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/cesko-chybelo-na-cviceni-v-polsku-nemame-ambici-vysilat-vojaky-mimo-uzemi-nato_2611111801_ntu"
+          },
+          "time": "11. 11. 18:01"
+        }
+      ],
+      "minor": [
+        {
+          "text": "Šéf ČEZ Daniel Beneš oznámil odchod ze Svazu průmyslu na konci roku; chce se věnovat Svazu energetiky.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/ekonomika/sef-cezu-benes-na-konci-roku-odchazi-ze-svazu-prumyslu-poslal-rezignacni-dopis_2611111401_jaf"
+          }
+        },
+        {
+          "text": "Analýza iROZHLAS upozorňuje na nízký podíl vysokoškoláků a vysoký počet nedokončených studií.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Ve Španělsku proběhla první generální stávka po 14 letech",
+          "summary": "Podle Reuters se zapojily přibližně čtyři miliony pracovníků. Protest mířil proti nedostupnému bydlení; v Madridu a Barceloně došlo také ke střetům s policií.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/world-at-work/workers-across-spain-stage-first-general-strike-14-years-anger-over-housing-2026-11-11/"
+          }
+        },
+        {
+          "title": "Ukrajinské členství v EU naráží na další překážky",
+          "summary": "Reuters popisuje rostoucí obavy členských zemí z nákladů, zemědělské konkurence a nejistého vývoje války. Členství vyžaduje jednomyslný souhlas států.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/ukraines-path-eu-accession-narrows-war-drags-2026-11-11/"
+          }
+        },
+        {
+          "title": "Moskva naznačila možnost dvoustranných paktů o neútočení se státy NATO",
+          "summary": "Ruský diplomat popsal jednu z variant nové bezpečnostní architektury. Nejde o uzavřenou dohodu ani o přijatý návrh NATO.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russian-diplomat-says-moscow-could-conclude-non-aggression-pacts-with-nato-2026-11-11/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Maďarský soud podle ČTK poslal do vazby bratra Viktora Orbána v kauze údajného zprostředkování víz pro Vietnamce.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-11"
+          }
+        },
+        {
+          "text": "Italským a britským školám dorazily tisíce bombových výhrůžek; policie je podle dostupných zpráv nepovažovala za věrohodné.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Ukrajina a Rusko se v Abú Zabí předběžně dohodly na výměně zajatců",
+          "summary": "Po dvou dnech americky zprostředkovaných jednání se strany přiblížily velké výměně zajatců. Územní spor a nedůvěra zůstávají zásadní překážkou míru.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
+          }
+        },
+        {
+          "title": "Zelenskyj očekává další kroky USA vůči Rusku",
+          "summary": "Ukrajinský prezident uvedl, že pokrok do konce roku závisí na americkém přístupu k Moskvě. Američtí vyslanci plánují další jednání s Putinem a Zelenským.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/ukraines-zelenskiy-says-progress-peace-talks-hinges-us-approach-russia-2026-11-11/"
+          }
+        },
+        {
+          "title": "Ruská správa Záporožské elektrárny hlásí úmrtí zaměstnance po útoku dronu",
+          "summary": "Podle ruské správy byl zaměstnanec zabit ve městě Enerhodar; tvrzení o původu útoku nebylo nezávisle potvrzeno. Elektrárna potřebuje vnější napájení pro chlazení.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/zaporizhzhia-nuclear-plant-worker-killed-drone-strike-russian-management-says-2026-11-11/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Evropští představitelé mají být podle amerického vyjednavače zapojeni do dalších rozhovorů o Ukrajině; v Abú Zabí se ruská delegace s nimi nesetkala.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Představenstvo Nvidie podle médií řeší budoucnost Jensena Huanga",
+          "summary": "Reuters popisuje nejistotu kolem vedení firmy a obvinění týkající se osobních vazeb; samotná obvinění nejsou prokázanými fakty. Někteří analytici změnili doporučení akcie.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/baird-downgrades-nvidia-china-curbs-ai-demand-worries-2026-11-11/"
+          }
+        },
+        {
+          "title": "CoreWeave prudce posílila díky výhledu AI infrastruktury",
+          "summary": "Firma po výsledcích a výhledu upravené ziskovosti v první polovině roku 2028 posílila o 24,7 %. To podpořilo i širší technologický sektor.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Newsletter NYT The World ze 12. listopadu rozebírá dopady AI regulace a volatility technologických akcií po amerických volbách.",
+          "source": {
+            "name": "NYT The World (Gmail)",
+            "url": "https://www.nytimes.com/newsletters"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Americké akcie ve středu rostly, Nasdaq přidal 1,60 %",
+          "summary": "S&P 500 vzrostl o 1,31 % a Dow Jones o 0,49 %. Růst podpořily především AI společnosti po výsledcích CoreWeave.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/"
+          }
+        },
+        {
+          "title": "Z asijských akcií odteklo v říjnu téměř 50 miliard dolarů",
+          "summary": "Reuters spočítal čistý odliv 49,77 miliardy dolarů ze sedmi sledovaných asijských trhů. Investoři řeší náklady na AI a riziko přehnaných valuací.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/foreign-investors-pull-out-50-billion-asian-equities-october-ai-cash-burn-woes-2026-11-11/"
+          }
+        },
+        {
+          "title": "Ropa Brent ve středu uzavřela na 92,76 USD za barel",
+          "summary": "Reuters spojuje růst ropy s napětím mezi USA a Íránem. Údaj je středeční uzávěrka, nikoli aktuální čtvrteční kotace.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Nvidia po středečním růstu v řádném obchodování podle Reuters výrazně oslabila po uzavření burzy.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/"
+          }
+        }
+      ]
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "170,92",
+    "currency": "EUR",
+    "asOf": "11. listopadu 2026, poslední dostupná uzávěrka XETRA před čtvrtečním otevřením (Yahoo Finance, zpožděná data)",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+1,97 %",
+        "tone": "positive"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Nejde o realtime cenu. Metriky bez aktuálního ověření nejsou dopočítávány.",
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "url": "https://de.finance.yahoo.com/quote/VWCE.DE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-12T07:00:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve doložený díl; nové vydání za posledních 24 hodin nebylo potvrzeno"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Hokejový návrat Rusů? Samozřejmě že pomůže jejich propagandě, federace to podcenila, soudí politolog",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "10. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Nové epizody nebyly nezávisle potvrzeny; názvy a data jsou převzaté z již archivovaných, dříve ověřených tipů a nejsou vydávány za dnešní."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "NYT newsletter The World (Gmail)",
+      "Yahoo Finance"
+    ],
+    "note": "NYT: 1 přečtený povolený newsletter, 1 potvrzeně označen jako přečtený. Ostatní zdroje a podcastové katalogy neměly dostatečně ověřitelné čerstvé podklady."
+  }
+}
