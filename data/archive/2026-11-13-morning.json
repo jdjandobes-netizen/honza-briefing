@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "morning",
+    "title": "Ranní přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "13. listopadu 2026",
+    "generatedAt": "2026-11-13T07:06:00+01:00",
+    "readingMinutes": 12,
+    "nextEdition": "Odpolední přehled dnes v 16:30.",
+    "intro": "Dnešní přehled: změna vedení Nvidie, evropské požadavky na mírová jednání a domácí debaty o školství a médiích. Zprávy zejména z 12. listopadu a pátečního rána."
+  },
+  "sourceStatus": [
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "ČT24",
+      "status": "warning"
+    },
+    {
+      "name": "Seznam Zprávy",
+      "status": "warning"
+    },
+    {
+      "name": "Deník N / R5M",
+      "status": "warning"
+    },
+    {
+      "name": "Novinky",
+      "status": "warning"
+    },
+    {
+      "name": "Reflex",
+      "status": "warning"
+    },
+    {
+      "name": "Euronews",
+      "status": "warning"
+    },
+    {
+      "name": "Al Jazeera",
+      "status": "warning"
+    },
+    {
+      "name": "CNN",
+      "status": "warning"
+    },
+    {
+      "name": "NPR",
+      "status": "warning"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "warning"
+    },
+    {
+      "name": "justETF",
+      "status": "warning"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Nvidii má dočasně řídit finanční ředitelka Colette Kressová",
+      "summary": "Po odchodu Jensena Huanga má vedení přechodně převzít dlouholetá CFO. Reuters shrnuje její zkušenosti z Nvidie, Microsoftu, Cisco a Texas Instruments.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/technology/who-is-nvidia-interim-ceo-colette-kress-2026-11-12/"
+      }
+    },
+    {
+      "title": "Evropské státy trvají na účasti při rozhodování o své bezpečnosti",
+      "summary": "Přibližně čtyřicet zemí má podpořit deklaraci, že o evropské bezpečnosti nelze jednat bez Evropanů a o míru na Ukrajině bez Ukrajiny. Konečný počet signatářů ještě není potvrzen.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/european-security-should-be-decided-with-europeans-around-40-countries-expected-2026-11-12/"
+      }
+    },
+    {
+      "title": "Babiš jednal se Zelenským v Dublinu",
+      "summary": "Premiér se na summitu Evropského politického společenství setkal s ukrajinským prezidentem. Mluvili o mírové iniciativě a české podnikatelské misi.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-12"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Babiš jednal se Zelenským v Dublinu",
+          "summary": "Premiér se na summitu Evropského politického společenství setkal s ukrajinským prezidentem. Mluvili o mírové iniciativě a české podnikatelské misi.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-12"
+          }
+        },
+        {
+          "title": "Ministerstvo školství chce omezit segregaci romských dětí",
+          "summary": "Plán počítá se zrušením pěti škol a změnou složení žáků na dalších pěti. Jde o připravovaný postup, nikoli již uskutečněné uzavření.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/"
+          }
+        },
+        {
+          "title": "Liberecký kraj žádá záruky pro regionální vysílání ČT a ČRo",
+          "summary": "Kraj varuje, že změna financování veřejnoprávních médií nesmí omezit regionální redakce a původní zpravodajství.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-12"
+          }
+        },
+        {
+          "title": "ČEZ za tři čtvrtletí vydělal přes 26 miliard korun",
+          "summary": "Podle zveřejněných výsledků rostl čistý zisk, mimo jiné po skončení výběru daně z neočekávaných zisků.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Krajský soud ponechal v platnosti říjnové komunální volby v Holešově.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-12"
+          }
+        },
+        {
+          "text": "Policie v Ostravě obvinila muže kvůli podvodům s QR platbami; poškozených je téměř čtyřicet.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-12"
+          }
+        },
+        {
+          "text": "Přerov chce posoudit delší tunel pro budoucí vysokorychlostní trať.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-12"
+          }
+        },
+        {
+          "text": "Ve věku 100 let zemřel válečný veterán Josef Turek, účastník bojů u Dunkerku.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Evropské státy trvají na účasti při rozhodování o své bezpečnosti",
+          "summary": "Přibližně čtyřicet zemí má podpořit deklaraci, že o evropské bezpečnosti nelze jednat bez Evropanů a o míru na Ukrajině bez Ukrajiny. Konečný počet signatářů ještě není potvrzen.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/european-security-should-be-decided-with-europeans-around-40-countries-expected-2026-11-12/"
+          }
+        },
+        {
+          "title": "Mercedes-Benz pozastavuje další investice do německých továren",
+          "summary": "Automobilka po neúspěšných jednáních o nákladech posuzuje i možnost uzavření závodů; rozhodnutí o konkrétních uzavírkách zatím nepadlo.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/mercedes-benz-halts-german-investments-plant-closures-loom-2026-11-12/"
+          }
+        },
+        {
+          "title": "Francie očekává v pondělí další sankce EU vůči Rusku",
+          "summary": "Podle francouzského ministra mají opatření zasáhnout dalších 150 subjektů a 50 bank. Zatím nejde o schválený balík.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/eu-approve-more-sanctions-russia-monday-france-says-2026-11-12/"
+          }
+        },
+        {
+          "title": "Moskva připustila evropskou účast v další fázi mírových rozhovorů",
+          "summary": "Podle amerického vyslance Putina účast Evropy nevyloučil; Kreml zároveň vysílá rozporné signály. Ukrajina evropské zapojení vítá.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/us-envoys-arrive-moscow-latest-round-ukrainian-peace-talks-with-putin-2026-11-12/"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Jednání evropských lídrů v Dublinu se věnovala také obnově Ukrajiny a zimní energetické pomoci.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-archiv/2026-11-12"
+          }
+        },
+        {
+          "text": "Saúdská Arábie žádá EU o zařazení jemenských Húsíů na seznam teroristických organizací; souhlas všech 27 zemí zatím chybí.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/saudi-arabia-puts-pressure-eu-label-yemens-houthis-terrorist-group-2026-11-12/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "USA připravují mimořádně rozsáhlou výměnu zajatců mezi Ruskem a Ukrajinou",
+          "summary": "Jared Kushner mluví o možné největší výměně za dobu války. Rozsah a uskutečnění zatím nejsou potvrzeny.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/kushner-says-us-working-toward-largest-prisoner-exchange-russias-war-ukraine-2026-11-13/"
+          }
+        },
+        {
+          "title": "V Gaze zemřelo při zásahu nemocnice nejméně šest lidí",
+          "summary": "Podle zdravotníků byl zasažen chirurgický pavilon Násirovy nemocnice. Izrael tvrdí, že cílem byl velitel Hamásu; Hamás využívání nemocnice k vojenským účelům popírá.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/israeli-strike-southern-gaza-hospital-kills-four-gaza-civil-defence-says-2026-11-11/"
+          }
+        },
+        {
+          "title": "Američtí demokraté řeší vedení Senátu",
+          "summary": "Senátor Chris Van Hollen oznámil podle nočního newsletteru NYT kandidaturu proti Chucku Schumerovi na post lídra většiny.",
+          "source": {
+            "name": "NYT Breaking News (Gmail)",
+            "url": "https://www.nytimes.com/newsletters"
+          }
+        },
+        {
+          "title": "Rusko ukončuje činnost významného nezávislého listu Novaja gazeta",
+          "summary": "Podle dnešního newsletteru NYT proběhla poslední redakční porada a závěrečné číslo má vyjít v příštích týdnech.",
+          "source": {
+            "name": "NYT The World (Gmail)",
+            "url": "https://www.nytimes.com/newsletters"
+          }
+        }
+      ],
+      "minor": [
+        {
+          "text": "Trump podle NYT řekl, že stáhne viceprezidenta Vance z jednání s Íránem.",
+          "source": {
+            "name": "NYT Breaking News (Gmail)",
+            "url": "https://www.nytimes.com/newsletters"
+          }
+        },
+        {
+          "text": "Rusko a Ukrajina zůstávají daleko od dohody o územních otázkách, přestože rozhovory pokračují.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/kushner-says-us-working-toward-largest-prisoner-exchange-russias-war-ukraine-2026-11-13/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Nvidii má dočasně řídit finanční ředitelka Colette Kressová",
+          "summary": "Po odchodu Jensena Huanga má vedení přechodně převzít dlouholetá CFO. Reuters shrnuje její zkušenosti z Nvidie, Microsoftu, Cisco a Texas Instruments.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/who-is-nvidia-interim-ceo-colette-kress-2026-11-12/"
+          }
+        },
+        {
+          "title": "Bílý dům jednal o kyberútocích prováděných umělou inteligencí",
+          "summary": "Americká pracovní skupina řeší sdílení informací o incidentech a pravidla hlášení rizik pro kritickou infrastrukturu včetně bank a energetiky.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/"
+          }
+        },
+        {
+          "title": "Trump podle NYT Huanga povzbuzoval, aby bojoval o svou funkci",
+          "summary": "Noční newsletter uvádí, že prezident s šéfem Nvidie v úterý telefonoval; podrobnosti skandálu a tvrzení o osobních vazbách vyžadují rozlišovat od prokázaných faktů.",
+          "source": {
+            "name": "NYT Breaking News (Gmail)",
+            "url": "https://www.nytimes.com/newsletters"
+          }
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Ropa míří k druhému týdennímu poklesu",
+          "summary": "Reuters v pátek ráno uvádí Brent přibližně 95,54 USD a WTI 88,18 USD za barel. Jde o průběžné kotace, nikoli uzávěrku.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/"
+          }
+        },
+        {
+          "title": "Německý automobilový průmysl čelí dalšímu tlaku",
+          "summary": "Zastavení investic Mercedes-Benz prohlubuje obavy o průmyslové zaměstnanosti, nákladech a konkurenceschopnosti evropských výrobců.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/mercedes-benz-halts-german-investments-plant-closures-loom-2026-11-12/"
+          }
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "169,70",
+    "currency": "EUR",
+    "asOf": "11. listopadu 2026, poslední jednoznačně datovaná uzávěrka v dostupné historické tabulce Yahoo Finance; čtvrteční uzávěrku se nepodařilo potvrdit",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "—"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "—"
+      }
+    ],
+    "note": "Nejde o aktuální páteční cenu. Zdroj neumožnil bezpečně potvrdit uzávěrku 12. listopadu.",
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "url": "https://es.finance.yahoo.com/quote/VWCE.DE/history/"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-13T07:06:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání za 24 hodin nepotvrzeno"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání za 24 hodin nepotvrzeno"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání za 24 hodin nepotvrzeno"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání za 24 hodin nepotvrzeno"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání za 24 hodin nepotvrzeno"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Vinu necítí, peníze nevrátili. Co měli pekaři zamlčet v kauze Babišových toastů za 100 milionů?",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "12. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Katalog Vinohradská 12 potvrzuje epizodu 12. listopadu. Ostatní názvy a data jsou historicky ověřené a nejsou prezentovány jako nové."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "NYT newslettery (Gmail)",
+      "Yahoo Finance",
+      "mujRozhlas"
+    ],
+    "note": "NYT: 3 přečteny a označeny; ostatní zpravodajské zdroje a podcastové katalogy poskytly omezené ověřitelné podklady."
+  }
+}
