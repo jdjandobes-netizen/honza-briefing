@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "edition": "afternoon",
+    "title": "Odpolední přehled",
+    "kicker": "Denní briefing pro Honzu",
+    "date": "13. listopadu 2026",
+    "generatedAt": "2026-11-13T16:31:00+01:00",
+    "readingMinutes": 9,
+    "nextEdition": "Ranní přehled zítra v 07:00.",
+    "intro": "Nové a podstatně aktualizované události od 07:00, porovnané pouze s dnešním ranním archivem."
+  },
+  "sourceStatus": [
+    {
+      "name": "Reuters",
+      "status": "ok"
+    },
+    {
+      "name": "iROZHLAS",
+      "status": "ok"
+    },
+    {
+      "name": "Gmail / NYT",
+      "status": "ok"
+    },
+    {
+      "name": "StockInvest.us",
+      "status": "ok"
+    },
+    {
+      "name": "Podcastové katalogy",
+      "status": "warning"
+    },
+    {
+      "name": "Ostatní zpravodajské zdroje",
+      "status": "warning"
+    }
+  ],
+  "topStories": [
+    {
+      "title": "Univerzita Karlova potvrdila únik osobních údajů",
+      "summary": "Útočník získal přístup k části dat studijního systému SIS; rozsah se vyšetřuje, škola žádá změnu hesel.",
+      "source": {
+        "name": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/zpravy-domov/univerzita-karlova-praha-kyberneticky-utok-hackeri_2611131134_ako"
+      }
+    },
+    {
+      "title": "Kreml nyní podmiňuje účast Evropanů na jednáních o Ukrajině",
+      "summary": "Peskov tvrdí, že evropské státy musí nejprve prokázat ochotu přispět k míru. Moskva tak nepotvrdila čtvrteční americké prohlášení o dohodnuté účasti.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/russia-says-europeans-can-join-ukraine-peace-talks-if-they-show-readiness-2026-11-13/"
+      }
+    },
+    {
+      "title": "Americké výrobní ceny meziročně stouply o 6,5 %",
+      "summary": "Říjnový index PPI vzrostl o 0,3 % meziměsíčně; meziroční tempo je nejvyšší za čtyři roky a zvyšuje tlak na Fed.",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/us-producer-prices-rise-further-october-2026-11-13/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "cesko",
+      "title": "Česko",
+      "items": [
+        {
+          "title": "Univerzita Karlova potvrdila únik osobních údajů",
+          "summary": "Útočník získal přístup k části dat studijního systému SIS; rozsah se vyšetřuje, škola žádá změnu hesel.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/univerzita-karlova-praha-kyberneticky-utok-hackeri_2611131134_ako"
+          },
+          "time": "14:25",
+          "tag": "NEW"
+        },
+        {
+          "title": "Babiš mění rozhodnutí o otevřeném vládnutí",
+          "summary": "Česko zůstane členem OGP, ale přestane platit příspěvek. Opozice tento postup kritizuje.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/vladni-otocka-z-iniciativy-pro-otevrene-vladnuti-neodchazi-clenstvi-ale-platit_2611131306_jgr"
+          },
+          "time": "13:06",
+          "tag": "NEW"
+        },
+        {
+          "title": "ONSEMI zrušila plánovanou investici za 44 miliard Kč",
+          "summary": "Rožnovský starosta označil konec polovodičového projektu za nenaplněnou příležitost.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/projekt-za-44-miliard-americka-spolecnost-zrusila-je-nenaplnena-prilezitost-rika_2611131248_aha"
+          },
+          "time": "12:48",
+          "tag": "NEW"
+        },
+        {
+          "title": "Nádrž Římov se neplní, kraj varuje před jarním nedostatkem vody",
+          "summary": "Podle jihočeského hejtmana může nastat problém se zásobováním pitnou vodou.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/veda-technologie/priroda/nadrz-rimov-se-po-snizeni-odtoku-neplni-jihoceskemu-kraji-hrozi-problem-s_2611131200_mkm"
+          },
+          "time": "12:05",
+          "tag": "NEW"
+        }
+      ],
+      "minor": [
+        {
+          "text": "U Svoru se otevřel dvoukilometrový obchvat silnice I/9.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/po-ctyriceti-letech-cekani-konecne-uleva-od-kamionu-u-obce-svor-je-nove-otevreny_2611131419_aha"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evropa",
+      "title": "Evropa",
+      "items": [
+        {
+          "title": "Kreml nyní podmiňuje účast Evropanů na jednáních o Ukrajině",
+          "summary": "Peskov tvrdí, že evropské státy musí nejprve prokázat ochotu přispět k míru. Moskva tak nepotvrdila čtvrteční americké prohlášení o dohodnuté účasti.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russia-says-europeans-can-join-ukraine-peace-talks-if-they-show-readiness-2026-11-13/"
+          },
+          "time": "14:10",
+          "tag": "UPDATE"
+        },
+        {
+          "title": "EU v Dublinu jedná na prvním summitu o umělé inteligenci",
+          "summary": "Lídři řeší investice a regulaci AI i evropskou účast na mírových jednáních; konečné dohody nejsou potvrzené.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/eu-leaders-seek-tackle-challenges-first-ever-ai-summit-2026-11-13/"
+          },
+          "time": "dopoledne",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "svet",
+      "title": "Svět",
+      "items": [
+        {
+          "title": "Írán hlásí výbuch tankeru s LNG v Hormuzském průlivu",
+          "summary": "Podle íránských revolučních gard loď narazila na minu. Podrobnosti o tankeru a obětech zatím nebyly dostupné; tvrzení není nezávisle potvrzené.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/"
+          },
+          "time": "08:00",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "tech",
+      "title": "Technologie",
+      "items": [
+        {
+          "title": "Výpadek Microsoftu zasáhl i česká ministerstva",
+          "summary": "Globální problémy Outlooku a Teams omezily e-mailovou komunikaci; česká pobočka Microsoftu nevidí důkazy o úmyslném kyberútoku.",
+          "source": {
+            "name": "iROZHLAS",
+            "url": "https://www.irozhlas.cz/zpravy-domov/univerzita-karlova-praha-kyberneticky-utok-hackeri_2611131134_ako"
+          },
+          "time": "14:25",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    },
+    {
+      "id": "investice",
+      "title": "Investice",
+      "items": [
+        {
+          "title": "Americké výrobní ceny meziročně stouply o 6,5 %",
+          "summary": "Říjnový index PPI vzrostl o 0,3 % meziměsíčně; meziroční tempo je nejvyšší za čtyři roky a zvyšuje tlak na Fed.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/us-producer-prices-rise-further-october-2026-11-13/"
+          },
+          "time": "14:44",
+          "tag": "NEW"
+        },
+        {
+          "title": "Do evropských akciových fondů přiteklo 35,13 miliardy USD",
+          "summary": "Za týden do 11. listopadu jde podle LSEG Lipper o nejvyšší čistý příliv od června 2021.",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/"
+          },
+          "time": "12:45",
+          "tag": "NEW"
+        }
+      ],
+      "minor": []
+    }
+  ],
+  "vwce": {
+    "isin": "IE00BK5BQT80",
+    "ticker": "VWCE.DE",
+    "exchange": "XETRA",
+    "price": "171,42",
+    "currency": "EUR",
+    "asOf": "12. listopadu 2026, poslední ověřená uzávěrka XETRA (close); páteční kurz nepotvrzen",
+    "metrics": [
+      {
+        "label": "Den",
+        "value": "+0,29 % (12. 11.)"
+      },
+      {
+        "label": "Týden",
+        "value": "—"
+      },
+      {
+        "label": "YTD",
+        "value": "—"
+      },
+      {
+        "label": "1 rok",
+        "value": "—"
+      },
+      {
+        "label": "52t. maximum",
+        "value": "173,96 EUR"
+      }
+    ],
+    "note": "Nejde o živou ani páteční opožděnou kotaci.",
+    "sources": [
+      {
+        "name": "StockInvest.us",
+        "url": "https://stockinvest.us/stock-price/VWCE.DE"
+      }
+    ]
+  },
+  "podcasts": {
+    "checkedAt": "2026-11-13T16:31:00+01:00",
+    "shows": [
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání nepotvrzeno"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání nepotvrzeno"
+      },
+      {
+        "show": "Amerika, bejby",
+        "title": "Chce nás Donald Trump prodat Rusku?",
+        "url": "https://denikn.cz/podcast-amerikabejby/",
+        "date": "21. října 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání nepotvrzeno"
+      },
+      {
+        "show": "Vrtěti psem",
+        "title": "Babiš po debaklu přitvrdí. Bát se mohou lidé v ANO i ve vládní koalici",
+        "url": "https://denikn.cz/tag/vrtetipsem/",
+        "date": "19. října 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání nepotvrzeno"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026",
+        "status": "Poslední dříve ověřená epizoda; nové vydání nepotvrzeno"
+      }
+    ],
+    "recommendations": [
+      {
+        "show": "Vinohradská 12",
+        "title": "Vinu necítí, peníze nevrátili. Co měli pekaři zamlčet v kauze Babišových toastů za 100 milionů?",
+        "url": "https://www.mujrozhlas.cz/vinohradska-12",
+        "date": "12. listopadu 2026"
+      },
+      {
+        "show": "Vlevo dole",
+        "title": "Reaktor: Držte si šrajtofle, Babiš hledá, co ještě zdanit",
+        "url": "https://talk.youradio.cz/porady/vlevo-dole",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Ptám se já",
+        "title": "Neexistuje právo na stejnopohlavní manželství, říká nový poradce vlády",
+        "url": "https://www.stream.cz/ptam-se-ja",
+        "date": "6. listopadu 2026"
+      },
+      {
+        "show": "Padni komu padni",
+        "title": "Boj o média už naplno hoří. Dopřeje Babiš Okamurovi životní úspěch?",
+        "url": "https://www.reflex.cz/pkp",
+        "date": "2. listopadu 2026"
+      }
+    ],
+    "note": "Nové epizody po ranním vydání nepotvrzeny; tituly a data jsou poslední dříve doložené."
+  },
+  "footer": {
+    "sources": [
+      "Reuters",
+      "iROZHLAS",
+      "NYT newslettery (Gmail)",
+      "StockInvest.us"
+    ],
+    "note": "NYT 5 přečteno / 5 potvrzeně označeno. Nové podcastové epizody neověřeny."
+  }
+}
